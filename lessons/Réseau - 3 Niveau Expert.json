@@ -1,0 +1,169 @@
+{
+  "questions": [
+    {
+      "question": "Quelle est la différence principale entre un firewall stateful et un firewall stateless ?",
+      "reponses": [
+        "Le stateless filtre au niveau 7, le stateful au niveau 3",
+        "Le stateful suit le contexte des connexions, le stateless examine chaque paquet isolément",
+        "Le stateful est réservé au trafic IPv6 uniquement",
+        "Le stateless ne peut pas filtrer les paquets ICMP"
+      ],
+      "bonne_reponse": "Le stateful suit le contexte des connexions, le stateless examine chaque paquet isolément",
+      "explication": "Un firewall stateful garde une table d’états des connexions et peut prendre des décisions en fonction du flux, pas seulement du paquet."
+    },
+    {
+      "question": "Dans un réseau IPv6, quel protocole remplace largement ARP pour la résolution d’adresses ?",
+      "reponses": ["ICMPv6 Neighbor Discovery", "DHCPv6", "RIPng", "BGP"],
+      "bonne_reponse": "ICMPv6 Neighbor Discovery",
+      "explication": "Le protocole Neighbor Discovery basé sur ICMPv6 remplace ARP pour IPv6."
+    },
+    {
+      "question": "Quel est l’intérêt principal de l’agrégation de routes (route summarization) dans les protocoles de routage ?",
+      "reponses": [
+        "Augmenter la vitesse de lien",
+        "Réduire la taille des tables de routage",
+        "Chiffrer les mises à jour de routage",
+        "Empêcher les boucles de niveau 2"
+      ],
+      "bonne_reponse": "Réduire la taille des tables de routage",
+      "explication": "L’agrégation de routes permet de regrouper plusieurs préfixes en un supernet, simplifiant les tables et les annonces."
+    },
+    {
+      "question": "Dans OSPF, comment s’appelle le routeur qui résume les routes entre différentes zones ?",
+      "reponses": ["ASBR", "ABR", "DR", "BDR"],
+      "bonne_reponse": "ABR",
+      "explication": "L’Area Border Router (ABR) connecte plusieurs zones OSPF et peut faire de la summarization."
+    },
+    {
+      "question": "Quel protocole de routage utilise un vecteur de chemin (path vector) plutôt qu'un simple vecteur de distance ?",
+      "reponses": ["RIP", "EIGRP", "OSPF", "BGP"],
+      "bonne_reponse": "BGP",
+      "explication": "BGP annonce des chemins complets (AS-PATH), ce qui permet d’éviter certaines boucles et appliquer des politiques."
+    },
+    {
+      "question": "Quel mécanisme BGP est utilisé pour éviter de réintroduire une route dans un AS par lequel elle est déjà passée ?",
+      "reponses": ["Local Preference", "MED", "AS-PATH", "Community"],
+      "bonne_reponse": "AS-PATH",
+      "explication": "Le champ AS-PATH contient la liste des AS traversés ; s’il contient l’AS local, la route est écartée pour éviter une boucle."
+    },
+    {
+      "question": "Quel problème réseau est typiquement à l’origine des broadcasts storms ?",
+      "reponses": [
+        "Routes par défaut manquantes",
+        "Boucles de niveau 2 non contrôlées",
+        "MTU trop faible",
+        "NAT symétrique sur le routeur"
+      ],
+      "bonne_reponse": "Boucles de niveau 2 non contrôlées",
+      "explication": "Sans mécanismes comme STP, les trames broadcast peuvent boucler indéfiniment, saturant le réseau."
+    },
+    {
+      "question": "Que permet d’apporter le protocole 802.1X sur un réseau filaire ou Wi-Fi d’entreprise ?",
+      "reponses": [
+        "Répartition de charge entre liens",
+        "Authentification des équipements/ utilisateurs au niveau du port",
+        "Séparation physique des VLAN",
+        "Chiffrement automatique IPsec"
+      ],
+      "bonne_reponse": "Authentification des équipements/ utilisateurs au niveau du port",
+      "explication": "802.1X fournit un mécanisme d’authentification réseau basé sur EAP pour contrôler l’accès au port."
+    },
+    {
+      "question": "Dans un tunnel IPsec, quel mode chiffre uniquement la charge utile du paquet IP original, laissant l’en-tête d’origine intact ?",
+      "reponses": ["Mode tunnel", "Mode transport", "Mode GRE", "Mode NAT-T"],
+      "bonne_reponse": "Mode transport",
+      "explication": "En mode transport, seul le payload IP est chiffré, pas l’en-tête d’origine."
+    },
+    {
+      "question": "Quel problème classique indique un output de type “MSS clamping” sur un firewall ou routeur ?",
+      "reponses": [
+        "Mauvais paramétrage de BGP",
+        "Déséquilibre d’ECMP",
+        "Problèmes de MTU et fragmentation sur les liens",
+        "Conflit d’adresses MAC"
+      ],
+      "bonne_reponse": "Problèmes de MTU et fragmentation sur les liens",
+      "explication": "Le MSS clamping ajuste la taille maximale du segment TCP pour éviter la fragmentation lorsqu’il y a des MTU plus petits sur le chemin."
+    },
+    {
+      "question": "Quel champ est utilisé dans un paquet TCP pour signaler la fin normale d’une connexion ?",
+      "reponses": ["SYN", "ACK", "FIN", "RST"],
+      "bonne_reponse": "FIN",
+      "explication": "Le drapeau FIN indique la fin d’envoi de données par un des côtés de la connexion."
+    },
+    {
+      "question": "Quel mécanisme de TCP permet d’éviter la congestion en adaptant la vitesse d’envoi des paquets ?",
+      "reponses": ["Sliding window", "Slow start et congestion avoidance", "Nagle algorithm uniquement", "Checksum"],
+      "bonne_reponse": "Slow start et congestion avoidance",
+      "explication": "TCP utilise des algorithmes comme slow start et congestion avoidance pour ajuster la fenêtre de congestion."
+    },
+    {
+      "question": "Quelle attaque consiste à envoyer de nombreuses requêtes SYN sans compléter la poignée de main pour saturer une cible ?",
+      "reponses": ["UDP flood", "SYN flood", "Smurf attack", "ARP spoofing"],
+      "bonne_reponse": "SYN flood",
+      "explication": "Un SYN flood abuse de la phase de connexion TCP en laissant de nombreuses demi-connexions ouvertes."
+    },
+    {
+      "question": "Quel protocole ou extension est souvent utilisé pour transporter plusieurs VLAN sur un lien physique entre deux switchs ?",
+      "reponses": ["802.1Q", "802.1D", "802.11n", "PPP"],
+      "bonne_reponse": "802.1Q",
+      "explication": "802.1Q définit le VLAN tagging dans les trames Ethernet pour transporter plusieurs VLAN sur un même lien (trunk)."
+    },
+    {
+      "question": "Dans un environnement multi-path, quel mécanisme permet de répartir le trafic sur plusieurs chemins de coût équivalent ?",
+      "reponses": ["ECMP", "RSTP", "VRRP", "HSRP"],
+      "bonne_reponse": "ECMP",
+      "explication": "ECMP (Equal-Cost Multi-Path) permet de répartir les flux sur plusieurs routes de même métrique."
+    },
+    {
+      "question": "Quel protocole permet d’annoncer dynamiquement les adresses IP virtuelles partagées entre plusieurs routeurs pour la haute disponibilité ?",
+      "reponses": ["OSPF", "VRRP/HSRP", "BGP", "LACP"],
+      "bonne_reponse": "VRRP/HSRP",
+      "explication": "VRRP (standard) et HSRP (Cisco) fournissent une passerelle virtuelle redondante pour la résilience."
+    },
+    {
+      "question": "Quel est l’intérêt du protocole MPLS dans un backbone opérateur ?",
+      "reponses": [
+        "Remplacer TCP",
+        "Étiqueter les paquets pour faire un routage basé sur des labels et des classes de service",
+        "Remplacer complètement IP",
+        "Empêcher la QoS"
+      ],
+      "bonne_reponse": "Étiqueter les paquets pour faire un routage basé sur des labels et des classes de service",
+      "explication": "MPLS utilise des labels pour commuter les paquets rapidement et permettre des VPN, de la QoS et du traffic engineering."
+    },
+    {
+      "question": "Pourquoi le filtrage ICMP de manière trop agressive peut-il causer des problèmes réseau difficiles à diagnostiquer ?",
+      "reponses": [
+        "Parce que cela bloque tous les flux TCP",
+        "Parce qu’ICMP est nécessaire au fonctionnement de DNS",
+        "Parce que certaines fonctions comme PMTU discovery et les messages d’erreur reposent sur ICMP",
+        "Parce que cela désactive les VLAN"
+      ],
+      "bonne_reponse": "Parce que certaines fonctions comme PMTU discovery et les messages d’erreur reposent sur ICMP",
+      "explication": "Bloquer ICMP empêche, par exemple, la découverte de MTU de chemin et la remontée d’erreurs de routage."
+    },
+    {
+      "question": "Dans un design réseau « leaf-spine », quel est l’objectif principal ?",
+      "reponses": [
+        "Séparer strictement le LAN et le WAN",
+        "Remplacer tous les routeurs par des switchs L2",
+        "Offrir une topologie très maillée et symétrique pour réduire la latence et augmenter la bande passante est-ouest",
+        "Forcer tout le trafic à passer par un unique core central"
+      ],
+      "bonne_reponse": "Offrir une topologie très maillée et symétrique pour réduire la latence et augmenter la bande passante est-ouest",
+      "explication": "Leaf-spine est conçu pour les datacenters modernes afin d’optimiser le trafic est-ouest et la résilience."
+    },
+    {
+      "question": "Quelle est la principale différence entre un overlay réseau de type VXLAN et un VLAN traditionnel ?",
+      "reponses": [
+        "VXLAN peut encapsuler le trafic L2 dans UDP sur un réseau IP, permettant de s’affranchir des limites de VLAN physiques",
+        "VXLAN remplace totalement IP",
+        "VLAN ne fonctionne qu’en Wi-Fi",
+        "VXLAN impose l’usage d’IPv6 uniquement"
+      ],
+      "bonne_reponse": "VXLAN peut encapsuler le trafic L2 dans UDP sur un réseau IP, permettant de s’affranchir des limites de VLAN physiques",
+      "explication": "VXLAN crée des overlays L2 au-dessus d’un underlay IP, étendant et virtualisant les segments réseau."
+    }
+  ]
+}

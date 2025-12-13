@@ -1,0 +1,762 @@
+{
+  "questions": [
+    {
+      "question": "Quel est le principal rôle des globules blancs dans le sang ?",
+      "reponses": [
+        "Transporter l’oxygène",
+        "Participer à la défense immunitaire",
+        "Coaguler le sang",
+        "Transporter les hormones"
+      ],
+      "bonne_reponse": "Participer à la défense immunitaire",
+      "explication": "Les globules blancs interviennent dans la défense de l’organisme contre les infections et les agents étrangers."
+    },
+    {
+      "question": "Dans quelle partie des os se trouve la moelle osseuse hématopoïétique (productrice de cellules sanguines) ?",
+      "reponses": ["Dans le cartilage", "Dans la cavité médullaire", "Sur le périoste", "Dans les ligaments"],
+      "bonne_reponse": "Dans la cavité médullaire",
+      "explication": "La moelle osseuse rouge se situe dans les cavités des os spongieux et certaines parties des os longs."
+    },
+    {
+      "question": "Quel ion est indispensable à la contraction musculaire et au fonctionnement du cœur ?",
+      "reponses": ["Sodium (Na+)", "Chlore (Cl-)", "Calcium (Ca2+)", "Magnésium (Mg2+)"],
+      "bonne_reponse": "Calcium (Ca2+)",
+      "explication": "Le calcium joue un rôle clé dans le couplage excitation-contraction des muscles et la conduction cardiaque."
+    },
+    {
+      "question": "Quel est le principal constituant minéral des os ?",
+      "reponses": ["Chlorure de sodium", "Hydroxyapatite (phosphate de calcium)", "Fer", "Cuivre"],
+      "bonne_reponse": "Hydroxyapatite (phosphate de calcium)",
+      "explication": "L’hydroxyapatite, un phosphate de calcium, confère aux os leur rigidité et leur solidité."
+    },
+    {
+      "question": "Quel type de muscle se trouve dans la paroi des organes creux (intestins, vaisseaux sanguins) ?",
+      "reponses": ["Muscle squelettique", "Muscle cardiaque", "Muscle lisse", "Muscle strié volontaire"],
+      "bonne_reponse": "Muscle lisse",
+      "explication": "Les muscles lisses sont involontaires et présents dans la paroi des organes internes et des vaisseaux."
+    },
+    {
+      "question": "Quelle structure relie le muscle au squelette ?",
+      "reponses": ["Le ligament", "Le tendon", "Le cartilage", "Le nerf"],
+      "bonne_reponse": "Le tendon",
+      "explication": "Les tendons transmettent la force de contraction des muscles aux os pour produire le mouvement."
+    },
+    {
+      "question": "Quel nom porte la partie du système nerveux qui comprend le cerveau et la moelle épinière ?",
+      "reponses": [
+        "Système nerveux périphérique",
+        "Système nerveux central",
+        "Système nerveux autonome",
+        "Système endocrinien"
+      ],
+      "bonne_reponse": "Système nerveux central",
+      "explication": "Le système nerveux central regroupe le cerveau et la moelle épinière, centres de traitement de l’information."
+    },
+    {
+      "question": "Quel type de cellule nerveuse transmet les signaux électriques dans le système nerveux ?",
+      "reponses": ["Globule rouge", "Neurone", "Chondrocyte", "Adipocyte"],
+      "bonne_reponse": "Neurone",
+      "explication": "Les neurones sont les cellules spécialisées dans la conduction de l’influx nerveux."
+    },
+    {
+      "question": "Quel est le rôle principal de la myéline autour de certains axones ?",
+      "reponses": [
+        "Produire des hormones",
+        "Protéger le cœur",
+        "Accélérer la conduction de l’influx nerveux",
+        "Produire des globules rouges"
+      ],
+      "bonne_reponse": "Accélérer la conduction de l’influx nerveux",
+      "explication": "La gaine de myéline isole l’axone et permet une conduction saltatoire plus rapide de l’influx."
+    },
+    {
+      "question": "Quelle structure du cerveau coordonne principalement l’équilibre et la précision des mouvements ?",
+      "reponses": ["Le tronc cérébral", "Le cervelet", "L’hippocampe", "L’hypothalamus"],
+      "bonne_reponse": "Le cervelet",
+      "explication": "Le cervelet ajuste le tonus musculaire et la coordination fine des mouvements."
+    },
+    {
+      "question": "Quelle partie du cerveau est principalement associée aux fonctions intellectuelles supérieures (jugement, décision) ?",
+      "reponses": ["Le cervelet", "Le cortex préfrontal", "Le tronc cérébral", "Le bulbe rachidien"],
+      "bonne_reponse": "Le cortex préfrontal",
+      "explication": "Le cortex préfrontal intervient dans la planification, la prise de décision et le comportement social."
+    },
+    {
+      "question": "Quel organe endocrine sécrète principalement l’insuline et le glucagon ?",
+      "reponses": ["La thyroïde", "Le pancréas", "Les surrénales", "L’hypophyse"],
+      "bonne_reponse": "Le pancréas",
+      "explication": "Les îlots de Langerhans du pancréas produisent l’insuline (diminue la glycémie) et le glucagon (l’augmente)."
+    },
+    {
+      "question": "Quel organe endocrine situé dans le cou sécrète les hormones thyroïdiennes ?",
+      "reponses": ["La parathyroïde", "La thyroïde", "Le thymus", "L’hypothalamus"],
+      "bonne_reponse": "La thyroïde",
+      "explication": "La thyroïde produit notamment la thyroxine (T4) et la T3, qui régulent le métabolisme général."
+    },
+    {
+      "question": "Quel est le rôle principal des glandes surrénales ?",
+      "reponses": [
+        "Produire l’insuline",
+        "Produire des hormones de stress et des corticostéroïdes",
+        "Produire la bile",
+        "Produire la salive"
+      ],
+      "bonne_reponse": "Produire des hormones de stress et des corticostéroïdes",
+      "explication": "Les surrénales sécrètent des hormones comme l’adrénaline, la noradrénaline et le cortisol."
+    },
+    {
+      "question": "Quel est le nom de la petite glande située à la base du cerveau, souvent appelée « glande maîtresse » ?",
+      "reponses": ["Thyroïde", "Hypophyse", "Épiphyse", "Parathyroïde"],
+      "bonne_reponse": "Hypophyse",
+      "explication": "L’hypophyse contrôle la sécrétion de nombreuses autres glandes endocrines par ses hormones trophiques."
+    },
+    {
+      "question": "Comment appelle-t-on la cellule reproductrice masculine ?",
+      "reponses": ["Ovule", "Spermatozoïde", "Zygote", "Embryon"],
+      "bonne_reponse": "Spermatozoïde",
+      "explication": "Le spermatozoïde est la gamète produite par les testicules."
+    },
+    {
+      "question": "Comment appelle-t-on la cellule reproductrice féminine ?",
+      "reponses": ["Spermatozoïde", "Ovule", "Embryon", "Fœtus"],
+      "bonne_reponse": "Ovule",
+      "explication": "L’ovule est la gamète produite par les ovaires chez la femme."
+    },
+    {
+      "question": "Quel est le nom du processus par lequel une cellule se divise en deux cellules identiques ?",
+      "reponses": ["Méiose", "Mitose", "Fertilisation", "Osmose"],
+      "bonne_reponse": "Mitose",
+      "explication": "La mitose produit deux cellules filles génétiquement identiques à la cellule mère."
+    },
+    {
+      "question": "Quel est le nom du processus qui produit des gamètes avec la moitié du nombre de chromosomes ?",
+      "reponses": ["Mitose", "Méiose", "Duplication simple", "Fission binaire"],
+      "bonne_reponse": "Méiose",
+      "explication": "La méiose réduit de moitié le nombre de chromosomes pour former des cellules haploïdes."
+    },
+    {
+      "question": "Quelle molécule contient l’information génétique dans les cellules ?",
+      "reponses": ["ARN", "ADN", "Protéine", "Lipidique"],
+      "bonne_reponse": "ADN",
+      "explication": "L’acide désoxyribonucléique (ADN) porte l’information génétique dans son séquençage de bases."
+    },
+    {
+      "question": "Dans quel organite se déroule principalement la respiration cellulaire aérobie (production d’ATP) ?",
+      "reponses": ["Ribosomes", "Appareil de Golgi", "Mitochondries", "Lysosomes"],
+      "bonne_reponse": "Mitochondries",
+      "explication": "Les mitochondries sont les « centrales énergétiques » qui produisent la majeure partie de l’ATP."
+    },
+    {
+      "question": "Quelle est la principale fonction des globules rouges ?",
+      "reponses": [
+        "Produire des anticorps",
+        "Transporter l’oxygène",
+        "Assurer la coagulation",
+        "Produire des hormones"
+      ],
+      "bonne_reponse": "Transporter l’oxygène",
+      "explication": "Les globules rouges transportent l’oxygène grâce à l’hémoglobine."
+    },
+    {
+      "question": "Quel organe se situe dans l’abdomen, produit la bile et intervient dans le métabolisme des nutriments ?",
+      "reponses": ["Le pancréas", "Le foie", "La rate", "Les reins"],
+      "bonne_reponse": "Le foie",
+      "explication": "Le foie joue un rôle central dans le métabolisme, la détoxification et la production de bile."
+    },
+    {
+      "question": "Quel organe du système digestif est principalement responsable de la réabsorption de l’eau et de la formation des selles ?",
+      "reponses": ["L’intestin grêle", "Le côlon (gros intestin)", "L’estomac", "L’œsophage"],
+      "bonne_reponse": "Le côlon (gros intestin)",
+      "explication": "Le côlon récupère l’eau et les électrolytes, compactant les résidus en selles."
+    },
+    {
+      "question": "Comment appelle-t-on les petites projections en forme de doigts dans l’intestin grêle qui augmentent la surface d’absorption ?",
+      "reponses": ["Cils", "Microtubules", "Villosités", "Spicules"],
+      "bonne_reponse": "Villosités",
+      "explication": "Les villosités intestinales augmentent considérablement la surface d’échange pour l’absorption."
+    },
+    {
+      "question": "Quel est le pH approximatif du suc gastrique dans l’estomac ?",
+      "reponses": ["Neutre (7)", "Légèrement acide (6)", "Très acide (1 à 2)", "Légèrement basique (8)"],
+      "bonne_reponse": "Très acide (1 à 2)",
+      "explication": "Le suc gastrique contient de l’acide chlorhydrique qui abaisse fortement le pH, aidant à la digestion des protéines."
+    },
+    {
+      "question": "Quel organe produit le suc pancréatique, riche en enzymes digestives (lipases, amylases, protéases) ?",
+      "reponses": ["Le foie", "Le pancréas", "La rate", "La vésicule biliaire"],
+      "bonne_reponse": "Le pancréas",
+      "explication": "Le pancréas exocrine sécrète un suc digestif vers le duodénum."
+    },
+    {
+      "question": "Quel est le rôle de l’épiglotte dans la gorge ?",
+      "reponses": [
+        "Produire la salive",
+        "Empêcher les aliments d’entrer dans la trachée",
+        "Produire la voix",
+        "Filtrer l’air inspiré"
+      ],
+      "bonne_reponse": "Empêcher les aliments d’entrer dans la trachée",
+      "explication": "L’épiglotte se rabat sur la trachée pendant la déglutition pour éviter les fausses routes."
+    },
+    {
+      "question": "Quel type de vaisseau sanguin ramène le sang vers le cœur ?",
+      "reponses": ["Artères", "Capillaires", "Veines", "Artérioles"],
+      "bonne_reponse": "Veines",
+      "explication": "Les veines ramènent le sang vers le cœur, souvent à plus basse pression."
+    },
+    {
+      "question": "Quel type de vaisseau sanguin transporte le sang du cœur vers les organes ?",
+      "reponses": ["Veines", "Capillaires", "Artères", "Veinules"],
+      "bonne_reponse": "Artères",
+      "explication": "Les artères transportent le sang sous haute pression depuis le cœur vers les tissus."
+    },
+    {
+      "question": "Quel est le nom de la valve située entre l’oreillette gauche et le ventricule gauche du cœur ?",
+      "reponses": ["Valve tricuspide", "Valve mitrale (biscuspide)", "Valve aortique", "Valve pulmonaire"],
+      "bonne_reponse": "Valve mitrale (biscuspide)",
+      "explication": "La valve mitrale sépare l’oreillette gauche du ventricule gauche et empêche le reflux sanguin."
+    },
+    {
+      "question": "Quelle partie du cœur propulse le sang dans la circulation systémique (vers tout le corps) ?",
+      "reponses": ["Le ventricule droit", "L’oreillette droite", "Le ventricule gauche", "L’oreillette gauche"],
+      "bonne_reponse": "Le ventricule gauche",
+      "explication": "Le ventricule gauche envoie le sang dans l’aorte vers la circulation générale."
+    },
+    {
+      "question": "Comment appelle-t-on la phase de contraction du cœur ?",
+      "reponses": ["Diastole", "Systole", "Repos cardiaque", "Apnée"],
+      "bonne_reponse": "Systole",
+      "explication": "La systole est la phase de contraction, la diastole celle de relaxation et de remplissage."
+    },
+    {
+      "question": "Comment appelle-t-on la phase de relâchement et de remplissage du cœur ?",
+      "reponses": ["Systole", "Diastole", "Ischémie", "Infarctus"],
+      "bonne_reponse": "Diastole",
+      "explication": "En diastole, les cavités cardiaques se remplissent de sang."
+    },
+    {
+      "question": "Quel gaz est principalement transporté par le sang des poumons vers les tissus ?",
+      "reponses": ["Dioxyde de carbone", "Azote", "Oxygène", "Hélium"],
+      "bonne_reponse": "Oxygène",
+      "explication": "L’oxygène est fixé sur l’hémoglobine et transporté vers les cellules."
+    },
+    {
+      "question": "Quel gaz est principalement transporté des tissus vers les poumons pour être éliminé ?",
+      "reponses": ["Oxygène", "Dioxyde de carbone", "Hydrogène", "Ozone"],
+      "bonne_reponse": "Dioxyde de carbone",
+      "explication": "Le CO2, produit par la respiration cellulaire, est transporté vers les poumons pour être expiré."
+    },
+    {
+      "question": "Quelle est la structure fonctionnelle de base du rein qui filtre le sang ?",
+      "reponses": ["L’alvéole", "Le néphron", "Le neurone", "Le sarcomère"],
+      "bonne_reponse": "Le néphron",
+      "explication": "Chaque rein contient des centaines de milliers de néphrons qui filtrent le plasma sanguin."
+    },
+    {
+      "question": "Quel est le rôle des glandes sudoripares ?",
+      "reponses": [
+        "Produire du sébum",
+        "Produire de la sueur",
+        "Produire de la salive",
+        "Produire des larmes"
+      ],
+      "bonne_reponse": "Produire de la sueur",
+      "explication": "Les glandes sudoripares sécrètent la sueur, participant à la thermorégulation."
+    },
+    {
+      "question": "Quel est le rôle principal des plaquettes sanguines ?",
+      "reponses": [
+        "Transporter l’oxygène",
+        "Lutter contre les microbes",
+        "Participer à la coagulation du sang",
+        "Produire des hormones"
+      ],
+      "bonne_reponse": "Participer à la coagulation du sang",
+      "explication": "Les plaquettes favorisent la formation du caillot lors des blessures vasculaires."
+    },
+    {
+      "question": "Quel organe est le principal siège de la détoxification de l’alcool consommé ?",
+      "reponses": ["Les reins", "Le foie", "Les poumons", "Le pancréas"],
+      "bonne_reponse": "Le foie",
+      "explication": "Le foie métabolise l’alcool grâce à des enzymes spécifiques."
+    },
+    {
+      "question": "Quel est le nom du pigment rouge qui donne sa couleur au sang oxygéné ?",
+      "reponses": ["Mélanine", "Chlorophylle", "Hémoglobine", "Carotène"],
+      "bonne_reponse": "Hémoglobine",
+      "explication": "L’hémoglobine chargée en oxygène donne une couleur rouge vif au sang."
+    },
+    {
+      "question": "Quel terme décrit la régulation de la température du corps autour d’une valeur stable ?",
+      "reponses": ["Thermolyse", "Thermogénèse", "Thermorégulation", "Thermocline"],
+      "bonne_reponse": "Thermorégulation",
+      "explication": "La thermorégulation maintient la température interne malgré les variations externes."
+    },
+    {
+      "question": "Quel est le nom du tissu qui recouvre la surface externe du corps et tapisse les cavités internes ?",
+      "reponses": ["Tissu musculaire", "Tissu osseux", "Tissu épithélial", "Tissu nerveux"],
+      "bonne_reponse": "Tissu épithélial",
+      "explication": "Les épithéliums recouvrent les surfaces externes et internes et assurent protection et échanges."
+    },
+    {
+      "question": "Quel organe joue un rôle central dans la production de la bile et le métabolisme des glucides, lipides et protéines ?",
+      "reponses": ["Le pancréas", "Le foie", "La rate", "L’estomac"],
+      "bonne_reponse": "Le foie",
+      "explication": "Le foie est un organe métabolique majeur impliqué dans de nombreux processus biochimiques."
+    },
+    {
+      "question": "Comment s’appelle le mouvement réflexe qui permet d’expulser l’air des poumons pour dégager les voies respiratoires ?",
+      "reponses": ["L’éternuement", "La toux", "Le bâillement", "Le hoquet"],
+      "bonne_reponse": "La toux",
+      "explication": "La toux est un réflexe de défense des voies respiratoires."
+    },
+    {
+      "question": "Quel est le nom du liquide qui baigne le cerveau et la moelle épinière ?",
+      "reponses": [
+        "Liquide synovial",
+        "Liquide pleural",
+        "Liquide céphalorachidien (LCR)",
+        "Lymphe"
+      ],
+      "bonne_reponse": "Liquide céphalorachidien (LCR)",
+      "explication": "Le LCR protège et nourrit le système nerveux central."
+    },
+    {
+      "question": "Quel type de récepteur sensoriel est sensible à la lumière dans la rétine de l’œil ?",
+      "reponses": ["Mécanorécepteurs", "Chémorécepteurs", "Photorécepteurs", "Thermorécepteurs"],
+      "bonne_reponse": "Photorécepteurs",
+      "explication": "Les cônes et bâtonnets de la rétine sont des photorécepteurs sensibles à la lumière."
+    },
+    {
+      "question": "Quel est le rôle principal de l’oreille interne dans l’équilibre ?",
+      "reponses": [
+        "Produire le cérumen",
+        "Détecter les mouvements et la position de la tête",
+        "Amplifier les sons",
+        "Protéger le tympan"
+      ],
+      "bonne_reponse": "Détecter les mouvements et la position de la tête",
+      "explication": "Les canaux semi-circulaires et le vestibule informent le cerveau sur l’équilibre et l’orientation."
+    },
+    {
+      "question": "Quel est le rôle de la rétine dans l’œil ?",
+      "reponses": [
+        "Réguler la quantité de lumière",
+        "Focaliser l’image",
+        "Convertir la lumière en signaux nerveux",
+        "Protéger l’œil contre la poussière"
+      ],
+      "bonne_reponse": "Convertir la lumière en signaux nerveux",
+      "explication": "La rétine contient les cellules photoréceptrices qui transforment la lumière en influx nerveux."
+    },
+    {
+      "question": "Quel est le nom du point où les nerfs spinaux sortent de la moelle épinière entre les vertèbres ?",
+      "reponses": ["Foramen vertébral", "Foramen intervertébral", "Canal médullaire", "Processus épineux"],
+      "bonne_reponse": "Foramen intervertébral",
+      "explication": "Les foramens intervertébraux laissent passer les nerfs spinaux vers la périphérie."
+    },
+    {
+      "question": "Quel est le rôle principal des neurones moteurs (efférents) ?",
+      "reponses": [
+        "Amener l’information des récepteurs sensoriels vers le cerveau",
+        "Transmettre l’ordre du système nerveux central vers les muscles",
+        "Analyser les informations dans le cerveau",
+        "Produire le liquide céphalorachidien"
+      ],
+      "bonne_reponse": "Transmettre l’ordre du système nerveux central vers les muscles",
+      "explication": "Les neurones moteurs conduisent l’influx du SNC vers les effecteurs (muscles, glandes)."
+    },
+    {
+      "question": "Quel est le nom du tissu conjonctif qui recouvre la surface externe des os ?",
+      "reponses": ["Périoste", "Endoste", "Périchondre", "Épiderme"],
+      "bonne_reponse": "Périoste",
+      "explication": "Le périoste est une membrane fibreuse richement vascularisée qui entoure l’os."
+    },
+    {
+      "question": "Quel type de cartilage recouvre les surfaces articulaires des os longs ?",
+      "reponses": ["Cartilage élastique", "Cartilage fibreux", "Cartilage hyalin", "Cartilage calcifié"],
+      "bonne_reponse": "Cartilage hyalin",
+      "explication": "Le cartilage hyalin articulaire réduit les frottements et amortit les chocs."
+    },
+    {
+      "question": "Quelle structure de la peau contient les follicules pileux, les glandes sudoripares et sébacées ?",
+      "reponses": ["L’épiderme", "Le derme", "L’hypoderme", "La couche cornée"],
+      "bonne_reponse": "Le derme",
+      "explication": "Le derme abrite de nombreuses structures : glandes, vaisseaux, nerfs, follicules."
+    },
+    {
+      "question": "Quel est le principal rôle des glandes sébacées ?",
+      "reponses": [
+        "Produire la sueur",
+        "Produire le sébum",
+        "Produire la salive",
+        "Produire le cérumen"
+      ],
+      "bonne_reponse": "Produire le sébum",
+      "explication": "Le sébum lubrifie la peau et les poils et contribue à la barrière cutanée."
+    },
+    {
+      "question": "Quel est le nom de la première partie de l’intestin grêle, juste après l’estomac ?",
+      "reponses": ["Jéjunum", "Iléon", "Duodénum", "Côlon ascendant"],
+      "bonne_reponse": "Duodénum",
+      "explication": "Le duodénum reçoit le chyme gastrique ainsi que la bile et le suc pancréatique."
+    },
+    {
+      "question": "Quel muscle principal est utilisé lors de l’inspiration calme (respiration au repos) ?",
+      "reponses": ["Les muscles abdominaux", "Le diaphragme", "Les muscles du cou", "Les muscles du visage"],
+      "bonne_reponse": "Le diaphragme",
+      "explication": "Le diaphragme se contracte et s’abaisse, permettant l’entrée d’air dans les poumons."
+    },
+    {
+      "question": "Comment appelle-t-on le volume d’air inspiré ou expiré lors d’une respiration normale au repos ?",
+      "reponses": [
+        "Volume résiduel",
+        "Volume courant",
+        "Volume de réserve inspiratoire",
+        "Volume de réserve expiratoire"
+      ],
+      "bonne_reponse": "Volume courant",
+      "explication": "Le volume courant est le volume d’air mobilisé à chaque cycle respiratoire normal."
+    },
+    {
+      "question": "Quel composant du sang est principalement responsable de la coagulation ?",
+      "reponses": ["Globules rouges", "Globules blancs", "Plaquettes", "Plasma seul"],
+      "bonne_reponse": "Plaquettes",
+      "explication": "Les plaquettes déclenchent la formation du caillot en s’agrégeant au niveau de la lésion."
+    },
+    {
+      "question": "Quel est le nom de la valve située entre le ventricule gauche et l’aorte ?",
+      "reponses": ["Valve pulmonaire", "Valve tricuspide", "Valve aortique", "Valve mitrale"],
+      "bonne_reponse": "Valve aortique",
+      "explication": "La valve aortique s’ouvre lors de la systole pour laisser le sang passer dans l’aorte."
+    },
+    {
+      "question": "Quel est le nom de la valve située entre le ventricule droit et l’artère pulmonaire ?",
+      "reponses": ["Valve mitrale", "Valve pulmonaire", "Valve tricuspide", "Valve aortique"],
+      "bonne_reponse": "Valve pulmonaire",
+      "explication": "La valve pulmonaire régule l’écoulement du sang du ventricule droit vers l’artère pulmonaire."
+    },
+    {
+      "question": "Quel est le rôle principal des reins dans l’homéostasie ?",
+      "reponses": [
+        "Réguler la température",
+        "Réguler la composition du sang et l’équilibre hydrique",
+        "Produire la bile",
+        "Produire des hormones thyroïdiennes"
+      ],
+      "bonne_reponse": "Réguler la composition du sang et l’équilibre hydrique",
+      "explication": "Les reins ajustent la quantité d’eau, de sels et l’excrétion des déchets azotés."
+    },
+    {
+      "question": "Quel est le nom du pigment brun qui protège la peau des rayons UV ?",
+      "reponses": ["Hémoglobine", "Mélanine", "Bilirubine", "Carotène"],
+      "bonne_reponse": "Mélanine",
+      "explication": "La mélanine est produite par les mélanocytes et absorbe une partie des rayons UV."
+    },
+    {
+      "question": "Comment s’appelle la petite ouverture au centre de l’iris par laquelle la lumière entre dans l’œil ?",
+      "reponses": ["La cornée", "La pupille", "La rétine", "Le cristallin"],
+      "bonne_reponse": "La pupille",
+      "explication": "La pupille change de diamètre pour réguler la quantité de lumière incidente."
+    },
+    {
+      "question": "Quel est le rôle principal des cônes dans la rétine ?",
+      "reponses": [
+        "Vision en faible lumière en noir et blanc",
+        "Vision des couleurs et détails en forte lumière",
+        "Détection des mouvements",
+        "Perception de la profondeur"
+      ],
+      "bonne_reponse": "Vision des couleurs et détails en forte lumière",
+      "explication": "Les cônes sont responsables de la vision photopique (en lumière forte) et des couleurs."
+    },
+    {
+      "question": "Quel est le rôle principal des bâtonnets dans la rétine ?",
+      "reponses": [
+        "Perception des couleurs",
+        "Vision en faible luminosité",
+        "Perception de la profondeur",
+        "Détection des objets proches"
+      ],
+      "bonne_reponse": "Vision en faible luminosité",
+      "explication": "Les bâtonnets sont très sensibles à la lumière et assurent la vision scotopique (nuit)."
+    },
+    {
+      "question": "Quelle partie de l’oreille contient le tympan ?",
+      "reponses": ["Oreille externe", "Oreille moyenne", "Oreille interne", "Canaux semi-circulaires"],
+      "bonne_reponse": "Oreille moyenne",
+      "explication": "Le tympan forme la frontière entre l’oreille externe et l’oreille moyenne."
+    },
+    {
+      "question": "Quelle structure de l’oreille interne est responsable de la perception des sons ?",
+      "reponses": ["Canaux semi-circulaires", "Cochlée", "Trompe d’Eustache", "Tympan"],
+      "bonne_reponse": "Cochlée",
+      "explication": "La cochlée contient les cellules ciliées qui transforment les vibrations en signaux nerveux."
+    },
+    {
+      "question": "Quel type de tissu forme la majeure partie de la masse musculaire du corps ?",
+      "reponses": ["Tissu musculaire lisse", "Tissu musculaire cardiaque", "Tissu musculaire squelettique", "Tissu nerveux"],
+      "bonne_reponse": "Tissu musculaire squelettique",
+      "explication": "Les muscles squelettiques représentent la plus grande part de la masse musculaire totale."
+    },
+    {
+      "question": "Quel est le nom de la jonction entre deux neurones où le signal est transmis chimiquement ?",
+      "reponses": ["Synapse", "Sarcomère", "Nœud de Ranvier", "Plaque motrice"],
+      "bonne_reponse": "Synapse",
+      "explication": "La synapse permet la transmission de l’influx via des neurotransmetteurs."
+    },
+    {
+      "question": "Quel neurotransmetteur est le plus impliqué dans la contraction des muscles squelettiques au niveau de la jonction neuromusculaire ?",
+      "reponses": ["Dopamine", "Sérotonine", "Acétylcholine", "GABA"],
+      "bonne_reponse": "Acétylcholine",
+      "explication": "L’acétylcholine est libérée par le neurone moteur et déclenche la contraction musculaire."
+    },
+    {
+      "question": "Quelle structure du système reproducteur féminin accueille l’embryon et permet la grossesse ?",
+      "reponses": ["Les ovaires", "Les trompes de Fallope", "L’utérus", "Le vagin"],
+      "bonne_reponse": "L’utérus",
+      "explication": "L’utérus est la cavité où s’implante l’embryon et se développe le fœtus."
+    },
+    {
+      "question": "Quel est le rôle principal des ovaires chez la femme ?",
+      "reponses": [
+        "Produire la bile",
+        "Produire les ovules et des hormones sexuelles",
+        "Produire le lait",
+        "Filtrer le sang"
+      ],
+      "bonne_reponse": "Produire les ovules et des hormones sexuelles",
+      "explication": "Les ovaires produisent des gamètes (ovules) et des hormones comme les œstrogènes et la progestérone."
+    },
+    {
+      "question": "Quel organe produit le sperme chez l’homme ?",
+      "reponses": ["La prostate", "Les testicules", "Les vésicules séminales", "La vessie"],
+      "bonne_reponse": "Les testicules",
+      "explication": "Les testicules produisent les spermatozoïdes et la testostérone."
+    },
+    {
+      "question": "Quel est le rôle principal de la prostate ?",
+      "reponses": [
+        "Produire des hormones",
+        "Produire une partie du liquide séminal",
+        "Filtrer l’urine",
+        "Produire les spermatozoïdes"
+      ],
+      "bonne_reponse": "Produire une partie du liquide séminal",
+      "explication": "La prostate contribue à la composition du liquide spermatique qui transporte les spermatozoïdes."
+    },
+    {
+      "question": "Quel est le nom de la structure qui maintient le fœtus relié au placenta dans l’utérus ?",
+      "reponses": ["Le cordon ombilical", "La trompe utérine", "Le canal cervical", "Le ligament rond"],
+      "bonne_reponse": "Le cordon ombilical",
+      "explication": "Le cordon ombilical contient les vaisseaux sanguins reliant le fœtus au placenta."
+    },
+    {
+      "question": "Quel est le rôle principal du placenta pendant la grossesse ?",
+      "reponses": [
+        "Produire les spermatozoïdes",
+        "Assurer les échanges entre le sang maternel et fœtal",
+        "Produire la bile",
+        "Stocker l’urine"
+      ],
+      "bonne_reponse": "Assurer les échanges entre le sang maternel et fœtal",
+      "explication": "Le placenta apporte nutriments et oxygène au fœtus et élimine les déchets."
+    },
+    {
+      "question": "Quel est le nom de l’hormone principalement responsable des caractères sexuels masculins ?",
+      "reponses": ["Œstrogène", "Progestérone", "Testostérone", "Prolactine"],
+      "bonne_reponse": "Testostérone",
+      "explication": "La testostérone, produite par les testicules, influence les caractères sexuels secondaires masculins."
+    },
+    {
+      "question": "Quel est le nom principal des hormones féminines produites par les ovaires ?",
+      "reponses": ["Testostérone et cortisol", "Œstrogènes et progestérone", "Insuline et glucagon", "Thyroxine et calcitonine"],
+      "bonne_reponse": "Œstrogènes et progestérone",
+      "explication": "Les ovaires sécrètent des œstrogènes et de la progestérone qui régulent le cycle menstruel et la grossesse."
+    },
+    {
+      "question": "Quel est le nom de la structure en forme de haricot située dans l’abdomen et chargée de filtrer le sang (il y en a deux) ?",
+      "reponses": ["Le foie", "Les reins", "La rate", "Le pancréas"],
+      "bonne_reponse": "Les reins",
+      "explication": "Les reins filtrent le sang pour produire l’urine et réguler l’équilibre hydrique et ionique."
+    },
+    {
+      "question": "Quel est le nom de la membrane qui recouvre et protège les poumons ?",
+      "reponses": ["Le péritoine", "La plèvre", "Le péricarde", "L’endothélium"],
+      "bonne_reponse": "La plèvre",
+      "explication": "La plèvre est une membrane double entourant les poumons et tapissant la cavité thoracique."
+    },
+    {
+      "question": "Quel est le nom de la membrane qui enveloppe le cœur ?",
+      "reponses": ["Le péritoine", "La plèvre", "Le péricarde", "L’épithélium"],
+      "bonne_reponse": "Le péricarde",
+      "explication": "Le péricarde est un sac fibreux qui entoure et protège le cœur."
+    },
+    {
+      "question": "Quel organe produit la plupart des facteurs de coagulation présents dans le sang ?",
+      "reponses": ["Le foie", "Les reins", "La rate", "Le pancréas"],
+      "bonne_reponse": "Le foie",
+      "explication": "Le foie synthétise de nombreux facteurs de coagulation nécessaires à l’hémostase."
+    },
+    {
+      "question": "Quel est le nom de la région du cerveau impliquée dans la formation de nouveaux souvenirs épisodiques ?",
+      "reponses": ["Hypothalamus", "Hippocampe", "Cervelet", "Bulbe rachidien"],
+      "bonne_reponse": "Hippocampe",
+      "explication": "L’hippocampe joue un rôle crucial dans la mémoire à long terme déclarative."
+    },
+    {
+      "question": "Quel est le nom du mécanisme par lequel le corps maintient une concentration stable de glucose dans le sang ?",
+      "reponses": ["Thermorégulation", "Homéostasie glycémique", "Osmorégulation", "Acidose"],
+      "bonne_reponse": "Homéostasie glycémique",
+      "explication": "L’homéostasie glycémique repose sur l’action coordonnée de l’insuline et du glucagon."
+    },
+    {
+      "question": "Quel type de muscle est contrôlé automatiquement par le système nerveux autonome (par exemple dans l’intestin) ?",
+      "reponses": ["Muscle squelettique", "Muscle lisse", "Muscle cardiaque uniquement", "Muscle volontaire"],
+      "bonne_reponse": "Muscle lisse",
+      "explication": "Les muscles lisses sont involontaires et régulés par le système nerveux autonome."
+    },
+    {
+      "question": "Quel est le nom du processus par lequel l’oxygène et le dioxyde de carbone sont échangés dans les alvéoles pulmonaires ?",
+      "reponses": ["Diffusion simple", "Osmose", "Filtration", "Transport actif"],
+      "bonne_reponse": "Diffusion simple",
+      "explication": "Les gaz diffusent selon leur gradient de concentration à travers la membrane alvéolo-capillaire."
+    },
+    {
+      "question": "Quel est le rôle principal des villosités intestinales ?",
+      "reponses": [
+        "Produire des hormones",
+        "Augmenter la surface d’absorption",
+        "Produire des enzymes digestives",
+        "Protéger l’intestin contre les bactéries"
+      ],
+      "bonne_reponse": "Augmenter la surface d’absorption",
+      "explication": "Les villosités et microvillosités multiplient la surface disponible pour l’absorption des nutriments."
+    },
+    {
+      "question": "Quel organe produit la salive ?",
+      "reponses": [
+        "Les glandes lacrymales",
+        "Les glandes sudoripares",
+        "Les glandes salivaires",
+        "Les glandes sébacées"
+      ],
+      "bonne_reponse": "Les glandes salivaires",
+      "explication": "Les glandes salivaires sécrètent la salive qui humidifie et commence la digestion des aliments."
+    },
+    {
+      "question": "Quel est le nom de la région située entre la cavité thoracique et la cavité abdominale, séparée par le diaphragme ?",
+      "reponses": ["Le médiastin", "La cavité pleurale", "La cavité pelvienne", "La cavité crânienne"],
+      "bonne_reponse": "Le médiastin",
+      "explication": "Le médiastin est la région centrale du thorax, contenant le cœur, les gros vaisseaux et d’autres structures."
+    },
+    {
+      "question": "Quel organe contient des néphrons et des glomérules pour filtrer le sang ?",
+      "reponses": ["Le foie", "Les reins", "La rate", "Les poumons"],
+      "bonne_reponse": "Les reins",
+      "explication": "Les glomérules sont les unités filtrantes du néphron dans le rein."
+    },
+    {
+      "question": "Quel est le rôle principal de la moelle osseuse rouge ?",
+      "reponses": [
+        "Stocker la graisse",
+        "Produire les cellules sanguines",
+        "Produire la bile",
+        "Produire la salive"
+      ],
+      "bonne_reponse": "Produire les cellules sanguines",
+      "explication": "La moelle rouge réalise l’hématopoïèse (globules rouges, blancs, plaquettes)."
+    },
+    {
+      "question": "Quel est le nom des glandes situées dans le cou qui régulent la calcémie avec la parathormone ?",
+      "reponses": ["Thyroïde", "Parathyroïdes", "Surrénales", "Thymus"],
+      "bonne_reponse": "Parathyroïdes",
+      "explication": "Les glandes parathyroïdes sécrètent la parathormone qui augmente le taux de calcium dans le sang."
+    },
+    {
+      "question": "Quel organe est principalement responsable de la dégradation de l’hémoglobine en bilirubine ?",
+      "reponses": ["Le foie", "Les poumons", "Les reins", "Le cœur"],
+      "bonne_reponse": "Le foie",
+      "explication": "Le foie transforme la bilirubine issue de l’hémoglobine en formes excrétables dans la bile."
+    },
+    {
+      "question": "Quel est le rôle des disques intervertébraux entre les vertèbres ?",
+      "reponses": [
+        "Augmenter la masse osseuse",
+        "Amortir les chocs et permettre une certaine mobilité",
+        "Produire des hormones",
+        "Protéger les poumons"
+      ],
+      "bonne_reponse": "Amortir les chocs et permettre une certaine mobilité",
+      "explication": "Les disques intervertébraux sont des structures fibro-cartilagineuses qui amortissent et facilitent les mouvements."
+    },
+    {
+      "question": "Quel est le nom de la zone d’un neurone qui reçoit généralement les signaux provenant d’autres neurones ?",
+      "reponses": ["L’axone", "Le corps cellulaire", "Les dendrites", "Le nœud de Ranvier"],
+      "bonne_reponse": "Les dendrites",
+      "explication": "Les dendrites sont des prolongements ramifiés qui reçoivent les signaux synaptiques."
+    },
+    {
+      "question": "Quel organe du système endocrinien régule la sensation de faim, de soif et la température corporelle ?",
+      "reponses": ["Hypophyse", "Hypothalamus", "Cervelet", "Cortex frontal"],
+      "bonne_reponse": "Hypothalamus",
+      "explication": "L’hypothalamus est un centre de contrôle de nombreuses fonctions autonomes et endocriniennes."
+    },
+    {
+      "question": "Quel est le rôle principal de la rate dans l’organisme ?",
+      "reponses": [
+        "Filtrer le sang et participer à la réponse immunitaire",
+        "Produire la bile",
+        "Filtrer l’urine",
+        "Produire la salive"
+      ],
+      "bonne_reponse": "Filtrer le sang et participer à la réponse immunitaire",
+      "explication": "La rate élimine certaines cellules sanguines âgées et participe au système immunitaire."
+    },
+    {
+      "question": "Quel organe est chargé de produire le liquide céphalorachidien (LCR) ?",
+      "reponses": [
+        "Le foie",
+        "Les reins",
+        "Les plexus choroïdes du cerveau",
+        "La moelle épinière"
+      ],
+      "bonne_reponse": "Les plexus choroïdes du cerveau",
+      "explication": "Les plexus choroïdes, situés dans les ventricules cérébraux, sécrètent le LCR."
+    },
+    {
+      "question": "Quel est le rôle principal du système nerveux sympathique ?",
+      "reponses": [
+        "Favoriser le repos et la digestion",
+        "Ralentir la fréquence cardiaque",
+        "Préparer l’organisme à l’action (réponse combat-fuite)",
+        "Régler la température uniquement"
+      ],
+      "bonne_reponse": "Préparer l’organisme à l’action (réponse combat-fuite)",
+      "explication": "Le système sympathique augmente la fréquence cardiaque, la pression artérielle et mobilise l’énergie."
+    },
+    {
+      "question": "Quel est le rôle principal du système nerveux parasympathique ?",
+      "reponses": [
+        "Augmenter la pression artérielle",
+        "Préparer à l’effort intense",
+        "Favoriser le repos, la digestion et l’économie d’énergie",
+        "Augmenter la glycémie"
+      ],
+      "bonne_reponse": "Favoriser le repos, la digestion et l’économie d’énergie",
+      "explication": "Le parasympathique est parfois résumé par « repos et digestion » (rest and digest)."
+    },
+    {
+      "question": "Quel est le nom du segment contractile de base d’une fibre musculaire striée ?",
+      "reponses": ["Sarcomère", "Sarcolemme", "Sarcoplasme", "Sarcotide"],
+      "bonne_reponse": "Sarcomère",
+      "explication": "Le sarcomère est l’unité contractile délimitée par deux lignes Z dans les myofibrilles."
+    },
+    {
+      "question": "Quel ion est libéré par le réticulum sarcoplasmique pour déclencher la contraction musculaire ?",
+      "reponses": ["Sodium", "Potassium", "Calcium", "Chlore"],
+      "bonne_reponse": "Calcium",
+      "explication": "Le calcium se fixe sur la troponine, permettant l’interaction actine-myosine."
+    }
+  ]
+}

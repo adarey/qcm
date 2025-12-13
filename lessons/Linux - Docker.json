@@ -1,0 +1,562 @@
+{
+  "questions": [
+    {
+      "question": "Quelle commande liste les conteneurs en cours d'exécution ?",
+      "reponses": ["docker ps", "docker images", "docker run", "docker logs"],
+      "bonne_reponse": "docker ps",
+      "explication": "docker ps affiche uniquement les conteneurs en cours d'exécution."
+    },
+    {
+      "question": "Quelle commande liste tous les conteneurs, y compris arrêtés ?",
+      "reponses": ["docker ps -a", "docker ps", "docker container list", "docker ls"],
+      "bonne_reponse": "docker ps -a",
+      "explication": "docker ps -a montre les conteneurs en cours et ceux stoppés."
+    },
+    {
+      "question": "Quelle commande affiche la liste des images Docker locales ?",
+      "reponses": ["docker images", "docker ps", "docker image pull", "docker list"],
+      "bonne_reponse": "docker images",
+      "explication": "docker images (ou docker image ls) liste les images disponibles localement."
+    },
+    {
+      "question": "Quelle commande télécharge une image depuis Docker Hub ?",
+      "reponses": ["docker pull", "docker push", "docker run", "docker fetch"],
+      "bonne_reponse": "docker pull",
+      "explication": "docker pull <image> télécharge l'image depuis un registre."
+    },
+    {
+      "question": "Quelle commande envoie une image vers un registre distant ?",
+      "reponses": ["docker push", "docker pull", "docker upload", "docker save"],
+      "bonne_reponse": "docker push",
+      "explication": "docker push <image> envoie l'image vers le registre configuré."
+    },
+    {
+      "question": "Quelle commande démarre un conteneur à partir d'une image ?",
+      "reponses": ["docker run", "docker start", "docker exec", "docker boot"],
+      "bonne_reponse": "docker run",
+      "explication": "docker run crée et démarre un nouveau conteneur à partir d'une image."
+    },
+    {
+      "question": "Quel paramètre de docker run exécute le conteneur en arrière-plan ?",
+      "reponses": ["-d", "-it", "-p", "-v"],
+      "bonne_reponse": "-d",
+      "explication": "-d (detached) lance le conteneur en arrière-plan."
+    },
+    {
+      "question": "Quel paramètre de docker run alloue un pseudo-TTY interactif ?",
+      "reponses": ["-it", "-d", "-p", "-e"],
+      "bonne_reponse": "-it",
+      "explication": "-it combine -i (interactive) et -t (TTY) pour une session interactive."
+    },
+    {
+      "question": "Quel paramètre de docker run publie un port du conteneur vers l'hôte ?",
+      "reponses": ["-p", "-v", "-e", "-u"],
+      "bonne_reponse": "-p",
+      "explication": "-p HOST:CONTAINER publie un port du conteneur sur l'hôte."
+    },
+    {
+      "question": "Quelle commande stoppe proprement un conteneur en cours d'exécution ?",
+      "reponses": ["docker stop", "docker kill", "docker rm", "docker pause"],
+      "bonne_reponse": "docker stop",
+      "explication": "docker stop envoie un signal SIGTERM puis SIGKILL après un délai."
+    },
+    {
+      "question": "Quelle commande supprime un conteneur arrêté ?",
+      "reponses": ["docker rm", "docker rmi", "docker delete", "docker purge"],
+      "bonne_reponse": "docker rm",
+      "explication": "docker rm supprime un ou plusieurs conteneurs."
+    },
+    {
+      "question": "Quelle commande supprime une image Docker locale ?",
+      "reponses": ["docker rmi", "docker rm", "docker image rm", "docker delete"],
+      "bonne_reponse": "docker rmi",
+      "explication": "docker rmi (ou docker image rm) supprime une image."
+    },
+    {
+      "question": "Quelle commande affiche les logs d'un conteneur ?",
+      "reponses": ["docker logs", "docker ps", "docker events", "docker inspect"],
+      "bonne_reponse": "docker logs",
+      "explication": "docker logs montre la sortie standard/erreur d'un conteneur."
+    },
+    {
+      "question": "Quelle option de docker logs suit les logs en temps réel ?",
+      "reponses": ["-f", "-t", "-n", "-s"],
+      "bonne_reponse": "-f",
+      "explication": "docker logs -f suit en continu les logs (follow)."
+    },
+    {
+      "question": "Quelle commande permet d'exécuter une commande dans un conteneur en cours ?",
+      "reponses": ["docker exec", "docker run", "docker start", "docker attach"],
+      "bonne_reponse": "docker exec",
+      "explication": "docker exec lance une commande supplémentaire dans un conteneur existant."
+    },
+    {
+      "question": "Quelle commande ouvre un shell bash interactif dans un conteneur nommé web ?",
+      "reponses": ["docker exec -it web bash", "docker run -it web bash", "docker attach web bash", "docker shell web"],
+      "bonne_reponse": "docker exec -it web bash",
+      "explication": "docker exec -it web bash ouvre un shell bash à l'intérieur du conteneur web."
+    },
+    {
+      "question": "Quelle commande attache ton terminal à la sortie d'un conteneur en cours ?",
+      "reponses": ["docker attach", "docker exec", "docker logs -f", "docker run"],
+      "bonne_reponse": "docker attach",
+      "explication": "docker attach connecte ton terminal à la STDOUT/STDERR d'un conteneur."
+    },
+    {
+      "question": "Quelle commande affiche des informations détaillées au format JSON sur un conteneur ?",
+      "reponses": ["docker inspect", "docker info", "docker logs", "docker ps --json"],
+      "bonne_reponse": "docker inspect",
+      "explication": "docker inspect retourne un JSON détaillé sur un conteneur ou une image."
+    },
+    {
+      "question": "Quelle commande supprime tous les conteneurs arrêtés, les réseaux non utilisés et les images orphelines ?",
+      "reponses": ["docker system prune", "docker prune all", "docker clean", "docker gc"],
+      "bonne_reponse": "docker system prune",
+      "explication": "docker system prune nettoie les ressources Docker inutilisées."
+    },
+    {
+      "question": "Quelle commande affiche des informations globales sur l'installation Docker ?",
+      "reponses": ["docker info", "docker version", "docker inspect", "docker about"],
+      "bonne_reponse": "docker info",
+      "explication": "docker info donne un résumé de la configuration du démon et des ressources."
+    },
+    {
+      "question": "Quelle commande affiche les versions client et serveur de Docker ?",
+      "reponses": ["docker version", "docker info", "docker --version", "docker about"],
+      "bonne_reponse": "docker version",
+      "explication": "docker version affiche les versions client/serveur et les détails de build."
+    },
+    {
+      "question": "Quelle commande construit une image à partir d'un Dockerfile dans le dossier courant ?",
+      "reponses": ["docker build .", "docker run .", "docker image create .", "docker make ."],
+      "bonne_reponse": "docker build .",
+      "explication": "docker build . lit le Dockerfile dans le répertoire courant pour créer une image."
+    },
+    {
+      "question": "Quel paramètre de docker build permet de donner un nom et un tag à l'image ?",
+      "reponses": ["-t", "-n", "-name", "-i"],
+      "bonne_reponse": "-t",
+      "explication": "docker build -t nom:tag . assigne un nom et un tag à l'image."
+    },
+    {
+      "question": "Quelle commande enregistre une image Docker dans un fichier tar ?",
+      "reponses": ["docker save", "docker export", "docker backup", "docker pack"],
+      "bonne_reponse": "docker save",
+      "explication": "docker save enregistre une ou plusieurs images dans une archive tar."
+    },
+    {
+      "question": "Quelle commande exporte le système de fichiers d'un conteneur dans un tar ?",
+      "reponses": ["docker export", "docker save", "docker cp", "docker commit"],
+      "bonne_reponse": "docker export",
+      "explication": "docker export extrait le système de fichiers d'un conteneur en tar."
+    },
+    {
+      "question": "Quelle commande charge une image à partir d'un fichier tar créé avec docker save ?",
+      "reponses": ["docker load", "docker import", "docker pull", "docker open"],
+      "bonne_reponse": "docker load",
+      "explication": "docker load charge une image au format tar dans le daemon Docker."
+    },
+    {
+      "question": "Quelle commande importe un système de fichiers (tar) comme nouvelle image Docker ?",
+      "reponses": ["docker import", "docker load", "docker save", "docker pull"],
+      "bonne_reponse": "docker import",
+      "explication": "docker import crée une image à partir d'un tar de système de fichiers."
+    },
+    {
+      "question": "Quelle commande crée une nouvelle image à partir de l'état courant d'un conteneur ?",
+      "reponses": ["docker commit", "docker save", "docker export", "docker snapshot"],
+      "bonne_reponse": "docker commit",
+      "explication": "docker commit enregistre les changements d'un conteneur comme une nouvelle image."
+    },
+    {
+      "question": "Quel fichier est utilisé par docker build pour décrire la construction d'image ?",
+      "reponses": ["Dockerfile", "docker.yml", "compose.yml", "Imagefile"],
+      "bonne_reponse": "Dockerfile",
+      "explication": "Le fichier Dockerfile décrit les étapes de build de l'image."
+    },
+    {
+      "question": "Quelle instruction Dockerfile définit l'image de base ?",
+      "reponses": ["FROM", "BASE", "IMAGE", "START"],
+      "bonne_reponse": "FROM",
+      "explication": "FROM indique l'image de base à partir de laquelle construire."
+    },
+    {
+      "question": "Quelle instruction Dockerfile copie des fichiers du contexte vers l'image ?",
+      "reponses": ["COPY", "ADD", "MOVE", "IMPORT"],
+      "bonne_reponse": "COPY",
+      "explication": "COPY src dest copie des fichiers depuis le contexte de build dans l'image."
+    },
+    {
+      "question": "Quelle instruction Dockerfile exécute une commande lors du build de l'image ?",
+      "reponses": ["RUN", "CMD", "EXEC", "DO"],
+      "bonne_reponse": "RUN",
+      "explication": "RUN commande est exécutée pendant le build pour modifier l'image."
+    },
+    {
+      "question": "Quelle instruction Dockerfile définit la commande par défaut du conteneur ?",
+      "reponses": ["CMD", "RUN", "ENTRYPOINT", "EXEC"],
+      "bonne_reponse": "CMD",
+      "explication": "CMD définit la commande par défaut, modifiable à l'exécution."
+    },
+    {
+      "question": "Quelle instruction Dockerfile définit le processus principal qui ne peut pas être facilement écrasé par docker run ?",
+      "reponses": ["ENTRYPOINT", "CMD", "RUN", "START"],
+      "bonne_reponse": "ENTRYPOINT",
+      "explication": "ENTRYPOINT fixe le binaire principal du conteneur, CMD fournit ses arguments par défaut."
+    },
+    {
+      "question": "Quelle instruction Dockerfile définit le répertoire de travail par défaut dans le conteneur ?",
+      "reponses": ["WORKDIR", "CD", "PATH", "DIR"],
+      "bonne_reponse": "WORKDIR",
+      "explication": "WORKDIR change le répertoire courant pour les instructions suivantes et au runtime."
+    },
+    {
+      "question": "Quelle instruction Dockerfile expose un port logique utilisé par le conteneur ?",
+      "reponses": ["EXPOSE", "PORT", "PUBLISH", "OPEN"],
+      "bonne_reponse": "EXPOSE",
+      "explication": "EXPOSE documente les ports que le conteneur est censé utiliser."
+    },
+    {
+      "question": "Quelle commande permet de créer un réseau Docker nommé mynet ?",
+      "reponses": ["docker network create mynet", "docker net add mynet", "docker create network mynet", "docker network new mynet"],
+      "bonne_reponse": "docker network create mynet",
+      "explication": "docker network create crée un nouveau réseau Docker."
+    },
+    {
+      "question": "Quelle commande liste les réseaux Docker existants ?",
+      "reponses": ["docker network ls", "docker net ls", "docker networks", "docker ls net"],
+      "bonne_reponse": "docker network ls",
+      "explication": "docker network ls affiche les réseaux définis dans Docker."
+    },
+    {
+      "question": "Quel type de réseau Docker est utilisé par défaut pour docker run ?",
+      "reponses": ["bridge", "host", "none", "macvlan"],
+      "bonne_reponse": "bridge",
+      "explication": "Par défaut, les conteneurs sont attachés au réseau bridge."
+    },
+    {
+      "question": "Quel mode réseau donne au conteneur le même stack réseau que l'hôte ?",
+      "reponses": ["--network host", "--network bridge", "--network none", "--network macvlan"],
+      "bonne_reponse": "--network host",
+      "explication": "En mode host, le conteneur partage le réseau de l'hôte (pas d'isolation de ports)."
+    },
+    {
+      "question": "Quelle commande connecte un conteneur existant à un réseau Docker ?",
+      "reponses": ["docker network connect", "docker net attach", "docker connect", "docker network add"],
+      "bonne_reponse": "docker network connect",
+      "explication": "docker network connect réseau conteneur ajoute un conteneur à un réseau."
+    },
+    {
+      "question": "Quelle commande déconnecte un conteneur d'un réseau Docker ?",
+      "reponses": ["docker network disconnect", "docker net detach", "docker disconnect", "docker network rm"],
+      "bonne_reponse": "docker network disconnect",
+      "explication": "docker network disconnect supprime la connexion d'un conteneur à un réseau."
+    },
+    {
+      "question": "Quelle commande liste les volumes Docker existants ?",
+      "reponses": ["docker volume ls", "docker volumes", "docker volume list", "docker storage ls"],
+      "bonne_reponse": "docker volume ls",
+      "explication": "docker volume ls affiche les volumes gérés par Docker."
+    },
+    {
+      "question": "Quelle commande crée un volume Docker nommé data ?",
+      "reponses": ["docker volume create data", "docker volume new data", "docker create volume data", "docker vol add data"],
+      "bonne_reponse": "docker volume create data",
+      "explication": "docker volume create crée un nouveau volume nommé."
+    },
+    {
+      "question": "Quel type de montage utilise-t-on avec -v /host:/container ?",
+      "reponses": ["bind mount", "volume nommé", "tmpfs", "overlay"],
+      "bonne_reponse": "bind mount",
+      "explication": "Avec un chemin absolu côté hôte, Docker crée un bind mount."
+    },
+    {
+      "question": "Quelle syntaxe de docker run utilise un volume nommé myvol monté sur /data ?",
+      "reponses": ["-v myvol:/data", "-v /data:myvol", "--volume /data:myvol", "--vol myvol:/data"],
+      "bonne_reponse": "-v myvol:/data",
+      "explication": "-v nomVolume:/cheminConteneur monte un volume nommé."
+    },
+    {
+      "question": "Quelle commande supprime un volume Docker nommé data ?",
+      "reponses": ["docker volume rm data", "docker rm data", "docker volume delete data", "docker vol rm data"],
+      "bonne_reponse": "docker volume rm data",
+      "explication": "docker volume rm supprime un volume (s'il n'est plus utilisé)."
+    },
+    {
+      "question": "Quelle commande supprime tous les volumes non utilisés ?",
+      "reponses": ["docker volume prune", "docker system prune volumes", "docker vol gc", "docker prune volume"],
+      "bonne_reponse": "docker volume prune",
+      "explication": "docker volume prune nettoie les volumes orphelins."
+    },
+    {
+      "question": "Quel fichier décrit une stack Docker Compose classique v2 ?",
+      "reponses": ["docker-compose.yml", "compose.json", "Dockerfile", "stack.yml"],
+      "bonne_reponse": "docker-compose.yml",
+      "explication": "Par convention, docker-compose.yml décrit les services, volumes et réseaux."
+    },
+    {
+      "question": "Quelle commande lance une stack définie dans docker-compose.yml en arrière-plan ?",
+      "reponses": ["docker compose up -d", "docker compose start", "docker up -d", "docker-compose run"],
+      "bonne_reponse": "docker compose up -d",
+      "explication": "docker compose up -d crée et démarre les services en mode détaché."
+    },
+    {
+      "question": "Quelle commande arrête et supprime les conteneurs d'une stack Compose sans supprimer les volumes ?",
+      "reponses": ["docker compose down", "docker compose stop", "docker compose rm", "docker compose kill"],
+      "bonne_reponse": "docker compose down",
+      "explication": "docker compose down arrête et supprime conteneurs/réseaux par défaut."
+    },
+    {
+      "question": "Quel paramètre de docker compose down supprime aussi les volumes associés ?",
+      "reponses": ["--volumes", "--delete-volumes", "-v", "--rm-volumes"],
+      "bonne_reponse": "--volumes",
+      "explication": "docker compose down --volumes supprime les volumes de la stack."
+    },
+    {
+      "question": "Quelle commande reconstruit les images d'une stack Compose avant de la relancer ?",
+      "reponses": ["docker compose up --build", "docker compose build up", "docker compose rebuild", "docker compose restart --build"],
+      "bonne_reponse": "docker compose up --build",
+      "explication": "L'option --build force le rebuild des images avant le up."
+    },
+    {
+      "question": "Quelle commande redémarre tous les services d'une stack Compose ?",
+      "reponses": ["docker compose restart", "docker compose reload", "docker compose reboot", "docker compose refresh"],
+      "bonne_reponse": "docker compose restart",
+      "explication": "docker compose restart stoppe et redémarre les services."
+    },
+    {
+      "question": "Dans docker run, quelle option définit une variable d'environnement dans le conteneur ?",
+      "reponses": ["-e", "-v", "-p", "-u"],
+      "bonne_reponse": "-e",
+      "explication": "-e VAR=val définit une variable d'environnement pour le conteneur."
+    },
+    {
+      "question": "Dans Compose, quelle section permet de définir des variables d'environnement ?",
+      "reponses": ["environment:", "env:", "variables:", "exports:"],
+      "bonne_reponse": "environment:",
+      "explication": "La clé environment: sous un service liste les variables d'environnement."
+    },
+    {
+      "question": "Dans Compose, quelle section définit les volumes montés pour un service ?",
+      "reponses": ["volumes:", "mounts:", "storage:", "binds:"],
+      "bonne_reponse": "volumes:",
+      "explication": "La clé volumes: sous un service liste les montages (volumes ou bind mounts)."
+    },
+    {
+      "question": "Dans Compose, quelle section définit le port publié ?",
+      "reponses": ["ports:", "expose:", "publish:", "network:"],
+      "bonne_reponse": "ports:",
+      "explication": "ports: mappe les ports hôte:conteneur pour le service."
+    },
+    {
+      "question": "Quelle commande affiche la consommation CPU/RAM des conteneurs ?",
+      "reponses": ["docker stats", "docker top", "docker ps -r", "docker usage"],
+      "bonne_reponse": "docker stats",
+      "explication": "docker stats montre l'utilisation des ressources des conteneurs en temps réel."
+    },
+    {
+      "question": "Quelle commande affiche les processus tournant à l'intérieur d'un conteneur ?",
+      "reponses": ["docker top", "docker ps", "docker exec ps", "docker inspect"],
+      "bonne_reponse": "docker top",
+      "explication": "docker top liste les processus au sein d'un conteneur."
+    },
+    {
+      "question": "Quelle commande affiche les événements du démon Docker (création, start, stop, etc.) ?",
+      "reponses": ["docker events", "docker logs", "docker info", "docker monitor"],
+      "bonne_reponse": "docker events",
+      "explication": "docker events affiche un flux d'événements en temps réel."
+    },
+    {
+      "question": "Quelle commande supprime toutes les images non utilisées par aucun conteneur ?",
+      "reponses": ["docker image prune -a", "docker system prune -i", "docker rmi all", "docker clean images"],
+      "bonne_reponse": "docker image prune -a",
+      "explication": "docker image prune -a supprime toutes les images non référencées."
+    },
+    {
+      "question": "Quel type de ressource Docker correspond à une définition logique de service dans Compose ?",
+      "reponses": ["service", "container", "image", "task"],
+      "bonne_reponse": "service",
+      "explication": "Dans Compose, un service décrit le modèle de conteneur à lancer."
+    },
+    {
+      "question": "Dans Compose, quelle directive indique quelle image utiliser pour un service ?",
+      "reponses": ["image:", "from:", "base:", "dockerfile:"],
+      "bonne_reponse": "image:",
+      "explication": "La clé image: spécifie l'image Docker à utiliser."
+    },
+    {
+      "question": "Dans Compose, quelle directive permet de construire l'image à partir d'un Dockerfile local ?",
+      "reponses": ["build:", "dockerfile:", "from:", "make:"],
+      "bonne_reponse": "build:",
+      "explication": "build: indique un contexte de build (et éventuellement un Dockerfile)."
+    },
+    {
+      "question": "Quelle commande affiche la configuration effective d'un service Compose (résolue) ?",
+      "reponses": ["docker compose config", "docker compose show", "docker compose inspect", "docker config"],
+      "bonne_reponse": "docker compose config",
+      "explication": "docker compose config rend la configuration complète après fusion et validation."
+    },
+    {
+      "question": "Quelle commande teste si le démon Docker est joignable depuis le client ?",
+      "reponses": ["docker info", "docker ps", "docker version", "docker ping"],
+      "bonne_reponse": "docker info",
+      "explication": "Si docker info répond, le client communique avec le daemon."
+    },
+    {
+      "question": "Sur un système Linux, quel groupe permet souvent d'utiliser Docker sans sudo ?",
+      "reponses": ["docker", "wheel", "sudo", "container"],
+      "bonne_reponse": "docker",
+      "explication": "Les utilisateurs du groupe docker peuvent contacter le daemon sans sudo."
+    },
+    {
+      "question": "Quelle option de docker run limite la mémoire maximale utilisable par un conteneur ?",
+      "reponses": ["--memory", "--cpus", "--limit-mem", "--mem"],
+      "bonne_reponse": "--memory",
+      "explication": "--memory fixe une limite mémoire pour le conteneur."
+    },
+    {
+      "question": "Quelle option de docker run limite le nombre de CPU utilisables par un conteneur ?",
+      "reponses": ["--cpus", "--cpu", "--limit-cpu", "--threads"],
+      "bonne_reponse": "--cpus",
+      "explication": "--cpus définit la fraction de CPU disponible (par exemple 0.5, 1.0, 2.0)."
+    },
+    {
+      "question": "Dans Compose v2, comment limite-t-on la mémoire d'un service ?",
+      "reponses": ["deploy.resources.limits.memory", "memory.limit", "resources.memory", "service.memory"],
+      "bonne_reponse": "deploy.resources.limits.memory",
+      "explication": "Sous deploy.resources.limits.memory on peut définir une limite mémoire."
+    },
+    {
+      "question": "Quelle commande met en pause l'exécution d'un conteneur (SIGSTOP) ?",
+      "reponses": ["docker pause", "docker stop", "docker kill", "docker hold"],
+      "bonne_reponse": "docker pause",
+      "explication": "docker pause met tous les threads du conteneur en pause."
+    },
+    {
+      "question": "Quelle commande reprend un conteneur mis en pause ?",
+      "reponses": ["docker unpause", "docker resume", "docker start", "docker reload"],
+      "bonne_reponse": "docker unpause",
+      "explication": "docker unpause reprend l'exécution d'un conteneur pausé."
+    },
+    {
+      "question": "Quelle commande du client Docker copie des fichiers entre l'hôte et un conteneur ?",
+      "reponses": ["docker cp", "docker copy", "docker sync", "docker transfer"],
+      "bonne_reponse": "docker cp",
+      "explication": "docker cp SRC DEST copie à travers la frontière conteneur/hôte."
+    },
+    {
+      "question": "Quelle commande affiche les labels associés à un conteneur ou une image ?",
+      "reponses": ["docker inspect", "docker labels", "docker info", "docker meta"],
+      "bonne_reponse": "docker inspect",
+      "explication": "Les labels sont visibles dans la sortie JSON de docker inspect."
+    },
+    {
+      "question": "Quel est le but principal des labels Docker ?",
+      "reponses": ["Ajouter des métadonnées", "Augmenter la sécurité", "Compresser les images", "Limiter la mémoire"],
+      "bonne_reponse": "Ajouter des métadonnées",
+      "explication": "Les labels servent à attacher des métadonnées (clé/valeur) aux objets Docker."
+    },
+    {
+      "question": "Quelle commande active le mode swarm sur un hôte Docker ?",
+      "reponses": ["docker swarm init", "docker swarm start", "docker swarm enable", "docker init swarm"],
+      "bonne_reponse": "docker swarm init",
+      "explication": "docker swarm init convertit l'hôte en manager de swarm."
+    },
+    {
+      "question": "Quelle commande déploie un service dans un cluster Docker Swarm ?",
+      "reponses": ["docker service create", "docker compose deploy", "docker swarm run", "docker cluster add"],
+      "bonne_reponse": "docker service create",
+      "explication": "docker service create lance un service répliqué dans un swarm."
+    },
+    {
+      "question": "Quelle commande liste les services d'un swarm ?",
+      "reponses": ["docker service ls", "docker swarm services", "docker services", "docker swarm ls"],
+      "bonne_reponse": "docker service ls",
+      "explication": "docker service ls affiche les services déployés dans le swarm."
+    },
+    {
+      "question": "Quelle commande met à l'échelle un service swarm à 5 replicas ?",
+      "reponses": ["docker service scale nom=5", "docker scale nom 5", "docker service replicas 5", "docker swarm scale nom 5"],
+      "bonne_reponse": "docker service scale nom=5",
+      "explication": "docker service scale SERVICE=NB ajuste le nombre de replicas."
+    },
+    {
+      "question": "Quelle commande permet de voir l'état des nœuds dans un swarm ?",
+      "reponses": ["docker node ls", "docker swarm nodes", "docker nodes", "docker cluster ls"],
+      "bonne_reponse": "docker node ls",
+      "explication": "docker node ls affiche les nœuds du swarm et leur état."
+    },
+    {
+      "question": "Quel est l'intérêt principal d'utiliser des images 'alpine' ?",
+      "reponses": ["Taille réduite", "Plus rapides CPU", "Plus sécurisées par défaut", "Compatibles Windows"],
+      "bonne_reponse": "Taille réduite",
+      "explication": "Les images Alpine sont très légères, donc plus rapides à télécharger et stocker."
+    },
+    {
+      "question": "Pourquoi est-il recommandé d'éviter de lancer des processus en root dans un conteneur ?",
+      "reponses": ["Pour limiter l'impact en cas de compromission", "Pour accélérer le conteneur", "Pour consommer moins de RAM", "Pour monter plus de volumes"],
+      "bonne_reponse": "Pour limiter l'impact en cas de compromission",
+      "explication": "Un processus root dans le conteneur peut augmenter la surface d'attaque si une faille existe."
+    },
+    {
+      "question": "Quelle bonne pratique concerne les logs dans les conteneurs ?",
+      "reponses": ["Écrire sur stdout/stderr", "Écrire dans /var/log/local.log", "Désactiver tous les logs", "Utiliser uniquement syslog distant"],
+      "bonne_reponse": "Écrire sur stdout/stderr",
+      "explication": "Les conteneurs doivent loguer sur stdout/stderr pour que l'orchestrateur collecte les logs."
+    },
+    {
+      "question": "Quelle commande change la politique de redémarrage d'un conteneur avec docker run ?",
+      "reponses": ["--restart", "--policy", "--retry", "--autorestart"],
+      "bonne_reponse": "--restart",
+      "explication": "L'option --restart définit la politique de redémarrage (no, on-failure, unless-stopped, always)."
+    },
+    {
+      "question": "Quelle politique --restart redémarre un conteneur sauf s'il a été stoppé manuellement ?",
+      "reponses": ["unless-stopped", "always", "on-failure", "no"],
+      "bonne_reponse": "unless-stopped",
+      "explication": "unless-stopped redémarre le conteneur après reboot, sauf s'il a été stoppé explicitement."
+    },
+    {
+      "question": "Quelle commande permet de renommer un conteneur existant ?",
+      "reponses": ["docker rename", "docker mv", "docker retag", "docker name"],
+      "bonne_reponse": "docker rename",
+      "explication": "docker rename ancien nouveau change le nom d'un conteneur."
+    },
+    {
+      "question": "Quelle commande affiche les couches (layers) d'une image Docker ?",
+      "reponses": ["docker history", "docker inspect layers", "docker image layers", "docker info image"],
+      "bonne_reponse": "docker history",
+      "explication": "docker history montre les couches, tailles et commandes ayant créé l'image."
+    },
+    {
+      "question": "Quelle commande montre la sortie de build d'une image étape par étape ?",
+      "reponses": ["docker build", "docker history", "docker inspect", "docker logs build"],
+      "bonne_reponse": "docker build",
+      "explication": "docker build affiche les logs de chacune des étapes du Dockerfile."
+    },
+    {
+      "question": "Quelle commande filtre la liste des conteneurs pour ne montrer que ceux dont le nom contient 'web' ?",
+      "reponses": ["docker ps --filter name=web", "docker ps | grep web", "docker ps -n web", "docker ps --name web"],
+      "bonne_reponse": "docker ps --filter name=web",
+      "explication": "L'option --filter permet de filtrer les conteneurs par nom, état, etc."
+    },
+    {
+      "question": "Quelle commande filtre la liste des images pour ne montrer que celles d'un certain label ?",
+      "reponses": ["docker images --filter label=...", "docker images --label ...", "docker image label ...", "docker info --label"],
+      "bonne_reponse": "docker images --filter label=...",
+      "explication": "On peut filtrer les images par label avec --filter label=clé=valeur."
+    },
+    {
+      "question": "Quelle bonne pratique liée aux images concerne le nombre de couches ?",
+      "reponses": ["Limiter les couches inutiles", "Créer le plus de couches possibles", "Fusionner toutes les couches", "Toujours utiliser une seule commande RUN"],
+      "bonne_reponse": "Limiter les couches inutiles",
+      "explication": "Moins de couches inutiles → image plus petite et plus simple à maintenir."
+    },
+    {
+      "question": "Pourquoi utilise-t-on souvent des multi-stage builds dans Dockerfile ?",
+      "reponses": ["Réduire la taille de l'image finale", "Augmenter le nombre de couches", "Désactiver le cache", "Éviter d'utiliser ENTRYPOINT"],
+      "bonne_reponse": "Réduire la taille de l'image finale",
+      "explication": "Les multi-stage builds permettent de ne copier que les artefacts nécessaires dans l'image finale."
+    }
+  ]
+}

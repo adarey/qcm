@@ -1,0 +1,442 @@
+{
+  "questions": [
+    {
+      "question": "Qui a peint la célèbre œuvre « La Joconde » exposée au musée du Louvre ?",
+      "reponses": ["Michel-Ange", "Léonard de Vinci", "Raphaël", "Van Gogh"],
+      "bonne_reponse": "Léonard de Vinci",
+      "explication": "« La Joconde » est un portrait réalisé par Léonard de Vinci au début du XVIe siècle et conservé au Louvre."
+    },
+    {
+      "question": "Quel dramaturge anglais est l’auteur de « Hamlet » et « Macbeth » ?",
+      "reponses": ["William Shakespeare", "Charles Dickens", "Oscar Wilde", "George Bernard Shaw"],
+      "bonne_reponse": "William Shakespeare",
+      "explication": "Shakespeare est l’auteur de nombreuses pièces célèbres comme « Hamlet », « Macbeth » et « Roméo et Juliette »."
+    },
+    {
+      "question": "Quel écrivain français a écrit le roman « Les Misérables » ?",
+      "reponses": ["Victor Hugo", "Émile Zola", "Gustave Flaubert", "Honoré de Balzac"],
+      "bonne_reponse": "Victor Hugo",
+      "explication": "« Les Misérables », publié en 1862, est l’un des romans les plus connus de Victor Hugo."
+    },
+    {
+      "question": "Dans quel pays est né le peintre Vincent van Gogh ?",
+      "reponses": ["France", "Pays-Bas", "Belgique", "Allemagne"],
+      "bonne_reponse": "Pays-Bas",
+      "explication": "Vincent van Gogh est un peintre néerlandais, figure majeure de la peinture postimpressionniste."
+    },
+    {
+      "question": "Quel est le nom du sculpteur qui a réalisé « Le Penseur » ?",
+      "reponses": ["Rodin", "Canova", "Michel-Ange", "Donatello"],
+      "bonne_reponse": "Rodin",
+      "explication": "Auguste Rodin est l’auteur de « Le Penseur », une de ses sculptures les plus célèbres."
+    },
+    {
+      "question": "Quel auteur russe a écrit le roman « Crime et Châtiment » ?",
+      "reponses": ["Tolstoï", "Dostoïevski", "Tchekhov", "Gogol"],
+      "bonne_reponse": "Dostoïevski",
+      "explication": "Fiodor Dostoïevski publie « Crime et Châtiment » en 1866, roman majeur de la littérature mondiale."
+    },
+    {
+      "question": "Quel mouvement artistique du XIXe siècle met l’accent sur la lumière et les impressions fugitives ?",
+      "reponses": ["Romantisme", "Classicisme", "Impressionnisme", "Cubisme"],
+      "bonne_reponse": "Impressionnisme",
+      "explication": "L’impressionnisme se caractérise par une touche visible, des couleurs vives et la peinture en plein air."
+    },
+    {
+      "question": "Quel écrivain français est l’auteur de « Madame Bovary » ?",
+      "reponses": ["Victor Hugo", "Gustave Flaubert", "Guy de Maupassant", "Émile Zola"],
+      "bonne_reponse": "Gustave Flaubert",
+      "explication": "« Madame Bovary » est un roman de Gustave Flaubert publié en 1857."
+    },
+    {
+      "question": "Qui a peint la fresque de la « Chapelle Sixtine » au Vatican ?",
+      "reponses": ["Raphaël", "Michel-Ange", "Botticelli", "Titien"],
+      "bonne_reponse": "Michel-Ange",
+      "explication": "Michel-Ange a réalisé les fresques du plafond de la chapelle Sixtine, dont la célèbre « Création d’Adam »."
+    },
+    {
+      "question": "Quel écrivain est l’auteur de la trilogie « Le Seigneur des Anneaux » ?",
+      "reponses": ["J. K. Rowling", "J. R. R. Tolkien", "C. S. Lewis", "George R. R. Martin"],
+      "bonne_reponse": "J. R. R. Tolkien",
+      "explication": "Tolkien, philologue britannique, a écrit « Le Seigneur des Anneaux », œuvre fondatrice de la fantasy moderne."
+    },
+    {
+      "question": "Quel poète français est l’auteur du recueil « Les Fleurs du mal » ?",
+      "reponses": ["Arthur Rimbaud", "Paul Verlaine", "Charles Baudelaire", "Stéphane Mallarmé"],
+      "bonne_reponse": "Charles Baudelaire",
+      "explication": "Publié en 1857, « Les Fleurs du mal » est le recueil le plus célèbre de Baudelaire."
+    },
+    {
+      "question": "Quel auteur britannique a créé le personnage de Sherlock Holmes ?",
+      "reponses": ["Agatha Christie", "Arthur Conan Doyle", "Edgar Allan Poe", "Ian Fleming"],
+      "bonne_reponse": "Arthur Conan Doyle",
+      "explication": "Arthur Conan Doyle est le créateur du détective Sherlock Holmes et de son associé Watson."
+    },
+    {
+      "question": "Quel peintre espagnol est associé au cubisme avec des œuvres comme « Les Demoiselles d’Avignon » ?",
+      "reponses": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Goya"],
+      "bonne_reponse": "Pablo Picasso",
+      "explication": "Picasso est un des fondateurs du cubisme, mouvement qui décompose les formes en facettes géométriques."
+    },
+    {
+      "question": "Quel écrivain irlandais est l’auteur de « Ulysse » ?",
+      "reponses": ["James Joyce", "Oscar Wilde", "Samuel Beckett", "W. B. Yeats"],
+      "bonne_reponse": "James Joyce",
+      "explication": "« Ulysse », publié en 1922, est un roman moderniste majeur de James Joyce."
+    },
+    {
+      "question": "Quel compositeur allemand est l’auteur de la « Neuvième Symphonie » ?",
+      "reponses": ["Mozart", "Beethoven", "Brahms", "Schubert"],
+      "bonne_reponse": "Beethoven",
+      "explication": "La Neuvième Symphonie de Beethoven est célèbre pour son final choral, l’« Ode à la joie »."
+    },
+    {
+      "question": "Quel écrivain français a écrit « Germinal » ?",
+      "reponses": ["Émile Zola", "Victor Hugo", "Alphonse Daudet", "Maupassant"],
+      "bonne_reponse": "Émile Zola",
+      "explication": "« Germinal » est un roman naturaliste de Zola qui décrit la vie des mineurs dans le Nord de la France."
+    },
+    {
+      "question": "Quel peintre norvégien est l’auteur du tableau « Le Cri » ?",
+      "reponses": ["Edvard Munch", "Kandinsky", "Monet", "Degas"],
+      "bonne_reponse": "Edvard Munch",
+      "explication": "« Le Cri » est une œuvre expressionniste emblématique d’Edvard Munch, peinte à plusieurs versions."
+    },
+    {
+      "question": "Quel dramaturge français a écrit « Le Cid » ?",
+      "reponses": ["Corneille", "Racine", "Molière", "Beaumarchais"],
+      "bonne_reponse": "Corneille",
+      "explication": "Pierre Corneille est l’auteur de « Le Cid », tragédie célèbre du XVIIe siècle."
+    },
+    {
+      "question": "Qui a peint « La Nuit étoilée » (Starry Night) ?",
+      "reponses": ["Van Gogh", "Monet", "Cézanne", "Renoir"],
+      "bonne_reponse": "Van Gogh",
+      "explication": "« La Nuit étoilée » est un tableau de Vincent van Gogh peint en 1889 depuis l’asile de Saint-Rémy."
+    },
+    {
+      "question": "Quel auteur français a écrit « Le Petit Prince » ?",
+      "reponses": ["Saint-Exupéry", "Colette", "Camus", "Sartre"],
+      "bonne_reponse": "Saint-Exupéry",
+      "explication": "Antoine de Saint-Exupéry est l’auteur de « Le Petit Prince », conte poétique publié en 1943."
+    },
+    {
+      "question": "Quel peintre espagnol est connu pour ses œuvres surréalistes comme « La Persistance de la mémoire » ?",
+      "reponses": ["Goya", "Picasso", "Dalí", "Velázquez"],
+      "bonne_reponse": "Dalí",
+      "explication": "Salvador Dalí est un peintre surréaliste célèbre pour ses montres molles et son univers onirique."
+    },
+    {
+      "question": "Quel écrivain français est connu pour le roman « L’Étranger » ?",
+      "reponses": ["Jean-Paul Sartre", "Albert Camus", "André Malraux", "Boris Vian"],
+      "bonne_reponse": "Albert Camus",
+      "explication": "« L’Étranger » est un roman d’Albert Camus publié en 1942, emblématique de l’absurde."
+    },
+    {
+      "question": "Quel auteur est à l’origine du personnage de Harry Potter ?",
+      "reponses": ["J. K. Rowling", "J. R. R. Tolkien", "Stephen King", "Roald Dahl"],
+      "bonne_reponse": "J. K. Rowling",
+      "explication": "J. K. Rowling est l’autrice de la série de romans fantastiques mettant en scène le jeune sorcier Harry Potter."
+    },
+    {
+      "question": "Quel courant artistique associe Picasso et Braque au début du XXe siècle ?",
+      "reponses": ["Surréalisme", "Cubisme", "Impressionnisme", "Fauvisme"],
+      "bonne_reponse": "Cubisme",
+      "explication": "Le cubisme décompose les formes en volumes géométriques et représente plusieurs points de vue simultanément."
+    },
+    {
+      "question": "Quel romancier français a écrit « Le Comte de Monte-Cristo » ?",
+      "reponses": ["Alexandre Dumas", "Balzac", "Zola", "Hugo"],
+      "bonne_reponse": "Alexandre Dumas",
+      "explication": "« Le Comte de Monte-Cristo » est un roman d’aventures d’Alexandre Dumas, publié au XIXe siècle."
+    },
+    {
+      "question": "Quel musicien autrichien est l’auteur de l’opéra « La Flûte enchantée » ?",
+      "reponses": ["Haydn", "Mozart", "Beethoven", "Schubert"],
+      "bonne_reponse": "Mozart",
+      "explication": "Wolfgang Amadeus Mozart compose « La Flûte enchantée » en 1791, un opéra en langue allemande."
+    },
+    {
+      "question": "Quel écrivain britannique a créé le personnage d’Hercule Poirot ?",
+      "reponses": ["Agatha Christie", "Arthur Conan Doyle", "P. D. James", "G. K. Chesterton"],
+      "bonne_reponse": "Agatha Christie",
+      "explication": "Agatha Christie est la créatrice du détective belge Hercule Poirot et de Miss Marple."
+    },
+    {
+      "question": "Quel peintre français est célèbre pour ses séries de nymphéas et de cathédrales ?",
+      "reponses": ["Monet", "Manet", "Renoir", "Degas"],
+      "bonne_reponse": "Monet",
+      "explication": "Claude Monet est l’un des principaux représentants de l’impressionnisme, célèbre pour ses paysages et ses nymphéas."
+    },
+    {
+      "question": "Quel roman de Cervantès met en scène un chevalier idéaliste et son écuyer Sancho Panza ?",
+      "reponses": ["Don Juan", "Don Quichotte", "Lazarillo de Tormes", "Le Cid"],
+      "bonne_reponse": "Don Quichotte",
+      "explication": "« Don Quichotte » est un roman espagnol de Miguel de Cervantès, considéré comme un des premiers grands romans modernes."
+    },
+    {
+      "question": "Quel mouvement littéraire français du XIXe siècle vise à montrer la réalité sociale de manière documentée et objective ?",
+      "reponses": ["Romantisme", "Symbolisme", "Naturalisme", "Surréalisme"],
+      "bonne_reponse": "Naturalisme",
+      "explication": "Le naturalisme, incarné par Zola, s’inspire des méthodes scientifiques pour décrire la société."
+    },
+    {
+      "question": "Quel compositeur allemand est l’auteur de l’opéra « Tristan et Isolde » ?",
+      "reponses": ["Mozart", "Beethoven", "Wagner", "Brahms"],
+      "bonne_reponse": "Wagner",
+      "explication": "Richard Wagner compose « Tristan et Isolde », œuvre majeure du répertoire lyrique romantique."
+    },
+    {
+      "question": "Quel écrivain américain est l’auteur de « Moby Dick » ?",
+      "reponses": ["Mark Twain", "Herman Melville", "Ernest Hemingway", "F. Scott Fitzgerald"],
+      "bonne_reponse": "Herman Melville",
+      "explication": "« Moby Dick » est un roman de Melville centré sur la chasse à une baleine blanche."
+    },
+    {
+      "question": "Quel est le nom du sculpteur italien qui a réalisé la statue de « David » à Florence ?",
+      "reponses": ["Donatello", "Bernini", "Michel-Ange", "Cellini"],
+      "bonne_reponse": "Michel-Ange",
+      "explication": "La statue de David est une sculpture monumentale de Michel-Ange, symbole de la Renaissance florentine."
+    },
+    {
+      "question": "Quel écrivain français est l’auteur de « À la recherche du temps perdu » ?",
+      "reponses": ["Marcel Proust", "Paul Valéry", "André Gide", "Jean Giono"],
+      "bonne_reponse": "Marcel Proust",
+      "explication": "Proust écrit ce vaste cycle romanesque en sept parties, publié au début du XXe siècle."
+    },
+    {
+      "question": "Quel artiste néerlandais du XVIIe siècle est célèbre pour « La Ronde de nuit » ?",
+      "reponses": ["Vermeer", "Rembrandt", "Rubens", "Frans Hals"],
+      "bonne_reponse": "Rembrandt",
+      "explication": "Rembrandt van Rijn est un peintre baroque néerlandais connu pour ses portraits et scènes historiques."
+    },
+    {
+      "question": "Quel écrivain français a écrit « Le Rouge et le Noir » ?",
+      "reponses": ["Balzac", "Stendhal", "Flaubert", "Maupassant"],
+      "bonne_reponse": "Stendhal",
+      "explication": "Stendhal, pseudonyme d’Henri Beyle, publie « Le Rouge et le Noir » en 1830."
+    },
+    {
+      "question": "Quel auteur a écrit le roman « 1984 », critique d’une société totalitaire ?",
+      "reponses": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Isaac Asimov"],
+      "bonne_reponse": "George Orwell",
+      "explication": "« 1984 » est un roman dystopique de George Orwell, publié en 1949."
+    },
+    {
+      "question": "Quel peintre français est célèbre pour ses scènes de danseuses et de courses de chevaux ?",
+      "reponses": ["Monet", "Degas", "Renoir", "Cézanne"],
+      "bonne_reponse": "Degas",
+      "explication": "Edgar Degas aime représenter des danseuses de ballet et des scènes de courses, souvent sous des angles originaux."
+    },
+    {
+      "question": "Quel dramaturge français a écrit des comédies comme « Le Misanthrope » et « L’Avare » ?",
+      "reponses": ["Molière", "Racine", "Corneille", "Voltaire"],
+      "bonne_reponse": "Molière",
+      "explication": "Molière est le plus célèbre auteur de comédies du théâtre classique français."
+    },
+    {
+      "question": "Quel auteur américain a écrit « Les Aventures de Tom Sawyer » ?",
+      "reponses": ["Mark Twain", "Jack London", "Hemingway", "Fitzgerald"],
+      "bonne_reponse": "Mark Twain",
+      "explication": "Mark Twain, de son vrai nom Samuel Clemens, est l’auteur de ce roman pour la jeunesse."
+    },
+    {
+      "question": "Quel mouvement artistique du début du XXe siècle est associé à Salvador Dalí et André Breton ?",
+      "reponses": ["Cubisme", "Fauvisme", "Surréalisme", "Expressionnisme"],
+      "bonne_reponse": "Surréalisme",
+      "explication": "Le surréalisme explore l’inconscient, les rêves et l’irrationnel."
+    },
+    {
+      "question": "Quel écrivain français est connu pour le roman « Notre-Dame de Paris » ?",
+      "reponses": ["Balzac", "Hugo", "Zola", "Flaubert"],
+      "bonne_reponse": "Hugo",
+      "explication": "Victor Hugo situe « Notre-Dame de Paris » au Moyen Âge dans le Paris de la cathédrale."
+    },
+    {
+      "question": "Quel peintre hollandais est célèbre pour ses scènes d’intérieur comme « La Laitière » ?",
+      "reponses": ["Vermeer", "Rembrandt", "Rubens", "Frans Hals"],
+      "bonne_reponse": "Vermeer",
+      "explication": "Johannes Vermeer est connu pour ses scènes de genre intimistes et lumineuses."
+    },
+    {
+      "question": "Quel écrivain allemand est l’auteur de « Faust » ?",
+      "reponses": ["Schiller", "Goethe", "Thomas Mann", "Hesse"],
+      "bonne_reponse": "Goethe",
+      "explication": "Johann Wolfgang von Goethe écrit « Faust », drame philosophique en deux parties."
+    },
+    {
+      "question": "Quel auteur de science-fiction a écrit « Fondation » et de nombreux récits sur les robots ?",
+      "reponses": ["Arthur C. Clarke", "Isaac Asimov", "Philip K. Dick", "Frank Herbert"],
+      "bonne_reponse": "Isaac Asimov",
+      "explication": "Isaac Asimov est célèbre pour ses cycles « Fondation » et « Robots »."
+    },
+    {
+      "question": "Quel compositeur autrichien est l’auteur du célèbre « Requiem » resté inachevé ?",
+      "reponses": ["Haydn", "Mozart", "Mahler", "Bruckner"],
+      "bonne_reponse": "Mozart",
+      "explication": "Le Requiem de Mozart a été complété après sa mort par ses élèves."
+    },
+    {
+      "question": "Quel écrivain français a écrit « La Condition humaine » ?",
+      "reponses": ["Malraux", "Camus", "Sartre", "Giono"],
+      "bonne_reponse": "Malraux",
+      "explication": "André Malraux situe « La Condition humaine » lors d’une insurrection à Shanghai."
+    },
+    {
+      "question": "Quel peintre français est associé au fauvisme avec Matisse ?",
+      "reponses": ["Derain", "Renoir", "Cézanne", "Manet"],
+      "bonne_reponse": "Derain",
+      "explication": "André Derain et Henri Matisse sont deux figures majeures du fauvisme."
+    },
+    {
+      "question": "Quel écrivain français est l’auteur de « Bel-Ami » ?",
+      "reponses": ["Zola", "Maupassant", "Balzac", "Flaubert"],
+      "bonne_reponse": "Maupassant",
+      "explication": "Guy de Maupassant publie « Bel-Ami » en 1885, roman sur l’ascension sociale d’un journaliste ambitieux."
+    },
+    {
+      "question": "Quel auteur russe a écrit « Guerre et Paix » ?",
+      "reponses": ["Dostoïevski", "Tchekhov", "Tolstoï", "Gorki"],
+      "bonne_reponse": "Tolstoï",
+      "explication": "Léon Tolstoï est l’auteur de « Guerre et Paix », fresque monumentale sur la Russie napoléonienne."
+    },
+    {
+      "question": "Quel peintre espagnol du baroque a peint « Les Ménines » ?",
+      "reponses": ["Velázquez", "Goya", "Murillo", "Zurbarán"],
+      "bonne_reponse": "Velázquez",
+      "explication": "Diego Velázquez peint « Les Ménines » au XVIIe siècle, tableau complexe par sa composition."
+    },
+    {
+      "question": "Quel écrivain français a écrit « La Peste » ?",
+      "reponses": ["Camus", "Sartre", "Malraux", "Gide"],
+      "bonne_reponse": "Camus",
+      "explication": "Albert Camus publie « La Peste » en 1947, roman se déroulant à Oran."
+    },
+    {
+      "question": "Quel peintre est célèbre pour ses autoportraits, notamment à l’oreille bandée ?",
+      "reponses": ["Monet", "Van Gogh", "Gauguin", "Cézanne"],
+      "bonne_reponse": "Van Gogh",
+      "explication": "Van Gogh réalise de nombreux autoportraits, dont un avec l’oreille bandée après s’être blessé."
+    },
+    {
+      "question": "Quel écrivain britannique est l’auteur de « Orgueil et Préjugés » ?",
+      "reponses": ["Jane Austen", "Emily Brontë", "Virginia Woolf", "George Eliot"],
+      "bonne_reponse": "Jane Austen",
+      "explication": "« Orgueil et Préjugés » est un roman classique de Jane Austen, publié en 1813."
+    },
+    {
+      "question": "Quel mouvement artistique du début du XXe siècle est fondé par André Breton en littérature ?",
+      "reponses": ["Symbolisme", "Surréalisme", "Dadaïsme", "Futurisme"],
+      "bonne_reponse": "Surréalisme",
+      "explication": "André Breton publie le « Manifeste du surréalisme » en 1924."
+    },
+    {
+      "question": "Quel auteur français est l’écrivain des « Trois Mousquetaires » ?",
+      "reponses": ["Victor Hugo", "Balzac", "Alexandre Dumas", "Maupassant"],
+      "bonne_reponse": "Alexandre Dumas",
+      "explication": "« Les Trois Mousquetaires » est un roman de cape et d’épée d’Alexandre Dumas."
+    },
+    {
+      "question": "Quel peintre italien a réalisé « La Cène », fresque représentant le dernier repas du Christ ?",
+      "reponses": ["Raphaël", "Léonard de Vinci", "Michel-Ange", "Botticelli"],
+      "bonne_reponse": "Léonard de Vinci",
+      "explication": "« La Cène » est peinte par Léonard de Vinci sur un mur du couvent de Santa Maria delle Grazie à Milan."
+    },
+    {
+      "question": "Quel écrivain français est associé au roman « L’Assommoir » ?",
+      "reponses": ["Zola", "Hugo", "Balzac", "Flaubert"],
+      "bonne_reponse": "Zola",
+      "explication": "« L’Assommoir » est un roman naturaliste d’Émile Zola sur la misère ouvrière."
+    },
+    {
+      "question": "Quel personnage de bande dessinée est créé par Hergé ?",
+      "reponses": ["Tintin", "Astérix", "Lucky Luke", "Spirou"],
+      "bonne_reponse": "Tintin",
+      "explication": "Hergé, auteur belge, crée les aventures de Tintin, jeune reporter."
+    },
+    {
+      "question": "Quel édifice célèbre de Paris a inspiré le roman « Notre-Dame de Paris » ?",
+      "reponses": ["Le Louvre", "L’Opéra", "La Tour Eiffel", "La cathédrale Notre-Dame"],
+      "bonne_reponse": "La cathédrale Notre-Dame",
+      "explication": "Le roman de Victor Hugo contribue à sensibiliser le public à la sauvegarde de la cathédrale."
+    },
+    {
+      "question": "Quel écrivain américain a écrit « Des Souris et des Hommes » ?",
+      "reponses": ["John Steinbeck", "Hemingway", "Fitzgerald", "Faulkner"],
+      "bonne_reponse": "John Steinbeck",
+      "explication": "Steinbeck décrit la vie de deux ouvriers agricoles pendant la Grande Dépression."
+    },
+    {
+      "question": "Quel peintre français est célèbre pour ses scènes de bals et de fêtes populaires, comme au Moulin de la Galette ?",
+      "reponses": ["Renoir", "Manet", "Degas", "Cézanne"],
+      "bonne_reponse": "Renoir",
+      "explication": "Pierre-Auguste Renoir peint de nombreuses scènes joyeuses et lumineuses."
+    },
+    {
+      "question": "Quel romancier a écrit « Le Vieil Homme et la Mer » ?",
+      "reponses": ["Ernest Hemingway", "John Steinbeck", "Fitzgerald", "Jack London"],
+      "bonne_reponse": "Ernest Hemingway",
+      "explication": "Hemingway reçoit le prix Nobel en partie pour ce roman publié en 1952."
+    },
+    {
+      "question": "Quel compositeur allemand est l’auteur de l’opéra « La Walkyrie » ?",
+      "reponses": ["Mozart", "Beethoven", "Wagner", "Strauss"],
+      "bonne_reponse": "Wagner",
+      "explication": "« La Walkyrie » fait partie de la tétralogie de Wagner, « L’Anneau du Nibelung »."
+    },
+    {
+      "question": "Quel écrivain français a créé le personnage de Jean Valjean ?",
+      "reponses": ["Balzac", "Zola", "Hugo", "Maupassant"],
+      "bonne_reponse": "Hugo",
+      "explication": "Jean Valjean est le héros principal de « Les Misérables » de Victor Hugo."
+    },
+    {
+      "question": "Quel peintre italien du Quattrocento est l’auteur de « La Naissance de Vénus » ?",
+      "reponses": ["Botticelli", "Raphaël", "Titien", "Giotto"],
+      "bonne_reponse": "Botticelli",
+      "explication": "Sandro Botticelli peint « La Naissance de Vénus » à la fin du XVe siècle."
+    },
+    {
+      "question": "Quel auteur français a écrit le roman « La Nausée » ?",
+      "reponses": ["Albert Camus", "Jean-Paul Sartre", "Simone de Beauvoir", "André Gide"],
+      "bonne_reponse": "Jean-Paul Sartre",
+      "explication": "« La Nausée » est un roman existentialiste de Sartre, publié en 1938."
+    },
+    {
+      "question": "Quel illustrateur belge est à l’origine de « Gaston Lagaffe » ?",
+      "reponses": ["Hergé", "Franquin", "Peyo", "Morris"],
+      "bonne_reponse": "Franquin",
+      "explication": "André Franquin crée Gaston Lagaffe, anti-héros gaffeur de la rédaction de Spirou."
+    },
+    {
+      "question": "Quel écrivain français a écrit « Le Père Goriot » ?",
+      "reponses": ["Balzac", "Hugo", "Zola", "Maupassant"],
+      "bonne_reponse": "Balzac",
+      "explication": "« Le Père Goriot » fait partie de « La Comédie humaine » d’Honoré de Balzac."
+    },
+    {
+      "question": "Quel peintre français du XIXe siècle est connu pour ses natures mortes et ses pommes ?",
+      "reponses": ["Cézanne", "Renoir", "Manet", "Monet"],
+      "bonne_reponse": "Cézanne",
+      "explication": "Paul Cézanne expérimente les formes et les volumes, ouvrant la voie au cubisme."
+    },
+    {
+      "question": "Quel auteur de théâtre irlandais est l’auteur de « En attendant Godot » ?",
+      "reponses": ["Yeats", "Joyce", "Beckett", "Synge"],
+      "bonne_reponse": "Beckett",
+      "explication": "Samuel Beckett écrit « En attendant Godot », pièce emblématique du théâtre de l’absurde."
+    },
+    {
+      "question": "Quel compositeur romantique polonais est célèbre pour ses nocturnes pour piano ?",
+      "reponses": ["Liszt", "Chopin", "Schumann", "Mendelssohn"],
+      "bonne_reponse": "Chopin",
+      "explication": "Frédéric Chopin compose de nombreuses œuvres pour piano, dont des nocturnes et des mazurkas."
+    },
+    {
+      "question": "Quel écrivain français a créé le personnage d’Arsène Lupin ?",
+      "reponses": ["Maurice Leblanc", "Conan Doyle", "Simenon", "Boileau-Narcejac"],
+      "bonne_reponse": "Maurice Leblanc",
+      "explication": "Arsène Lupin est un gentleman-cambrioleur inventé par Maurice Leblanc."
+    }
+  ]
+}

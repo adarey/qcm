@@ -1,0 +1,646 @@
+{
+  "questions": [
+    {
+      "question": "Quelle commande liste le contenu du répertoire courant ?",
+      "reponses": ["ls", "cd", "pwd", "cat"],
+      "bonne_reponse": "ls",
+      "explication": "La commande ls affiche la liste des fichiers et dossiers du répertoire courant."
+    },
+    {
+      "question": "Quelle commande affiche le chemin absolu du répertoire courant ?",
+      "reponses": ["pwd", "ls", "echo", "whereis"],
+      "bonne_reponse": "pwd",
+      "explication": "pwd signifie print working directory et affiche le chemin complet du répertoire courant."
+    },
+    {
+      "question": "Quelle commande permet de changer de répertoire ?",
+      "reponses": ["cd", "mv", "cp", "ls"],
+      "bonne_reponse": "cd",
+      "explication": "cd (change directory) permet de se déplacer dans l’arborescence."
+    },
+    {
+      "question": "Quelle commande crée un nouveau répertoire ?",
+      "reponses": ["mkdir", "rmdir", "touch", "mkfile"],
+      "bonne_reponse": "mkdir",
+      "explication": "mkdir crée un nouveau dossier."
+    },
+    {
+      "question": "Quelle commande crée un fichier vide (ou met à jour sa date) ?",
+      "reponses": ["touch", "cat", "echo", "nano"],
+      "bonne_reponse": "touch",
+      "explication": "touch crée un fichier vide s’il n’existe pas, sinon met à jour ses timestamps."
+    },
+    {
+      "question": "Quelle commande supprime un fichier ?",
+      "reponses": ["rm", "rmdir", "delete", "erase"],
+      "bonne_reponse": "rm",
+      "explication": "rm supprime des fichiers."
+    },
+    {
+      "question": "Quelle commande supprime un répertoire vide ?",
+      "reponses": ["rmdir", "rm", "rm -rf", "mv"],
+      "bonne_reponse": "rmdir",
+      "explication": "rmdir supprime uniquement les répertoires vides."
+    },
+    {
+      "question": "Quelle option de rm supprime récursivement un répertoire et son contenu ?",
+      "reponses": ["rm -r", "rm -f", "rm -i", "rm -l"],
+      "bonne_reponse": "rm -r",
+      "explication": "rm -r (ou -R) supprime récursivement dossiers et fichiers."
+    },
+    {
+      "question": "Quelle option de rm force la suppression sans demander de confirmation ?",
+      "reponses": ["-f", "-r", "-i", "-v"],
+      "bonne_reponse": "-f",
+      "explication": "L’option -f (force) ignore les erreurs et ne demande pas de confirmation."
+    },
+    {
+      "question": "Quelle commande copie un fichier ?",
+      "reponses": ["cp", "mv", "cat", "ln"],
+      "bonne_reponse": "cp",
+      "explication": "cp permet de copier des fichiers ou répertoires."
+    },
+    {
+      "question": "Quelle commande déplace ou renomme un fichier ?",
+      "reponses": ["mv", "cp", "rm", "rename"],
+      "bonne_reponse": "mv",
+      "explication": "mv déplace des fichiers ou change leur nom."
+    },
+    {
+      "question": "Quelle commande affiche le contenu d’un fichier texte ?",
+      "reponses": ["cat", "ls", "pwd", "chmod"],
+      "bonne_reponse": "cat",
+      "explication": "cat affiche le contenu d’un fichier dans le terminal."
+    },
+    {
+      "question": "Quelle commande affiche les premières lignes d’un fichier ?",
+      "reponses": ["head", "tail", "cat", "more"],
+      "bonne_reponse": "head",
+      "explication": "head affiche par défaut les 10 premières lignes d’un fichier."
+    },
+    {
+      "question": "Quelle commande affiche les dernières lignes d’un fichier ?",
+      "reponses": ["tail", "head", "cat", "less"],
+      "bonne_reponse": "tail",
+      "explication": "tail affiche par défaut les 10 dernières lignes d’un fichier."
+    },
+    {
+      "question": "Quelle commande permet de suivre en temps réel les ajouts dans un fichier de log ?",
+      "reponses": ["tail -f", "head -f", "watch", "less"],
+      "bonne_reponse": "tail -f",
+      "explication": "tail -f suit en continu les nouvelles lignes ajoutées à un fichier."
+    },
+    {
+      "question": "Quelle commande recherche une chaîne de caractères dans un fichier texte ?",
+      "reponses": ["grep", "find", "locate", "sed"],
+      "bonne_reponse": "grep",
+      "explication": "grep filtre les lignes contenant un motif donné."
+    },
+    {
+      "question": "Quelle option de grep ignore la casse (majuscules/minuscules) ?",
+      "reponses": ["-i", "-r", "-v", "-n"],
+      "bonne_reponse": "-i",
+      "explication": "L’option -i de grep rend la recherche insensible à la casse."
+    },
+    {
+      "question": "Quelle commande trouve des fichiers par nom dans l’arborescence ?",
+      "reponses": ["find", "locate", "grep", "which"],
+      "bonne_reponse": "find",
+      "explication": "find parcourt l’arborescence pour trouver des fichiers selon des critères."
+    },
+    {
+      "question": "Quelle commande affiche le chemin d’un exécutable dans le PATH ?",
+      "reponses": ["which", "where", "find", "locate"],
+      "bonne_reponse": "which",
+      "explication": "which indique où se trouve une commande dans le PATH."
+    },
+    {
+      "question": "Quelle commande affiche l’historique des commandes du shell courant ?",
+      "reponses": ["history", "last", "log", "journalctl"],
+      "bonne_reponse": "history",
+      "explication": "history affiche la liste des commandes déjà tapées dans le shell."
+    },
+    {
+      "question": "Quelle commande affiche le manuel d’une commande ?",
+      "reponses": ["man", "help", "info", "doc"],
+      "bonne_reponse": "man",
+      "explication": "man affiche les pages de manuel des commandes."
+    },
+    {
+      "question": "Quelle commande donne une aide courte sur une commande (GNU) ?",
+      "reponses": ["--help", "-h", "help", "info"],
+      "bonne_reponse": "--help",
+      "explication": "En général, commande --help affiche une aide rapide sur la syntaxe."
+    },
+    {
+      "question": "Quelle commande change les permissions d’un fichier ?",
+      "reponses": ["chmod", "chown", "chgrp", "umask"],
+      "bonne_reponse": "chmod",
+      "explication": "chmod modifie les droits (lecture, écriture, exécution) d’un fichier."
+    },
+    {
+      "question": "Quelle commande change le propriétaire d’un fichier ?",
+      "reponses": ["chown", "chmod", "chgrp", "sudo"],
+      "bonne_reponse": "chown",
+      "explication": "chown change l’utilisateur propriétaire et éventuellement le groupe."
+    },
+    {
+      "question": "Quelle commande change le groupe propriétaire d’un fichier ?",
+      "reponses": ["chgrp", "chown", "chmod", "groupmod"],
+      "bonne_reponse": "chgrp",
+      "explication": "chgrp modifie le groupe associé à un fichier."
+    },
+    {
+      "question": "Avec chmod, quelle lettre représente le droit de lecture ?",
+      "reponses": ["r", "w", "x", "l"],
+      "bonne_reponse": "r",
+      "explication": "Les droits sont r (read), w (write), x (execute)."
+    },
+    {
+      "question": "Avec chmod, quel nombre correspond aux droits rwx ?",
+      "reponses": ["7", "6", "5", "3"],
+      "bonne_reponse": "7",
+      "explication": "En notation numérique, rwx = 4+2+1 = 7."
+    },
+    {
+      "question": "Quelle commande affiche des informations détaillées sur les fichiers (permissions, taille, etc.) ?",
+      "reponses": ["ls -l", "ls -a", "stat", "file"],
+      "bonne_reponse": "ls -l",
+      "explication": "ls -l affiche un listing détaillé avec droits, propriétaire, taille, date."
+    },
+    {
+      "question": "Quelle option de ls affiche aussi les fichiers cachés ?",
+      "reponses": ["-a", "-l", "-h", "-R"],
+      "bonne_reponse": "-a",
+      "explication": "ls -a inclut les fichiers dont le nom commence par un point."
+    },
+    {
+      "question": "Quelle option de ls liste récursivement les sous-répertoires ?",
+      "reponses": ["-R", "-r", "-a", "-d"],
+      "bonne_reponse": "-R",
+      "explication": "ls -R descend dans l’arborescence."
+    },
+    {
+      "question": "Quelle commande affiche l’espace disque utilisé par les systèmes de fichiers ?",
+      "reponses": ["df", "du", "lsblk", "mount"],
+      "bonne_reponse": "df",
+      "explication": "df montre l’utilisation de l’espace disque par système de fichiers monté."
+    },
+    {
+      "question": "Quelle option de df affiche les tailles de manière lisible (K,M,G) ?",
+      "reponses": ["-h", "-k", "-m", "-H"],
+      "bonne_reponse": "-h",
+      "explication": "df -h affiche les tailles en format lisible pour l’humain."
+    },
+    {
+      "question": "Quelle commande affiche l’espace utilisé par un dossier donné ?",
+      "reponses": ["du", "df", "ls -l", "stat"],
+      "bonne_reponse": "du",
+      "explication": "du calcule l’espace disque utilisé par des fichiers/répertoires."
+    },
+    {
+      "question": "Quelle option de du donne une taille lisible (K,M,G) ?",
+      "reponses": ["-h", "-s", "-k", "-l"],
+      "bonne_reponse": "-h",
+      "explication": "du -h affiche les tailles en format lisible."
+    },
+    {
+      "question": "Quelle commande affiche uniquement le total pour un dossier avec du ?",
+      "reponses": ["du -s", "du -a", "du -h", "du -d"],
+      "bonne_reponse": "du -s",
+      "explication": "du -s donne un résumé (summary) pour chaque argument."
+    },
+    {
+      "question": "Quelle commande affiche les processus en temps réel ?",
+      "reponses": ["top", "ps", "htop", "uptime"],
+      "bonne_reponse": "top",
+      "explication": "top affiche les processus actifs et l’utilisation CPU/mémoire en temps réel."
+    },
+    {
+      "question": "Quelle commande affiche une liste instantanée des processus ?",
+      "reponses": ["ps", "top", "jobs", "kill"],
+      "bonne_reponse": "ps",
+      "explication": "ps montre l’état des processus à un instant donné."
+    },
+    {
+      "question": "Quelle commande envoie un signal à un processus (par exemple pour le tuer) ?",
+      "reponses": ["kill", "ps", "top", "exit"],
+      "bonne_reponse": "kill",
+      "explication": "kill envoie un signal aux processus, par défaut TERM."
+    },
+    {
+      "question": "Quel signal kill est généralement utilisé pour forcer la terminaison immédiate ?",
+      "reponses": ["-9", "-15", "-1", "-2"],
+      "bonne_reponse": "-9",
+      "explication": "kill -9 envoie SIGKILL, non interceptable par le processus."
+    },
+    {
+      "question": "Quelle commande affiche les variables d’environnement ?",
+      "reponses": ["env", "printenv", "set", "export"],
+      "bonne_reponse": "env",
+      "explication": "env liste les variables d’environnement du processus courant."
+    },
+    {
+      "question": "Quelle commande définit une variable d’environnement pour les processus enfants du shell ?",
+      "reponses": ["export", "env", "set", "alias"],
+      "bonne_reponse": "export",
+      "explication": "export VAR=val rend VAR visible dans les processus enfants."
+    },
+    {
+      "question": "Quelle commande affiche le nom de l’utilisateur courant ?",
+      "reponses": ["whoami", "id", "users", "logname"],
+      "bonne_reponse": "whoami",
+      "explication": "whoami affiche l’utilisateur effectif courant."
+    },
+    {
+      "question": "Quelle commande affiche l’identifiant utilisateur et groupes ?",
+      "reponses": ["id", "whoami", "groups", "logname"],
+      "bonne_reponse": "id",
+      "explication": "id montre l’UID, GID et groupes de l’utilisateur."
+    },
+    {
+      "question": "Quelle commande permet d’exécuter une commande en tant que superutilisateur (sudoers) ?",
+      "reponses": ["sudo", "su", "doas", "root"],
+      "bonne_reponse": "sudo",
+      "explication": "sudo exécute une commande avec les privilèges d’un autre utilisateur, souvent root."
+    },
+    {
+      "question": "Quelle commande ouvre un shell root en se connectant comme superutilisateur ?",
+      "reponses": ["su", "sudo -s", "login", "sh"],
+      "bonne_reponse": "su",
+      "explication": "su (sans argument ou avec root) ouvre un shell sous un autre utilisateur."
+    },
+    {
+      "question": "Quel fichier contient la liste des utilisateurs (logins) du système ?",
+      "reponses": ["/etc/passwd", "/etc/shadow", "/etc/group", "/etc/login"],
+      "bonne_reponse": "/etc/passwd",
+      "explication": "Le fichier /etc/passwd répertorie les comptes utilisateurs."
+    },
+    {
+      "question": "Quel fichier contient les mots de passe chiffrés des utilisateurs ?",
+      "reponses": ["/etc/shadow", "/etc/passwd", "/etc/group", "/etc/secure"],
+      "bonne_reponse": "/etc/shadow",
+      "explication": "/etc/shadow stocke les hachages de mot de passe et est lisible uniquement par root."
+    },
+    {
+      "question": "Quel fichier répertorie les groupes système et leurs membres ?",
+      "reponses": ["/etc/group", "/etc/passwd", "/etc/shadow", "/etc/gshadow"],
+      "bonne_reponse": "/etc/group",
+      "explication": "/etc/group liste les groupes et les utilisateurs membres."
+    },
+    {
+      "question": "Quel fichier décrit les systèmes de fichiers montés au démarrage ?",
+      "reponses": ["/etc/fstab", "/etc/mtab", "/etc/mounts", "/etc/filesystems"],
+      "bonne_reponse": "/etc/fstab",
+      "explication": "/etc/fstab décrit les partitions et systèmes de fichiers à monter automatiquement."
+    },
+    {
+      "question": "Quelle commande monte manuellement un système de fichiers ?",
+      "reponses": ["mount", "umount", "fsck", "mkfs"],
+      "bonne_reponse": "mount",
+      "explication": "mount associe un système de fichiers à un point de montage."
+    },
+    {
+      "question": "Quelle commande démonte un système de fichiers ?",
+      "reponses": ["umount", "unmount", "mount -u", "detach"],
+      "bonne_reponse": "umount",
+      "explication": "umount démonte un système de fichiers (point de montage ou device)."
+    },
+    {
+      "question": "Quelle commande affiche les systèmes de fichiers actuellement montés ?",
+      "reponses": ["mount", "df", "lsblk", "cat /etc/fstab"],
+      "bonne_reponse": "mount",
+      "explication": "mount sans argument liste les montages actuels."
+    },
+    {
+      "question": "Quelle commande liste les périphériques de bloc (disques, partitions) ?",
+      "reponses": ["lsblk", "fdisk -l", "blkid", "df"],
+      "bonne_reponse": "lsblk",
+      "explication": "lsblk liste les périphériques de bloc sous forme d’arbre."
+    },
+    {
+      "question": "Quelle commande affiche et configure les adresses IP et interfaces (outil moderne) ?",
+      "reponses": ["ip", "ifconfig", "route", "netstat"],
+      "bonne_reponse": "ip",
+      "explication": "ip (ip addr, ip link, etc.) est l’outil moderne pour la configuration réseau."
+    },
+    {
+      "question": "Quelle commande teste la connectivité IP vers une adresse ou un nom de domaine ?",
+      "reponses": ["ping", "traceroute", "curl", "nc"],
+      "bonne_reponse": "ping",
+      "explication": "ping envoie des paquets ICMP echo request pour tester la connectivité."
+    },
+    {
+      "question": "Quelle commande affiche le chemin réseau entre votre machine et une destination ?",
+      "reponses": ["traceroute", "ping", "route", "tracepath"],
+      "bonne_reponse": "traceroute",
+      "explication": "traceroute montre les routeurs traversés jusqu’à la destination."
+    },
+    {
+      "question": "Quelle commande affiche les sockets réseau ouvertes (outil moderne) ?",
+      "reponses": ["ss", "netstat", "lsof", "ip"],
+      "bonne_reponse": "ss",
+      "explication": "ss est l’outil moderne pour lister les connexions réseau."
+    },
+    {
+      "question": "Quelle option de ss liste les ports TCP/UDP à l’écoute avec les PID ?",
+      "reponses": ["ss -tulnp", "ss -an", "ss -l", "ss -p"],
+      "bonne_reponse": "ss -tulnp",
+      "explication": "ss -tulnp montre les sockets TCP/UDP en écoute avec les processus."
+    },
+    {
+      "question": "Quelle commande permet de compresser un fichier au format gzip ?",
+      "reponses": ["gzip", "bzip2", "xz", "tar"],
+      "bonne_reponse": "gzip",
+      "explication": "gzip compresse un fichier en .gz."
+    },
+    {
+      "question": "Quelle commande décompresse un fichier .gz ?",
+      "reponses": ["gunzip", "gzip -d", "tar -xzf", "unz"],
+      "bonne_reponse": "gunzip",
+      "explication": "gunzip (ou gzip -d) décompresse un fichier gzip."
+    },
+    {
+      "question": "Quelle commande crée une archive tar à partir d’un dossier ?",
+      "reponses": ["tar -cf", "tar -xf", "tar -tf", "tar -zf"],
+      "bonne_reponse": "tar -cf",
+      "explication": "tar -cf archive.tar dossier crée une archive non compressée."
+    },
+    {
+      "question": "Quelle commande extrait le contenu d’une archive tar ?",
+      "reponses": ["tar -xf", "tar -cf", "tar -tf", "untar"],
+      "bonne_reponse": "tar -xf",
+      "explication": "tar -xf archive.tar extrait les fichiers."
+    },
+    {
+      "question": "Quelle commande liste le contenu d’une archive tar sans l’extraire ?",
+      "reponses": ["tar -tf", "tar -xf", "tar -cf", "tar -lf"],
+      "bonne_reponse": "tar -tf",
+      "explication": "tar -tf archive.tar affiche la liste des fichiers contenus."
+    },
+    {
+      "question": "Quelle option combine tar et gzip pour créer une archive compressée .tar.gz ?",
+      "reponses": ["tar -czf", "tar -cfz", "tar -zcf", "tar -xzf"],
+      "bonne_reponse": "tar -czf",
+      "explication": "tar -czf archive.tar.gz dossier archive et compresse en gzip."
+    },
+    {
+      "question": "Quelle commande affiche la date et l’heure actuelles ?",
+      "reponses": ["date", "time", "clock", "now"],
+      "bonne_reponse": "date",
+      "explication": "date affiche la date et l’heure système."
+    },
+    {
+      "question": "Quelle commande affiche depuis combien de temps le système est démarré ?",
+      "reponses": ["uptime", "who -b", "top", "uname"],
+      "bonne_reponse": "uptime",
+      "explication": "uptime montre la durée depuis le dernier boot et la charge système."
+    },
+    {
+      "question": "Quelle commande affiche le type et la version du noyau ?",
+      "reponses": ["uname -r", "uname -a", "cat /proc/version", "lsb_release -a"],
+      "bonne_reponse": "uname -r",
+      "explication": "uname -r affiche la version du noyau Linux."
+    },
+    {
+      "question": "Quelle commande affiche des informations complètes sur le noyau et le système ?",
+      "reponses": ["uname -a", "uname -r", "hostnamectl", "lsb_release -a"],
+      "bonne_reponse": "uname -a",
+      "explication": "uname -a affiche noyau, architecture et autres infos."
+    },
+    {
+      "question": "Quelle commande affiche le nom d’hôte de la machine ?",
+      "reponses": ["hostname", "uname", "host", "dnsname"],
+      "bonne_reponse": "hostname",
+      "explication": "hostname affiche ou définit le nom de la machine."
+    },
+    {
+      "question": "Quelle commande affiche les utilisateurs actuellement connectés ?",
+      "reponses": ["who", "w", "last", "users"],
+      "bonne_reponse": "who",
+      "explication": "who affiche les sessions utilisateurs ouvertes."
+    },
+    {
+      "question": "Quelle commande affiche un résumé des utilisateurs connectés et de la charge ?",
+      "reponses": ["w", "who", "uptime", "top"],
+      "bonne_reponse": "w",
+      "explication": "w combine la liste des utilisateurs et des infos de charge."
+    },
+    {
+      "question": "Quelle commande affiche l’historique des connexions utilisateurs passées ?",
+      "reponses": ["last", "who", "w", "history"],
+      "bonne_reponse": "last",
+      "explication": "last lit /var/log/wtmp et montre les connexions passées."
+    },
+    {
+      "question": "Quelle commande affiche ou modifie la langue/locale courante dans le shell ?",
+      "reponses": ["locale", "env", "export", "language"],
+      "bonne_reponse": "locale",
+      "explication": "locale montre et permet de vérifier les paramètres de localisation."
+    },
+    {
+      "question": "Quelle commande édite un fichier texte en mode terminal (éditeur simple très courant) ?",
+      "reponses": ["nano", "vim", "vi", "ed"],
+      "bonne_reponse": "nano",
+      "explication": "nano est un éditeur en mode texte simple d’utilisation."
+    },
+    {
+      "question": "Quelle commande recherche un paquet dans la base APT (Debian/Ubuntu) ?",
+      "reponses": ["apt search", "apt install", "apt update", "dpkg -l"],
+      "bonne_reponse": "apt search",
+      "explication": "apt search motif permet de chercher un paquet dans les dépôts APT."
+    },
+    {
+      "question": "Quelle commande installe un paquet avec APT (Debian/Ubuntu) ?",
+      "reponses": ["apt install", "apt add", "apt get", "apt upgrade"],
+      "bonne_reponse": "apt install",
+      "explication": "apt install paquet installe un paquet et ses dépendances."
+    },
+    {
+      "question": "Quelle commande met à jour la liste des paquets disponibles (APT) ?",
+      "reponses": ["apt update", "apt upgrade", "apt refresh", "apt sync"],
+      "bonne_reponse": "apt update",
+      "explication": "apt update télécharge les dernières listes depuis les dépôts."
+    },
+    {
+      "question": "Quelle commande met à jour les paquets installés (APT) ?",
+      "reponses": ["apt upgrade", "apt update", "apt dist-upgrade", "apt full"],
+      "bonne_reponse": "apt upgrade",
+      "explication": "apt upgrade met à jour les paquets déjà installés."
+    },
+    {
+      "question": "Quelle commande affiche les unités systemd et l’état des services ?",
+      "reponses": ["systemctl", "service", "journalctl", "init"],
+      "bonne_reponse": "systemctl",
+      "explication": "systemctl gère et interroge le gestionnaire de services systemd."
+    },
+    {
+      "question": "Quelle commande démarre un service systemd nommé nginx ?",
+      "reponses": ["systemctl start nginx", "service nginx run", "nginx start", "init nginx"],
+      "bonne_reponse": "systemctl start nginx",
+      "explication": "systemctl start <service> démarre un service systemd."
+    },
+    {
+      "question": "Quelle commande affiche les journaux systemd d’un service ?",
+      "reponses": ["journalctl -u service", "systemctl log service", "dmesg service", "tail /var/log/syslog"],
+      "bonne_reponse": "journalctl -u service",
+      "explication": "journalctl -u nomservice affiche les logs associés à une unité systemd."
+    },
+    {
+      "question": "Quelle commande affiche les derniers messages du noyau (ring buffer) ?",
+      "reponses": ["dmesg", "journalctl -k", "logread", "syslog"],
+      "bonne_reponse": "dmesg",
+      "explication": "dmesg lit le tampon de messages du noyau."
+    },
+    {
+      "question": "Quelle commande exécute une commande en arrière-plan en ajoutant un & ?",
+      "reponses": ["Utiliser &", "bg", "fg", "jobs &"],
+      "bonne_reponse": "Utiliser &",
+      "explication": "En shell, ajouter & à la fin lance la commande en arrière-plan."
+    },
+    {
+      "question": "Quelle commande liste les jobs en arrière-plan dans le shell courant ?",
+      "reponses": ["jobs", "ps", "bg", "fg"],
+      "bonne_reponse": "jobs",
+      "explication": "jobs liste les tâches contrôlées par le shell (jobs)."
+    },
+    {
+      "question": "Quelle commande ramène un job en avant-plan ?",
+      "reponses": ["fg", "bg", "jobs", "exit"],
+      "bonne_reponse": "fg",
+      "explication": "fg remet au premier plan un job en arrière-plan ou stoppé."
+    },
+    {
+      "question": "Quelle commande relance un job en arrière-plan qui était stoppé ?",
+      "reponses": ["bg", "fg", "jobs", "run"],
+      "bonne_reponse": "bg",
+      "explication": "bg reprend un job stoppé en l’exécutant en arrière-plan."
+    },
+    {
+      "question": "Quelle commande concatène la sortie d’une commande dans un fichier en l’écrasant ?",
+      "reponses": ["commande > fichier", "commande >> fichier", "commande | fichier", "commande < fichier"],
+      "bonne_reponse": "commande > fichier",
+      "explication": "L’opérateur > redirige la sortie standard en écrasant le fichier."
+    },
+    {
+      "question": "Quelle commande ajoute la sortie d’une commande à la fin d’un fichier sans l’écraser ?",
+      "reponses": ["commande >> fichier", "commande > fichier", "cat >> commande", "append fichier"],
+      "bonne_reponse": "commande >> fichier",
+      "explication": "L’opérateur >> ajoute à la fin du fichier (append)."
+    },
+    {
+      "question": "Quelle commande envoie la sortie d’une commande en entrée d’une autre commande ?",
+      "reponses": ["commande1 | commande2", "commande1 > commande2", "commande1 < commande2", "commande1 >> commande2"],
+      "bonne_reponse": "commande1 | commande2",
+      "explication": "Le pipe | connecte la sortie standard de la première à l’entrée standard de la seconde."
+    },
+    {
+      "question": "Quelle commande compte le nombre de lignes d’un fichier ?",
+      "reponses": ["wc -l", "wc -w", "nl", "lines"],
+      "bonne_reponse": "wc -l",
+      "explication": "wc -l compte le nombre de lignes dans un flux ou fichier."
+    },
+    {
+      "question": "Quelle commande affiche les différences entre deux fichiers texte ?",
+      "reponses": ["diff", "cmp", "patch", "compare"],
+      "bonne_reponse": "diff",
+      "explication": "diff montre les différences ligne par ligne entre deux fichiers."
+    },
+    {
+      "question": "Quelle commande remplace du texte dans un flux selon des expressions régulières simples ?",
+      "reponses": ["sed", "awk", "tr", "perl"],
+      "bonne_reponse": "sed",
+      "explication": "sed est un éditeur de flux qui permet de faire des remplacements simples."
+    },
+    {
+      "question": "Quelle commande affiche les lignes correspondant à un modèle et peut faire du traitement colonne par colonne ?",
+      "reponses": ["awk", "sed", "cut", "grep"],
+      "bonne_reponse": "awk",
+      "explication": "awk est un langage de traitement de texte orienté colonnes."
+    },
+    {
+      "question": "Quelle commande découpe des colonnes dans une ligne en fonction d’un séparateur ?",
+      "reponses": ["cut", "awk", "sed", "split"],
+      "bonne_reponse": "cut",
+      "explication": "cut extrait des champs d’une ligne selon des positions ou un délimiteur."
+    },
+    {
+      "question": "Quelle commande divise un fichier en plusieurs morceaux de taille fixe ?",
+      "reponses": ["split", "cut", "dd", "csplit"],
+      "bonne_reponse": "split",
+      "explication": "split découpe un fichier en parties de taille définie."
+    },
+    {
+      "question": "Quelle commande copie des blocs bruts de données (utilisée pour les images disque) ?",
+      "reponses": ["dd", "cp", "cat", "tar"],
+      "bonne_reponse": "dd",
+      "explication": "dd copie des blocs de données, souvent utilisé pour écrire des images sur des disques."
+    },
+    {
+      "question": "Quelle commande affiche les 20 premières lignes d’un fichier ?",
+      "reponses": ["head -n 20", "tail -n 20", "head 20", "cat -20"],
+      "bonne_reponse": "head -n 20",
+      "explication": "head -n 20 affiche les 20 premières lignes."
+    },
+    {
+      "question": "Quelle commande affiche les 50 dernières lignes d’un fichier ?",
+      "reponses": ["tail -n 50", "head -n 50", "tail 50", "cat -50"],
+      "bonne_reponse": "tail -n 50",
+      "explication": "tail -n 50 affiche les 50 dernières lignes."
+    },
+    {
+      "question": "Quelle commande affiche le type d’un fichier (binaire, texte, image, etc.) ?",
+      "reponses": ["file", "stat", "ls -l", "type"],
+      "bonne_reponse": "file",
+      "explication": "file inspecte le contenu et indique le type du fichier."
+    },
+    {
+      "question": "Quelle commande affiche des informations détaillées sur un inode (taille, dates, etc.) ?",
+      "reponses": ["stat", "ls -i", "df", "du"],
+      "bonne_reponse": "stat",
+      "explication": "stat fournit des informations détaillées sur un fichier ou répertoire."
+    },
+    {
+      "question": "Quelle commande crée un lien symbolique vers un fichier ?",
+      "reponses": ["ln -s", "ln", "link", "symlink"],
+      "bonne_reponse": "ln -s",
+      "explication": "ln -s source lien crée un lien symbolique (soft link)."
+    },
+    {
+      "question": "Quelle commande crée un lien physique (hard link) vers un fichier ?",
+      "reponses": ["ln", "ln -s", "link", "cp -l"],
+      "bonne_reponse": "ln",
+      "explication": "ln sans -s crée un lien physique vers un inode existant."
+    },
+    {
+      "question": "Quelle commande affiche les lignes uniques triées d’un fichier ?",
+      "reponses": ["sort -u", "uniq", "sort", "grep -u"],
+      "bonne_reponse": "sort -u",
+      "explication": "sort -u trie et supprime les doublons en une seule étape."
+    },
+    {
+      "question": "Quelle commande supprime seulement les doublons consécutifs dans un flux trié ?",
+      "reponses": ["uniq", "sort -u", "grep -v", "cut"],
+      "bonne_reponse": "uniq",
+      "explication": "uniq supprime les doublons consécutifs, souvent utilisé après sort."
+    },
+    {
+      "question": "Quelle commande affiche les lignes d’un fichier contenant un motif et peut montrer le nombre d’occurrences ?",
+      "reponses": ["grep -c", "grep -n", "grep -r", "wc -c"],
+      "bonne_reponse": "grep -c",
+      "explication": "grep -c compte le nombre de lignes correspondant au motif."
+    },
+    {
+      "question": "Quelle commande permet de planifier l’exécution unique d’une commande à une heure donnée ?",
+      "reponses": ["at", "cron", "systemd-timer", "sleep"],
+      "bonne_reponse": "at",
+      "explication": "at exécute une commande une seule fois à l’heure spécifiée."
+    },
+    {
+      "question": "Quelle commande permet d’éditer la table des tâches périodiques de l’utilisateur ?",
+      "reponses": ["crontab -e", "cronedit", "systemctl edit cron", "at -e"],
+      "bonne_reponse": "crontab -e",
+      "explication": "crontab -e ouvre l’éditeur pour modifier les tâches cron de l’utilisateur."
+    }
+  ]
+}

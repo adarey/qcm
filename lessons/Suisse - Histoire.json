@@ -1,0 +1,130 @@
+{
+  "questions": [
+    {
+      "question": "En quelle année est traditionnellement datée la fondation de la Confédération suisse (Pacte fédéral)?",
+      "reponses": ["1291", "1315", "1499", "1648"],
+      "bonne_reponse": "1291",
+      "explication": "Le Pacte fédéral conclu entre Uri, Schwytz et Unterwald est daté de 1291, considéré comme acte fondateur de la Confédération."
+    },
+    {
+      "question": "Quels sont les trois cantons fondateurs de la Confédération de 1291 ?",
+      "reponses": ["Uri, Schwytz, Unterwald", "Zurich, Berne, Genève", "Vaud, Tessin, Grisons", "Lucerne, Fribourg, Soleure"],
+      "bonne_reponse": "Uri, Schwytz, Unterwald",
+      "explication": "Les trois Waldstätten – Uri, Schwytz et Unterwald – concluent une alliance défensive en 1291."
+    },
+    {
+      "question": "Quel serment légendaire, prêté au Rütli, symbolise la naissance de la Confédération ?",
+      "reponses": ["Le Rütlischwur", "Le Serment de Grütli", "Le Serment de Morgarten", "Le Pacte de Westphalie"],
+      "bonne_reponse": "Le Rütlischwur",
+      "explication": "Le Rütlischwur est le serment prêté, selon la légende, par les représentants des cantons primitifs sur la prairie du Rütli au-dessus du lac des Quatre-Cantons."
+    },
+    {
+      "question": "Contre quelle puissance les Confédérés remportent-ils la bataille de Morgarten en 1315 ?",
+      "reponses": ["Les Habsbourg", "Le Royaume de France", "Le Duché de Bourgogne", "L'Empire ottoman"],
+      "bonne_reponse": "Les Habsbourg",
+      "explication": "À Morgarten, les troupes des cantons primitifs infligent une lourde défaite aux Habsbourg, consolidant leur autonomie.[web:137]"
+    },
+    {
+      "question": "Quel canton urbain rejoint la Confédération en 1351, marquant un élargissement important ?",
+      "reponses": ["Zurich", "Genève", "Fribourg", "Bâle"],
+      "bonne_reponse": "Zurich",
+      "explication": "Zurich s'allie aux cantons primitifs en 1351, ouvrant la Confédération aux grandes villes alémaniques.[web:137]"
+    },
+    {
+      "question": "Quel traité de 1499 consacre de facto l’indépendance de la Confédération vis-à-vis du Saint-Empire ?",
+      "reponses": ["La paix de Bâle", "La paix de Westphalie", "Le traité de Bâle après la guerre de Souabe", "Le traité de Marignano"],
+      "bonne_reponse": "Le traité de Bâle après la guerre de Souabe",
+      "explication": "Après la guerre de Souabe, la paix de Bâle de 1499 reconnaît de fait l’autonomie de la Confédération envers l’Empire.[web:137]"
+    },
+    {
+      "question": "La grande défaite suisse de 1515 face à la France, marquant un tournant vers la neutralité, se déroule à :",
+      "reponses": ["Marignan", "Morgarten", "Sempach", "Grandson"],
+      "bonne_reponse": "Marignan",
+      "explication": "La défaite de Marignan en 1515 met fin à la politique d’expansion militaire et ouvre la voie à la neutralité suisse.[web:143][web:152]"
+    },
+    {
+      "question": "Quel réformateur français fait de Genève un grand centre du protestantisme au XVIe siècle ?",
+      "reponses": ["Jean Calvin", "Martin Luther", "Ulrich Zwingli", "Johann Bullinger"],
+      "bonne_reponse": "Jean Calvin",
+      "explication": "Jean Calvin s'installe à Genève et y établit une importante ville réformée influençant l'Europe entière.[web:139]"
+    },
+    {
+      "question": "Dans quelle ville Ulrich Zwingli mène-t-il la Réforme en Suisse alémanique ?",
+      "reponses": ["Zurich", "Bâle", "Lucerne", "Berne"],
+      "bonne_reponse": "Zurich",
+      "explication": "Ulrich Zwingli introduit la Réforme à Zurich dès les années 1520, provoquant des tensions religieuses.[web:139]"
+    },
+    {
+      "question": "Quel traité de 1648 reconnaît officiellement l'indépendance de la Suisse par rapport au Saint-Empire ?",
+      "reponses": ["La paix de Westphalie", "La paix d'Augsbourg", "Le traité de Paris", "Le traité de Vienne"],
+      "bonne_reponse": "La paix de Westphalie",
+      "explication": "La paix de Westphalie, mettant fin à la guerre de Trente Ans, consacre l'indépendance juridique de la Confédération.[web:137][web:143]"
+    },
+    {
+      "question": "Comment appelle-t-on l'organisation politique de la Suisse entre 1648 et 1798 ?",
+      "reponses": ["L'Ancien Régime", "La Régénération", "La Confédération fédérale moderne", "La République helvétique"],
+      "bonne_reponse": "L'Ancien Régime",
+      "explication": "Entre 1648 et 1798, la Suisse est un ensemble de cantons quasi souverains liés par des alliances, période appelée Ancien Régime.[web:139]"
+    },
+    {
+      "question": "Quel événement met fin à l’Ancienne Confédération en 1798 ?",
+      "reponses": ["L'invasion française et la création de la République helvétique", "La paix de Westphalie", "La bataille de Sempach", "La création du chemin de fer du Gothard"],
+      "bonne_reponse": "L'invasion française et la création de la République helvétique",
+      "explication": "Les troupes françaises envahissent la Suisse en 1798 et imposent un État centralisé, la République helvétique.[web:141][web:152]"
+    },
+    {
+      "question": "Comment s'appelle l'État centralisé créé en Suisse sous l'influence de la France entre 1798 et 1803 ?",
+      "reponses": ["La République helvétique", "La Confédération helvétique", "La Ligue suisse", "La République fédérale"],
+      "bonne_reponse": "La République helvétique",
+      "explication": "La République helvétique remplace la Confédération d’Ancien Régime par un État unitaire selon le modèle français.[web:139]"
+    },
+    {
+      "question": "Quel acte de 1803, imposé par Napoléon, rétablit une Confédération plus décentralisée après la République helvétique ?",
+      "reponses": ["L'Acte de Médiation", "Le Pacte fédéral", "Le Concordat de Paris", "L'Acte final de Vienne"],
+      "bonne_reponse": "L'Acte de Médiation",
+      "explication": "L'Acte de Médiation de 1803 réorganise la Suisse en Confédération de cantons semi-autonomes sous tutelle française.[web:139]"
+    },
+    {
+      "question": "En quelle année les grandes puissances européennes reconnaissent-elles officiellement la neutralité permanente de la Suisse ?",
+      "reponses": ["1815", "1648", "1848", "1920"],
+      "bonne_reponse": "1815",
+      "explication": "Le Congrès de Vienne en 1815 confirme et garantit la neutralité permanente de la Suisse.[web:143][web:152]"
+    },
+    {
+      "question": "Quel conflit civil oppose, en 1847, cantons catholiques conservateurs et cantons libéraux ?",
+      "reponses": ["La guerre du Sonderbund", "La guerre de Souabe", "La guerre du Toggenbourg", "La guerre des Paysans"],
+      "bonne_reponse": "La guerre du Sonderbund",
+      "explication": "L'alliance séparée de cantons catholiques, le Sonderbund, est vaincue par les forces fédérales en 1847, ouvrant la voie à une constitution fédérale.[web:137][web:139]"
+    },
+    {
+      "question": "En quelle année la Suisse adopte-t-elle sa première Constitution fédérale moderne ?",
+      "reponses": ["1848", "1815", "1874", "1914"],
+      "bonne_reponse": "1848",
+      "explication": "La Constitution de 1848 transforme la Confédération en État fédéral avec parlement bicaméral.[web:137][web:139]"
+    },
+    {
+      "question": "Quel principe politique central est introduit par la révision totale de la Constitution suisse en 1874 ?",
+      "reponses": ["L'initiative populaire fédérale et le référendum facultatif", "Le suffrage féminin", "La proportionnelle au Conseil national", "L'élection populaire du Conseil fédéral"],
+      "bonne_reponse": "L'initiative populaire fédérale et le référendum facultatif",
+      "explication": "La révision de 1874 renforce la démocratie directe en introduisant le référendum facultatif au niveau fédéral.[web:137][web:140]"
+    },
+    {
+      "question": "Quel nouveau canton à majorité francophone est créé en 1979 après sécession d'une partie de Berne ?",
+      "reponses": ["Le Jura", "Vaud", "Neuchâtel", "Fribourg"],
+      "bonne_reponse": "Le Jura",
+      "explication": "À la suite de tensions linguistiques et culturelles, le canton du Jura est créé en 1979 par séparation du Jura bernois.[web:137]"
+    },
+    {
+      "question": "En quelle année les femmes obtiennent-elles le droit de vote au niveau fédéral en Suisse ?",
+      "reponses": ["1971", "1945", "1959", "1981"],
+      "bonne_reponse": "1971",
+      "explication": "Le suffrage féminin fédéral est accepté par votation populaire en 1971.[web:137][web:148]"
+    },
+    {
+      "question": "Dans quel contexte la Suisse mobilise-t-elle l'armée et affirme sa neutralité armée sous le général Guisan ?",
+      "reponses": ["Pendant la Seconde Guerre mondiale", "Pendant la Première Guerre mondiale", "Lors de la guerre du Sonderbund", "Lors de la guerre de Trente Ans"],
+      "bonne_reponse": "Pendant la Seconde Guerre mondiale",
+      "explication": "En 1939, la Suisse se mobilise et suit une stratégie de défense basée sur le Réduit national tout en restant officiellement neutre.[web:149]"
+    }
+  ]
+}

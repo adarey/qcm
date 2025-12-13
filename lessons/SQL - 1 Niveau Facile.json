@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "question": "Quel mot-clé est utilisé pour sélectionner des colonnes dans une table SQL ?",
+      "reponses": ["SELECT", "FROM", "WHERE", "INSERT"],
+      "bonne_reponse": "SELECT",
+      "explication": "SELECT permet de choisir les colonnes à afficher dans le résultat d’une requête."
+    },
+    {
+      "question": "Quel mot-clé indique la table à partir de laquelle lire les données ?",
+      "reponses": ["INTO", "FROM", "TABLE", "SOURCE"],
+      "bonne_reponse": "FROM",
+      "explication": "FROM spécifie la table (ou les tables) sur lesquelles porte la requête."
+    },
+    {
+      "question": "Quelle requête permet de sélectionner toutes les colonnes de la table clients ?",
+      "reponses": [
+        "SELECT * FROM clients;",
+        "SELECT clients FROM *;",
+        "GET * FROM clients;",
+        "SELECT ALL clients;"
+      ],
+      "bonne_reponse": "SELECT * FROM clients;",
+      "explication": "L’astérisque * signifie toutes les colonnes de la table."
+    },
+    {
+      "question": "Quel mot-clé SQL est utilisé pour filtrer les lignes selon une condition ?",
+      "reponses": ["ORDER BY", "GROUP BY", "WHERE", "LIMIT"],
+      "bonne_reponse": "WHERE",
+      "explication": "WHERE restreint les lignes retournées en fonction d’une condition logique."
+    },
+    {
+      "question": "Quelle clause est utilisée pour trier les résultats d’une requête ?",
+      "reponses": ["ORDER BY", "SORT BY", "GROUP BY", "FILTER BY"],
+      "bonne_reponse": "ORDER BY",
+      "explication": "ORDER BY permet de trier la sortie selon une ou plusieurs colonnes."
+    },
+    {
+      "question": "Quel mot-clé permet de supprimer toutes les lignes d’une table sans supprimer la table elle-même ?",
+      "reponses": ["DROP TABLE", "DELETE TABLE", "TRUNCATE DATABASE", "DELETE FROM"],
+      "bonne_reponse": "DELETE FROM",
+      "explication": "DELETE FROM nom_table supprime les lignes de la table, mais la structure reste."
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour insérer une nouvelle ligne dans une table ?",
+      "reponses": ["ADD INTO", "INSERT INTO", "UPDATE", "MERGE"],
+      "bonne_reponse": "INSERT INTO",
+      "explication": "INSERT INTO permet d’ajouter une ou plusieurs nouvelles lignes dans une table."
+    },
+    {
+      "question": "Quelle commande permet de modifier des données existantes dans une table ?",
+      "reponses": ["UPDATE", "CHANGE", "ALTER DATA", "MODIFY"],
+      "bonne_reponse": "UPDATE",
+      "explication": "UPDATE met à jour les valeurs des colonnes pour les lignes correspondant à une condition."
+    },
+    {
+      "question": "Quel type SQL est le plus adapté pour stocker un nombre entier ?",
+      "reponses": ["VARCHAR", "DATE", "INT", "TEXT"],
+      "bonne_reponse": "INT",
+      "explication": "Le type INT est conçu pour stocker des valeurs entières."
+    },
+    {
+      "question": "Quel type SQL est le plus adapté pour stocker une chaîne de caractères de longueur variable ?",
+      "reponses": ["CHAR", "VARCHAR", "INT", "FLOAT"],
+      "bonne_reponse": "VARCHAR",
+      "explication": "VARCHAR permet de stocker des chaînes de longueur variable avec une limite maximale."
+    },
+    {
+      "question": "Quelle clause permet de limiter le nombre de lignes retournées par une requête ?",
+      "reponses": ["LIMIT", "TOP", "ROWNUM", "OFFSET"],
+      "bonne_reponse": "LIMIT",
+      "explication": "Dans de nombreux SGBD (MySQL, PostgreSQL), LIMIT réduit le nombre de lignes renvoyées."
+    },
+    {
+      "question": "Comment sélectionner uniquement les valeurs distinctes d’une colonne pays dans la table clients ?",
+      "reponses": [
+        "SELECT DISTINCT pays FROM clients;",
+        "SELECT UNIQUE pays FROM clients;",
+        "SELECT pays FROM clients GROUP BY ALL;",
+        "SELECT ONLY pays FROM clients;"
+      ],
+      "bonne_reponse": "SELECT DISTINCT pays FROM clients;",
+      "explication": "DISTINCT élimine les doublons dans le résultat."
+    },
+    {
+      "question": "Quel mot-clé permet de renommer une colonne dans le résultat d’une requête ?",
+      "reponses": ["AS", "LIKE", "RENAME", "ALIAS"],
+      "bonne_reponse": "AS",
+      "explication": "AS crée un alias pour une colonne ou une expression dans le résultat."
+    },
+    {
+      "question": "Quelle condition permet de rechercher les noms commençant par 'A' ?",
+      "reponses": [
+        "WHERE nom = 'A*'",
+        "WHERE nom LIKE 'A%'",
+        "WHERE nom LIKE '%A'",
+        "WHERE nom CONTAINS 'A'"
+      ],
+      "bonne_reponse": "WHERE nom LIKE 'A%'",
+      "explication": "Le symbole % représente n’importe quelle suite de caractères, donc 'A%' signifie commence par A."
+    },
+    {
+      "question": "Quel mot-clé permet de supprimer complètement une table, y compris sa structure ?",
+      "reponses": ["DELETE TABLE", "DROP TABLE", "REMOVE TABLE", "TRUNCATE TABLE"],
+      "bonne_reponse": "DROP TABLE",
+      "explication": "DROP TABLE supprime la table et sa définition du schéma."
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour créer une nouvelle table ?",
+      "reponses": ["MAKE TABLE", "CREATE TABLE", "NEW TABLE", "ADD TABLE"],
+      "bonne_reponse": "CREATE TABLE",
+      "explication": "CREATE TABLE définit la structure d’une nouvelle table dans la base de données."
+    },
+    {
+      "question": "Quelle clause est utilisée pour regrouper les lignes par valeurs communes d’une colonne ?",
+      "reponses": ["ORDER BY", "GROUP BY", "PARTITION BY", "CLUSTER BY"],
+      "bonne_reponse": "GROUP BY",
+      "explication": "GROUP BY agrège les lignes partageant la même valeur dans une ou plusieurs colonnes."
+    },
+    {
+      "question": "Quel opérateur logique est utilisé pour combiner deux conditions qui doivent être toutes les deux vraies ?",
+      "reponses": ["NOT", "OR", "AND", "XOR"],
+      "bonne_reponse": "AND",
+      "explication": "AND impose que les deux conditions soient vraies pour que le résultat soit vrai."
+    },
+    {
+      "question": "Quel opérateur logique retourne vrai si au moins une des conditions est vraie ?",
+      "reponses": ["NOT", "OR", "AND", "BETWEEN"],
+      "bonne_reponse": "OR",
+      "explication": "OR est vrai si au moins une des conditions est vraie."
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour tester si une valeur est comprise dans une liste de valeurs ?",
+      "reponses": ["LIKE", "BETWEEN", "IN", "EXISTS"],
+      "bonne_reponse": "IN",
+      "explication": "IN teste l’appartenance à une liste, par exemple WHERE pays IN ('FR','CH','BE')."
+    }
+  ]
+}

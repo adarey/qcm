@@ -1,0 +1,994 @@
+{
+  "questions": [
+    {
+      "question": "Quel est l'objectif principal de TypeScript ?",
+      "reponses": [
+        "Ajouter le typage statique à JavaScript",
+        "Remplacer complètement JavaScript dans les navigateurs",
+        "Remplacer HTML et CSS",
+        "Créer des bases de données relationnelles"
+      ],
+      "bonne_reponse": "Ajouter le typage statique à JavaScript",
+      "explication": "TypeScript est un sur-ensemble de JavaScript qui ajoute un système de types statique optionnel."
+    },
+    {
+      "question": "TypeScript est compilé vers :",
+      "reponses": [
+        "JavaScript",
+        "WebAssembly uniquement",
+        "Langage machine natif",
+        "Python"
+      ],
+      "bonne_reponse": "JavaScript",
+      "explication": "Le compilateur TypeScript transforme le code TS en JavaScript standard exécutable partout."
+    },
+    {
+      "question": "Quelle extension de fichier utilise-t-on pour un fichier TypeScript classique ?",
+      "reponses": [
+        ".ts",
+        ".tsx",
+        ".js",
+        ".tsc"
+      ],
+      "bonne_reponse": ".ts",
+      "explication": "Les fichiers TypeScript standards utilisent l’extension .ts."
+    },
+    {
+      "question": "Quelle extension de fichier utilise-t-on pour du TypeScript avec JSX (ex: React) ?",
+      "reponses": [
+        ".tsx",
+        ".jsx",
+        ".ts",
+        ".rtsx"
+      ],
+      "bonne_reponse": ".tsx",
+      "explication": "Les fichiers .tsx contiennent du TypeScript avec du JSX."
+    },
+    {
+      "question": "Quel est le type primitif pour représenter des nombres en TypeScript ?",
+      "reponses": [
+        "number",
+        "int",
+        "float",
+        "numeric"
+      ],
+      "bonne_reponse": "number",
+      "explication": "Comme en JavaScript, tous les nombres sont du type number (double précision)."
+    },
+    {
+      "question": "Quel type primitif représente du texte en TypeScript ?",
+      "reponses": [
+        "string",
+        "text",
+        "char",
+        "varchar"
+      ],
+      "bonne_reponse": "string",
+      "explication": "Les chaînes de caractères sont de type string."
+    },
+    {
+      "question": "Quel type primitif représente une valeur vraie ou fausse ?",
+      "reponses": [
+        "boolean",
+        "bool",
+        "truefalse",
+        "binary"
+      ],
+      "bonne_reponse": "boolean",
+      "explication": "Le type boolean représente true ou false."
+    },
+    {
+      "question": "Quel type spéciale représente une valeur potentiellement non définie ou absente ?",
+      "reponses": [
+        "undefined",
+        "void",
+        "never",
+        "missing"
+      ],
+      "bonne_reponse": "undefined",
+      "explication": "undefined est une valeur possible indiquant qu'une variable n'a pas été initialisée."
+    },
+    {
+      "question": "Quel type spécial représente l’absence intentionnelle de toute valeur de retour d’une fonction ?",
+      "reponses": [
+        "void",
+        "null",
+        "never",
+        "unit"
+      ],
+      "bonne_reponse": "void",
+      "explication": "Une fonction qui ne retourne rien utilise généralement le type de retour void."
+    },
+    {
+      "question": "Quel type spécial représente un code qui ne termine jamais normalement (ex: exception, boucle infinie) ?",
+      "reponses": [
+        "never",
+        "void",
+        "unknown",
+        "null"
+      ],
+      "bonne_reponse": "never",
+      "explication": "never signale que la fonction ne renvoie jamais de valeur (ni même undefined)."
+    },
+    {
+      "question": "Quel type très permissif permet d’accepter une valeur de n’importe quel type, tout en désactivant la sécurité de type ?",
+      "reponses": [
+        "any",
+        "unknown",
+        "object",
+        "mixed"
+      ],
+      "bonne_reponse": "any",
+      "explication": "any désactive les vérifications de type pour cette valeur, à utiliser avec prudence."
+    },
+    {
+      "question": "Quel type est plus sûr qu’any car il nécessite un check de type avant utilisation ?",
+      "reponses": [
+        "unknown",
+        "any",
+        "object",
+        "never"
+      ],
+      "bonne_reponse": "unknown",
+      "explication": "unknown force à faire un test de type ou un cast avant d’utiliser la valeur."
+    },
+    {
+      "question": "Quel type utilise-t-on pour représenter un tableau de nombres ?",
+      "reponses": [
+        "number[]",
+        "array<number>",
+        "num[]",
+        "list<number>"
+      ],
+      "bonne_reponse": "number[]",
+      "explication": "La forme la plus courante pour un tableau est type[] comme number[]."
+    },
+    {
+      "question": "Quelle autre syntaxe générique est équivalente à number[] ?",
+      "reponses": [
+        "Array<number>",
+        "List<number>",
+        "Vector<number>",
+        "Set<number>"
+      ],
+      "bonne_reponse": "Array<number>",
+      "explication": "number[] et Array<number> sont équivalents."
+    },
+    {
+      "question": "Quel est le type d’un tuple contenant exactement un string puis un number ?",
+      "reponses": [
+        "[string, number]",
+        "Array<string | number>",
+        "[number, string]",
+        "(string, number)"
+      ],
+      "bonne_reponse": "[string, number]",
+      "explication": "Les tuples se notent avec les types dans l’ordre : [string, number]."
+    },
+    {
+      "question": "Quel mot-clé permet de définir un alias de type personnalisé ?",
+      "reponses": [
+        "type",
+        "alias",
+        "typedef",
+        "using"
+      ],
+      "bonne_reponse": "type",
+      "explication": "type Nom = ...; crée un alias de type."
+    },
+    {
+      "question": "Quel mot-clé sert à déclarer une interface décrivant la forme d’un objet ?",
+      "reponses": [
+        "interface",
+        "struct",
+        "shape",
+        "schema"
+      ],
+      "bonne_reponse": "interface",
+      "explication": "interface Person { ... } décrit la structure attendue d’un objet."
+    },
+    {
+      "question": "Quelle syntaxe correcte pour déclarer une interface User avec un champ name:string obligatoire ?",
+      "reponses": [
+        "interface User { name: string; }",
+        "type User: { string name }",
+        "class User { string name; }",
+        "User interface { string name; }"
+      ],
+      "bonne_reponse": "interface User { name: string; }",
+      "explication": "Dans une interface, on décrit les propriétés comme name: type;."
+    },
+    {
+      "question": "Comment rendre une propriété optionnelle dans une interface ?",
+      "reponses": [
+        "En ajoutant un ? après le nom",
+        "En la mettant entre []",
+        "En ajoutant le mot-clé optional",
+        "En utilisant le type any"
+      ],
+      "bonne_reponse": "En ajoutant un ? après le nom",
+      "explication": "age?: number indique que la propriété peut être absente."
+    },
+    {
+      "question": "Quelle interface décrit un objet avec une clé string et une valeur number pour n’importe quel nom de propriété ?",
+      "reponses": [
+        "interface T { [key: string]: number; }",
+        "interface T { key: string, value: number; }",
+        "interface T { *: number; }",
+        "interface T { index: string => number; }"
+      ],
+      "bonne_reponse": "interface T { [key: string]: number; }",
+      "explication": "Un index signature [key: string]: number permet des propriétés dynamiques de type number."
+    },
+    {
+      "question": "Quel mot-clé permet de déclarer une variable dont le type est automatiquement inféré à partir de la valeur ?",
+      "reponses": [
+        "let",
+        "var",
+        "auto",
+        "infer"
+      ],
+      "bonne_reponse": "let",
+      "explication": "Avec let x = 1, TypeScript déduit le type de x (ici number) sans annotation explicite."
+    },
+    {
+      "question": "Quelle syntaxe correcte pour annoter une variable age de type number ?",
+      "reponses": [
+        "let age: number = 30;",
+        "number age = 30;",
+        "let number age = 30;",
+        "age: number = 30;"
+      ],
+      "bonne_reponse": "let age: number = 30;",
+      "explication": "La notation est nom: Type juste après la variable."
+    },
+    {
+      "question": "Quelle syntaxe correcte pour typer le paramètre name d’une fonction greet en string ?",
+      "reponses": [
+        "function greet(name: string) { ... }",
+        "function greet(string name) { ... }",
+        "function greet(name) : string { ... }",
+        "function greet: string(name) { ... }"
+      ],
+      "bonne_reponse": "function greet(name: string) { ... }",
+      "explication": "Les paramètres se typent comme name: Type dans la signature."
+    },
+    {
+      "question": "Comment annoter une fonction qui prend deux number et retourne un number ?",
+      "reponses": [
+        "function add(a: number, b: number): number { ... }",
+        "function add(a, b): number, number { ... }",
+        "number function add(a, b) { ... }",
+        "function add: number(a, b) { ... }"
+      ],
+      "bonne_reponse": "function add(a: number, b: number): number { ... }",
+      "explication": "On précise : type pour chaque paramètre puis : type de retour après la parenthèse."
+    },
+    {
+      "question": "Quel type utiliser pour une fonction qui ne retourne jamais (lance toujours une erreur) ?",
+      "reponses": [
+        "never",
+        "void",
+        "null",
+        "unknown"
+      ],
+      "bonne_reponse": "never",
+      "explication": "Une fonction qui lance systématiquement une exception a un type de retour never."
+    },
+    {
+      "question": "Quelle syntaxe donne le type d’une fonction qui prend un string et retourne un number ?",
+      "reponses": [
+        "(s: string) => number",
+        "string -> number",
+        "fn(string): number",
+        "Function<string, number>"
+      ],
+      "bonne_reponse": "(s: string) => number",
+      "explication": "Les types de fonctions utilisent la flèche => en TypeScript."
+    },
+    {
+      "question": "Quel mot-clé permet de définir une union de types (par exemple string ou number) ?",
+      "reponses": [
+        "Le symbole |",
+        "Le symbole &",
+        "Le mot-clé union",
+        "Le mot-clé either"
+      ],
+      "bonne_reponse": "Le symbole |",
+      "explication": "string | number signifie une valeur pouvant être string ou number."
+    },
+    {
+      "question": "Quel mot-clé ou symbole permet de définir une intersection de types (combinaison d’objets) ?",
+      "reponses": [
+        "Le symbole &",
+        "Le symbole |",
+        "Le mot-clé intersect",
+        "Le mot-clé merge"
+      ],
+      "bonne_reponse": "Le symbole &",
+      "explication": "A & B combine les propriétés de A et B."
+    },
+    {
+      "question": "Quel mot-clé permet de déclarer une énumération simple en TypeScript ?",
+      "reponses": [
+        "enum",
+        "enumtype",
+        "set",
+        "flags"
+      ],
+      "bonne_reponse": "enum",
+      "explication": "enum Color { Red, Green, Blue } déclare une énumération."
+    },
+    {
+      "question": "Comment activer strictement toutes les vérifications de type strictes recommandées dans TypeScript ?",
+      "reponses": [
+        "En mettant \"strict\": true dans tsconfig.json",
+        "En lançant tsc --strict-off",
+        "En utilisant l’extension .strict.ts",
+        "Ce n’est pas configurable"
+      ],
+      "bonne_reponse": "En mettant \"strict\": true dans tsconfig.json",
+      "explication": "L’option strict active un ensemble cohérent de règles strictes."
+    },
+    {
+      "question": "Quel fichier de configuration central est utilisé par TypeScript dans un projet ?",
+      "reponses": [
+        "tsconfig.json",
+        "typescript.config",
+        "ts.conf",
+        "ts-settings.json"
+      ],
+      "bonne_reponse": "tsconfig.json",
+      "explication": "tsconfig.json décrit les options de compilation et les fichiers inclus."
+    },
+    {
+      "question": "Quel champ de tsconfig.json indique la version cible de JavaScript générée ?",
+      "reponses": [
+        "\"target\"",
+        "\"module\"",
+        "\"lib\"",
+        "\"outDir\""
+      ],
+      "bonne_reponse": "\"target\"",
+      "explication": "target précise la version JS (ES5, ES2015, ES2020, etc.) visée par le transpileur."
+    },
+    {
+      "question": "Quel champ de tsconfig.json indique le système de modules généré (CommonJS, ESNext, etc.) ?",
+      "reponses": [
+        "\"module\"",
+        "\"target\"",
+        "\"rootDir\"",
+        "\"jsx\""
+      ],
+      "bonne_reponse": "\"module\"",
+      "explication": "module règle le format de modules émis (commonjs, esnext, etc.)."
+    },
+    {
+      "question": "Quel champ de tsconfig.json indique le dossier de sortie du JavaScript compilé ?",
+      "reponses": [
+        "\"outDir\"",
+        "\"rootDir\"",
+        "\"baseUrl\"",
+        "\"paths\""
+      ],
+      "bonne_reponse": "\"outDir\"",
+      "explication": "outDir est le répertoire dans lequel le JS transpilé est écrit."
+    },
+    {
+      "question": "Quel champ tsconfig.json restreint l’arborescence source à partir de laquelle TypeScript résout les imports relatifs ?",
+      "reponses": [
+        "\"rootDir\"",
+        "\"baseUrl\"",
+        "\"include\"",
+        "\"paths\""
+      ],
+      "bonne_reponse": "\"rootDir\"",
+      "explication": "rootDir précise le répertoire racine des fichiers source TS."
+    },
+    {
+      "question": "Quel champ tsconfig.json permet de définir la racine logique pour les imports non relatifs (alias) ?",
+      "reponses": [
+        "\"baseUrl\"",
+        "\"rootDir\"",
+        "\"moduleResolution\"",
+        "\"types\""
+      ],
+      "bonne_reponse": "\"baseUrl\"",
+      "explication": "baseUrl indique le répertoire de base utilisé pour résoudre les imports absolus personnalisés."
+    },
+    {
+      "question": "Quel champ tsconfig.json permet d’associer des alias d’import (par exemple @app/*) à des chemins physiques ?",
+      "reponses": [
+        "\"paths\"",
+        "\"aliases\"",
+        "\"map\"",
+        "\"imports\""
+      ],
+      "bonne_reponse": "\"paths\"",
+      "explication": "paths permet de définir des motifs d’alias mappés sur des chemins réels."
+    },
+    {
+      "question": "Comment activer la vérification stricte de null et undefined sur les types ?",
+      "reponses": [
+        "En activant \"strictNullChecks\": true",
+        "En activant \"noImplicitAny\": true",
+        "En passant l’option --null-strict",
+        "Ce n’est pas possible"
+      ],
+      "bonne_reponse": "En activant \"strictNullChecks\": true",
+      "explication": "strictNullChecks force à gérer explicitement null et undefined dans les types."
+    },
+    {
+      "question": "Quelle option tsconfig empêche implicitement les variables de type any quand on oublie une annotation ?",
+      "reponses": [
+        "\"noImplicitAny\": true",
+        "\"noImplicitThis\": true",
+        "\"alwaysStrict\": true",
+        "\"noUnusedLocals\": true"
+      ],
+      "bonne_reponse": "\"noImplicitAny\": true",
+      "explication": "noImplicitAny signale les types any implicites non voulus."
+    },
+    {
+      "question": "Quelle option tsconfig signale les paramètres de fonctions jamais utilisés ?",
+      "reponses": [
+        "\"noUnusedParameters\": true",
+        "\"noUnusedLocals\": true",
+        "\"alwaysStrict\": true",
+        "\"noFallthroughCasesInSwitch\": true"
+      ],
+      "bonne_reponse": "\"noUnusedParameters\": true",
+      "explication": "noUnusedParameters aide à nettoyer les signatures inutiles."
+    },
+    {
+      "question": "Quelle option tsconfig signale les variables locales déclarées mais jamais utilisées ?",
+      "reponses": [
+        "\"noUnusedLocals\": true",
+        "\"noImplicitAny\": true",
+        "\"noImplicitReturns\": true",
+        "\"removeComments\": true"
+      ],
+      "bonne_reponse": "\"noUnusedLocals\": true",
+      "explication": "noUnusedLocals aide à supprimer le code mort."
+    },
+    {
+      "question": "Quel mot-clé permet d’exporter une fonction ou une constante depuis un module TypeScript ?",
+      "reponses": [
+        "export",
+        "public",
+        "extern",
+        "global"
+      ],
+      "bonne_reponse": "export",
+      "explication": "On écrit export const x = ...; ou export function f() { ... }."
+    },
+    {
+      "question": "Quel mot-clé permet d’importer un export par défaut d’un module ?",
+      "reponses": [
+        "import",
+        "require",
+        "include",
+        "use"
+      ],
+      "bonne_reponse": "import",
+      "explication": "import MyDefault from \"./module\"; importe l’export par défaut."
+    },
+    {
+      "question": "Quelle syntaxe correcte pour importer un export nommé helper depuis \"./utils\" ?",
+      "reponses": [
+        "import { helper } from \"./utils\";",
+        "import helper from {\"./utils\"};",
+        "import helper(\"./utils\");",
+        "from \"./utils\" import helper;"
+      ],
+      "bonne_reponse": "import { helper } from \"./utils\";",
+      "explication": "Les exports nommés sont importés via import { nom } from path."
+    },
+    {
+      "question": "Quel mot-clé permet de déclarer un paramètre de fonction avec une valeur par défaut ?",
+      "reponses": [
+        "Aucun mot-clé, on utilise = dans la signature",
+        "default",
+        "optional",
+        "static"
+      ],
+      "bonne_reponse": "Aucun mot-clé, on utilise = dans la signature",
+      "explication": "function f(x: number = 0) { ... } définit une valeur par défaut."
+    },
+    {
+      "question": "Comment typer un paramètre rest (nombre variable d’arguments) de nombres ?",
+      "reponses": [
+        "...values: number[]",
+        "*values: number",
+        "values...: number",
+        "values: ...number"
+      ],
+      "bonne_reponse": "...values: number[]",
+      "explication": "Le paramètre rest est un tableau : ...values: number[]."
+    },
+    {
+      "question": "Quel type utilise-t-on pour un objet générique sans structure particulière (clé/valeur) ?",
+      "reponses": [
+        "Record<string, unknown>",
+        "any",
+        "{}",
+        "object"
+      ],
+      "bonne_reponse": "Record<string, unknown>",
+      "explication": "Record<string, unknown> décrit un mapping générique de clés string vers des valeurs inconnues, plus sûr qu’object brut."
+    },
+    {
+      "question": "Quel type utilises-tu pour un callback qui ne prend aucun argument et ne retourne rien ?",
+      "reponses": [
+        "() => void",
+        "void()",
+        "function",
+        "callback"
+      ],
+      "bonne_reponse": "() => void",
+      "explication": "Le type de fonction se décrit par la signature : () => void."
+    },
+    {
+      "question": "Quel opérateur permet de faire un \"type assertion\" (cast) dans TypeScript, en syntaxe JSX-friendly ?",
+      "reponses": [
+        "value as Type",
+        "<Type>value",
+        "(Type)value",
+        "cast(Type, value)"
+      ],
+      "bonne_reponse": "value as Type",
+      "explication": "La syntaxe value as Type est recommandée, surtout en .tsx."
+    },
+    {
+      "question": "Quel opérateur de TypeScript/Javascript teste simultanément égalité de valeur et de type ?",
+      "reponses": [
+        "===",
+        "==",
+        "=",
+        "!==="
+      ],
+      "bonne_reponse": "===",
+      "explication": "=== est l’opérateur d’égalité stricte."
+    },
+    {
+      "question": "Dans une interface, comment marquer une propriété en lecture seule ?",
+      "reponses": [
+        "readonly avant le nom",
+        "const devant le type",
+        "immutable après le type",
+        "final avant le type"
+      ],
+      "bonne_reponse": "readonly avant le nom",
+      "explication": "readonly id: string; indique que la propriété ne peut pas être modifiée après initialisation."
+    },
+    {
+      "question": "Quel utilitaire intégré rend toutes les propriétés d’un type obligatoires ?",
+      "reponses": [
+        "Required<T>",
+        "Partial<T>",
+        "Readonly<T>",
+        "Pick<T, K>"
+      ],
+      "bonne_reponse": "Required<T>",
+      "explication": "Required<T> enlève les ? sur toutes les propriétés."
+    },
+    {
+      "question": "Quel utilitaire intégré rend toutes les propriétés d’un type optionnelles ?",
+      "reponses": [
+        "Partial<T>",
+        "Required<T>",
+        "Readonly<T>",
+        "Record<T>"
+      ],
+      "bonne_reponse": "Partial<T>",
+      "explication": "Partial<T> transforme chaque prop en prop?: type."
+    },
+    {
+      "question": "Quel utilitaire intégré rend toutes les propriétés en lecture seule ?",
+      "reponses": [
+        "Readonly<T>",
+        "Partial<T>",
+        "Immutable<T>",
+        "Frozen<T>"
+      ],
+      "bonne_reponse": "Readonly<T>",
+      "explication": "Readonly<T> ajoute readonly à toutes les propriétés."
+    },
+    {
+      "question": "Quel utilitaire intégré construit un type ne contenant qu’un sous-ensemble de clés d’un type de base ?",
+      "reponses": [
+        "Pick<T, K>",
+        "Omit<T, K>",
+        "Extract<T, K>",
+        "Subset<T, K>"
+      ],
+      "bonne_reponse": "Pick<T, K>",
+      "explication": "Pick<T, K> sélectionne uniquement les propriétés listées dans K."
+    },
+    {
+      "question": "Quel utilitaire intégré construit un type en supprimant certaines clés d’un type de base ?",
+      "reponses": [
+        "Omit<T, K>",
+        "Pick<T, K>",
+        "Exclude<T, U>",
+        "Filter<T, K>"
+      ],
+      "bonne_reponse": "Omit<T, K>",
+      "explication": "Omit<T, K> enlève les propriétés K de T."
+    },
+    {
+      "question": "Quelle commande de base lance la compilation TypeScript en utilisant tsconfig.json ?",
+      "reponses": [
+        "tsc",
+        "tsc --file",
+        "npm run ts",
+        "tsconfig build"
+      ],
+      "bonne_reponse": "tsc",
+      "explication": "Sans argument, tsc lit tsconfig.json et compile le projet."
+    },
+    {
+      "question": "Quelle option de tsc permet de recompiler automatiquement lorsqu’un fichier change ?",
+      "reponses": [
+        "--watch",
+        "--live",
+        "--reload",
+        "--dev"
+      ],
+      "bonne_reponse": "--watch",
+      "explication": "tsc --watch observe les fichiers et recompilera à chaque changement."
+    },
+    {
+      "question": "Quel champ package.json permet de compiler TypeScript avec un script npm simple ?",
+      "reponses": [
+        "\"scripts\": { \"build\": \"tsc\" }",
+        "\"build\": \"tsc\" à la racine",
+        "\"tsc\": \"build\"",
+        "\"compile\": [\"tsc\"]"
+      ],
+      "bonne_reponse": "\"scripts\": { \"build\": \"tsc\" }",
+      "explication": "On ajoute un script dans package.json pour pouvoir exécuter npm run build."
+    },
+    {
+      "question": "Comment indiquer à TypeScript que l’on travaille en modules ES (imports/exports) plutôt qu’en scripts globaux ?",
+      "reponses": [
+        "En utilisant des mots-clés import/export dans les fichiers",
+        "En renommant les fichiers en .msts",
+        "En activant \"module\": \"none\"",
+        "Ce n’est pas configurable"
+      ],
+      "bonne_reponse": "En utilisant des mots-clés import/export dans les fichiers",
+      "explication": "Dès qu’un fichier contient import ou export, il est traité comme module."
+    },
+    {
+      "question": "Comment typer un objet simple représentant un point avec x et y en number avec un alias ?",
+      "reponses": [
+        "type Point = { x: number; y: number; }",
+        "Point := { number x, number y }",
+        "alias Point { x: number; y: number }",
+        "class Point(x: number, y: number)"
+      ],
+      "bonne_reponse": "type Point = { x: number; y: number; }",
+      "explication": "Un alias de type objet se déclare avec type Nom = { ... }."
+    },
+    {
+      "question": "Quelle syntaxe de narrowing utilise un check typeof pour distinguer un string d’un number ?",
+      "reponses": [
+        "if (typeof value === \"string\") { ... }",
+        "if (type value == string) { ... }",
+        "if (value is string) { ... }",
+        "if (kindof value == 'string') { ... }"
+      ],
+      "bonne_reponse": "if (typeof value === \"string\") { ... }",
+      "explication": "typeof value === \"string\" est un guard de type standard."
+    },
+    {
+      "question": "Quel opérateur optionnel évite de lever une erreur lorsque l’on accède à une propriété potentiellement undefined ?",
+      "reponses": [
+        "?. (optional chaining)",
+        "?? (nullish coalescing)",
+        "|| (or logique)",
+        "!! (double négation)"
+      ],
+      "bonne_reponse": "?. (optional chaining)",
+      "explication": "user?.address?.city lit la propriété uniquement si chaque maillon est défini."
+    },
+    {
+      "question": "Quel opérateur retourne la valeur de droite uniquement si celle de gauche est null ou undefined ?",
+      "reponses": [
+        "?? (nullish coalescing)",
+        "||",
+        "?:",
+        "??="
+      ],
+      "bonne_reponse": "?? (nullish coalescing)",
+      "explication": "x ?? y renvoie x sauf si x vaut null ou undefined, dans ce cas y."
+    },
+    {
+      "question": "Quel type utiliser pour une variable qui peut être soit un string, soit null ?",
+      "reponses": [
+        "string | null",
+        "string?",
+        "nullable<string>",
+        "string & null"
+      ],
+      "bonne_reponse": "string | null",
+      "explication": "On exprime cela par une union string | null."
+    },
+    {
+      "question": "Comment déclarer un champ read-only et optionnel dans une interface Config ?",
+      "reponses": [
+        "interface Config { readonly path?: string; }",
+        "interface Config { path: readonly? string; }",
+        "interface Config { path readonly?: string; }",
+        "interface Config { optional readonly path: string; }"
+      ],
+      "bonne_reponse": "interface Config { readonly path?: string; }",
+      "explication": "readonly vient avant le nom, ? après le nom."
+    },
+    {
+      "question": "Quelle interface décrit une fonction prenant un string et retournant un boolean ?",
+      "reponses": [
+        "interface TestFn { (s: string): boolean; }",
+        "interface TestFn { s: string => boolean; }",
+        "interface TestFn { fn(s: string): boolean; }",
+        "interface TestFn(s: string): boolean;"
+      ],
+      "bonne_reponse": "interface TestFn { (s: string): boolean; }",
+      "explication": "On peut décrire une signature de fonction directement dans une interface."
+    },
+    {
+      "question": "Quel mot-clé définit un type générique simple (ex: Box<T>) ?",
+      "reponses": [
+        "La syntaxe <T> après le nom",
+        "generic T",
+        "template<T>",
+        "type<T>"
+      ],
+      "bonne_reponse": "La syntaxe <T> après le nom",
+      "explication": "type Box<T> = { value: T }; définit un type générique paramétré par T."
+    },
+    {
+      "question": "Comment installer TypeScript globalement avec npm ?",
+      "reponses": [
+        "npm install -g typescript",
+        "npm add typescript-global",
+        "npm install ts",
+        "npm install --ts"
+      ],
+      "bonne_reponse": "npm install -g typescript",
+      "explication": "Le package npm s'appelle typescript."
+    },
+    {
+      "question": "Quel package npm installe les types pour un package JS comme react s’il ne les fournit pas ?",
+      "reponses": [
+        "@types/react",
+        "react-types",
+        "ts-react",
+        "react.d.ts"
+      ],
+      "bonne_reponse": "@types/react",
+      "explication": "Les définitions de type communautaires sont publiées sous le scope @types."
+    },
+    {
+      "question": "Quel champ tsconfig permet de lister explicitement les fichiers inclus dans la compilation ?",
+      "reponses": [
+        "\"include\"",
+        "\"files\" ou \"include\"",
+        "\"sources\"",
+        "\"modules\""
+      ],
+      "bonne_reponse": "\"include\"",
+      "explication": "include accepte des motifs de fichiers (globs) à compiler."
+    },
+    {
+      "question": "Quel champ tsconfig permet d’exclure certains fichiers ou dossiers de la compilation ?",
+      "reponses": [
+        "\"exclude\"",
+        "\"ignore\"",
+        "\"omit\"",
+        "\"hidden\""
+      ],
+      "bonne_reponse": "\"exclude\"",
+      "explication": "exclude écarte des fichiers/dossiers comme node_modules, dist, etc."
+    },
+    {
+      "question": "Quelle option tsconfig génère également les fichiers de définition .d.ts pour les types publics d’un module ?",
+      "reponses": [
+        "\"declaration\": true",
+        "\"types\": \"on\"",
+        "\"emitDefinitions\": true",
+        "\"dts\": true"
+      ],
+      "bonne_reponse": "\"declaration\": true",
+      "explication": "declaration demande au compilateur de produire des fichiers .d.ts correspondants."
+    },
+    {
+      "question": "Quel mot-clé TypeScript permet d’indiquer qu’une variable peut être réassignée (non constante) ?",
+      "reponses": [
+        "let",
+        "const",
+        "var seulement",
+        "mutable"
+      ],
+      "bonne_reponse": "let",
+      "explication": "let permet la réassignation (comme var mais avec un scope bloc)."
+    },
+    {
+      "question": "Quel mot-clé TypeScript/JS empêche toute réassignation de la variable après initialisation ?",
+      "reponses": [
+        "const",
+        "let",
+        "readonly",
+        "final"
+      ],
+      "bonne_reponse": "const",
+      "explication": "const crée une référence non réaffectable."
+    },
+    {
+      "question": "Quel opérateur permet de fournir une valeur par défaut pour une variable potentiellement undefined avec || ?",
+      "reponses": [
+        "x || valeurParDefaut",
+        "x ?? valeurParDefaut",
+        "x ? valeurParDefaut : null",
+        "x ||| valeurParDefaut"
+      ],
+      "bonne_reponse": "x || valeurParDefaut",
+      "explication": "|| renvoie la première valeur truthy, souvent utilisée comme fallback simple."
+    },
+    {
+      "question": "Quel est le principal inconvénient d’utiliser any partout ?",
+      "reponses": [
+        "On perd la sécurité de type et l’aide à l’autocomplétion",
+        "Le code ne compile plus du tout",
+        "Le code est plus lent à l’exécution",
+        "Le code n’est plus compatible Node.js"
+      ],
+      "bonne_reponse": "On perd la sécurité de type et l’aide à l’autocomplétion",
+      "explication": "any désactive l’analyse statique, annulant l’intérêt principal de TypeScript."
+    },
+    {
+      "question": "Quel principe décrit le fait qu’un type avec plus de propriétés peut être utilisé là où un type plus simple est attendu ?",
+      "reponses": [
+        "Typage structurel",
+        "Typage nominal",
+        "Typage par sous-classe",
+        "Typage dynamique"
+      ],
+      "bonne_reponse": "Typage structurel",
+      "explication": "TypeScript utilise un typage structurel : la forme compte plus que le nom."
+    },
+    {
+      "question": "Comment écrire un alias de type pour une union littérale de directions \"up\", \"down\", \"left\", \"right\" ?",
+      "reponses": [
+        "type Direction = \"up\" | \"down\" | \"left\" | \"right\";",
+        "Direction = [\"up\",\"down\",\"left\",\"right\"]",
+        "enum Direction { up, down, left, right }",
+        "type Direction: string[] = ..."
+      ],
+      "bonne_reponse": "type Direction = \"up\" | \"down\" | \"left\" | \"right\";",
+      "explication": "Les unions de littéraux string sont très utiles pour restreindre les valeurs possibles."
+    },
+    {
+      "question": "Quel mot-clé dans une interface permet de dire qu’une propriété ne peut pas être ajoutée dynamiquement après coup (pas d’index signature) ?",
+      "reponses": [
+        "Ne rien mettre, simplement ne pas définir d’index signature",
+        "readonly seulement",
+        "final",
+        "locked"
+      ],
+      "bonne_reponse": "Ne rien mettre, simplement ne pas définir d’index signature",
+      "explication": "Sans index signature, seules les propriétés déclarées sont autorisées (modulo le typage structurel)."
+    },
+    {
+      "question": "Quel type utilitaire renvoie les clés d'un type sous forme d'union de chaînes ?",
+      "reponses": [
+        "keyof T",
+        "keys<T>",
+        "GetKeys<T>",
+        "PickKeys<T>"
+      ],
+      "bonne_reponse": "keyof T",
+      "explication": "keyof T produit une union des clés de T, par exemple \"id\" | \"name\"."
+    },
+    {
+      "question": "Comment déclarer une variable qui peut contenir soit un tableau de string, soit un seul string ?",
+      "reponses": [
+        "let v: string | string[];",
+        "let v: [string] | string;",
+        "let v: string[]?;",
+        "let v: oneOf<string, string[]>;"
+      ],
+      "bonne_reponse": "let v: string | string[];",
+      "explication": "On utilise une union entre string et string[]."
+    },
+    {
+      "question": "Quelle option tsconfig force le compilateur à considérer le code comme strictement ECMAScript module et activer use strict automatiquement ?",
+      "reponses": [
+        "\"alwaysStrict\": true",
+        "\"strictNullChecks\": true",
+        "\"module\": \"strict\"",
+        "\"target\": \"strict\""
+      ],
+      "bonne_reponse": "\"alwaysStrict\": true",
+      "explication": "alwaysStrict émet 'use strict' et vérifie que le code est strict."
+    },
+    {
+      "question": "Comment typer une fonction qui accepte soit un seul string, soit un tableau de string, et retourne toujours un tableau de string ?",
+      "reponses": [
+        "function toArray(input: string | string[]): string[] { ... }",
+        "function toArray(input: [string] | string[]): [string] { ... }",
+        "function toArray(input): string[] | string { ... }",
+        "string[] function toArray(string | string[]) { ... }"
+      ],
+      "bonne_reponse": "function toArray(input: string | string[]): string[] { ... }",
+      "explication": "On utilise une union en entrée et un type de retour précis."
+    },
+    {
+      "question": "Quel type utilitaire construit un type avec des clés string et valeurs T ?",
+      "reponses": [
+        "Record<string, T>",
+        "Map<string, T>",
+        "Dict<T>",
+        "KeyValue<T>"
+      ],
+      "bonne_reponse": "Record<string, T>",
+      "explication": "Record<K, V> définit un mapping K→V, très pratique pour les dictionnaires typés."
+    },
+    {
+      "question": "Comment déclarer un type pour une fonction callback qui reçoit une erreur possible (Error | null) et un résultat number ?",
+      "reponses": [
+        "type Callback = (err: Error | null, result: number) => void;",
+        "type Callback = (Error | null, number): void;",
+        "interface Callback(err, result): void;",
+        "Callback(err?: Error, result: number): void;"
+      ],
+      "bonne_reponse": "type Callback = (err: Error | null, result: number) => void;",
+      "explication": "On décrit la signature complète avec les types des paramètres et le type de retour."
+    },
+    {
+      "question": "Quel mot-clé dans un fichier .d.ts indique que l’on déclare des types pour un module externe existant JS ?",
+      "reponses": [
+        "declare",
+        "extern",
+        "module",
+        "typings"
+      ],
+      "bonne_reponse": "declare",
+      "explication": "declare permet de spécifier des signatures sans générer de JS."
+    },
+    {
+      "question": "Quel champ tsconfig permet d’ajouter implicitement des fichiers de type (comme @types/node) dans la compilation ?",
+      "reponses": [
+        "\"types\"",
+        "\"lib\"",
+        "\"include\"",
+        "\"declarations\""
+      ],
+      "bonne_reponse": "\"types\"",
+      "explication": "types restreint les packages de définitions chargés automatiquement."
+    },
+    {
+      "question": "Comment marquer une propriété comme pouvant être soit un string, soit undefined, dans un type strictNullChecks ?",
+      "reponses": [
+        "prop?: string",
+        "prop: string | undefined",
+        "Les deux réponses précédentes",
+        "On ne peut pas"
+      ],
+      "bonne_reponse": "Les deux réponses précédentes",
+      "explication": "prop?: string et prop: string | undefined sont proches mais pas identiques ; les deux admettent undefined comme valeur."
+    },
+    {
+      "question": "Quel concept décrit le fait que TypeScript vérifie les types au moment de la compilation et non à l’exécution ?",
+      "reponses": [
+        "Typage statique",
+        "Typage dynamique",
+        "Typage fort à l’exécution",
+        "Reflexion"
+      ],
+      "bonne_reponse": "Typage statique",
+      "explication": "TypeScript effectue l’analyse de type avant l’exécution, puis génère du JavaScript non typé."
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "questions": [
+    {
+      "question": "Quel peuple autochtone est à l'origine de la population du Maroc avant les conquêtes phéniciennes et arabes ?",
+      "reponses": ["Les Amazighs (Berbères)", "Les Romains", "Les Francs", "Les Vikings"],
+      "bonne_reponse": "Les Amazighs (Berbères)",
+      "explication": "Les Amazighs, souvent appelés Berbères, sont les habitants autochtones de l'Afrique du Nord, dont le Maroc.[web:161][web:164]"
+    },
+    {
+      "question": "Comment s'appelait le royaume antique des Amazighs qui a donné son nom au Maroc dans certaines langues européennes ?",
+      "reponses": ["Maurétanie", "Numidie", "Libye", "Carthage"],
+      "bonne_reponse": "Maurétanie",
+      "explication": "La Maurétanie antique occupait une partie de l'actuel Maroc et a inspiré le nom \"Morocco\" en anglais.[web:158][web:164]"
+    },
+    {
+      "question": "Quelle puissance méditerranéenne installe des comptoirs côtiers au Maroc dès l'Antiquité ?",
+      "reponses": ["Les Phéniciens", "Les Ottomans", "Les Francs", "Les Portugais"],
+      "bonne_reponse": "Les Phéniciens",
+      "explication": "Les Phéniciens, puis les Carthaginois, créent des comptoirs commerciaux sur les côtes atlantiques et méditerranéennes du Maroc.[web:158]"
+    },
+    {
+      "question": "Quelle civilisation domine le nord du Maroc après les guerres puniques, intégrant la région à son empire ?",
+      "reponses": ["L'Empire romain", "L'Empire byzantin", "L'Empire ottoman", "L'Empire perse"],
+      "bonne_reponse": "L'Empire romain",
+      "explication": "Après la chute de Carthage, Rome intègre une partie de l’actuel Maroc sous le nom de Maurétanie tingitane.[web:158]"
+    },
+    {
+      "question": "Quel site romain célèbre, près de Meknès, témoigne encore aujourd'hui de cette présence ?",
+      "reponses": ["Volubilis", "Lixus", "Carthage", "Leptis Magna"],
+      "bonne_reponse": "Volubilis",
+      "explication": "Volubilis est un site romain majeur au Maroc, connu pour ses mosaïques et vestiges monumentaux.[web:158]"
+    },
+    {
+      "question": "Quelle religion se diffuse au Maroc à partir du VIIe siècle avec l'arrivée des Arabes ?",
+      "reponses": ["L'islam", "Le christianisme orthodoxe", "Le bouddhisme", "L'hindouisme"],
+      "bonne_reponse": "L'islam",
+      "explication": "Les conquêtes arabes du VIIe siècle introduisent l'islam en Afrique du Nord, y compris au Maroc.[web:158]"
+    },
+    {
+      "question": "Quel chef d'origine arabe fonde au VIIIe siècle la première dynastie islamique marocaine, les Idrissides ?",
+      "reponses": ["Idris Ier", "Youssef ben Tachfine", "Al-Mansour", "Moulay Ismaïl"],
+      "bonne_reponse": "Idris Ier",
+      "explication": "Idris Ier, descendant du prophète, fonde la dynastie idrisside à la fin du VIIIe siècle à Fès.[web:166][web:169]"
+    },
+    {
+      "question": "Quelle ville devient un centre religieux et politique majeur sous les Idrissides ?",
+      "reponses": ["Fès", "Rabat", "Casablanca", "Marrakech"],
+      "bonne_reponse": "Fès",
+      "explication": "Fès est fondée et développée par les Idrissides et devient un grand centre de savoir islamique.[web:166]"
+    },
+    {
+      "question": "Quel grand empire berbère fondé au XIe siècle unifie le Maroc et une grande partie du Maghreb et de l'Espagne musulmane ?",
+      "reponses": ["Les Almoravides", "Les Almohades", "Les Mérinides", "Les Saadiens"],
+      "bonne_reponse": "Les Almoravides",
+      "explication": "Les Almoravides, issus du Sahara, créent un vaste empire incluant le Maroc et Al-Andalus.[web:166][web:173]"
+    },
+    {
+      "question": "Quelle ville emblématique les Almoravides fondent-ils au XIe siècle comme capitale dynastique ?",
+      "reponses": ["Marrakech", "Fès", "Tanger", "Rabat"],
+      "bonne_reponse": "Marrakech",
+      "explication": "Marrakech est fondée vers 1070 et devient la capitale des Almoravides puis d'autres dynasties.[web:166]"
+    },
+    {
+      "question": "Quelle dynastie remplace les Almoravides au XIIe siècle et étend encore l'empire marocain ?",
+      "reponses": ["Les Almohades", "Les Mérinides", "Les Wattassides", "Les Idrissides"],
+      "bonne_reponse": "Les Almohades",
+      "explication": "Les Almohades renversent les Almoravides et contrôlent le Maghreb et une grande partie de la péninsule Ibérique.[web:166]"
+    },
+    {
+      "question": "Quel dogme religieux mettent en avant les Almohades, à l'origine de leur nom signifiant « les unitaires » ?",
+      "reponses": ["L'unicité absolue de Dieu", "La Trinité", "La prédestination totale", "Le culte des saints"],
+      "bonne_reponse": "L'unicité absolue de Dieu",
+      "explication": "Le nom Almohade vient d'\"al-Muwahhidun\", les \"unitaires\", insistant sur le tawhid, l'unicité divine.[web:166]"
+    },
+    {
+      "question": "Quelle dynastie berbère prend le relais des Almohades à partir du XIIIe siècle, avec Fès comme capitale ?",
+      "reponses": ["Les Mérinides", "Les Saadiens", "Les Wattassides", "Les Alaouites"],
+      "bonne_reponse": "Les Mérinides",
+      "explication": "Les Mérinides, venus du nord-est du Maroc, installent leur capitale à Fès et construisent de nombreuses médersas.[web:163][web:166]"
+    },
+    {
+      "question": "Quelle dynastie succède aux Mérinides au XVe siècle, avant l'arrivée des Saadiens ?",
+      "reponses": ["Les Wattassides", "Les Almoravides", "Les Idrissides", "Les Ottomans"],
+      "bonne_reponse": "Les Wattassides",
+      "explication": "Les Wattassides, branche des Mérinides, gouvernent au XVe–XVIe siècle avant d'être renversés par les Saadiens.[web:163][web:169]"
+    },
+    {
+      "question": "Quelle dynastie marocaine du XVIe siècle s'illustre par la victoire de la bataille des Trois Rois (Alcácer-Quibir) en 1578 ?",
+      "reponses": ["Les Saadiens", "Les Almohades", "Les Mérinides", "Les Idrissides"],
+      "bonne_reponse": "Les Saadiens",
+      "explication": "Les Saadiens remportent la bataille d'Alcácer-Quibir contre le Portugal, où périssent trois rois, dont le roi portugais Sébastien Iᵉʳ.[web:166][web:167]"
+    },
+    {
+      "question": "Quelle ville oasienne du sud, d'où sont originaires les Alaouites, joue un rôle clé dans leur prise de pouvoir ?",
+      "reponses": ["Tafilalet", "Ouarzazate", "Taza", "Chefchaouen"],
+      "bonne_reponse": "Tafilalet",
+      "explication": "La dynastie alaouite, au pouvoir encore aujourd'hui, est originaire de la région du Tafilalet.[web:161][web:172]"
+    },
+    {
+      "question": "Quelle dynastie, toujours régnante aujourd'hui, s'installe au pouvoir au milieu du XVIIe siècle ?",
+      "reponses": ["Les Alaouites", "Les Saadiens", "Les Mérinides", "Les Almohades"],
+      "bonne_reponse": "Les Alaouites",
+      "explication": "La dynastie alaouite règne sur le Maroc depuis le XVIIe siècle, se présentant comme descendante du Prophète.[web:161][web:172]"
+    },
+    {
+      "question": "Quel sultan alaouite, au XVIIe siècle, fait de Meknès une capitale monumentale ?",
+      "reponses": ["Moulay Ismaïl", "Moulay Slimane", "Mohammed V", "Hassan II"],
+      "bonne_reponse": "Moulay Ismaïl",
+      "explication": "Moulay Ismaïl (règne 1672–1727) construit de vastes palais et remparts à Meknès, voulant rivaliser avec Versailles.[web:161][web:173]"
+    },
+    {
+      "question": "Quel pays européen le Maroc est-il le premier à reconnaître officiellement en 1777 ?",
+      "reponses": ["Les États-Unis d'Amérique", "La France révolutionnaire", "La Belgique", "La Grèce"],
+      "bonne_reponse": "Les États-Unis d'Amérique",
+      "explication": "En 1777, le Maroc est l'un des premiers États à reconnaître l'indépendance des États-Unis.[web:161]"
+    },
+    {
+      "question": "Comment s'appelle la zone côtière fameuse pour la course et la piraterie nord-africaine à l'époque moderne, incluant des ports marocains ?",
+      "reponses": ["La côte des Barbaresques", "La Côte d'Or", "La côte des Esclaves", "La Riviera"],
+      "bonne_reponse": "La côte des Barbaresques",
+      "explication": "Les ports du Maghreb, dont certains au Maroc, participent à la course en Méditerranée, appelée côte des Barbaresques.[web:176]"
+    },
+    {
+      "question": "Au XIXe siècle, quels deux pays européens deviennent les principales puissances intéressées par le Maroc ?",
+      "reponses": ["La France et l'Espagne", "Le Portugal et les Pays-Bas", "Le Royaume-Uni et l'Allemagne", "L'Italie et l'Autriche"],
+      "bonne_reponse": "La France et l'Espagne",
+      "explication": "La rivalité coloniale autour du Maroc oppose surtout la France et l'Espagne au tournant du XXe siècle.[web:160][web:171]"
+    },
+    {
+      "question": "Quel traité de 1912 établit officiellement le protectorat français sur la majeure partie du Maroc ?",
+      "reponses": ["Le traité de Fès", "Le traité de Versailles", "La convention d'Algésiras", "Le traité de Tétouan"],
+      "bonne_reponse": "Le traité de Fès",
+      "explication": "Le traité de Fès de 1912 institue le protectorat français sur le Maroc, l'Espagne contrôlant certaines zones.[web:171][web:162]"
+    },
+    {
+      "question": "Quelle ville du nord et une large zone du Rif passent sous protectorat espagnol après 1912 ?",
+      "reponses": ["Tétouan et le Rif", "Casablanca et Chaouia", "Fès et le Saïs", "Marrakech et le Haouz"],
+      "bonne_reponse": "Tétouan et le Rif",
+      "explication": "Le nord du Maroc, avec Tétouan comme capitale, devient une zone sous protectorat espagnol.[web:164][web:171]"
+    },
+    {
+      "question": "Quel chef rifain mène, dans les années 1920, une rébellion contre l'Espagne et la France, fondant une éphémère \"République du Rif\" ?",
+      "reponses": ["Abd el-Krim", "Allal El Fassi", "Mohammed V", "Bouabid"],
+      "bonne_reponse": "Abd el-Krim",
+      "explication": "Abd el-Krim dirige la résistance rifaine contre les armées coloniales, créant une entité indépendante de courte durée.[web:164]"
+    },
+    {
+      "question": "Comment appelle-t-on le mouvement de marche massive organisé en 1975 pour revendiquer le Sahara occidental ?",
+      "reponses": ["La Marche verte", "La Révolution de Jasmin", "La Longue marche", "La Marche des lampions"],
+      "bonne_reponse": "La Marche verte",
+      "explication": "La Marche verte rassemble environ 350 000 Marocains se dirigeant pacifiquement vers le Sahara occidental pour affirmer la souveraineté marocaine.[web:160][web:161]"
+    },
+    {
+      "question": "Quel parti nationaliste marocain, fondé en 1944, joue un rôle clé dans la lutte pour l'indépendance ?",
+      "reponses": ["Le parti de l'Istiqlal", "Le FLN", "Le Néo-Destour", "Le Baas"],
+      "bonne_reponse": "Le parti de l'Istiqlal",
+      "explication": "Le parti de l'Istiqlal (Parti de l'Indépendance) réclame l'indépendance du Maroc face à la France et à l'Espagne.[web:157][web:162]"
+    },
+    {
+      "question": "Quel sultan marocain, futur roi, devient la figure symbolique de la lutte pour l'indépendance face à la France ?",
+      "reponses": ["Mohammed V", "Hassan II", "Youssef", "Abdelaziz"],
+      "bonne_reponse": "Mohammed V",
+      "explication": "Le sultan Mohammed ben Youssef, futur Mohammed V, soutient les nationalistes et s'oppose au protectorat.[web:161][web:171]"
+    },
+    {
+      "question": "En quelle année la France reconnaît-elle officiellement l'indépendance du Maroc ?",
+      "reponses": ["1956", "1954", "1962", "1945"],
+      "bonne_reponse": "1956",
+      "explication": "Le 2 mars 1956, la déclaration franco-marocaine consacre la fin du protectorat français et l'indépendance du Maroc.[web:162][web:168]"
+    },
+    {
+      "question": "Quel pays reconnaît aussi l'indépendance du Maroc et met fin à son propre protectorat sur certaines zones en 1956–1958 ?",
+      "reponses": ["L'Espagne", "Le Portugal", "Le Royaume-Uni", "L'Italie"],
+      "bonne_reponse": "L'Espagne",
+      "explication": "Des accords séparés avec l'Espagne en 1956 et 1958 restituent plusieurs territoires au Maroc, sauf Ceuta et Melilla.[web:160][web:168]"
+    },
+    {
+      "question": "Quel titre le sultan Mohammed V adopte-t-il en 1957, marquant le passage à une monarchie moderne ?",
+      "reponses": ["Roi du Maroc", "Empereur du Maghreb", "Président-roi", "Calife du Maroc"],
+      "bonne_reponse": "Roi du Maroc",
+      "explication": "En 1957, Mohammed V prend le titre de Roi du Maroc, transformant le sultanat en royaume moderne.[web:171][web:168]"
+    },
+    {
+      "question": "Quel roi succède à Mohammed V en 1961 ?",
+      "reponses": ["Hassan II", "Mohammed VI", "Moulay Abdallah", "Youssef"],
+      "bonne_reponse": "Hassan II",
+      "explication": "À la mort de Mohammed V en 1961, son fils Hassan II monte sur le trône.[web:157]"
+    },
+    {
+      "question": "En quelle année est adoptée la première Constitution marocaine de l'époque indépendante ?",
+      "reponses": ["1962", "1956", "1970", "1996"],
+      "bonne_reponse": "1962",
+      "explication": "La Constitution de 1962 instaure une monarchie constitutionnelle avec un parlement élu.[web:167]"
+    },
+    {
+      "question": "Comment appelle-t-on la période marocaine marquée par une forte répression politique sous le règne de Hassan II ?",
+      "reponses": ["Les années de plomb", "Le printemps marocain", "La décennie noire", "La reconquête"],
+      "bonne_reponse": "Les années de plomb",
+      "explication": "Les années de plomb désignent les décennies de répression politique et de violations des droits humains, surtout dans les années 1960–1980.[web:159][web:167]"
+    },
+    {
+      "question": "Quel événement de 1971–1972 marque deux tentatives de coup d'État contre Hassan II ?",
+      "reponses": ["Les putschs avortés de Skhirat et du Boeing royal", "La guerre des sables", "La Marche verte", "Les émeutes de Casablanca"],
+      "bonne_reponse": "Les putschs avortés de Skhirat et du Boeing royal",
+      "explication": "En 1971 un coup d'État militaire échoue au palais de Skhirat, suivi d'une tentative de détournement de l'avion royal en 1972.[web:157]"
+    },
+    {
+      "question": "Quelle région contestée au sud du Maroc est à l'origine d'un conflit avec le Front Polisario ?",
+      "reponses": ["Le Sahara occidental", "Le Rif oriental", "La région de Taza", "La plaine du Gharb"],
+      "bonne_reponse": "Le Sahara occidental",
+      "explication": "Le Sahara occidental, ancienne colonie espagnole, est revendiqué par le Maroc et le mouvement indépendantiste du Front Polisario.[web:160][web:176]"
+    },
+    {
+      "question": "En quelle année la Marche verte, mobilisant des centaines de milliers de civils marocains, a-t-elle lieu ?",
+      "reponses": ["1975", "1965", "1981", "1991"],
+      "bonne_reponse": "1975",
+      "explication": "La Marche verte se déroule en novembre 1975, peu avant le retrait espagnol du Sahara occidental.[web:160][web:176]"
+    },
+    {
+      "question": "Quel accord de 1991 instaure un cessez-le-feu dans le conflit du Sahara occidental sous l'égide de l'ONU ?",
+      "reponses": ["L'accord de cessez-le-feu ONU de 1991", "Les accords de Camp David", "Les accords d'Oslo", "La déclaration d'Alger"],
+      "bonne_reponse": "L'accord de cessez-le-feu ONU de 1991",
+      "explication": "Un cessez-le-feu est conclu en 1991 entre le Maroc et le Front Polisario, en attente d'une solution politique.[web:159][web:176]"
+    },
+    {
+      "question": "Quel roi succède à Hassan II en 1999 ?",
+      "reponses": ["Mohammed VI", "Mohammed V", "Abdallah II", "Moulay Rachid"],
+      "bonne_reponse": "Mohammed VI",
+      "explication": "À la mort de Hassan II en 1999, son fils Mohammed VI devient roi du Maroc.[web:159][web:161]"
+    },
+    {
+      "question": "Comment appelle-t-on la plus grande mosquée du Maroc, inaugurée à Casablanca en 1993 ?",
+      "reponses": ["Mosquée Hassan II", "Mosquée Mohammed V", "Mosquée de Fès", "Mosquée Al-Qaraouiyine"],
+      "bonne_reponse": "Mosquée Hassan II",
+      "explication": "La mosquée Hassan II à Casablanca est l'une des plus grandes du monde et un symbole architectural moderne du Maroc.[web:159]"
+    },
+    {
+      "question": "Quel événement régional en 2011 provoque aussi des manifestations au Maroc, menant à une révision constitutionnelle ?",
+      "reponses": ["Le printemps arabe", "La guerre du Golfe", "La révolution iranienne", "La crise du canal de Suez"],
+      "bonne_reponse": "Le printemps arabe",
+      "explication": "Les manifestations de 2011 au Maroc dans le cadre du printemps arabe conduisent à une nouvelle constitution renforçant certains pouvoirs du Parlement et du gouvernement.[web:159][web:173]"
+    },
+    {
+      "question": "Quel instrument mis en place sous Mohammed VI cherche à faire la lumière sur les violations des droits humains passées ?",
+      "reponses": ["L'Instance Équité et Réconciliation", "Le Haut Conseil des droits de l'homme", "La Commission vérité-sahara", "Le Tribunal spécial de Rabat"],
+      "bonne_reponse": "L'Instance Équité et Réconciliation",
+      "explication": "Créée en 2004, l'IER enquête sur les violations commises principalement pendant les \"années de plomb\".[web:167][web:173]"
+    },
+    {
+      "question": "Quelle université, située à Fès, est parfois considérée comme l'une des plus anciennes institutions d'enseignement au monde ?",
+      "reponses": ["Al Quaraouiyine", "La Sorbonne", "Al-Azhar", "Bologne"],
+      "bonne_reponse": "Al Quaraouiyine",
+      "explication": "Fondée au IXe siècle, l'université-mosquée Al Quaraouiyine est un grand centre de savoir islamique.[web:158][web:166]"
+    },
+    {
+      "question": "Quel événement, survenu en 1953, renforce la sympathie populaire pour Mohammed V et la cause nationaliste ?",
+      "reponses": ["Son exil par les autorités françaises", "Sa destitution par le Front Polisario", "Sa défaite militaire contre l'Espagne", "Sa visite au Congrès américain"],
+      "bonne_reponse": "Son exil par les autorités françaises",
+      "explication": "L'exil de Mohammed V en 1953 en Corse puis à Madagascar provoque une forte mobilisation en faveur de l'indépendance.[web:161][web:174]"
+    },
+    {
+      "question": "Quelle conférence alliée de 1943 tenue à Casablanca marque la place stratégique du Maroc pendant la Seconde Guerre mondiale ?",
+      "reponses": ["La conférence d'Anfa", "La conférence de Yalta", "La conférence de Potsdam", "La conférence de Téhéran"],
+      "bonne_reponse": "La conférence d'Anfa",
+      "explication": "La conférence d'Anfa réunit Roosevelt, Churchill et d'autres dirigeants alliés à Casablanca en 1943.[web:161]"
+    },
+    {
+      "question": "Quel instrument international de 1955–1956 met officiellement fin au protectorat français sur le Maroc ?",
+      "reponses": ["La déclaration franco-marocaine d'indépendance", "Les accords d'Évian", "La conférence de Bandung", "Le traité de Rome"],
+      "bonne_reponse": "La déclaration franco-marocaine d'indépendance",
+      "explication": "La déclaration conjointe du 2 mars 1956 consacre la fin du protectorat et la souveraineté du Maroc.[web:168][web:165]"
+    }
+  ]
+}

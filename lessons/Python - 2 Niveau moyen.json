@@ -1,0 +1,418 @@
+{
+  "questions": [
+    {
+      "question": "Quelle syntaxe crée un set des carrés de 0 à 9 ?",
+      "reponses": ["{x*x for x in range(10)}", "[x*x for x in range(10)]", "set(x*x for x in range(10))", "(x*x for x in range(10))"],
+      "bonne_reponse": "{x*x for x in range(10)}",
+      "explication": "Une compréhension d'ensemble utilise des accolades avec une expression et un for."
+    },
+    {
+      "question": "Quelle syntaxe crée un dictionnaire associant chaque nombre n à son carré pour n de 0 à 4 ?",
+      "reponses": ["{n: n*n for n in range(5)}", "[n: n*n for n in range(5)]", "dict(n, n*n for n in range(5))", "{n => n*n for n in range(5)}"],
+      "bonne_reponse": "{n: n*n for n in range(5)}",
+      "explication": "Les compréhensions de dictionnaire utilisent la forme {clé: valeur for ...}."
+    },
+    {
+      "question": "Quelle fonction ouvre un fichier en Python ?",
+      "reponses": ["open()", "file()", "fopen()", "read()"],
+      "bonne_reponse": "open()",
+      "explication": "open(chemin, mode) retourne un objet fichier."
+    },
+    {
+      "question": "Quel mode d'ouverture de fichier permet de lire un fichier texte existant ?",
+      "reponses": ["\"r\"", "\"w\"", "\"a\"", "\"x\""],
+      "bonne_reponse": "\"r\"",
+      "explication": "Le mode \"r\" ouvre un fichier en lecture seule."
+    },
+    {
+      "question": "Quel mode d'ouverture de fichier écrase le fichier s'il existe déjà ?",
+      "reponses": ["\"w\"", "\"a\"", "\"r+\"", "\"x\""],
+      "bonne_reponse": "\"w\"",
+      "explication": "\"w\" crée ou tronque le fichier avant écriture."
+    },
+    {
+      "question": "Quel mot-clé garantit la fermeture automatique d'un fichier après usage ?",
+      "reponses": ["with", "try", "using", "auto"],
+      "bonne_reponse": "with",
+      "explication": "with open(...) as f: gère automatiquement l'entrée et la sortie du contexte."
+    },
+    {
+      "question": "Quelle méthode lit tout le contenu d'un fichier dans une seule chaîne ?",
+      "reponses": ["read()", "readline()", "readlines()", "load()"],
+      "bonne_reponse": "read()",
+      "explication": "f.read() lit l'intégralité du fichier."
+    },
+    {
+      "question": "Quelle méthode lit une seule ligne d'un fichier ?",
+      "reponses": ["readline()", "read()", "readlines()", "nextline()"],
+      "bonne_reponse": "readline()",
+      "explication": "readline() lit jusqu'au prochain saut de ligne."
+    },
+    {
+      "question": "Quelle méthode lit toutes les lignes et les renvoie sous forme de liste ?",
+      "reponses": ["readlines()", "read()", "splitlines()", "lines()"],
+      "bonne_reponse": "readlines()",
+      "explication": "readlines() renvoie la liste de toutes les lignes."
+    },
+    {
+      "question": "Comment parcourt-on un fichier ligne par ligne de manière idiomatique ?",
+      "reponses": ["for line in f:", "while f:", "for f in line:", "read(f)"],
+      "bonne_reponse": "for line in f:",
+      "explication": "L'objet fichier est itérable et renvoie les lignes."
+    },
+    {
+      "question": "Quel module standard permet de travailler facilement avec les chemins de fichiers (POSIX/Windows) ?",
+      "reponses": ["pathlib", "os.path", "shutil", "glob"],
+      "bonne_reponse": "pathlib",
+      "explication": "pathlib fournit un objet Path pratique et portable."
+    },
+    {
+      "question": "Quel module fournit des fonctions basse-niveau pour les chemins (join, exists, etc.) ?",
+      "reponses": ["os.path", "pathlib", "sys", "io"],
+      "bonne_reponse": "os.path",
+      "explication": "os.path.join, exists, etc. gèrent les chemins sous forme de chaînes."
+    },
+    {
+      "question": "Quelle fonction de pathlib renvoie tous les fichiers *.py du répertoire courant ?",
+      "reponses": ["Path('.').glob('*.py')", "Path('.').list('*.py')", "Path('.').match('*.py')", "Path('.').scan('*.py')"],
+      "bonne_reponse": "Path('.').glob('*.py')",
+      "explication": "glob() renvoie un itérateur de chemins correspondant au motif."
+    },
+    {
+      "question": "Quel module contient argv pour récupérer les arguments de la ligne de commande ?",
+      "reponses": ["sys", "os", "argparse", "cli"],
+      "bonne_reponse": "sys",
+      "explication": "sys.argv contient la liste des arguments bruts passés au script."
+    },
+    {
+      "question": "Quel module standard facilite le parsing propre des arguments CLI (options, flags) ?",
+      "reponses": ["argparse", "click", "sys", "optparse"],
+      "bonne_reponse": "argparse",
+      "explication": "argparse est la solution standard pour des CLIs avec options."
+    },
+    {
+      "question": "Quelle construction permet de créer un générateur à partir d'une fonction ?",
+      "reponses": ["yield", "return", "async", "generator"],
+      "bonne_reponse": "yield",
+      "explication": "Une fonction qui contient yield devient un générateur."
+    },
+    {
+      "question": "Quel est l'avantage principal d'un générateur par rapport à une liste normale ?",
+      "reponses": ["Moins de mémoire", "Plus rapide en toutes circonstances", "Plus simple à lire", "Toujours trié"],
+      "bonne_reponse": "Moins de mémoire",
+      "explication": "Un générateur produit les valeurs à la demande, sans tout stocker en mémoire."
+    },
+    {
+      "question": "Comment créer rapidement un générateur des carrés de 0 à 9 ?",
+      "reponses": ["(x*x for x in range(10))", "[x*x for x in range(10)]", "{x*x for x in range(10)}", "generator(x*x, 10)"],
+      "bonne_reponse": "(x*x for x in range(10))",
+      "explication": "Les expressions génératrices utilisent des parenthèses."
+    },
+    {
+      "question": "Quelle méthode spéciale rend un objet itérable dans une classe ?",
+      "reponses": ["__iter__", "__next__", "__len__", "__iterable__"],
+      "bonne_reponse": "__iter__",
+      "explication": "__iter__ doit renvoyer un itérateur."
+    },
+    {
+      "question": "Quelle méthode spéciale doit implémenter un itérateur pour fournir les éléments un par un ?",
+      "reponses": ["__next__", "__iter__", "__call__", "__get__"],
+      "bonne_reponse": "__next__",
+      "explication": "__next__ renvoie l'élément suivant ou lève StopIteration."
+    },
+    {
+      "question": "Quelle exception doit être levée pour signaler la fin d'un itérateur personnalisé ?",
+      "reponses": ["StopIteration", "EOFError", "Stop", "End"],
+      "bonne_reponse": "StopIteration",
+      "explication": "StopIteration indique à for que l'itération est terminée."
+    },
+    {
+      "question": "Quelle fonction combine deux séquences en paires (a[i], b[i]) ?",
+      "reponses": ["zip()", "enumerate()", "map()", "pair()"],
+      "bonne_reponse": "zip()",
+      "explication": "zip(a, b) crée un itérateur de tuples (a[i], b[i])."
+    },
+    {
+      "question": "Comment parcourir une liste en récupérant à la fois l'index et la valeur ?",
+      "reponses": ["for i, v in enumerate(liste):", "for liste in enumerate(i, v):", "for i in liste, v:", "for i, v in range(liste):"],
+      "bonne_reponse": "for i, v in enumerate(liste):",
+      "explication": "enumerate fournit index et valeur."
+    },
+    {
+      "question": "Quelle syntaxe de compréhension de liste filtre les nombres pairs de 0 à 9 ?",
+      "reponses": ["[x for x in range(10) if x % 2 == 0]", "[x if x%2==0 for x in range(10)]", "[x for range(10) if pair(x)]", "[x for x in 10 if pair]"],
+      "bonne_reponse": "[x for x in range(10) if x % 2 == 0]",
+      "explication": "Le if de filtre vient à la fin dans une compréhension."
+    },
+    {
+      "question": "Quelle différence principale entre une fonction et une lambda en Python ?",
+      "reponses": ["lambda est une fonction anonyme courte", "lambda est plus rapide", "lambda retourne toujours None", "lambda ne peut pas prendre d'arguments"],
+      "bonne_reponse": "lambda est une fonction anonyme courte",
+      "explication": "lambda exprime de petites fonctions sans nom, sur une seule expression."
+    },
+    {
+      "question": "Quelle syntaxe correcte pour une fonction lambda qui ajoute 1 à x ?",
+      "reponses": ["lambda x: x + 1", "lambda(x) { x+1 }", "lambda x => x+1", "lambda(x): return x+1"],
+      "bonne_reponse": "lambda x: x + 1",
+      "explication": "La forme est lambda paramètres: expression."
+    },
+    {
+      "question": "Quel module standard gère la sérialisation JSON ?",
+      "reponses": ["json", "pickle", "marshal", "yaml"],
+      "bonne_reponse": "json",
+      "explication": "Le module json convertit entre Python et JSON."
+    },
+    {
+      "question": "Quelle fonction json convertit un dict Python en chaîne JSON ?",
+      "reponses": ["json.dumps()", "json.dump()", "json.loads()", "json.load()"],
+      "bonne_reponse": "json.dumps()",
+      "explication": "dumps renvoie une chaîne JSON."
+    },
+    {
+      "question": "Quelle fonction json écrit directement dans un fichier ouvert ?",
+      "reponses": ["json.dump()", "json.dumps()", "json.write()", "json.file()"],
+      "bonne_reponse": "json.dump()",
+      "explication": "json.dump(obj, f) sérialise dans le fichier f."
+    },
+    {
+      "question": "Quelle fonction json charge un objet depuis une chaîne JSON ?",
+      "reponses": ["json.loads()", "json.load()", "json.parse()", "json.read()"],
+      "bonne_reponse": "json.loads()",
+      "explication": "loads lit depuis une chaîne."
+    },
+    {
+      "question": "Quelle fonction json charge un objet depuis un fichier ?",
+      "reponses": ["json.load()", "json.loads()", "json.read()", "json.open()"],
+      "bonne_reponse": "json.load()",
+      "explication": "json.load(f) lit du fichier ouvert f."
+    },
+    {
+      "question": "Quel module standard fournit de nombreuses fonctions pour manipuler les itérables (chaînage, combinaisons, etc.) ?",
+      "reponses": ["itertools", "functools", "collections", "operator"],
+      "bonne_reponse": "itertools",
+      "explication": "itertools regroupe des outils comme chain, cycle, combinations, etc."
+    },
+    {
+      "question": "Quel module fournit des fonctions d'ordre supérieur comme lru_cache, partial, reduce ?",
+      "reponses": ["functools", "itertools", "collections", "operator"],
+      "bonne_reponse": "functools",
+      "explication": "functools contient lru_cache, partial, wraps, etc."
+    },
+    {
+      "question": "Quel décorateur de functools met en cache le résultat d'une fonction purement calculatoire ?",
+      "reponses": ["@functools.lru_cache", "@functools.cache", "@cached", "@memoize"],
+      "bonne_reponse": "@functools.lru_cache",
+      "explication": "lru_cache met en cache les appels récents en se basant sur les arguments."
+    },
+    {
+      "question": "Quelle est la première ligne classique d'un module qui veut utiliser lru_cache ?",
+      "reponses": ["from functools import lru_cache", "import cache from functools", "from functools import cache_lru", "use functools.lru_cache"],
+      "bonne_reponse": "from functools import lru_cache",
+      "explication": "On importe le décorateur avant de l'utiliser avec @lru_cache."
+    },
+    {
+      "question": "Quel module standard regroupe des conteneurs spécialisés comme deque, Counter ou defaultdict ?",
+      "reponses": ["collections", "itertools", "functools", "dataclasses"],
+      "bonne_reponse": "collections",
+      "explication": "collections fournit plusieurs structures de données utiles."
+    },
+    {
+      "question": "Quel type de collections permet de compter facilement les occurrences d'éléments ?",
+      "reponses": ["Counter", "defaultdict", "deque", "namedtuple"],
+      "bonne_reponse": "Counter",
+      "explication": "Counter calcule des fréquences d'éléments."
+    },
+    {
+      "question": "Quel type de collections fournit un dictionnaire avec une valeur par défaut automatique ?",
+      "reponses": ["defaultdict", "Counter", "OrderedDict", "dict"],
+      "bonne_reponse": "defaultdict",
+      "explication": "defaultdict crée les valeurs par défaut à la volée."
+    },
+    {
+      "question": "Quel mot-clé permet de définir une propriété en lecture seule via le décorateur dans une classe ?",
+      "reponses": ["@property", "@getter", "@readonly", "@prop"],
+      "bonne_reponse": "@property",
+      "explication": "@property transforme une méthode en attribut calculé."
+    },
+    {
+      "question": "Comment définir une méthode de classe (qui reçoit la classe en premier argument) ?",
+      "reponses": ["@classmethod", "@static", "@class", "@method"],
+      "bonne_reponse": "@classmethod",
+      "explication": "@classmethod reçoit cls au lieu de self."
+    },
+    {
+      "question": "Comment définir une méthode statique dans une classe (sans self ni cls) ?",
+      "reponses": ["@staticmethod", "@static", "@classmethod", "@helper"],
+      "bonne_reponse": "@staticmethod",
+      "explication": "@staticmethod marque une fonction associée à la classe sans accès implicite à l'instance."
+    },
+    {
+      "question": "Quelle est la bonne signature minimale pour un décorateur simple fonctionnel ?",
+      "reponses": ["def deco(func): def wrapper(*a, **k): return func(*a, **k); return wrapper", "def deco(): pass", "def deco(func, arg): return func", "def deco(*args): return args"],
+      "bonne_reponse": "def deco(func): def wrapper(*a, **k): return func(*a, **k); return wrapper",
+      "explication": "Un décorateur prend une fonction et renvoie une nouvelle fonction wrapper."
+    },
+    {
+      "question": "Quel module fournit wraps pour conserver le nom et la docstring de la fonction décorée ?",
+      "reponses": ["functools", "itertools", "inspect", "wraps"],
+      "bonne_reponse": "functools",
+      "explication": "functools.wraps copie les métadonnées de la fonction d'origine."
+    },
+    {
+      "question": "Quelle expression de gestion d'exception permet de capturer une exception sous un alias e ?",
+      "reponses": ["except Exception as e:", "catch Exception e:", "except (Exception) -> e:", "on Exception as e:"],
+      "bonne_reponse": "except Exception as e:",
+      "explication": "La syntaxe standard est except Type as nom:."
+    },
+    {
+      "question": "Quelle clause dans un bloc try/except n'est exécutée que s'il n'y a eu aucune exception ?",
+      "reponses": ["else", "finally", "noexcept", "after"],
+      "bonne_reponse": "else",
+      "explication": "try/except/else/finally permet d'avoir un bloc else en cas de succès."
+    },
+    {
+      "question": "Comment définir un alias local plus court lors d'un import de module ?",
+      "reponses": ["import numpy as np", "alias numpy np", "use numpy -> np", "from numpy import alias np"],
+      "bonne_reponse": "import numpy as np",
+      "explication": "Le mot-clé as crée un alias."
+    },
+    {
+      "question": "Quel mot-clé est utilisé dans une fonction pour indiquer qu'une variable globale doit être modifiée ?",
+      "reponses": ["global", "nonlocal", "extern", "shared"],
+      "bonne_reponse": "global",
+      "explication": "global x indique que x désigne la variable globale."
+    },
+    {
+      "question": "Quel mot-clé permet de modifier une variable de la fermeture environnante (mais non globale) ?",
+      "reponses": ["nonlocal", "global", "outer", "parent"],
+      "bonne_reponse": "nonlocal",
+      "explication": "nonlocal x fait référence à la variable x de l'environnement englobant."
+    },
+    {
+      "question": "Quelle structure de données est la plus adaptée pour tester l'appartenance rapide sans doublons ?",
+      "reponses": ["set", "list", "tuple", "dict"],
+      "bonne_reponse": "set",
+      "explication": "Les ensembles offrent une appartenance en temps moyen O(1)."
+    },
+    {
+      "question": "Quelle notation de slicing renvoie une copie complète d'une liste l ?",
+      "reponses": ["l[:]", "l[0]", "l[0:1]", "l[::0]"],
+      "bonne_reponse": "l[:]",
+      "explication": "l[:] crée une copie superficielle."
+    },
+    {
+      "question": "Quelle méthode de liste permet de fusionner une autre liste à la fin ?",
+      "reponses": ["extend()", "append()", "merge()", "concat()"],
+      "bonne_reponse": "extend()",
+      "explication": "extend(itérable) ajoute tous les éléments de l'itérable à la fin."
+    },
+    {
+      "question": "Quelle opération in-place permet de dupliquer le contenu d'une liste 3 fois ?",
+      "reponses": ["l *= 3", "l = l*3", "l.repeat(3)", "l.append(3)"],
+      "bonne_reponse": "l *= 3",
+      "explication": "L'opérateur *= sur une liste répète son contenu."
+    },
+    {
+      "question": "Quelle fonction permet d'itérer en parallèle sur plusieurs séquences de longueurs différentes en complétant avec une valeur par défaut (via itertools) ?",
+      "reponses": ["itertools.zip_longest", "zip", "enumerate", "chain"],
+      "bonne_reponse": "itertools.zip_longest",
+      "explication": "zip_longest permet de gérer les séquences de tailles différentes."
+    },
+    {
+      "question": "Quel module fournit des chemins de fichiers orientés objet (classe Path) ?",
+      "reponses": ["pathlib", "os.path", "io", "shutil"],
+      "bonne_reponse": "pathlib",
+      "explication": "Path de pathlib simplifie la manipulation de chemins."
+    },
+    {
+      "question": "Que renvoie len({1, 1, 2, 3}) ?",
+      "reponses": ["3", "4", "2", "Erreur"],
+      "bonne_reponse": "3",
+      "explication": "Les doublons sont supprimés dans un set, il reste 1, 2, 3."
+    },
+    {
+      "question": "Quelle fonction transforme une liste de clés et une liste de valeurs en dictionnaire ?",
+      "reponses": ["dict(zip(cles, valeurs))", "dict(cles, valeurs)", "make_dict(cles, valeurs)", "dict.from_lists(cles, valeurs)"],
+      "bonne_reponse": "dict(zip(cles, valeurs))",
+      "explication": "zip associe, dict construit la table clé→valeur."
+    },
+    {
+      "question": "Quel est l'intérêt principal des dataclasses (module dataclasses) ?",
+      "reponses": ["Générer automatiquement __init__ et autres méthodes", "Gérer la concurrence", "Accélérer le code C", "Créer des interfaces graphiques"],
+      "bonne_reponse": "Générer automatiquement __init__ et autres méthodes",
+      "explication": "@dataclass réduit le code boilerplate des classes de données."
+    },
+    {
+      "question": "Quelle fonction builtin permet d'obtenir rapidement une vue triée d'un dictionnaire par clés ?",
+      "reponses": ["sorted(d)", "d.sort()", "order(d)", "d.sorted()"],
+      "bonne_reponse": "sorted(d)",
+      "explication": "sorted(d) trie les clés ; on peut ensuite indexer d[k] pour les valeurs."
+    },
+    {
+      "question": "Comment récupérer à la fois clés et valeurs triées par clé dans un dict d ?",
+      "reponses": ["for k in sorted(d): v = d[k]", "for k, v in d.items().sorted()", "for k, v in sorted(d.items()) by key", "d.sort().items()"],
+      "bonne_reponse": "for k in sorted(d): v = d[k]",
+      "explication": "On trie les clés puis on accède à la valeur via d[k]."
+    },
+    {
+      "question": "Quelle méthode de chaîne remplace toutes les occurrences d'un sous-texte par un autre ?",
+      "reponses": ["replace()", "sub()", "change()", "swap()"],
+      "bonne_reponse": "replace()",
+      "explication": "s.replace(ancien, nouveau) renvoie une nouvelle chaîne."
+    },
+    {
+      "question": "Quel module standard fournit des expressions régulières ?",
+      "reponses": ["re", "regex", "regexp", "pattern"],
+      "bonne_reponse": "re",
+      "explication": "re permet de faire des recherches et substitutions avancées."
+    },
+    {
+      "question": "Quelle fonction re renvoie un objet match pour la première occurrence du motif ?",
+      "reponses": ["re.search()", "re.match()", "re.find()", "re.scan()"],
+      "bonne_reponse": "re.search()",
+      "explication": "search cherche le motif n'importe où dans la chaîne."
+    },
+    {
+      "question": "Quel mot-clé marque une fonction comme asynchrone ?",
+      "reponses": ["async def", "await def", "async function", "def async"],
+      "bonne_reponse": "async def",
+      "explication": "Les fonctions async se déclarent avec async def nom(...)."
+    },
+    {
+      "question": "Quel mot-clé permet d'attendre un résultat asynchrone dans une fonction async ?",
+      "reponses": ["await", "async", "yield", "wait"],
+      "bonne_reponse": "await",
+      "explication": "await expression suspend la coroutine jusqu'au résultat."
+    },
+    {
+      "question": "Quel module standard fournit la boucle d'événements pour l'asyncio de base ?",
+      "reponses": ["asyncio", "threading", "multiprocessing", "concurrent"],
+      "bonne_reponse": "asyncio",
+      "explication": "asyncio est la librairie standard pour la programmation asynchrone."
+    },
+    {
+      "question": "Quel appel exécute une coroutine principale main() avec asyncio en Python 3.11+ ?",
+      "reponses": ["asyncio.run(main())", "main.await()", "await main()", "asyncio.exec(main)"],
+      "bonne_reponse": "asyncio.run(main())",
+      "explication": "asyncio.run gère la boucle d'événements et exécute la coroutine."
+    },
+    {
+      "question": "Quel module standard est utilisé pour la programmation multi-threads en Python ?",
+      "reponses": ["threading", "multiprocessing", "asyncio", "concurrent.futures"],
+      "bonne_reponse": "threading",
+      "explication": "threading crée et gère des threads dans un même processus."
+    },
+    {
+      "question": "Quel module lance plusieurs processus indépendants pour profiter de plusieurs cœurs CPU ?",
+      "reponses": ["multiprocessing", "threading", "asyncio", "subprocess"],
+      "bonne_reponse": "multiprocessing",
+      "explication": "multiprocessing contourne le GIL en utilisant plusieurs processus."
+    },
+    {
+      "question": "Quel module permet de lancer des commandes externes et de capturer leur sortie ?",
+      "reponses": ["subprocess", "os.system", "sys", "commands"],
+      "bonne_reponse": "subprocess",
+      "explication": "subprocess.run, Popen, etc. gèrent les processus externes."
+    }
+  ]
+}

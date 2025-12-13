@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "question": "Quelle est la capitale du canton du Valais ?",
+      "reponses": ["Sion", "Sierre", "Brigue", "Martigny"],
+      "bonne_reponse": "Sion",
+      "explication": "Sion est le chef-lieu administratif et politique du canton du Valais."
+    },
+    {
+      "question": "Quel célèbre sommet domine la station de Zermatt et est devenu un symbole du Valais ?",
+      "reponses": ["Le Cervin (Matterhorn)", "La Jungfrau", "Le Pilatus", "Le Säntis"],
+      "bonne_reponse": "Le Cervin (Matterhorn)",
+      "explication": "Le Cervin, au-dessus de Zermatt, est l’un des sommets les plus emblématiques des Alpes et du Valais.[web:197][web:208]"
+    },
+    {
+      "question": "En quelle année le Valais devient-il officiellement canton de la Confédération suisse ?",
+      "reponses": ["1815", "1798", "1848", "1878"],
+      "bonne_reponse": "1815",
+      "explication": "Après avoir d’abord été république indépendante, le Valais entre dans la Confédération en 1815.[web:197][web:201]"
+    },
+    {
+      "question": "Quelles sont les deux principales langues parlées dans le canton du Valais ?",
+      "reponses": ["Français et allemand", "Français et italien", "Allemand et romanche", "Français et anglais"],
+      "bonne_reponse": "Français et allemand",
+      "explication": "Le Bas-Valais est majoritairement francophone tandis que le Haut-Valais est germanophone, ce qui en fait un canton bilingue.[web:197][web:212]"
+    },
+    {
+      "question": "Quel grand fleuve traverse tout le Valais d’est en ouest ?",
+      "reponses": ["Le Rhône", "Le Rhin", "L’Aar", "La Reuss"],
+      "bonne_reponse": "Le Rhône",
+      "explication": "Le Rhône prend sa source dans les Alpes uranaises et traverse le Valais avant d’entrer dans le Léman.[web:197][web:213]"
+    },
+    {
+      "question": "Quel secteur joue un rôle majeur dans l’économie valaisanne avec les stations comme Verbier, Crans-Montana ou Saas-Fee ?",
+      "reponses": ["Le tourisme alpin", "La pêche", "L’horlogerie", "L’industrie automobile"],
+      "bonne_reponse": "Le tourisme alpin",
+      "explication": "Le Valais est connu pour ses stations de ski et de montagne, qui attirent des visiteurs du monde entier.[web:197][web:208]"
+    },
+    {
+      "question": "Quelle spécialité agricole est emblématique des coteaux ensoleillés du Valais ?",
+      "reponses": ["La vigne et le vin", "Le riz", "Le tabac", "Les olives"],
+      "bonne_reponse": "La vigne et le vin",
+      "explication": "Le Valais est l’une des principales régions viticoles de Suisse, profitant d’un climat sec et très ensoleillé.[web:204][web:213]"
+    },
+    {
+      "question": "Quel grand glacier valaisan, classé au patrimoine mondial de l’UNESCO, est le plus long des Alpes ?",
+      "reponses": ["Le glacier d’Aletsch", "Le glacier du Rhône", "Le glacier de Gorner", "Le glacier de Morteratsch"],
+      "bonne_reponse": "Le glacier d’Aletsch",
+      "explication": "Le grand glacier d’Aletsch, dans le Haut-Valais, est le plus long glacier alpin et fait partie du site Jungfrau-Aletsch.[web:197][web:208]"
+    },
+    {
+      "question": "Comment s’appelle le train panoramique reliant Zermatt à Saint-Moritz en traversant le Valais ?",
+      "reponses": ["Le Glacier Express", "Le Bernina Express", "Le GoldenPass Express", "Le Gotthard Panorama Express"],
+      "bonne_reponse": "Le Glacier Express",
+      "explication": "Le Glacier Express relie Zermatt à Saint-Moritz et est l’un des trains panoramiques les plus célèbres de Suisse.[web:208]"
+    },
+    {
+      "question": "Quel type d’ouvrage hydraulique traditionnel irrigue depuis des siècles les vignobles et prairies valaisans ?",
+      "reponses": ["Les bisses", "Les canaux du Rhône", "Les aqueducs romains", "Les douves"],
+      "bonne_reponse": "Les bisses",
+      "explication": "Les bisses sont des canaux d’irrigation historiques qui acheminent l’eau des torrents de montagne vers les cultures.[web:213]"
+    }
+  ]
+}

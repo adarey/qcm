@@ -1,0 +1,159 @@
+{
+  "questions": [
+    {
+      "question": "Quelle fonction d’agrégation permet de compter le nombre de lignes d’un résultat ?",
+      "reponses": ["SUM()", "COUNT()", "AVG()", "TOTAL()"],
+      "bonne_reponse": "COUNT()",
+      "explication": "COUNT() retourne le nombre de lignes correspondant à la requête."
+    },
+    {
+      "question": "Quelle fonction permet de calculer la moyenne d’une colonne numérique salaire ?",
+      "reponses": ["MEAN(salaire)", "AVG(salaire)", "SUM(salaire)", "MEDIAN(salaire)"],
+      "bonne_reponse": "AVG(salaire)",
+      "explication": "AVG() calcule la moyenne des valeurs numériques d’une colonne."
+    },
+    {
+      "question": "Que fait la requête suivante : SELECT COUNT(*) FROM commandes WHERE statut = 'VALIDE'; ?",
+      "reponses": [
+        "Elle renvoie toutes les commandes valides",
+        "Elle renvoie le nombre de commandes valides",
+        "Elle supprime les commandes valides",
+        "Elle met à jour le statut des commandes valides"
+      ],
+      "bonne_reponse": "Elle renvoie le nombre de commandes valides",
+      "explication": "COUNT(*) compte toutes les lignes qui satisfont la condition WHERE."
+    },
+    {
+      "question": "Quelle clause permet de filtrer les groupes après un GROUP BY ?",
+      "reponses": ["WHERE", "HAVING", "ORDER BY", "LIMIT"],
+      "bonne_reponse": "HAVING",
+      "explication": "HAVING filtre le résultat après agrégation, contrairement à WHERE qui filtre les lignes avant GROUP BY."
+    },
+    {
+      "question": "Quelle est la différence principale entre WHERE et HAVING ?",
+      "reponses": [
+        "Aucune, ils sont interchangeables",
+        "WHERE s’applique aux lignes, HAVING aux groupes",
+        "HAVING s’applique aux colonnes, WHERE aux lignes",
+        "WHERE est utilisé uniquement avec les jointures"
+      ],
+      "bonne_reponse": "WHERE s’applique aux lignes, HAVING aux groupes",
+      "explication": "WHERE filtre avant agrégation, HAVING filtre après le GROUP BY."
+    },
+    {
+      "question": "Quel type de jointure renvoie toutes les lignes de la table de gauche, même sans correspondance dans la table de droite ?",
+      "reponses": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+      "bonne_reponse": "LEFT JOIN",
+      "explication": "LEFT JOIN renvoie toutes les lignes de la table de gauche, complétées par NULL si aucune correspondance à droite."
+    },
+    {
+      "question": "Quel type de jointure renvoie uniquement les lignes avec correspondance dans les deux tables ?",
+      "reponses": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "CROSS JOIN"],
+      "bonne_reponse": "INNER JOIN",
+      "explication": "INNER JOIN ne retourne que les lignes qui satisfont la condition de jointure dans les deux tables."
+    },
+    {
+      "question": "Quelle jointure produit le produit cartésien des lignes des deux tables ?",
+      "reponses": ["INNER JOIN", "FULL JOIN", "CROSS JOIN", "SELF JOIN"],
+      "bonne_reponse": "CROSS JOIN",
+      "explication": "CROSS JOIN combine chaque ligne de la première table avec chaque ligne de la seconde."
+    },
+    {
+      "question": "Comment sélectionner les 10 plus grands salaires de la table employes ?",
+      "reponses": [
+        "SELECT * FROM employes ORDER BY salaire ASC LIMIT 10;",
+        "SELECT * FROM employes ORDER BY salaire DESC LIMIT 10;",
+        "SELECT TOP 10 * FROM employes ORDER BY salaire ASC;",
+        "SELECT * FROM employes LIMIT 10 ORDER BY salaire DESC;"
+      ],
+      "bonne_reponse": "SELECT * FROM employes ORDER BY salaire DESC LIMIT 10;",
+      "explication": "Pour les plus grands salaires, on trie en descendant puis on limite à 10 lignes."
+    },
+    {
+      "question": "Quelle clause est utilisée pour éviter les doublons lors d’une agrégation sur plusieurs colonnes ?",
+      "reponses": ["UNIQUE", "DISTINCT", "ONLY", "SINGLE"],
+      "bonne_reponse": "DISTINCT",
+      "explication": "DISTINCT supprime les doublons sur les colonnes sélectionnées."
+    },
+    {
+      "question": "Quelle instruction ajoute une nouvelle colonne à une table existante ?",
+      "reponses": [
+        "ALTER TABLE t ADD COLUMN age INT;",
+        "UPDATE TABLE t ADD age INT;",
+        "CHANGE TABLE t ADD age INT;",
+        "ALTER t ADD age INT;"
+      ],
+      "bonne_reponse": "ALTER TABLE t ADD COLUMN age INT;",
+      "explication": "ALTER TABLE ... ADD COLUMN ajoute une colonne à la structure de la table."
+    },
+    {
+      "question": "Quel mot-clé permet de créer un index sur une colonne ?",
+      "reponses": ["CREATE INDEX", "MAKE INDEX", "ADD INDEX", "NEW INDEX"],
+      "bonne_reponse": "CREATE INDEX",
+      "explication": "CREATE INDEX crée un index pour accélérer certaines requêtes sur une table."
+    },
+    {
+      "question": "Quel impact principal a la création d’un index sur une colonne très utilisée dans les clauses WHERE ?",
+      "reponses": [
+        "Aucun impact",
+        "Accélère les recherches mais ralentit les écritures",
+        "Ralentit toutes les requêtes",
+        "Supprime les doublons automatiquement"
+      ],
+      "bonne_reponse": "Accélère les recherches mais ralentit les écritures",
+      "explication": "Les index accélèrent les lectures mais ajoutent un coût lors des INSERT/UPDATE/DELETE."
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour supprimer un index ?",
+      "reponses": ["DROP INDEX", "DELETE INDEX", "REMOVE INDEX", "ALTER INDEX DROP"],
+      "bonne_reponse": "DROP INDEX",
+      "explication": "DROP INDEX supprime un index existant."
+    },
+    {
+      "question": "Comment concaténer prénom et nom avec un espace au milieu en SQL (standard ANSI) ?",
+      "reponses": [
+        "prenom + ' ' + nom",
+        "CONCAT(prenom, ' ', nom)",
+        "prenom || ' ' || nom",
+        "prenom & ' ' & nom"
+      ],
+      "bonne_reponse": "CONCAT(prenom, ' ', nom)",
+      "explication": "CONCAT est une fonction standard pour concaténer plusieurs chaînes."
+    },
+    {
+      "question": "Quelle fonction permet d’obtenir la valeur minimale d’une colonne ?",
+      "reponses": ["MIN()", "LOW()", "SMALL()", "LEAST()"],
+      "bonne_reponse": "MIN()",
+      "explication": "MIN() retourne la valeur la plus petite d’une colonne."
+    },
+    {
+      "question": "Quelle fonction permet de retourner le plus grand des salaires dans une table ?",
+      "reponses": ["TOP(salaire)", "MAX(salaire)", "HIGH(salaire)", "UP(salaire)"],
+      "bonne_reponse": "MAX(salaire)",
+      "explication": "MAX() retourne la valeur maximale d’une colonne."
+    },
+    {
+      "question": "Que retourne la requête SELECT COUNT(DISTINCT ville) FROM clients; ?",
+      "reponses": [
+        "Toutes les villes uniques",
+        "Le nombre de villes uniques",
+        "Le nombre total de clients",
+        "Les villes triées par ordre alphabétique"
+      ],
+      "bonne_reponse": "Le nombre de villes uniques",
+      "explication": "COUNT(DISTINCT col) compte le nombre de valeurs distinctes de la colonne."
+    },
+    {
+      "question": "Quel mot-clé permet de définir une contrainte d’unicité sur une colonne lors de la création de table ?",
+      "reponses": ["PRIMARY", "UNIQUE", "FOREIGN", "CHECK"],
+      "bonne_reponse": "UNIQUE",
+      "explication": "UNIQUE impose que les valeurs d’une colonne (ou d’un ensemble de colonnes) soient toutes différentes."
+    },
+    {
+      "question": "Quel type de jointure permet de récupérer toutes les lignes des deux tables, en mettant NULL quand il n’y a pas de correspondance ?",
+      "reponses": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL OUTER JOIN"],
+      "bonne_reponse": "FULL OUTER JOIN",
+      "explication": "FULL OUTER JOIN renvoie l’union des lignes de gauche et de droite, avec des NULL où il manque une correspondance."
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "questions": [
+    {
+      "question": "Quel segment de l’aorte donne naissance directement aux artères coronaires droite et gauche ?",
+      "reponses": ["L’aorte ascendante", "La crosse aortique", "L’aorte thoracique descendante", "L’aorte abdominale"],
+      "bonne_reponse": "L’aorte ascendante",
+      "explication": "Les artères coronaires naissent des sinus aortiques situés juste au-dessus de la valve aortique, sur l’aorte ascendante."
+    },
+    {
+      "question": "Quelle structure musculaire forme la majeure partie de la paroi du ventricule gauche et explique sa capacité à générer une haute pression ?",
+      "reponses": ["Endocarde", "Myocarde", "Péricarde viscéral", "Médiastin"],
+      "bonne_reponse": "Myocarde",
+      "explication": "Le myocarde est la couche musculaire épaisse du cœur, particulièrement développée au niveau du ventricule gauche."
+    },
+    {
+      "question": "Quel nerf crânien assure principalement l’innervation parasympathique du cœur et de la plupart des viscères thoraco-abdominaux ?",
+      "reponses": ["Nerf vague (X)", "Nerf glossopharyngien (IX)", "Nerf trijumeau (V)", "Nerf accessoire (XI)"],
+      "bonne_reponse": "Nerf vague (X)",
+      "explication": "Le nerf vague transporte les fibres parasympathiques vers le cœur, les poumons et une grande partie du tube digestif."
+    },
+    {
+      "question": "Quel est le principal site d’échange gazeux entre le sang et l’air inspiré dans les poumons ?",
+      "reponses": ["Bronches segmentaires", "Bronchioles terminales", "Alvéoles pulmonaires", "Troncs pulmonaires"],
+      "bonne_reponse": "Alvéoles pulmonaires",
+      "explication": "Les alvéoles possèdent une paroi extrêmement fine en contact avec les capillaires permettant la diffusion des gaz."
+    },
+    {
+      "question": "Quel segment de la trachée se divise en bronches principales droite et gauche ?",
+      "reponses": ["Au niveau de C4", "Au niveau de T4–T5 (carène)", "Au niveau de L1", "Au niveau du foramen magnum"],
+      "bonne_reponse": "Au niveau de T4–T5 (carène)",
+      "explication": "La bifurcation trachéale se situe à la carène, approximativement au niveau du plan sternal (T4–T5)."
+    },
+    {
+      "question": "La bronche principale droite diffère de la gauche car elle est habituellement :",
+      "reponses": ["Plus longue et plus horizontale", "Plus courte, plus large et plus verticale", "Plus courte, plus étroite et horizontale", "Plus fine et plus oblique"],
+      "bonne_reponse": "Plus courte, plus large et plus verticale",
+      "explication": "Cette anatomie explique que les corps étrangers inhalés s’engagent plus souvent dans la bronche principale droite."
+    },
+    {
+      "question": "Quel type de collagène domine dans le cartilage hyalin articulaire ?",
+      "reponses": ["Collagène de type I", "Collagène de type II", "Collagène de type III", "Collagène de type IV"],
+      "bonne_reponse": "Collagène de type II",
+      "explication": "Le cartilage hyalin articulaire est riche en collagène de type II, adapté aux contraintes de compression."
+    },
+    {
+      "question": "Quel type d’ossification permet la croissance en longueur des os longs au niveau des plaques épiphysaires ?",
+      "reponses": ["Ossification intramembranaire", "Ossification endochondrale", "Ossification périostée uniquement", "Ossification métaphysaire directe"],
+      "bonne_reponse": "Ossification endochondrale",
+      "explication": "Les os longs se forment à partir d’un modèle cartilagineux remplacé progressivement par de l’os."
+    },
+    {
+      "question": "Parmi les segments suivants, quelle veine draine directement dans la veine porte hépatique ?",
+      "reponses": ["Veine cave inférieure", "Veine hépatique", "Veine mésentérique supérieure", "Veine azygos"],
+      "bonne_reponse": "Veine mésentérique supérieure",
+      "explication": "La veine porte se forme principalement par la réunion de la veine mésentérique supérieure et de la veine splénique."
+    },
+    {
+      "question": "Dans le foie, les sinusoïdes hépatiques se trouvent entre :",
+      "reponses": [
+        "Les espaces portes et la veine porte",
+        "Les travées hépatocytaires et les cellules de Kupffer",
+        "Les travées hépatocytaires et le canal biliaire",
+        "Les travées hépatocytaires et les veines centrolobulaires"
+      ],
+      "bonne_reponse": "Les travées hépatocytaires et les veines centrolobulaires",
+      "explication": "Le sang circule des espaces portes vers la veine centrolobulaire via les sinusoïdes entre les travées d’hépatocytes."
+    },
+    {
+      "question": "Quel segment du néphron est principalement responsable de la réabsorption massive d’eau, de sodium et de nutriments comme le glucose ?",
+      "reponses": [
+        "Tube contourné distal",
+        "Tube contourné proximal",
+        "Anse de Henle (branche ascendante fine)",
+        "Canal collecteur"
+      ],
+      "bonne_reponse": "Tube contourné proximal",
+      "explication": "Le tube proximal réabsorbe la majorité du filtrat glomérulaire, y compris presque tout le glucose filtré."
+    },
+    {
+      "question": "Quelle portion de l’anse de Henle est principalement perméable à l’eau mais peu aux solutés ?",
+      "reponses": [
+        "Branche ascendante épaisse",
+        "Branche ascendante fine",
+        "Branche descendante fine",
+        "Tube contourné distal"
+      ],
+      "bonne_reponse": "Branche descendante fine",
+      "explication": "La branche descendante fine est très perméable à l’eau, ce qui permet la concentration du filtrat."
+    },
+    {
+      "question": "La macula densa, impliquée dans l’appareil juxtaglomérulaire, est située dans :",
+      "reponses": [
+        "Le tube contourné proximal",
+        "Le tube contourné distal en contact avec le glomérule",
+        "Le canal collecteur cortical",
+        "Le glomérule lui-même"
+      ],
+      "bonne_reponse": "Le tube contourné distal en contact avec le glomérule",
+      "explication": "La macula densa détecte la concentration en NaCl du filtrat et régule la sécrétion de rénine par les cellules juxtaglomérulaires."
+    },
+    {
+      "question": "Quel neurotransmetteur est majoritairement utilisé par les neurones post-ganglionnaires sympathiques innervant les vaisseaux sanguins ?",
+      "reponses": ["Acétylcholine", "Noradrénaline", "Dopamine", "GABA"],
+      "bonne_reponse": "Noradrénaline",
+      "explication": "La noradrénaline est le neurotransmetteur principal des fibres sympathiques post-ganglionnaires vasoconstrictrices."
+    },
+    {
+      "question": "Quelle partie du système nerveux autonome est principalement responsable de l’augmentation de la fréquence cardiaque en situation de stress aigu ?",
+      "reponses": [
+        "Système parasympathique",
+        "Système sympathique",
+        "Système entérique",
+        "Système somatique"
+      ],
+      "bonne_reponse": "Système sympathique",
+      "explication": "Le système sympathique prépare l’organisme à la réponse de fuite ou combat, notamment en augmentant la fréquence cardiaque."
+    },
+    {
+      "question": "Dans la physiologie cardiaque, quel nœud est considéré comme le « pacemaker » physiologique du cœur ?",
+      "reponses": [
+        "Nœud auriculo-ventriculaire (AV)",
+        "Faisceau de His",
+        "Nœud sino-auriculaire (SA)",
+        "Fibres de Purkinje"
+      ],
+      "bonne_reponse": "Nœud sino-auriculaire (SA)",
+      "explication": "Le nœud SA, situé dans l’oreillette droite, possède l’automatisme le plus élevé et initie normalement l’influx cardiaque."
+    },
+    {
+      "question": "La phase de dépolarisation rapide des cellules ventriculaires du cœur (phase 0) est principalement due à :",
+      "reponses": [
+        "Une entrée rapide de sodium (Na+)",
+        "Une sortie rapide de potassium (K+)",
+        "Une entrée lente de calcium (Ca2+)",
+        "Une sortie de chlorure (Cl-)"
+      ],
+      "bonne_reponse": "Une entrée rapide de sodium (Na+)",
+      "explication": "L’ouverture brutale des canaux sodiques voltage-dépendants provoque la dépolarisation rapide du potentiel d’action ventriculaire."
+    },
+    {
+      "question": "Quel volume correspond à la quantité de sang éjectée par un ventricule à chaque contraction ?",
+      "reponses": [
+        "Volume télédiastolique",
+        "Volume télésystolique",
+        "Volume d’éjection systolique",
+        "Volume résiduel pulmonaire"
+      ],
+      "bonne_reponse": "Volume d’éjection systolique",
+      "explication": "Le volume d’éjection systolique est la différence entre le volume télédiastolique et télésystolique."
+    },
+    {
+      "question": "Quel paramètre correspond au produit du volume d’éjection systolique par la fréquence cardiaque ?",
+      "reponses": [
+        "Pression artérielle moyenne",
+        "Débit cardiaque",
+        "Volume résiduel",
+        "Précharge"
+      ],
+      "bonne_reponse": "Débit cardiaque",
+      "explication": "Le débit cardiaque est la quantité de sang pompée par un ventricule en une minute."
+    },
+    {
+      "question": "Quel est l’effet principal d’une augmentation de la postcharge (résistance vasculaire) sur le cœur gauche ?",
+      "reponses": [
+        "Diminution du travail du ventricule gauche",
+        "Augmentation du volume d’éjection",
+        "Augmentation du travail du ventricule gauche",
+        "Arrêt immédiat de la conduction cardiaque"
+      ],
+      "bonne_reponse": "Augmentation du travail du ventricule gauche",
+      "explication": "Une postcharge plus élevée nécessite une pression plus grande pour éjecter le sang, augmentant le travail cardiaque."
+    },
+    {
+      "question": "Dans l’hémostase primaire, quelles structures sont essentielles pour la formation du clou plaquettaire ?",
+      "reponses": [
+        "Fibrinogène uniquement",
+        "Plaquettes et facteur von Willebrand",
+        "Érythrocytes et neutrophiles",
+        "Lymphocytes T et B"
+      ],
+      "bonne_reponse": "Plaquettes et facteur von Willebrand",
+      "explication": "Le facteur von Willebrand permet l’adhésion plaquettaire à la paroi lésée, initiant la formation du clou plaquettaire."
+    },
+    {
+      "question": "Le facteur de coagulation dépendant de la vitamine K le plus important pour la voie extrinsèque est :",
+      "reponses": ["Facteur V", "Facteur VII", "Facteur VIII", "Facteur XII"],
+      "bonne_reponse": "Facteur VII",
+      "explication": "Le facteur VII activé, avec le facteur tissulaire, déclenche la voie extrinsèque de la coagulation."
+    },
+    {
+      "question": "Dans les échanges gazeux alvéolo-capillaires, quel facteur influence le plus la diffusion de l’oxygène ?",
+      "reponses": [
+        "La viscosité sanguine",
+        "L’épaisseur de la membrane alvéolo-capillaire",
+        "La concentration en glucose",
+        "La température cutanée"
+      ],
+      "bonne_reponse": "L’épaisseur de la membrane alvéolo-capillaire",
+      "explication": "Une augmentation de l’épaisseur (fibrose, œdème) réduit la diffusion de l’oxygène à travers la barrière alvéolo-capillaire."
+    },
+    {
+      "question": "Quel paramètre décrit la quantité de sang contenue dans les poumons permettant les échanges gazeux à un instant donné ?",
+      "reponses": [
+        "Capacité résiduelle fonctionnelle",
+        "Volume pulmonaire total",
+        "Volume sanguin pulmonaire",
+        "Espace mort anatomique"
+      ],
+      "bonne_reponse": "Volume sanguin pulmonaire",
+      "explication": "Ce volume représente le sang présent dans les capillaires pulmonaires et les vaisseaux pulmonaires."
+    },
+    {
+      "question": "Quel centre respiratoire situé dans le tronc cérébral est principalement responsable du rythme respiratoire automatique ?",
+      "reponses": [
+        "Cortex frontal",
+        "Bulbe rachidien (medulla oblongata)",
+        "Cervelet",
+        "Hypophyse"
+      ],
+      "bonne_reponse": "Bulbe rachidien (medulla oblongata)",
+      "explication": "Des groupes de neurones bulbaires génèrent le rythme respiratoire de base."
+    },
+    {
+      "question": "Quel chémorécepteur central, situé dans le tronc cérébral, répond principalement aux variations de pCO₂ et de pH dans le liquide céphalorachidien ?",
+      "reponses": [
+        "Corpuscules carotidiens",
+        "Corpuscules aortiques",
+        "Chémorécepteurs bulbaires centraux",
+        "Récepteurs pulmonaires d’étirement"
+      ],
+      "bonne_reponse": "Chémorécepteurs bulbaires centraux",
+      "explication": "Ils détectent les modifications de pH dues aux variations de CO₂ et ajustent la ventilation."
+    },
+    {
+      "question": "La loi de Frank-Starling du cœur décrit la relation entre :",
+      "reponses": [
+        "Fréquence cardiaque et pression artérielle",
+        "Volume télédiastolique et volume d’éjection systolique",
+        "Postcharge et compliance pulmonaire",
+        "pH sanguin et saturation en oxygène"
+      ],
+      "bonne_reponse": "Volume télédiastolique et volume d’éjection systolique",
+      "explication": "Une augmentation du remplissage ventriculaire étire les fibres myocardiques, augmentant la force de contraction et le volume éjecté."
+    },
+    {
+      "question": "Quel compartiment lymphoïde secondaire filtre le sang et participe à la réponse immunitaire contre les antigènes circulants ?",
+      "reponses": ["Ganglion lymphatique", "Rate", "Amygdales", "Plaques de Peyer"],
+      "bonne_reponse": "Rate",
+      "explication": "La rate filtre le sang, élimine les hématies âgées et répond aux antigènes sanguins."
+    },
+    {
+      "question": "Les plaques de Peyer sont des structures lymphoïdes associées :",
+      "reponses": [
+        "Au foie",
+        "À l’iléon de l’intestin grêle",
+        "Au côlon ascendant",
+        "Aux bronchioles terminales"
+      ],
+      "bonne_reponse": "À l’iléon de l’intestin grêle",
+      "explication": "Les plaques de Peyer sont des agrégats lymphoïdes de la muqueuse iléale participant à l’immunité intestinale."
+    },
+    {
+      "question": "Quel type d’anticorps est majoritaire dans les sécrétions muqueuses (salive, larmes, mucus respiratoire) ?",
+      "reponses": ["IgG", "IgM", "IgA", "IgE"],
+      "bonne_reponse": "IgA",
+      "explication": "Les IgA sécrétoires protègent les surfaces muqueuses contre les agents pathogènes."
+    },
+    {
+      "question": "Quel type de lymphocyte est principalement responsable de la cytotoxicité directe des cellules infectées par un virus ?",
+      "reponses": ["Lymphocyte B", "Lymphocyte T CD4+", "Lymphocyte T CD8+", "Plasmocyte"],
+      "bonne_reponse": "Lymphocyte T CD8+",
+      "explication": "Les lymphocytes T cytotoxiques reconnaissent les cellules exprimant des antigènes viraux via le complexe CMH I."
+    },
+    {
+      "question": "Quelle structure du cerveau est essentielle pour la coordination motrice et l’ajustement fin des mouvements volontaires ?",
+      "reponses": ["Tronc cérébral", "Cervelet", "Hypothalamus", "Thalamus"],
+      "bonne_reponse": "Cervelet",
+      "explication": "Le cervelet compare le mouvement prévu et le mouvement réalisé et corrige les erreurs."
+    },
+    {
+      "question": "Les noyaux de la base (ganglions de la base) sont impliqués principalement dans :",
+      "reponses": [
+        "La régulation endocrine",
+        "La coordination motrice et le contrôle du tonus",
+        "La vision et l’audition",
+        "La régulation de la température"
+      ],
+      "bonne_reponse": "La coordination motrice et le contrôle du tonus",
+      "explication": "Les ganglions de la base participent à l’initiation et au contrôle des mouvements volontaires."
+    },
+    {
+      "question": "Dans la moelle épinière, les neurones moteurs somatiques se trouvent principalement dans :",
+      "reponses": ["La corne dorsale grise", "La corne ventrale grise", "La substance blanche latérale", "Les colonnes postérieures"],
+      "bonne_reponse": "La corne ventrale grise",
+      "explication": "Les corps cellulaires des motoneurones alpha innervant les muscles squelettiques résident dans la corne antérieure."
+    },
+    {
+      "question": "Quel tractus ascendant médullaire transmet principalement la sensibilité fine (tact épicritique) et la proprioception consciente ?",
+      "reponses": [
+        "Faisceau spino-thalamique",
+        "Cordons postérieurs (gracile et cunéiforme)",
+        "Tractus spino-cérébelleux ventral",
+        "Tractus cortico-spinal"
+      ],
+      "bonne_reponse": "Cordons postérieurs (gracile et cunéiforme)",
+      "explication": "Les colonnes dorsales véhiculent la proprioception, la vibration et le tact discriminatif vers le bulbe puis le thalamus."
+    },
+    {
+      "question": "Dans quel lobe cérébral se situe principalement l’aire motrice primaire (cortex moteur primaire) ?",
+      "reponses": ["Lobe frontal", "Lobe pariétal", "Lobe temporal", "Lobe occipital"],
+      "bonne_reponse": "Lobe frontal",
+      "explication": "L’aire motrice primaire se trouve en avant du sillon central, dans le gyrus précentral frontal."
+    },
+    {
+      "question": "Le centre principal de la vision consciente se situe dans :",
+      "reponses": [
+        "Le lobe frontal",
+        "Le lobe temporal",
+        "Le lobe occipital",
+        "Le cervelet"
+      ],
+      "bonne_reponse": "Le lobe occipital",
+      "explication": "Le cortex visuel primaire est localisé autour de la scissure calcarine du lobe occipital."
+    },
+    {
+      "question": "Quel est le nom de la jonction neuromusculaire dans le muscle squelettique ?",
+      "reponses": ["Synapse électrique", "Plaque motrice", "Nœud de Ranvier", "Disque intercalé"],
+      "bonne_reponse": "Plaque motrice",
+      "explication": "La plaque motrice est la synapse chimique entre le motoneurone et la fibre musculaire squelettique."
+    },
+    {
+      "question": "Quel canal ionique est principalement responsable de la dépolarisation de la membrane lors d’un potentiel d’action neuronal ?",
+      "reponses": [
+        "Canaux potassiques voltage-dépendants",
+        "Canaux sodiques voltage-dépendants",
+        "Canaux calciques L-type",
+        "Canaux chlorure ligand-dépendants"
+      ],
+      "bonne_reponse": "Canaux sodiques voltage-dépendants",
+      "explication": "L’ouverture rapide des canaux Na+ voltage-dépendants provoque la phase ascendante du potentiel d’action."
+    },
+    {
+      "question": "Au niveau de la jonction neuromusculaire, quel enzyme dégrade l’acétylcholine dans la fente synaptique ?",
+      "reponses": ["Monoamine oxydase", "Acétylcholinestérase", "Catechol-O-méthyltransférase", "ATPase"],
+      "bonne_reponse": "Acétylcholinestérase",
+      "explication": "L’acétylcholinestérase hydrolyse l’acétylcholine, mettant fin au signal et permettant la relaxation musculaire."
+    },
+    {
+      "question": "Quel type de fibre musculaire squelettique est spécialisé dans l’endurance et l’utilisation de la respiration aérobie ?",
+      "reponses": [
+        "Fibres rapides glycolytiques (type IIb)",
+        "Fibres rapides oxydatives (type IIa)",
+        "Fibres lentes oxydatives (type I)",
+        "Fibres lisses"
+      ],
+      "bonne_reponse": "Fibres lentes oxydatives (type I)",
+      "explication": "Les fibres de type I sont riches en mitochondries et myoglobine, adaptées aux efforts prolongés."
+    },
+    {
+      "question": "Quel est le principal tampon extracellulaire du sang contribuant au maintien du pH ?",
+      "reponses": ["Système phosphate", "Système bicarbonate/acide carbonique", "Protéines intracellulaires", "Hémoglobine uniquement"],
+      "bonne_reponse": "Système bicarbonate/acide carbonique",
+      "explication": "Le couple bicarbonate/CO₂ est le principal système tampon sanguin régulé par les poumons et les reins."
+    },
+    {
+      "question": "En cas d’hyperventilation aiguë isolée, quel trouble acido-basique se développe typiquement ?",
+      "reponses": [
+        "Acidose métabolique",
+        "Alcalose métabolique",
+        "Acidose respiratoire",
+        "Alcalose respiratoire"
+      ],
+      "bonne_reponse": "Alcalose respiratoire",
+      "explication": "L’hyperventilation diminue la pCO₂, augmentant le pH sanguin (alcalose respiratoire)."
+    },
+    {
+      "question": "Le réflexe myotatique (d’étirement) mono-synaptique implique :",
+      "reponses": [
+        "Un interneurone inhibiteur uniquement",
+        "Une seule synapse entre neurone sensitif et motoneurone",
+        "Plusieurs interneurones successifs",
+        "Uniquement des fibres C amyéliniques"
+      ],
+      "bonne_reponse": "Une seule synapse entre neurone sensitif et motoneurone",
+      "explication": "Le réflexe myotatique est le réflexe le plus simple avec une synapse directe dans la moelle entre afférent et efférent."
+    },
+    {
+      "question": "Quelle structure de l’oreille interne est responsable de la détection des accélérations angulaires (rotation de la tête) ?",
+      "reponses": [
+        "Cochlée",
+        "Canaux semi-circulaires",
+        "Saccule",
+        "Uttricule"
+      ],
+      "bonne_reponse": "Canaux semi-circulaires",
+      "explication": "Les canaux semi-circulaires sont disposés dans trois plans et détectent les rotations de la tête."
+    },
+    {
+      "question": "Dans l’œil, quel muscle est innervé par le nerf oculomoteur commun (III) pour provoquer une constriction pupillaire ?",
+      "reponses": [
+        "Muscle dilatateur de la pupille",
+        "Muscle sphincter de la pupille",
+        "Muscle droit latéral",
+        "Muscle oblique supérieur"
+      ],
+      "bonne_reponse": "Muscle sphincter de la pupille",
+      "explication": "Le nerf III transporte les fibres parasympathiques qui innervent le sphincter pupillaire provoquant le myosis."
+    },
+    {
+      "question": "Quel nerf crânien transporte la sensibilité gustative des deux tiers antérieurs de la langue (via une branche) ?",
+      "reponses": [
+        "Nerf trijumeau (V)",
+        "Nerf facial (VII)",
+        "Nerf glossopharyngien (IX)",
+        "Nerf vague (X)"
+      ],
+      "bonne_reponse": "Nerf facial (VII)",
+      "explication": "La corde du tympan (branche du VII) transmet la gustation des deux tiers antérieurs de la langue."
+    },
+    {
+      "question": "Quelle vitamine est indispensable à la synthèse correcte de nombreux facteurs de coagulation dépendants dans le foie ?",
+      "reponses": ["Vitamine C", "Vitamine K", "Vitamine B12", "Vitamine D"],
+      "bonne_reponse": "Vitamine K",
+      "explication": "La vitamine K est nécessaire à la carboxylation de plusieurs facteurs de coagulation (II, VII, IX, X)."
+    },
+    {
+      "question": "Quel ion est principalement régulé par l’hormone aldostérone au niveau du rein ?",
+      "reponses": ["Calcium", "Magnésium", "Sodium (Na+)", "Fer"],
+      "bonne_reponse": "Sodium (Na+)",
+      "explication": "L’aldostérone augmente la réabsorption de sodium et l’excrétion de potassium dans le tube distal et le canal collecteur."
+    },
+    {
+      "question": "Quel est le principal effet de l’hormone antidiurétique (ADH, vasopressine) sur le rein ?",
+      "reponses": [
+        "Augmentation de l’excrétion d’eau",
+        "Augmentation de la perméabilité à l’eau des canaux collecteurs",
+        "Diminution de la réabsorption de sodium",
+        "Augmentation de la filtration glomérulaire"
+      ],
+      "bonne_reponse": "Augmentation de la perméabilité à l’eau des canaux collecteurs",
+      "explication": "L’ADH insère des aquaporines dans les canaux collecteurs, favorisant la réabsorption d’eau."
+    },
+    {
+      "question": "Quelle hormone produite par le rein stimule la production de globules rouges par la moelle osseuse ?",
+      "reponses": ["Aldostérone", "Rénine", "Érythropoïétine", "Calcitriol"],
+      "bonne_reponse": "Érythropoïétine",
+      "explication": "L’érythropoïétine est sécrétée en cas d’hypoxie pour augmenter l’érythropoïèse."
+    },
+    {
+      "question": "Par quel organe se fait principalement la conversion de la vitamine D en forme active (calcitriol) ?",
+      "reponses": ["Foie", "Rein", "Rate", "Pancréas"],
+      "bonne_reponse": "Rein",
+      "explication": "Le rein réalise l’hydroxylation finale de la vitamine D pour produire le calcitriol, forme active."
+    },
+    {
+      "question": "Quel type de jonction cellulaire permet le passage direct de petites molécules entre deux cellules voisines, comme dans le myocarde ?",
+      "reponses": [
+        "Jonctions serrées",
+        "Desmosomes",
+        "Jonctions communicantes (gap junctions)",
+        "Hémidesmosomes"
+      ],
+      "bonne_reponse": "Jonctions communicantes (gap junctions)",
+      "explication": "Les gap junctions permettent la propagation rapide de l’influx électrique dans le muscle cardiaque."
+    },
+    {
+      "question": "Dans la physiologie musculaire, le couplage excitation-contraction dépend surtout :",
+      "reponses": [
+        "Du calcium libéré par le réticulum sarcoplasmique",
+        "Du sodium extracellulaire",
+        "Du potassium intracellulaire",
+        "Du chlorure extracellulaire"
+      ],
+      "bonne_reponse": "Du calcium libéré par le réticulum sarcoplasmique",
+      "explication": "Le calcium se fixe sur la troponine, permettant l’interaction actine-myosine et la contraction."
+    },
+    {
+      "question": "Quel segment du tube digestif assure le plus grand temps de contact avec les nutriments pour l’absorption ?",
+      "reponses": [
+        "Estomac",
+        "Duodénum",
+        "Jéjunum–iléon",
+        "Côlon transverse"
+      ],
+      "bonne_reponse": "Jéjunum–iléon",
+      "explication": "La majeure partie de l’absorption se fait dans le jéjunum et l’iléon, grâce à une surface très augmentée par les villosités."
+    },
+    {
+      "question": "Quel est le principal rôle des cellules pariétales de la muqueuse gastrique ?",
+      "reponses": [
+        "Sécréter la pepsine",
+        "Sécréter l’acide chlorhydrique et le facteur intrinsèque",
+        "Produire le mucus protecteur",
+        "Sécréter la gastrine"
+      ],
+      "bonne_reponse": "Sécréter l’acide chlorhydrique et le facteur intrinsèque",
+      "explication": "Les cellules pariétales produisent HCl et le facteur intrinsèque nécessaire à l’absorption de la vitamine B12."
+    },
+    {
+      "question": "Dans l’intestin grêle, quelles cellules produisent le mucus lubrifiant la muqueuse ?",
+      "reponses": [
+        "Cellules entéroendocrines",
+        "Cellules de Paneth",
+        "Cellules caliciformes (goblet cells)",
+        "Entérocytes à bordure en brosse"
+      ],
+      "bonne_reponse": "Cellules caliciformes (goblet cells)",
+      "explication": "Les cellules caliciformes sécrètent un mucus protecteur et lubrifiant."
+    },
+    {
+      "question": "Quel plexus nerveux entérique régule principalement la motricité du tube digestif (péristaltisme) ?",
+      "reponses": [
+        "Plexus de Meissner (sous-muqueux)",
+        "Plexus de Myentericus (d’Auerbach)",
+        "Plexus cardiaque",
+        "Plexus brachial"
+      ],
+      "bonne_reponse": "Plexus de Myentericus (d’Auerbach)",
+      "explication": "Le plexus myentérique, situé entre les couches musculaires, contrôle la motricité intestinale."
+    },
+    {
+      "question": "Quel est le principal effet de la gastrine sur l’estomac ?",
+      "reponses": [
+        "Diminuer la sécrétion acide",
+        "Augmenter la sécrétion acide et la motricité gastrique",
+        "Inhiber la motricité gastrique",
+        "Augmenter la sécrétion de bicarbonates pancréatiques"
+      ],
+      "bonne_reponse": "Augmenter la sécrétion acide et la motricité gastrique",
+      "explication": "La gastrine stimule les cellules pariétales et la motricité antrale."
+    },
+    {
+      "question": "Au niveau de la jonction neuromusculaire, le potentiel de plaque motrice se propage au muscle via :",
+      "reponses": [
+        "Des canaux potassiques ligand-dépendants",
+        "Des canaux sodiques voltage-dépendants",
+        "Des canaux calciques T-type",
+        "Des canaux chlore voltage-dépendants"
+      ],
+      "bonne_reponse": "Des canaux sodiques voltage-dépendants",
+      "explication": "L’acétylcholine ouvre des récepteurs nicotiniques, dépolarisant le sarcolemme, puis les canaux Na+ voltage-dépendants propagent le potentiel."
+    },
+    {
+      "question": "Quel type de récepteur sensoriel cutané est spécialisé dans la perception des vibrations et des pressions profondes ?",
+      "reponses": [
+        "Corpuscules de Meissner",
+        "Corpuscules de Pacini",
+        "Disques de Merkel",
+        "Terminaisons libres"
+      ],
+      "bonne_reponse": "Corpuscules de Pacini",
+      "explication": "Les corpuscules de Pacini sont de grands récepteurs encapsulés sensibles aux vibrations rapides et aux pressions profondes."
+    },
+    {
+      "question": "Dans la rétine, quel type de photorécepteur est majoritaire dans la fovéa centrale et permet l’acuité visuelle maximale ?",
+      "reponses": ["Bâtonnets", "Cônes", "Cellules ganglionnaires", "Cellules horizontales"],
+      "bonne_reponse": "Cônes",
+      "explication": "La fovéa est riche en cônes et dépourvue de bâtonnets, offrant la meilleure acuité visuelle et la vision des couleurs."
+    },
+    {
+      "question": "Quel nerf crânien est principalement responsable de l’innervation motrice de la langue (mouvements) ?",
+      "reponses": [
+        "Nerf facial (VII)",
+        "Nerf glossopharyngien (IX)",
+        "Nerf hypoglosse (XII)",
+        "Nerf vague (X)"
+      ],
+      "bonne_reponse": "Nerf hypoglosse (XII)",
+      "explication": "Le nerf hypoglosse innerve la plupart des muscles intrinsèques et extrinsèques de la langue."
+    },
+    {
+      "question": "Le réflexe rotulien (extension du genou après percussion du tendon patellaire) teste principalement :",
+      "reponses": [
+        "Le nerf tibial",
+        "Le nerf fémoral (L2–L4)",
+        "Le nerf sciatique",
+        "Le nerf obturateur"
+      ],
+      "bonne_reponse": "Le nerf fémoral (L2–L4)",
+      "explication": "Le réflexe patellaire explore l’arc réflexe passant par le nerf fémoral et les racines L2–L4."
+    },
+    {
+      "question": "Dans l’hémoglobine adulte (HbA), quelles chaînes polypeptidiques sont associées ?",
+      "reponses": [
+        "Deux chaînes alpha et deux chaînes beta",
+        "Quatre chaînes gamma",
+        "Deux chaînes alpha et deux chaînes gamma",
+        "Deux chaînes delta et deux chaînes beta"
+      ],
+      "bonne_reponse": "Deux chaînes alpha et deux chaînes beta",
+      "explication": "L’HbA normale est composée de deux chaînes α et deux chaînes β."
+    },
+    {
+      "question": "Quel effet décrit la diminution de l’affinité de l’hémoglobine pour l’oxygène lorsqu’elle se trouve dans un milieu plus acide ou plus riche en CO₂ ?",
+      "reponses": [
+        "Effet Haldane",
+        "Effet Bohr",
+        "Effet Venturi",
+        "Effet Fick"
+      ],
+      "bonne_reponse": "Effet Bohr",
+      "explication": "L’effet Bohr décrit la diminution de l’affinité de l’hémoglobine pour l’oxygène en milieu acide ou hypercapnique, facilitant la délivrance d’O₂."
+    },
+    {
+      "question": "Quel segment de l’utérus s’épaissit et se contracte puissamment lors de l’accouchement ?",
+      "reponses": ["Col utérin", "Isthme utérin", "Corps utérin (myomètre)", "Fond utérin uniquement"],
+      "bonne_reponse": "Corps utérin (myomètre)",
+      "explication": "Le myomètre du corps utérin est responsable des contractions expulsives lors du travail."
+    },
+    {
+      "question": "Quel est le principal rôle de l’hormone prolactine chez la femme après l’accouchement ?",
+      "reponses": [
+        "Déclencher l’ovulation",
+        "Stimuler la production de lait par les glandes mammaires",
+        "Augmenter la glycémie",
+        "Augmenter la pression artérielle"
+      ],
+      "bonne_reponse": "Stimuler la production de lait par les glandes mammaires",
+      "explication": "La prolactine, sécrétée par l’hypophyse antérieure, stimule la lactogenèse."
+    },
+    {
+      "question": "Quel est le rôle de l’ocytocine dans la lactation ?",
+      "reponses": [
+        "Stimuler la synthèse du lait",
+        "Provoquer l’éjection du lait en contractant les cellules myoépithéliales",
+        "Inhiber la succion",
+        "Augmenter la tension artérielle"
+      ],
+      "bonne_reponse": "Provoquer l’éjection du lait en contractant les cellules myoépithéliales",
+      "explication": "L’ocytocine déclenche le réflexe d’éjection du lait en réponse à la succion."
+    },
+    {
+      "question": "Quel est le rôle principal du corpuscule de Pacini (corpuscule lamellaire) dans les tissus ?",
+      "reponses": [
+        "Détection de la température",
+        "Détection de la douleur",
+        "Détection de pressions profondes et de vibrations",
+        "Détection de la lumière"
+      ],
+      "bonne_reponse": "Détection de pressions profondes et de vibrations",
+      "explication": "Ces récepteurs encapsulés détectent les changements rapides de pression et les vibrations."
+    },
+    {
+      "question": "Quel type de tissu conjonctif forme la majeure partie des tendons et des ligaments, disposé en faisceaux parallèles de fibres de collagène ?",
+      "reponses": [
+        "Tissu conjonctif lâche",
+        "Tissu conjonctif dense irrégulier",
+        "Tissu conjonctif dense régulier",
+        "Tissu réticulaire"
+      ],
+      "bonne_reponse": "Tissu conjonctif dense régulier",
+      "explication": "Les fibres parallèles de collagène confèrent une forte résistance dans l’axe des tensions mécaniques."
+    },
+    {
+      "question": "Dans l’os mature, quel type de cellule est responsable de la résorption osseuse ?",
+      "reponses": ["Ostéoblaste", "Ostéocyte", "Ostéoclaste", "Chondroblaste"],
+      "bonne_reponse": "Ostéoclaste",
+      "explication": "Les ostéoclastes sont de grandes cellules multinucléées qui dissolvent la matrice osseuse."
+    },
+    {
+      "question": "Dans le cycle cardiaque, la fermeture des valves atrio-ventriculaires (mitrale et tricuspide) correspond au :",
+      "reponses": [
+        "Premier bruit du cœur (B1)",
+        "Deuxième bruit du cœur (B2)",
+        "Souffle systolique",
+        "Souffle diastolique"
+      ],
+      "bonne_reponse": "Premier bruit du cœur (B1)",
+      "explication": "Le B1 est provoqué par la fermeture des valves AV au début de la systole ventriculaire."
+    }
+  ]
+}

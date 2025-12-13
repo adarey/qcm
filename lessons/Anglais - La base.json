@@ -1,0 +1,634 @@
+{
+  "questions": [
+    {
+      "question": "Traduction de \"house\" ?",
+      "reponses": ["Maison", "Voiture", "Chien", "Table"],
+      "bonne_reponse": "Maison",
+      "explication": "\"House\" signifie \"maison\" en anglais."
+    },
+    {
+      "question": "Traduction de \"water\" ?",
+      "reponses": ["Eau", "Pain", "Fromage", "Vin"],
+      "bonne_reponse": "Eau",
+      "explication": "\"Water\" signifie \"eau\"."
+    },
+    {
+      "question": "Traduction de \"book\" ?",
+      "reponses": ["Livre", "Chaise", "Arbre", "Route"],
+      "bonne_reponse": "Livre",
+      "explication": "\"Book\" signifie \"livre\"."
+    },
+    {
+      "question": "Traduction de \"car\" ?",
+      "reponses": ["Voiture", "Train", "Avion", "Bateau"],
+      "bonne_reponse": "Voiture",
+      "explication": "\"Car\" signifie \"voiture\"."
+    },
+    {
+      "question": "Traduction de \"dog\" ?",
+      "reponses": ["Chien", "Chat", "Oiseau", "Cheval"],
+      "bonne_reponse": "Chien",
+      "explication": "\"Dog\" signifie \"chien\"."
+    },
+    {
+      "question": "Traduction de \"cat\" ?",
+      "reponses": ["Chat", "Chien", "Lapin", "Souris"],
+      "bonne_reponse": "Chat",
+      "explication": "\"Cat\" signifie \"chat\"."
+    },
+    {
+      "question": "Traduction de \"food\" ?",
+      "reponses": ["Nourriture", "Boisson", "Maison", "Travail"],
+      "bonne_reponse": "Nourriture",
+      "explication": "\"Food\" signifie \"nourriture\"."
+    },
+    {
+      "question": "Traduction de \"drink\" (nom) ?",
+      "reponses": ["Boisson", "Nourriture", "Voiture", "Livre"],
+      "bonne_reponse": "Boisson",
+      "explication": "\"Drink\" comme nom signifie \"boisson\"."
+    },
+    {
+      "question": "Traduction de \"sun\" ?",
+      "reponses": ["Soleil", "Lune", "Étoile", "Nuage"],
+      "bonne_reponse": "Soleil",
+      "explication": "\"Sun\" signifie \"soleil\"."
+    },
+    {
+      "question": "Traduction de \"moon\" ?",
+      "reponses": ["Lune", "Soleil", "Planète", "Étoile"],
+      "bonne_reponse": "Lune",
+      "explication": "\"Moon\" signifie \"lune\"."
+    },
+    {
+      "question": "Traduction de \"tree\" ?",
+      "reponses": ["Arbre", "Fleur", "Herbe", "Feuille"],
+      "bonne_reponse": "Arbre",
+      "explication": "\"Tree\" signifie \"arbre\"."
+    },
+    {
+      "question": "Traduction de \"flower\" ?",
+      "reponses": ["Fleur", "Feuille", "Herbe", "Bois"],
+      "bonne_reponse": "Fleur",
+      "explication": "\"Flower\" signifie \"fleur\"."
+    },
+    {
+      "question": "Traduction de \"friend\" ?",
+      "reponses": ["Ami", "Ennemi", "Voisin", "Collègue"],
+      "bonne_reponse": "Ami",
+      "explication": "\"Friend\" signifie \"ami\"."
+    },
+    {
+      "question": "Traduction de \"family\" ?",
+      "reponses": ["Famille", "Maison", "École", "Ville"],
+      "bonne_reponse": "Famille",
+      "explication": "\"Family\" signifie \"famille\"."
+    },
+    {
+      "question": "Traduction de \"city\" ?",
+      "reponses": ["Ville", "Campagne", "Village", "Pays"],
+      "bonne_reponse": "Ville",
+      "explication": "\"City\" signifie \"ville\"."
+    },
+    {
+      "question": "Traduction de \"country\" ?",
+      "reponses": ["Pays", "Ville", "Continent", "Région"],
+      "bonne_reponse": "Pays",
+      "explication": "\"Country\" signifie \"pays\"."
+    },
+    {
+      "question": "Traduction de \"school\" ?",
+      "reponses": ["École", "Travail", "Maison", "Magasin"],
+      "bonne_reponse": "École",
+      "explication": "\"School\" signifie \"école\"."
+    },
+    {
+      "question": "Traduction de \"teacher\" ?",
+      "reponses": ["Enseignant", "Étudiant", "Docteur", "Ingénieur"],
+      "bonne_reponse": "Enseignant",
+      "explication": "\"Teacher\" signifie \"enseignant\" ou \"professeur\"."
+    },
+    {
+      "question": "Traduction de \"student\" ?",
+      "reponses": ["Étudiant", "Enseignant", "Parent", "Manager"],
+      "bonne_reponse": "Étudiant",
+      "explication": "\"Student\" signifie \"étudiant\" ou \"élève\"."
+    },
+    {
+      "question": "Traduction de \"work\" (nom) ?",
+      "reponses": ["Travail", "Vacances", "Jeu", "Sommeil"],
+      "bonne_reponse": "Travail",
+      "explication": "\"Work\" comme nom signifie \"travail\"."
+    },
+    {
+      "question": "Traduction de \"job\" ?",
+      "reponses": ["Emploi", "Hobby", "Vacances", "École"],
+      "bonne_reponse": "Emploi",
+      "explication": "\"Job\" signifie \"emploi\" ou \"boulot\"."
+    },
+    {
+      "question": "Traduction de \"computer\" ?",
+      "reponses": ["Ordinateur", "Téléphone", "Télévision", "Imprimante"],
+      "bonne_reponse": "Ordinateur",
+      "explication": "\"Computer\" signifie \"ordinateur\"."
+    },
+    {
+      "question": "Traduction de \"phone\" ?",
+      "reponses": ["Téléphone", "Télévision", "Radio", "Ordinateur"],
+      "bonne_reponse": "Téléphone",
+      "explication": "\"Phone\" signifie \"téléphone\"."
+    },
+    {
+      "question": "Traduction de \"table\" ?",
+      "reponses": ["Table", "Chaise", "Lit", "Bureau"],
+      "bonne_reponse": "Table",
+      "explication": "\"Table\" signifie \"table\"."
+    },
+    {
+      "question": "Traduction de \"chair\" ?",
+      "reponses": ["Chaise", "Table", "Canapé", "Lit"],
+      "bonne_reponse": "Chaise",
+      "explication": "\"Chair\" signifie \"chaise\"."
+    },
+    {
+      "question": "Traduction de \"bed\" ?",
+      "reponses": ["Lit", "Chaise", "Bureau", "Armoire"],
+      "bonne_reponse": "Lit",
+      "explication": "\"Bed\" signifie \"lit\"."
+    },
+    {
+      "question": "Traduction de \"door\" ?",
+      "reponses": ["Porte", "Fenêtre", "Mur", "Toit"],
+      "bonne_reponse": "Porte",
+      "explication": "\"Door\" signifie \"porte\"."
+    },
+    {
+      "question": "Traduction de \"window\" ?",
+      "reponses": ["Fenêtre", "Porte", "Mur", "Toit"],
+      "bonne_reponse": "Fenêtre",
+      "explication": "\"Window\" signifie \"fenêtre\"."
+    },
+    {
+      "question": "Traduction de \"street\" ?",
+      "reponses": ["Rue", "Maison", "Ville", "Parc"],
+      "bonne_reponse": "Rue",
+      "explication": "\"Street\" signifie \"rue\"."
+    },
+    {
+      "question": "Traduction de \"road\" ?",
+      "reponses": ["Route", "Rivière", "Montagne", "Plage"],
+      "bonne_reponse": "Route",
+      "explication": "\"Road\" signifie \"route\"."
+    },
+    {
+      "question": "Traduction de \"shop\" ?",
+      "reponses": ["Magasin", "École", "Hôpital", "Maison"],
+      "bonne_reponse": "Magasin",
+      "explication": "\"Shop\" signifie \"magasin\"."
+    },
+    {
+      "question": "Traduction de \"market\" ?",
+      "reponses": ["Marché", "Magasin", "Banque", "Parc"],
+      "bonne_reponse": "Marché",
+      "explication": "\"Market\" signifie \"marché\"."
+    },
+    {
+      "question": "Traduction de \"money\" ?",
+      "reponses": ["Argent", "Temps", "Travail", "Maison"],
+      "bonne_reponse": "Argent",
+      "explication": "\"Money\" signifie \"argent\" (monnaie)."
+    },
+    {
+      "question": "Traduction de \"time\" ?",
+      "reponses": ["Temps", "Argent", "Travail", "Sommeil"],
+      "bonne_reponse": "Temps",
+      "explication": "\"Time\" signifie \"temps\"."
+    },
+    {
+      "question": "Traduction de \"day\" ?",
+      "reponses": ["Jour", "Nuit", "Matin", "Soir"],
+      "bonne_reponse": "Jour",
+      "explication": "\"Day\" signifie \"jour\"."
+    },
+    {
+      "question": "Traduction de \"night\" ?",
+      "reponses": ["Nuit", "Jour", "Matin", "Après-midi"],
+      "bonne_reponse": "Nuit",
+      "explication": "\"Night\" signifie \"nuit\"."
+    },
+    {
+      "question": "Traduction de \"morning\" ?",
+      "reponses": ["Matin", "Nuit", "Soir", "Midi"],
+      "bonne_reponse": "Matin",
+      "explication": "\"Morning\" signifie \"matin\"."
+    },
+    {
+      "question": "Traduction de \"evening\" ?",
+      "reponses": ["Soir", "Matin", "Nuit", "Midi"],
+      "bonne_reponse": "Soir",
+      "explication": "\"Evening\" signifie \"soir\"."
+    },
+    {
+      "question": "Traduction de \"food\" ?",
+      "reponses": ["Nourriture", "Boisson", "Voiture", "Livre"],
+      "bonne_reponse": "Nourriture",
+      "explication": "\"Food\" signifie \"nourriture\"."
+    },
+    {
+      "question": "Traduction de \"bread\" ?",
+      "reponses": ["Pain", "Fromage", "Lait", "Viande"],
+      "bonne_reponse": "Pain",
+      "explication": "\"Bread\" signifie \"pain\"."
+    },
+    {
+      "question": "Traduction de \"cheese\" ?",
+      "reponses": ["Fromage", "Pain", "Lait", "Beurre"],
+      "bonne_reponse": "Fromage",
+      "explication": "\"Cheese\" signifie \"fromage\"."
+    },
+    {
+      "question": "Traduction de \"milk\" ?",
+      "reponses": ["Lait", "Eau", "Jus", "Vin"],
+      "bonne_reponse": "Lait",
+      "explication": "\"Milk\" signifie \"lait\"."
+    },
+    {
+      "question": "Traduction de \"egg\" ?",
+      "reponses": ["Œuf", "Poulet", "Poisson", "Viande"],
+      "bonne_reponse": "Œuf",
+      "explication": "\"Egg\" signifie \"œuf\"."
+    },
+    {
+      "question": "Traduction de \"salt\" ?",
+      "reponses": ["Sel", "Sucre", "Poivre", "Huile"],
+      "bonne_reponse": "Sel",
+      "explication": "\"Salt\" signifie \"sel\"."
+    },
+    {
+      "question": "Traduction de \"sugar\" ?",
+      "reponses": ["Sucre", "Sel", "Poivre", "Huile"],
+      "bonne_reponse": "Sucre",
+      "explication": "\"Sugar\" signifie \"sucre\"."
+    },
+    {
+      "question": "Traduction de \"coffee\" ?",
+      "reponses": ["Café", "Thé", "Jus", "Limonade"],
+      "bonne_reponse": "Café",
+      "explication": "\"Coffee\" signifie \"café\"."
+    },
+    {
+      "question": "Traduction de \"tea\" ?",
+      "reponses": ["Thé", "Café", "Jus", "Lait"],
+      "bonne_reponse": "Thé",
+      "explication": "\"Tea\" signifie \"thé\"."
+    },
+    {
+      "question": "Traduction de \"apple\" ?",
+      "reponses": ["Pomme", "Poire", "Orange", "Banane"],
+      "bonne_reponse": "Pomme",
+      "explication": "\"Apple\" signifie \"pomme\"."
+    },
+    {
+      "question": "Traduction de \"orange\" ?",
+      "reponses": ["Orange", "Pomme", "Poire", "Banane"],
+      "bonne_reponse": "Orange",
+      "explication": "\"Orange\" signifie \"orange\" (fruit)."
+    },
+    {
+      "question": "Traduction de \"banana\" ?",
+      "reponses": ["Banane", "Pomme", "Poire", "Raisin"],
+      "bonne_reponse": "Banane",
+      "explication": "\"Banana\" signifie \"banane\"."
+    },
+    {
+      "question": "Traduction de \"grape\" ?",
+      "reponses": ["Raisin", "Fraise", "Framboise", "Cerise"],
+      "bonne_reponse": "Raisin",
+      "explication": "\"Grape\" signifie \"raisin\"."
+    },
+    {
+      "question": "Traduction de \"fish\" ?",
+      "reponses": ["Poisson", "Viande", "Poulet", "Fromage"],
+      "bonne_reponse": "Poisson",
+      "explication": "\"Fish\" signifie \"poisson\"."
+    },
+    {
+      "question": "Traduction de \"meat\" ?",
+      "reponses": ["Viande", "Poisson", "Légume", "Fruit"],
+      "bonne_reponse": "Viande",
+      "explication": "\"Meat\" signifie \"viande\"."
+    },
+    {
+      "question": "Traduction de \"vegetable\" ?",
+      "reponses": ["Légume", "Fruit", "Viande", "Poisson"],
+      "bonne_reponse": "Légume",
+      "explication": "\"Vegetable\" signifie \"légume\"."
+    },
+    {
+      "question": "Traduction de \"fruit\" ?",
+      "reponses": ["Fruit", "Légume", "Viande", "Poisson"],
+      "bonne_reponse": "Fruit",
+      "explication": "\"Fruit\" signifie \"fruit\"."
+    },
+    {
+      "question": "Traduction de \"happy\" ?",
+      "reponses": ["Heureux", "Triste", "En colère", "Fatigué"],
+      "bonne_reponse": "Heureux",
+      "explication": "\"Happy\" signifie \"heureux\"."
+    },
+    {
+      "question": "Traduction de \"sad\" ?",
+      "reponses": ["Triste", "Heureux", "Excité", "Calme"],
+      "bonne_reponse": "Triste",
+      "explication": "\"Sad\" signifie \"triste\"."
+    },
+    {
+      "question": "Traduction de \"tired\" ?",
+      "reponses": ["Fatigué", "Réveillé", "Fort", "Content"],
+      "bonne_reponse": "Fatigué",
+      "explication": "\"Tired\" signifie \"fatigué\"."
+    },
+    {
+      "question": "Traduction de \"angry\" ?",
+      "reponses": ["En colère", "Heureux", "Triste", "Calme"],
+      "bonne_reponse": "En colère",
+      "explication": "\"Angry\" signifie \"en colère\"."
+    },
+    {
+      "question": "Traduction de \"big\" ?",
+      "reponses": ["Grand", "Petit", "Court", "Lent"],
+      "bonne_reponse": "Grand",
+      "explication": "\"Big\" signifie \"grand\" (de grande taille)."
+    },
+    {
+      "question": "Traduction de \"small\" ?",
+      "reponses": ["Petit", "Grand", "Long", "Lourd"],
+      "bonne_reponse": "Petit",
+      "explication": "\"Small\" signifie \"petit\"."
+    },
+    {
+      "question": "Traduction de \"long\" ?",
+      "reponses": ["Long", "Court", "Large", "Petit"],
+      "bonne_reponse": "Long",
+      "explication": "\"Long\" signifie \"long\"."
+    },
+    {
+      "question": "Traduction de \"short\" ?",
+      "reponses": ["Court", "Long", "Grand", "Large"],
+      "bonne_reponse": "Court",
+      "explication": "\"Short\" signifie \"court\"."
+    },
+    {
+      "question": "Traduction de \"hot\" ?",
+      "reponses": ["Chaud", "Froid", "Humide", "Sec"],
+      "bonne_reponse": "Chaud",
+      "explication": "\"Hot\" signifie \"chaud\"."
+    },
+    {
+      "question": "Traduction de \"cold\" ?",
+      "reponses": ["Froid", "Chaud", "Sec", "Humide"],
+      "bonne_reponse": "Froid",
+      "explication": "\"Cold\" signifie \"froid\"."
+    },
+    {
+      "question": "Traduction de \"old\" (pour un objet) ?",
+      "reponses": ["Vieux", "Jeune", "Nouveau", "Rapide"],
+      "bonne_reponse": "Vieux",
+      "explication": "\"Old\" signifie \"vieux\" ou \"ancien\"."
+    },
+    {
+      "question": "Traduction de \"new\" ?",
+      "reponses": ["Nouveau", "Vieux", "Petit", "Grand"],
+      "bonne_reponse": "Nouveau",
+      "explication": "\"New\" signifie \"nouveau\"."
+    },
+    {
+      "question": "Traduction de \"good\" ?",
+      "reponses": ["Bon", "Mauvais", "Triste", "Lent"],
+      "bonne_reponse": "Bon",
+      "explication": "\"Good\" signifie \"bon\"."
+    },
+    {
+      "question": "Traduction de \"bad\" ?",
+      "reponses": ["Mauvais", "Bon", "Grand", "Petit"],
+      "bonne_reponse": "Mauvais",
+      "explication": "\"Bad\" signifie \"mauvais\"."
+    },
+    {
+      "question": "Traduction de \"boy\" ?",
+      "reponses": ["Garçon", "Fille", "Homme", "Femme"],
+      "bonne_reponse": "Garçon",
+      "explication": "\"Boy\" signifie \"garçon\"."
+    },
+    {
+      "question": "Traduction de \"girl\" ?",
+      "reponses": ["Fille", "Garçon", "Femme", "Homme"],
+      "bonne_reponse": "Fille",
+      "explication": "\"Girl\" signifie \"fille\"."
+    },
+    {
+      "question": "Traduction de \"man\" ?",
+      "reponses": ["Homme", "Femme", "Garçon", "Fille"],
+      "bonne_reponse": "Homme",
+      "explication": "\"Man\" signifie \"homme\"."
+    },
+    {
+      "question": "Traduction de \"woman\" ?",
+      "reponses": ["Femme", "Homme", "Fille", "Garçon"],
+      "bonne_reponse": "Femme",
+      "explication": "\"Woman\" signifie \"femme\"."
+    },
+    {
+      "question": "Traduction de \"child\" ?",
+      "reponses": ["Enfant", "Adulte", "Bébé", "Parent"],
+      "bonne_reponse": "Enfant",
+      "explication": "\"Child\" signifie \"enfant\"."
+    },
+    {
+      "question": "Traduction de \"father\" ?",
+      "reponses": ["Père", "Mère", "Oncle", "Grand-père"],
+      "bonne_reponse": "Père",
+      "explication": "\"Father\" signifie \"père\"."
+    },
+    {
+      "question": "Traduction de \"mother\" ?",
+      "reponses": ["Mère", "Père", "Tante", "Sœur"],
+      "bonne_reponse": "Mère",
+      "explication": "\"Mother\" signifie \"mère\"."
+    },
+    {
+      "question": "Traduction de \"brother\" ?",
+      "reponses": ["Frère", "Sœur", "Cousin", "Ami"],
+      "bonne_reponse": "Frère",
+      "explication": "\"Brother\" signifie \"frère\"."
+    },
+    {
+      "question": "Traduction de \"sister\" ?",
+      "reponses": ["Sœur", "Frère", "Cousine", "Amie"],
+      "bonne_reponse": "Sœur",
+      "explication": "\"Sister\" signifie \"sœur\"."
+    },
+    {
+      "question": "Traduction de \"hand\" ?",
+      "reponses": ["Main", "Pied", "Tête", "Bras"],
+      "bonne_reponse": "Main",
+      "explication": "\"Hand\" signifie \"main\"."
+    },
+    {
+      "question": "Traduction de \"foot\" ?",
+      "reponses": ["Pied", "Main", "Bras", "Tête"],
+      "bonne_reponse": "Pied",
+      "explication": "\"Foot\" signifie \"pied\"."
+    },
+    {
+      "question": "Traduction de \"head\" ?",
+      "reponses": ["Tête", "Main", "Pied", "Bras"],
+      "bonne_reponse": "Tête",
+      "explication": "\"Head\" signifie \"tête\"."
+    },
+    {
+      "question": "Traduction de \"eye\" ?",
+      "reponses": ["Œil", "Oreille", "Nez", "Bouche"],
+      "bonne_reponse": "Œil",
+      "explication": "\"Eye\" signifie \"œil\"."
+    },
+    {
+      "question": "Traduction de \"ear\" ?",
+      "reponses": ["Oreille", "Œil", "Nez", "Bouche"],
+      "bonne_reponse": "Oreille",
+      "explication": "\"Ear\" signifie \"oreille\"."
+    },
+    {
+      "question": "Traduction de \"nose\" ?",
+      "reponses": ["Nez", "Bouche", "Oreille", "Œil"],
+      "bonne_reponse": "Nez",
+      "explication": "\"Nose\" signifie \"nez\"."
+    },
+    {
+      "question": "Traduction de \"mouth\" ?",
+      "reponses": ["Bouche", "Nez", "Oreille", "Œil"],
+      "bonne_reponse": "Bouche",
+      "explication": "\"Mouth\" signifie \"bouche\"."
+    },
+    {
+      "question": "Traduction de \"rain\" ?",
+      "reponses": ["Pluie", "Neige", "Vent", "Soleil"],
+      "bonne_reponse": "Pluie",
+      "explication": "\"Rain\" signifie \"pluie\"."
+    },
+    {
+      "question": "Traduction de \"snow\" ?",
+      "reponses": ["Neige", "Pluie", "Vent", "Brouillard"],
+      "bonne_reponse": "Neige",
+      "explication": "\"Snow\" signifie \"neige\"."
+    },
+    {
+      "question": "Traduction de \"wind\" ?",
+      "reponses": ["Vent", "Pluie", "Neige", "Soleil"],
+      "bonne_reponse": "Vent",
+      "explication": "\"Wind\" signifie \"vent\"."
+    },
+    {
+      "question": "Traduction de \"cloud\" ?",
+      "reponses": ["Nuage", "Pluie", "Neige", "Brouillard"],
+      "bonne_reponse": "Nuage",
+      "explication": "\"Cloud\" signifie \"nuage\"."
+    },
+    {
+      "question": "Traduction de \"sea\" ?",
+      "reponses": ["Mer", "Rivière", "Lac", "Océan"],
+      "bonne_reponse": "Mer",
+      "explication": "\"Sea\" signifie \"mer\"."
+    },
+    {
+      "question": "Traduction de \"lake\" ?",
+      "reponses": ["Lac", "Mer", "Rivière", "Océan"],
+      "bonne_reponse": "Lac",
+      "explication": "\"Lake\" signifie \"lac\"."
+    },
+    {
+      "question": "Traduction de \"river\" ?",
+      "reponses": ["Rivière", "Lac", "Mer", "Océan"],
+      "bonne_reponse": "Rivière",
+      "explication": "\"River\" signifie \"rivière\"."
+    },
+    {
+      "question": "Traduction de \"mountain\" ?",
+      "reponses": ["Montagne", "Vallée", "Colline", "Plage"],
+      "bonne_reponse": "Montagne",
+      "explication": "\"Mountain\" signifie \"montagne\"."
+    },
+    {
+      "question": "Traduction de \"beach\" ?",
+      "reponses": ["Plage", "Montagne", "Forêt", "Désert"],
+      "bonne_reponse": "Plage",
+      "explication": "\"Beach\" signifie \"plage\"."
+    },
+    {
+      "question": "Traduction de \"forest\" ?",
+      "reponses": ["Forêt", "Désert", "Plage", "Ville"],
+      "bonne_reponse": "Forêt",
+      "explication": "\"Forest\" signifie \"forêt\"."
+    },
+    {
+      "question": "Traduction de \"desert\" ?",
+      "reponses": ["Désert", "Forêt", "Plage", "Montagne"],
+      "bonne_reponse": "Désert",
+      "explication": "\"Desert\" signifie \"désert\"."
+    },
+    {
+      "question": "Traduction de \"music\" ?",
+      "reponses": ["Musique", "Film", "Livre", "Jeu"],
+      "bonne_reponse": "Musique",
+      "explication": "\"Music\" signifie \"musique\"."
+    },
+    {
+      "question": "Traduction de \"movie\" ?",
+      "reponses": ["Film", "Musique", "Livre", "Jeu"],
+      "bonne_reponse": "Film",
+      "explication": "\"Movie\" signifie \"film\"."
+    },
+    {
+      "question": "Traduction de \"game\" ?",
+      "reponses": ["Jeu", "Film", "Musique", "Travail"],
+      "bonne_reponse": "Jeu",
+      "explication": "\"Game\" signifie \"jeu\"."
+    },
+    {
+      "question": "Traduction de \"bookstore\" ?",
+      "reponses": ["Librairie", "Boulangerie", "Boucherie", "Pharmacie"],
+      "bonne_reponse": "Librairie",
+      "explication": "\"Bookstore\" signifie \"librairie\" (magasin de livres)."
+    },
+    {
+      "question": "Traduction de \"hospital\" ?",
+      "reponses": ["Hôpital", "École", "Magasin", "Banque"],
+      "bonne_reponse": "Hôpital",
+      "explication": "\"Hospital\" signifie \"hôpital\"."
+    },
+    {
+      "question": "Traduction de \"bank\" ?",
+      "reponses": ["Banque", "Magasin", "École", "Hôtel"],
+      "bonne_reponse": "Banque",
+      "explication": "\"Bank\" signifie \"banque\"."
+    },
+    {
+      "question": "Traduction de \"hotel\" ?",
+      "reponses": ["Hôtel", "Maison", "École", "Usine"],
+      "bonne_reponse": "Hôtel",
+      "explication": "\"Hotel\" signifie \"hôtel\"."
+    },
+    {
+      "question": "Traduction de \"airport\" ?",
+      "reponses": ["Aéroport", "Gare", "Arrêt de bus", "Port"],
+      "bonne_reponse": "Aéroport",
+      "explication": "\"Airport\" signifie \"aéroport\"."
+    },
+    {
+      "question": "Traduction de \"station\" (train) ?",
+      "reponses": ["Gare", "Aéroport", "Port", "Parking"],
+      "bonne_reponse": "Gare",
+      "explication": "\"Station\" dans ce contexte signifie \"gare\"."
+    }
+  ]
+}

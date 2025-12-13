@@ -1,0 +1,262 @@
+{
+  "questions": [
+    {
+      "question": "Quel protocole spécial doit implémenter un objet pour être utilisable dans un bloc with ?",
+      "reponses": ["__enter__/__exit__", "__aenter__/__aexit__", "__with__/__end__", "__open__/__close__"],
+      "bonne_reponse": "__enter__/__exit__",
+      "explication": "Un context manager synchrone implémente les méthodes __enter__ et __exit__."
+    },
+    {
+      "question": "Quelle méthode de contexte reçoit toujours les paramètres exc_type, exc_val et exc_tb ?",
+      "reponses": ["__exit__", "__enter__", "__close__", "__cleanup__"],
+      "bonne_reponse": "__exit__",
+      "explication": "__exit__(exc_type, exc_val, exc_tb) est appelée à la sortie du with, avec ou sans exception."
+    },
+    {
+      "question": "Que doit renvoyer __exit__ pour indiquer que l'exception a été gérée et ne doit pas être propagée ?",
+      "reponses": ["True", "False", "None", "0"],
+      "bonne_reponse": "True",
+      "explication": "__exit__ doit renvoyer True pour supprimer l'exception."
+    },
+    {
+      "question": "Quel module standard fournit le décorateur contextmanager pour créer des context managers avec des générateurs ?",
+      "reponses": ["contextlib", "itertools", "functools", "asyncio"],
+      "bonne_reponse": "contextlib",
+      "explication": "contextlib.contextmanager transforme un générateur en context manager."
+    },
+    {
+      "question": "Quelle est la signature générale d'un générateur utilisé avec @contextmanager ?",
+      "reponses": ["def f(...): yield resource", "def f(...): return resource", "def f(...): with resource", "def f(...): context resource"],
+      "bonne_reponse": "def f(...): yield resource",
+      "explication": "Le code avant yield s'exécute à l'entrée, le finally après yield s'exécute à la sortie."
+    },
+    {
+      "question": "Quel mot-clé permet de définir une métaclasse dans la définition d'une classe ?",
+      "reponses": ["metaclass", "meta", "baseclass", "factory"],
+      "bonne_reponse": "metaclass",
+      "explication": "class X(metaclass=MaMeta): utilise l'argument nommé metaclass."
+    },
+    {
+      "question": "Quel est le type par défaut de toutes les classes nouvelles-style en Python 3 ?",
+      "reponses": ["type", "object", "class", "meta"],
+      "bonne_reponse": "type",
+      "explication": "type est la métaclasse par défaut qui crée les classes."
+    },
+    {
+      "question": "Quelle méthode de métaclasse est appelée pour créer réellement la nouvelle classe ?",
+      "reponses": ["__new__", "__init__", "__call__", "__prepare__"],
+      "bonne_reponse": "__new__",
+      "explication": "__new__(mcls, name, bases, namespace) fabrique l'objet classe."
+    },
+    {
+      "question": "Quelle méthode de métaclasse est appelée après la création de la classe pour l'initialiser ?",
+      "reponses": ["__init__", "__new__", "__post__", "__setup__"],
+      "bonne_reponse": "__init__",
+      "explication": "__init__(cls, name, bases, namespace) configure la classe déjà créée."
+    },
+    {
+      "question": "Quel protocole doit suivre un descripteur non-data (lecture seule) minimal ?",
+      "reponses": ["Implémenter __get__", "Implémenter __set__", "Implémenter __delete__", "Implémenter __call__"],
+      "bonne_reponse": "Implémenter __get__",
+      "explication": "Un descripteur définit __get__, __set__ ou __delete__ pour contrôler l'accès aux attributs."
+    },
+    {
+      "question": "Quel type de descripteur a priorité sur la valeur stockée dans __dict__ de l'instance ?",
+      "reponses": ["Descripteur data (__get__ et __set__)", "Descripteur non-data (seulement __get__)", "Propriété simple", "Aucun"],
+      "bonne_reponse": "Descripteur data (__get__ et __set__)",
+      "explication": "Les data descriptors (avec __set__ ou __delete__) masquent l'entrée dans __dict__."
+    },
+    {
+      "question": "Quelle interface de protocole doit implémenter un objet pour être concaténé avec + et * comme une séquence ?",
+      "reponses": ["__len__, __getitem__", "__iter__, __next__", "__add__, __mul__", "__concat__, __repeat__"],
+      "bonne_reponse": "__len__, __getitem__",
+      "explication": "Un objet avec __len__ et __getitem__ est considéré comme une séquence classique."
+    },
+    {
+      "question": "Quel module fournit NamedTuple et dataclass pour les structures immuables/légères ?",
+      "reponses": ["collections et dataclasses", "typing et functools", "struct et record", "io et os"],
+      "bonne_reponse": "collections et dataclasses",
+      "explication": "collections.namedtuple et dataclasses.dataclass sont complémentaires."
+    },
+    {
+      "question": "Quel décorateur de dataclasses génère automatiquement __eq__ et __repr__ en plus de __init__ ?",
+      "reponses": ["@dataclass", "@dataclass(eq_repr=True)", "@auto", "@record"],
+      "bonne_reponse": "@dataclass",
+      "explication": "Par défaut, @dataclass fournit __init__, __repr__, __eq__ et d'autres méthodes selon les options."
+    },
+    {
+      "question": "Quel paramètre de @dataclass permet de rendre les instances immuables (hashables) ?",
+      "reponses": ["frozen=True", "immutable=True", "const=True", "locked=True"],
+      "bonne_reponse": "frozen=True",
+      "explication": "Avec frozen=True, les attributs ne peuvent plus être modifiés après création."
+    },
+    {
+      "question": "Quel module standard fournit des classes de type Enum pour des ensembles finis de constantes ?",
+      "reponses": ["enum", "constants", "types", "flags"],
+      "bonne_reponse": "enum",
+      "explication": "Le module enum définit Enum, IntEnum, Flag, etc."
+    },
+    {
+      "question": "Quelle annotation de type indique une liste de chaînes en typing moderne ?",
+      "reponses": ["list[str]", "List[str]", "List(str)", "Sequence<str>"],
+      "bonne_reponse": "list[str]",
+      "explication": "Depuis Python 3.9, on peut utiliser les generics intégrés comme list[str]."
+    },
+    {
+      "question": "Quel type générique du module typing représente n'importe quelle séquence indexable ?",
+      "reponses": ["Sequence", "List", "Iterable", "Collection"],
+      "bonne_reponse": "Sequence",
+      "explication": "Sequence[T] exprime une séquence qui supporte len et l'indexation."
+    },
+    {
+      "question": "Quel type du module typing représente un itérable consommable (générateur) ?",
+      "reponses": ["Iterator", "Iterable", "Generator", "Sequence"],
+      "bonne_reponse": "Iterator",
+      "explication": "Iterator[T] modélise un objet avec __next__ consommable."
+    },
+    {
+      "question": "Quel type typing représente l'union de deux types A ou B en syntaxe moderne ?",
+      "reponses": ["A | B", "Union[A, B]", "OneOf[A, B]", "Either[A, B]"],
+      "bonne_reponse": "A | B",
+      "explication": "Depuis Python 3.10, l'opérateur | est l'équivalent moderne de Union."
+    },
+    {
+      "question": "Quel module standard permet de profiler le temps d'exécution de fonctions Python de manière déterministe ?",
+      "reponses": ["cProfile", "timeit", "profile", "perf"],
+      "bonne_reponse": "cProfile",
+      "explication": "cProfile mesure le temps passé dans chaque fonction appelée."
+    },
+    {
+      "question": "Quel module ou fonction standard permet de micro-benchmark des bouts de code rapidement ?",
+      "reponses": ["timeit", "cProfile", "perf_counter", "benchmark"],
+      "bonne_reponse": "timeit",
+      "explication": "timeit exécute un petit code de nombreuses fois pour mesurer des durées fiables."
+    },
+    {
+      "question": "Quel compteur haute résolution recommandé pour mesurer le temps d'exécution est exposé dans time ?",
+      "reponses": ["time.perf_counter()", "time.time()", "time.monotonic()", "time.clock()"],
+      "bonne_reponse": "time.perf_counter()",
+      "explication": "perf_counter est conçu pour les mesures de performance de courte durée."
+    },
+    {
+      "question": "Quel mécanisme Python limite le parallélisme CPU réel dans un même processus multi-threads sur du code Python pur ?",
+      "reponses": ["GIL", "JIT", "LTO", "GC"],
+      "bonne_reponse": "GIL",
+      "explication": "Le Global Interpreter Lock empêche plusieurs threads Python d'exécuter du bytecode simultanément."
+    },
+    {
+      "question": "Quel module recommandé pour le parallélisme CPU côté Python pur consiste à lancer plusieurs processus plutôt que des threads ?",
+      "reponses": ["multiprocessing", "threading", "asyncio", "subprocess"],
+      "bonne_reponse": "multiprocessing",
+      "explication": "multiprocessing démarre plusieurs processus indépendants, chacun avec son interpréteur."
+    },
+    {
+      "question": "Quel module standard offre un pool de workers threads ou process via une même interface future ?",
+      "reponses": ["concurrent.futures", "asyncio", "sched", "queue"],
+      "bonne_reponse": "concurrent.futures",
+      "explication": "ThreadPoolExecutor et ProcessPoolExecutor partagent la même API future."
+    },
+    {
+      "question": "Quel attribut de fonction décorée est préservé par functools.wraps pour garder la doc correcte ?",
+      "reponses": ["__name__ et __doc__", "__repr__", "__module__", "__defaults__"],
+      "bonne_reponse": "__name__ et __doc__",
+      "explication": "wraps copie notamment le nom et la docstring pour que help() affiche la bonne info."
+    },
+    {
+      "question": "Quel protocole utilise Python pour le \"duck typing\" lors de la conversion en booléen ?",
+      "reponses": ["__bool__ ou __len__", "__truth__", "__is_true__", "__nonzero__ seul"],
+      "bonne_reponse": "__bool__ ou __len__",
+      "explication": "Si __bool__ n'est pas défini, Python tombe sur __len__ pour déterminer la vérité d'un objet."
+    },
+    {
+      "question": "Quel protocole spécial permet de contrôler ce qui est affiché dans un f-string comme f\"{obj!r}\" ?",
+      "reponses": ["__repr__", "__str__", "__format__", "__display__"],
+      "bonne_reponse": "__repr__",
+      "explication": "!r dans un f-string force l'utilisation de repr(obj)."
+    },
+    {
+      "question": "Quel protocole est utilisé quand un objet est converti en chaîne simple comme str(obj) ou dans un f-string f\"{obj}\" ?",
+      "reponses": ["__str__", "__repr__", "__format__", "__print__"],
+      "bonne_reponse": "__str__",
+      "explication": "str(obj) et f\"{obj}\" appellent __str__ si défini, sinon __repr__."
+    },
+    {
+      "question": "Quel protocole spécial est appelé pour convertir un objet en un format donné dans format(obj, \"spec\") ?",
+      "reponses": ["__format__", "__str__", "__repr__", "__display__"],
+      "bonne_reponse": "__format__",
+      "explication": "__format__(spec) permet de personnaliser le formatage."
+    },
+    {
+      "question": "Quelle structure d'asyncio permet de regrouper plusieurs coroutines et d'attendre qu'elles soient toutes terminées ?",
+      "reponses": ["asyncio.gather", "asyncio.wait_all", "asyncio.group", "asyncio.bundle"],
+      "bonne_reponse": "asyncio.gather",
+      "explication": "gather(*coroutines) renvoie un résultat combiné une fois que tout est terminé."
+    },
+    {
+      "question": "Quel mot-clé permet de déléguer à un sous-générateur dans une fonction génératrice avancée ?",
+      "reponses": ["yield from", "yield to", "delegate", "subyield"],
+      "bonne_reponse": "yield from",
+      "explication": "yield from itérable délègue l'itération à ce sous-générateur et relaye send/throw/close."
+    },
+    {
+      "question": "Quel protocole spécial est utilisé pour permettre à un objet d'être utilisé comme gestionnaire de contexte asynchrone (async with) ?",
+      "reponses": ["__aenter__/__aexit__", "__enter__/__exit__", "__async__/__await__", "__with_async__"],
+      "bonne_reponse": "__aenter__/__aexit__",
+      "explication": "Les context managers asynchrones implémentent __aenter__ et __aexit__."
+    },
+    {
+      "question": "Quel type spécial du module typing décrit un callable avec une signature donnée ?",
+      "reponses": ["Callable", "Function", "Procedure", "Invoker"],
+      "bonne_reponse": "Callable",
+      "explication": "Callable[[ArgTypes...], ReturnType] décrit une fonction typée."
+    },
+    {
+      "question": "Quel type typing indique un objet qui doit supporter le protocole context manager (with) ?",
+      "reponses": ["ContextManager", "Withable", "Closable", "Managed"],
+      "bonne_reponse": "ContextManager",
+      "explication": "typing.ContextManager[T] modélise les objets utilisables avec with."
+    },
+    {
+      "question": "Quel module permet d'inspecter dynamiquement signatures, annotations et stack des fonctions ?",
+      "reponses": ["inspect", "types", "ast", "dis"],
+      "bonne_reponse": "inspect",
+      "explication": "inspect fournit signature(), getsource(), currentframe(), etc."
+    },
+    {
+      "question": "Quel module permet de désassembler du bytecode Python pour l'analyse fine ?",
+      "reponses": ["dis", "inspect", "ast", "opcode"],
+      "bonne_reponse": "dis",
+      "explication": "dis montre les opcodes générés à partir du code Python."
+    },
+    {
+      "question": "Quelle caractéristique rend un objet context manager réutilisable plusieurs fois dans différents with ?",
+      "reponses": ["__enter__ crée une nouvelle ressource à chaque appel", "__exit__ ne ferme jamais", "L'objet n'a pas de state", "Il est défini comme singleton"],
+      "bonne_reponse": "__enter__ crée une nouvelle ressource à chaque appel",
+      "explication": "Un manager réutilisable recrée ou réinitialise ce qu'il gère à chaque utilisation."
+    },
+    {
+      "question": "Quel mécanisme de Python permet de surcharger dynamiquement la création d'attributs sur une classe via __getattr__ ou __getattribute__ ?",
+      "reponses": ["Descripteurs et méta-classes", "slots", "dataclasses", "annotations"],
+      "bonne_reponse": "Descripteurs et méta-classes",
+      "explication": "Ces deux mécanismes permettent un contrôle fin de la résolution d'attributs."
+    },
+    {
+      "question": "Quel attribut de classe limite les attributs d'instance possibles et évite la création de __dict__ sur chaque instance ?",
+      "reponses": ["__slots__", "__all__", "__fields__", "__attrs__"],
+      "bonne_reponse": "__slots__",
+      "explication": "__slots__ peut réduire l'empreinte mémoire des instances."
+    },
+    {
+      "question": "Quel est l'effet principal d'utiliser __slots__ dans une classe Python ?",
+      "reponses": ["Réduire la mémoire par objet", "Accélérer toujours le code", "Permettre l'héritage multiple", "Rendre la classe immuable"],
+      "bonne_reponse": "Réduire la mémoire par objet",
+      "explication": "__slots__ supprime le dict d'instance, ce qui diminue la mémoire utilisée."
+    },
+    {
+      "question": "Quelle technique d'optimisation consiste à déplacer des calculs constants en dehors des boucles ?",
+      "reponses": ["Hoisting", "Inlining", "Vectorisation", "Caching"],
+      "bonne_reponse": "Hoisting",
+      "explication": "Le loop hoisting réduit le travail répété à chaque itération."
+    }
+  ]
+}

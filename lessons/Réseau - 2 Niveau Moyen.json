@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "question": "Quel protocole permet la résolution d’adresses IP en adresses MAC sur un réseau Ethernet ?",
+      "reponses": ["DNS", "ARP", "ICMP", "NAT"],
+      "bonne_reponse": "ARP",
+      "explication": "ARP (Address Resolution Protocol) associe les adresses IP aux adresses MAC sur un segment local."
+    },
+    {
+      "question": "Quel est l’intérêt principal de l’utilisation de VLAN sur un switch ?",
+      "reponses": [
+        "Augmenter la bande passante physique",
+        "Segmentation logique du réseau au niveau 2",
+        "Remplacer le routage IP",
+        "Désactiver le spanning-tree"
+      ],
+      "bonne_reponse": "Segmentation logique du réseau au niveau 2",
+      "explication": "Les VLAN permettent de créer plusieurs domaines de broadcast logiques sur un même switch."
+    },
+    {
+      "question": "Quel protocole est couramment utilisé pour surveiller et superviser l’état des équipements réseau ?",
+      "reponses": ["SNMP", "SMTP", "SCP", "RDP"],
+      "bonne_reponse": "SNMP",
+      "explication": "SNMP (Simple Network Management Protocol) permet la supervision et la collecte de métriques réseau."
+    },
+    {
+      "question": "Quelle technologie permet d’agréger plusieurs liens physiques pour former un seul lien logique plus large ?",
+      "reponses": ["NAT", "Port-channel / LACP", "VLAN", "MPLS"],
+      "bonne_reponse": "Port-channel / LACP",
+      "explication": "LACP (Link Aggregation Control Protocol) permet d’agréger plusieurs interfaces pour augmenter la bande passante et la redondance."
+    },
+    {
+      "question": "Quelle commande Linux permet d’afficher la table de routage IPv4 ?",
+      "reponses": ["route -n ou ip route", "ip addr", "netstat -l", "arp -a"],
+      "bonne_reponse": "route -n ou ip route",
+      "explication": "route -n (ancien) ou ip route (moderne) affichent la table de routage du noyau."
+    },
+    {
+      "question": "À quoi sert le protocole NAT sur un routeur ?",
+      "reponses": [
+        "Chiffrer les paquets",
+        "Traduire les adresses IP privées en adresses publiques et inversement",
+        "Résoudre les noms de domaine",
+        "Allouer automatiquement des adresses IP"
+      ],
+      "bonne_reponse": "Traduire les adresses IP privées en adresses publiques et inversement",
+      "explication": "NAT (Network Address Translation) permet de faire sortir plusieurs hôtes privés via une ou quelques adresses publiques."
+    },
+    {
+      "question": "Quel protocole est principalement utilisé pour transporter des mails entre serveurs de messagerie ?",
+      "reponses": ["POP3", "IMAP", "SMTP", "HTTP"],
+      "bonne_reponse": "SMTP",
+      "explication": "SMTP (Simple Mail Transfer Protocol) est utilisé pour l’envoi et le relais des e-mails entre serveurs."
+    },
+    {
+      "question": "Que permet de faire le protocole Spanning Tree (STP) sur des switchs ?",
+      "reponses": [
+        "Créer des VLAN dynamiquement",
+        "Éviter les boucles de niveau 2",
+        "Gérer la QoS",
+        "Traduire les adresses MAC"
+      ],
+      "bonne_reponse": "Éviter les boucles de niveau 2",
+      "explication": "STP détecte et bloque les liens redondants pour éviter les boucles de commutation."
+    },
+    {
+      "question": "Quel type d’adresse IPv4 est 192.168.1.10/24 par défaut ?",
+      "reponses": ["Adresse publique", "Adresse privée", "Adresse de loopback", "Adresse APIPA"],
+      "bonne_reponse": "Adresse privée",
+      "explication": "Le bloc 192.168.0.0/16 fait partie des adresses privées définies par la RFC 1918."
+    },
+    {
+      "question": "Quelle plage d’adresses IPv4 est réservée pour les liens de boucle locale (loopback) ?",
+      "reponses": ["127.0.0.0/8", "10.0.0.0/8", "169.254.0.0/16", "224.0.0.0/4"],
+      "bonne_reponse": "127.0.0.0/8",
+      "explication": "Toutes les adresses 127.x.x.x sont des adresses de loopback, typiquement 127.0.0.1."
+    },
+    {
+      "question": "Quelle classe d’adresse IPv4 contient les réseaux 10.0.0.0/8 selon l’ancien découpage en classes ?",
+      "reponses": ["Classe A", "Classe B", "Classe C", "Classe D"],
+      "bonne_reponse": "Classe A",
+      "explication": "10.0.0.0/8 fait partie de la plage de classe A (0.0.0.0 à 127.255.255.255), même si en pratique on utilise aujourd’hui le CIDR."
+    },
+    {
+      "question": "Que signifie le suffixe /24 dans l’adresse 192.168.1.0/24 ?",
+      "reponses": [
+        "24 hôtes disponibles",
+        "24 bits pour l’adresse de réseau",
+        "24 bits pour l’adresse d’hôte",
+        "24 VLAN possibles"
+      ],
+      "bonne_reponse": "24 bits pour l’adresse de réseau",
+      "explication": "/24 indique que les 24 premiers bits forment la partie réseau (masque 255.255.255.0)."
+    },
+    {
+      "question": "Quel protocole est utilisé par ping pour envoyer ses requêtes ?",
+      "reponses": ["TCP", "UDP", "ICMP", "ARP"],
+      "bonne_reponse": "ICMP",
+      "explication": "ping utilise ICMP Echo Request et Echo Reply pour tester la connectivité."
+    },
+    {
+      "question": "Quel protocole permet de sécuriser le trafic HTTP au niveau transport ?",
+      "reponses": ["SSL/TLS", "SSH", "IPsec", "SFTP"],
+      "bonne_reponse": "SSL/TLS",
+      "explication": "HTTPS repose sur SSL/TLS pour chiffrer la session HTTP."
+    },
+    {
+      "question": "Quelle commande Linux permet d’afficher les connexions réseau actives et les ports en écoute (ancienne méthode) ?",
+      "reponses": ["netstat -tulpen", "ip addr", "route -n", "arp -a"],
+      "bonne_reponse": "netstat -tulpen",
+      "explication": "netstat -tulpen affiche les sockets TCP/UDP en écoute et les connexions, même si ss est plus moderne."
+    },
+    {
+      "question": "Quel champ d’un paquet IP est utilisé pour éviter qu’il ne boucle indéfiniment ?",
+      "reponses": ["Source port", "TTL (Time To Live)", "Checksum", "Flags"],
+      "bonne_reponse": "TTL (Time To Live)",
+      "explication": "Le TTL est décrémenté à chaque saut et, à 0, le paquet est supprimé."
+    },
+    {
+      "question": "Quel protocole est conçu pour transporter des paquets de routage entre routeurs internes dans un AS, comme OSPF ?",
+      "reponses": ["IGP", "EGP", "BGP uniquement", "STP"],
+      "bonne_reponse": "IGP",
+      "explication": "OSPF est un IGP (Interior Gateway Protocol) utilisé à l’intérieur d’un système autonome."
+    },
+    {
+      "question": "Quel protocole de routage est principalement utilisé pour échanger des routes entre systèmes autonomes sur Internet ?",
+      "reponses": ["OSPF", "RIP", "IS-IS", "BGP"],
+      "bonne_reponse": "BGP",
+      "explication": "BGP (Border Gateway Protocol) est le protocole de routage externe EGP pour Internet."
+    },
+    {
+      "question": "Quel est l’impact principal d’un MTU mal configuré sur un lien ?",
+      "reponses": [
+        "Le lien devient full-duplex",
+        "Risque de fragmentation ou de paquets bloqués (PMTU issues)",
+        "La latence diminue fortement",
+        "Les adresses IP changent automatiquement"
+      ],
+      "bonne_reponse": "Risque de fragmentation ou de paquets bloqués (PMTU issues)",
+      "explication": "Un MTU trop bas ou trop haut peut provoquer de la fragmentation ou des pertes lorsqu’ICMP est filtré."
+    },
+    {
+      "question": "Que permet d’observer un captureur de paquets comme tcpdump ou Wireshark ?",
+      "reponses": [
+        "Uniquement les statistiques d’interface",
+        "Les paquets transitant sur une interface réseau",
+        "Les logs système uniquement",
+        "La configuration du routeur à distance"
+      ],
+      "bonne_reponse": "Les paquets transitant sur une interface réseau",
+      "explication": "Ces outils capturent et analysent les trames/paquets qui passent sur une interface."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "questions": [
+    {
+      "question": "Quelle commande permet d'afficher le chemin complet du répertoire courant ?",
+      "reponses": ["pwd", "ls", "cd", "path"],
+      "bonne_reponse": "pwd",
+      "explication": "La commande pwd (print working directory) affiche le chemin absolu du répertoire courant."
+    },
+    {
+      "question": "Quelle commande permet de lister tous les fichiers, y compris les fichiers cachés, dans le répertoire courant ?",
+      "reponses": ["ls", "ls -a", "ls -l", "ls -R"],
+      "bonne_reponse": "ls -a",
+      "explication": "L’option -a affiche tous les fichiers, y compris ceux dont le nom commence par un point."
+    },
+    {
+      "question": "Quelle commande permet d'exécuter un script Bash myscript.sh présent dans le répertoire courant ?",
+      "reponses": ["run myscript.sh", "bash myscript.sh", "sh ./", "./myscript.sh"],
+      "bonne_reponse": "bash myscript.sh",
+      "explication": "On peut exécuter un script avec l’interpréteur bash en utilisant bash myscript.sh, ou en le rendant exécutable et en faisant ./myscript.sh."
+    },
+    {
+      "question": "Quel symbole est utilisé pour référencer une variable dans un script Bash ?",
+      "reponses": ["#", "$", "&", "@"],
+      "bonne_reponse": "$",
+      "explication": "En Bash, on utilise le symbole $ pour référencer la valeur d’une variable, par exemple $HOME."
+    },
+    {
+      "question": "Quelle commande permet de rendre un script exécutable ?",
+      "reponses": ["chmod +x script.sh", "exec script.sh", "run script.sh", "sh script.sh"],
+      "bonne_reponse": "chmod +x script.sh",
+      "explication": "La commande chmod +x script.sh ajoute le droit d’exécution au fichier script.sh."
+    },
+    {
+      "question": "Que signifie le shebang \"#!/bin/bash\" en début de script ?",
+      "reponses": [
+        "Il commente la première ligne du script",
+        "Il indique que le script doit être exécuté avec Bash",
+        "Il affiche /bin/bash à l'écran",
+        "Il ouvre un sous-shell Bash interactif"
+      ],
+      "bonne_reponse": "Il indique que le script doit être exécuté avec Bash",
+      "explication": "Le shebang indique à l’OS quel interpréteur utiliser pour exécuter le script."
+    },
+    {
+      "question": "Quelle commande permet d'afficher le contenu d'une variable nommée VAR ?",
+      "reponses": ["echo VAR", "print VAR", "echo $VAR", "var $VAR"],
+      "bonne_reponse": "echo $VAR",
+      "explication": "On utilise echo pour afficher du texte ou la valeur d’une variable en la préfixant avec $."
+    },
+    {
+      "question": "Comment rendre une variable disponible dans les processus enfants d’un script ?",
+      "reponses": ["export VAR=valeur", "share VAR", "global VAR", "env VAR=valeur"],
+      "bonne_reponse": "export VAR=valeur",
+      "explication": "La commande export marque la variable pour qu’elle soit transmise à l’environnement des processus enfants."
+    },
+    {
+      "question": "Quel opérateur permet de rediriger la sortie standard d'une commande vers un fichier en l'écrasant ?",
+      "reponses": [">", ">>", "<", "2>"],
+      "bonne_reponse": ">",
+      "explication": "L’opérateur > redirige la sortie standard vers un fichier, en le créant ou en l’écrasant."
+    },
+    {
+      "question": "Quel opérateur permet d'ajouter la sortie standard d'une commande à la fin d'un fichier sans l'écraser ?",
+      "reponses": [">", ">>", "2>>", "<"],
+      "bonne_reponse": ">>",
+      "explication": "L’opérateur >> redirige la sortie standard en mode ajout à la fin du fichier."
+    },
+    {
+      "question": "Quel des éléments suivants représente la sortie d'erreur standard en Bash ?",
+      "reponses": ["0", "1", "2", "3"],
+      "bonne_reponse": "2",
+      "explication": "0 = stdin, 1 = stdout, 2 = stderr."
+    },
+    {
+      "question": "Quelle commande permet de compter le nombre de lignes d'un fichier texte fichier.txt ?",
+      "reponses": ["wc -l fichier.txt", "count fichier.txt", "nl fichier.txt", "lines fichier.txt"],
+      "bonne_reponse": "wc -l fichier.txt",
+      "explication": "wc -l affiche le nombre de lignes dans le fichier."
+    },
+    {
+      "question": "Quel est le but de la commande \"set -e\" au début d’un script ?",
+      "reponses": [
+        "Ignorer toutes les erreurs",
+        "Arrêter le script en cas d’erreur",
+        "Afficher les variables d’environnement",
+        "Activer le mode interactif"
+      ],
+      "bonne_reponse": "Arrêter le script en cas d’erreur",
+      "explication": "set -e provoque l’arrêt du script si une commande retourne un code de sortie non nul."
+    },
+    {
+      "question": "Quel est le code de sortie d’une commande Bash réussie ?",
+      "reponses": ["-1", "0", "1", "255"],
+      "bonne_reponse": "0",
+      "explication": "Par convention, 0 signifie succès et toute autre valeur indique une erreur ou un état particulier."
+    },
+    {
+      "question": "Quel opérateur permet de chaîner deux commandes en exécutant la seconde uniquement si la première réussit ?",
+      "reponses": ["cmd1 | cmd2", "cmd1 & cmd2", "cmd1 && cmd2", "cmd1 || cmd2"],
+      "bonne_reponse": "cmd1 && cmd2",
+      "explication": "L’opérateur && exécute la seconde commande seulement si la première a un code de sortie 0."
+    },
+    {
+      "question": "Quel opérateur permet d’exécuter la seconde commande seulement si la première échoue ?",
+      "reponses": ["cmd1 | cmd2", "cmd1 && cmd2", "cmd1 || cmd2", "cmd1 & cmd2"],
+      "bonne_reponse": "cmd1 || cmd2",
+      "explication": "L’opérateur || exécute la commande de droite lorsque la commande de gauche retourne un code non nul."
+    },
+    {
+      "question": "Comment lire une valeur saisie par l’utilisateur dans une variable nommée REPONSE ?",
+      "reponses": ["ask REPONSE", "scan REPONSE", "read REPONSE", "input REPONSE"],
+      "bonne_reponse": "read REPONSE",
+      "explication": "La commande read lit une ligne sur l’entrée standard et la stocke dans la variable donnée."
+    },
+    {
+      "question": "Comment tester si un fichier nommé data.txt existe dans un script Bash ?",
+      "reponses": [
+        "if exist data.txt; then",
+        "if [ -e data.txt ]; then",
+        "if file data.txt; then",
+        "if [ data.txt ]; then"
+      ],
+      "bonne_reponse": "if [ -e data.txt ]; then",
+      "explication": "L’opérateur de test -e vérifie l’existence d’un fichier ou d’un répertoire."
+    },
+    {
+      "question": "Quel test permet de vérifier si un fichier est exécutable ?",
+      "reponses": ["[ -x fichier ]", "[ -e fichier ]", "[ -r fichier ]", "[ -f fichier ]"],
+      "bonne_reponse": "[ -x fichier ]",
+      "explication": "-x teste le bit d’exécution pour le fichier."
+    },
+    {
+      "question": "Quelle syntaxe est correcte pour une boucle for simple en Bash ?",
+      "reponses": [
+        "for i = 1 to 10; do ...; done",
+        "for (i=1; i<=10; i++) { ... }",
+        "for i in 1 2 3; do echo $i; done",
+        "foreach i (1 2 3) echo $i"
+      ],
+      "bonne_reponse": "for i in 1 2 3; do echo $i; done",
+      "explication": "La forme for i in liste; do ...; done est la syntaxe standard d’une boucle for en Bash."
+    },
+    {
+      "question": "Quelle commande permet de substituer la sortie d'une commande dans une variable ?",
+      "reponses": [
+        "VAR=cmd",
+        "VAR=$(cmd)",
+        "VAR=|cmd|",
+        "VAR=${cmd}"
+      ],
+      "bonne_reponse": "VAR=$(cmd)",
+      "explication": "La substitution de commande se fait avec $( ... ), ce qui place la sortie de cmd dans la variable."
+    },
+    {
+      "question": "Quelle est la différence principale entre \"\" et '' dans Bash ?",
+      "reponses": [
+        "Aucune différence",
+        "Les doubles guillemets permettent l’expansion des variables, pas les simples",
+        "Les simples guillemets permettent l’expansion des variables, pas les doubles",
+        "Les doubles guillemets sont obligatoires pour les chemins"
+      ],
+      "bonne_reponse": "Les doubles guillemets permettent l’expansion des variables, pas les simples",
+      "explication": "Dans \"...\" les variables et substitutions sont évaluées, alors que dans '...' tout est pris littéralement."
+    },
+    {
+      "question": "Quelle variable spéciale contient le nombre d’arguments passés à un script ?",
+      "reponses": ["$0", "$1", "$?", "$#"],
+      "bonne_reponse": "$#",
+      "explication": "$# contient le nombre total d’arguments positionnels."
+    },
+    {
+      "question": "Quelle variable spéciale représente le code de sortie de la dernière commande exécutée ?",
+      "reponses": ["$?", "$!", "$0", "$*"],
+      "bonne_reponse": "$?",
+      "explication": "$? contient le code de retour de la dernière commande."
+    },
+    {
+      "question": "Quelle variable contient le nom du script en cours d'exécution ?",
+      "reponses": ["$0", "$1", "$NAME", "$SCRIPT"],
+      "bonne_reponse": "$0",
+      "explication": "$0 contient le nom du script tel qu’il a été appelé."
+    },
+    {
+      "question": "Quelle variable contient le PID du dernier processus exécuté en arrière-plan ?",
+      "reponses": ["$?", "$$", "$!", "$#"],
+      "bonne_reponse": "$!",
+      "explication": "$! contient l’identifiant du dernier processus lancé en background."
+    },
+    {
+      "question": "Quelle commande permet de lancer une commande en arrière-plan ?",
+      "reponses": ["cmd &", "cmd bg", "bg cmd", "cmd > bg"],
+      "bonne_reponse": "cmd &",
+      "explication": "En ajoutant & à la fin, la commande est exécutée en arrière-plan."
+    },
+    {
+      "question": "Quelle commande permet de remplacer le shell courant par un autre programme (sans revenir au shell initial) ?",
+      "reponses": ["run", "call", "exec", "source"],
+      "bonne_reponse": "exec",
+      "explication": "exec remplace le processus courant par le programme lancé."
+    },
+    {
+      "question": "Quelle commande permet d'inclure et d'exécuter un autre script dans le shell courant ?",
+      "reponses": ["run script.sh", "include script.sh", "source script.sh", "bash -i script.sh"],
+      "bonne_reponse": "source script.sh",
+      "explication": "source (ou . script.sh) exécute le script dans le shell courant, partageant les variables."
+    }
+  ]
+}

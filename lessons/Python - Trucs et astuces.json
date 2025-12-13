@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "question": "Quel idiome remplace avantageusement une boucle avec index pour parcourir deux listes en parallèle ?",
+      "reponses": ["zip()", "range()", "enumerate()", "map()"],
+      "bonne_reponse": "zip()",
+      "explication": "zip(l1, l2) permet de parcourir deux listes alignées sans gérer manuellement les index."
+    },
+    {
+      "question": "Quel idiome permet de récupérer à la fois l'index et la valeur dans une boucle sur une liste ?",
+      "reponses": ["enumerate()", "zip()", "range()", "items()"],
+      "bonne_reponse": "enumerate()",
+      "explication": "enumerate(liste) évite de gérer une variable de compteur manuellement."
+    },
+    {
+      "question": "Quelle syntaxe compacte remplace souvent un if/append pour construire une liste filtrée ?",
+      "reponses": ["Compréhension de liste", "Boucle for classique", "map()", "filter() seul"],
+      "bonne_reponse": "Compréhension de liste",
+      "explication": "[x for x in iterable if condition] est à la fois lisible et idiomatique."
+    },
+    {
+      "question": "Quel opérateur (introduit en Python 3.8) permet d'affecter une variable dans une expression ?",
+      "reponses": ["Walrus operator :=", "Operator ::", "Assignment =>", "Let =:"],
+      "bonne_reponse": "Walrus operator :=",
+      "explication": "L'opérateur := permet de binder une valeur tout en la testant dans une expression."
+    },
+    {
+      "question": "Quel idiome moderne remplace un pattern du type tmp = f(); if tmp: ... ?",
+      "reponses": ["if (tmp := f()): ...", "if tmp = f(): ...", "if let tmp = f(): ...", "if f() -> tmp: ..."],
+      "bonne_reponse": "if (tmp := f()): ...",
+      "explication": "L'opérateur := évite d'appeler deux fois f ou de dupliquer la ligne d'appel."
+    },
+    {
+      "question": "Quelle méthode de dict crée une nouvelle clé avec une valeur par défaut si elle n'existe pas encore ?",
+      "reponses": ["setdefault()", "get()", "ensure()", "default()"],
+      "bonne_reponse": "setdefault()",
+      "explication": "d.setdefault(k, v) renvoie d[k] en le créant avec v si nécessaire."
+    },
+    {
+      "question": "Quel type de collections est idéal pour compter rapidement des éléments sans écrire de boucle explicite ?",
+      "reponses": ["collections.Counter", "defaultdict(list)", "set", "deque"],
+      "bonne_reponse": "collections.Counter",
+      "explication": "Counter(seq) calcule les fréquences en une ligne."
+    },
+    {
+      "question": "Quel idiome combine tri stable et clé de tri personnalisée ?",
+      "reponses": ["sorted(data, key=fonction)", "data.sort(cmp=...)", "order(data, fonction)", "data.sorted_by(fonction)"],
+      "bonne_reponse": "sorted(data, key=fonction)",
+      "explication": "sorted avec l'argument key permet de spécifier la projection de tri."
+    },
+    {
+      "question": "Quel motif simple avec try/except permet de préférer demander pardon plutôt que la permission (EAFP) ?",
+      "reponses": ["Essayer puis gérer l'exception", "Tester toutes les conditions avant", "Utiliser if/else partout", "Éviter les exceptions"],
+      "bonne_reponse": "Essayer puis gérer l'exception",
+      "explication": "En Python, on privilégie EAFP : on tente l'opération et on gère les erreurs spécifiques."
+    },
+    {
+      "question": "Quel idiome permet de fusionner deux dictionnaires en créant un nouveau dict (Python 3.9+) ?",
+      "reponses": ["d3 = d1 | d2", "d3 = merge(d1, d2)", "d3 = dict(d1, d2)", "d3 = d1 + d2"],
+      "bonne_reponse": "d3 = d1 | d2",
+      "explication": "L'opérateur | fusionne les dictionnaires en un nouveau."
+    },
+    {
+      "question": "Quel opérateur met à jour un dictionnaire en fusionnant un autre sur place (Python 3.9+) ?",
+      "reponses": ["|=", "+=", "<<=", "&="],
+      "bonne_reponse": "|=",
+      "explication": "d1 |= d2 met à jour d1 avec les clés/valeurs de d2."
+    },
+    {
+      "question": "Quel idiome simple permet de décompresser une paire (clé, valeur) provenant d'un dict dans une boucle ?",
+      "reponses": ["for k, v in d.items():", "for [k, v] in d:", "for pair in d: k, v = pair", "for k=v in d.items():"],
+      "bonne_reponse": "for k, v in d.items():",
+      "explication": "items() renvoie des tuples (clé, valeur) décompressés directement dans la boucle."
+    },
+    {
+      "question": "Quel idiome pratique pour faire un multiple assignement en une seule ligne ?",
+      "reponses": ["a, b = b, a", "swap(a, b)", "a <-> b", "a, b := b, a"],
+      "bonne_reponse": "a, b = b, a",
+      "explication": "Python supporte l'échange de variables sans variable temporaire explicite."
+    },
+    {
+      "question": "Quel idiome utilise any() pour vérifier si AU MOINS un élément satisfait une condition ?",
+      "reponses": ["any(cond(x) for x in seq)", "sum(cond(x) for x in seq)", "if True in seq", "exists(seq, cond)"],
+      "bonne_reponse": "any(cond(x) for x in seq)",
+      "explication": "any sur une compréhension génératrice est court-circuité et lisible."
+    },
+    {
+      "question": "Quel idiome utilise all() pour vérifier si TOUS les éléments satisfont une condition ?",
+      "reponses": ["all(cond(x) for x in seq)", "len([x for x in seq if cond(x)]) == len(seq)", "every(seq, cond)", "forall(seq, cond)"],
+      "bonne_reponse": "all(cond(x) for x in seq)",
+      "explication": "all est court-circuité et Pythonique pour les validations globales."
+    },
+    {
+      "question": "Quel idiome permet d'éviter KeyError lorsqu'on accède à un dictionnaire avec une valeur par défaut ?",
+      "reponses": ["d.get('clé', valeur_defaut)", "d['clé'] or valeur_defaut", "if 'clé' in d: d['clé'] else defaut", "safe_get(d, 'clé')"],
+      "bonne_reponse": "d.get('clé', valeur_defaut)",
+      "explication": "get renvoie None ou une valeur par défaut si la clé manque."
+    },
+    {
+      "question": "Quel idiome de slicing renverse une liste en une seule expression ?",
+      "reponses": ["l[::-1]", "reversed(l)", "l[-1:0]", "l.reverse(-1)"],
+      "bonne_reponse": "l[::-1]",
+      "explication": "Le slice avec un pas négatif -1 crée une vue inversée."
+    },
+    {
+      "question": "Quel idiome permet d'ignorer proprement certaines valeurs lors d'un unpacking ?",
+      "reponses": ["_ comme variable poubelle", "None comme placeholder", "skip comme nom réservé", "void comme nom spécial"],
+      "bonne_reponse": "_ comme variable poubelle",
+      "explication": "Par convention, _ indique une valeur intentionnellement ignorée."
+    },
+    {
+      "question": "Quelle syntaxe d'unpacking permet de capturer le reste d'une séquence dans une seule variable ?",
+      "reponses": ["a, *milieu, b = seq", "a, milieu..., b = seq", "spread(milieu) = seq", "*milieu, = seq"],
+      "bonne_reponse": "a, *milieu, b = seq",
+      "explication": "L'opérateur * dans l'unpacking capture plusieurs éléments dans une liste."
+    },
+    {
+      "question": "Quel idiome avec pathlib permet de lire directement le texte d'un fichier simple en une ligne ?",
+      "reponses": ["Path('f.txt').read_text()", "open('f.txt').read_text()", "os.read('f.txt')", "read('f.txt')"],
+      "bonne_reponse": "Path('f.txt').read_text()",
+      "explication": "Path.read_text() gère l'ouverture et la lecture en une seule méthode."
+    },
+    {
+      "question": "Quel idiome pathlib écrit du texte dans un fichier en créant le fichier si besoin ?",
+      "reponses": ["Path('f.txt').write_text(data)", "open('f.txt','w').write_text(data)", "os.write('f.txt', data)", "write('f.txt', data)"],
+      "bonne_reponse": "Path('f.txt').write_text(data)",
+      "explication": "write_text() simplifie l'écriture de petits fichiers."
+    },
+    {
+      "question": "Quel idiome avec contextlib permet de gérer plusieurs context managers sur une seule ligne lisible ?",
+      "reponses": ["with contextlib.ExitStack() as stack:", "with multiopen():", "with stack():", "with combined(): "],
+      "bonne_reponse": "with contextlib.ExitStack() as stack:",
+      "explication": "ExitStack permet d'enregistrer dynamiquement plusieurs context managers."
+    },
+    {
+      "question": "Quelle syntaxe moderne pour ouvrir deux fichiers en même temps dans un seul with ?",
+      "reponses": ["with open(a) as f1, open(b) as f2:", "with open(a) as f1 and open(b) as f2:", "with (open(a), open(b)):", "with open(a) & open(b):"],
+      "bonne_reponse": "with open(a) as f1, open(b) as f2:",
+      "explication": "Python permet plusieurs context managers séparés par des virgules."
+    },
+    {
+      "question": "Quel idiome de logging évite de construire des chaînes inutiles quand le niveau de log est désactivé ?",
+      "reponses": ["logger.debug(\"x=%s\", x)", "logger.debug(f\"x={x}\")", "logger.debug(\"x=\" + str(x))", "logger.debug(\"x=%s\" % x)"],
+      "bonne_reponse": "logger.debug(\"x=%s\", x)",
+      "explication": "Le formatage différé laisse la librairie faire l'interpolation seulement si nécessaire."
+    },
+    {
+      "question": "Quel idiome simple permet de tirer n éléments aléatoires distincts d'une séquence sans écrire de boucle ?",
+      "reponses": ["random.sample(seq, n)", "random.choice(seq, n)", "random.pick_n(seq, n)", "sample(seq)[:n]"],
+      "bonne_reponse": "random.sample(seq, n)",
+      "explication": "sample renvoie une nouvelle liste d'éléments uniques choisis au hasard."
+    },
+    {
+      "question": "Quel idiome permet de définir rapidement un mapping simple sans répéter les clés comme constantes séparées ?",
+      "reponses": ["Enum ou mapping de dict littéral", "Créer une classe de constantes", "Utiliser une liste d'indices", "Utiliser un set"],
+      "bonne_reponse": "Enum ou mapping de dict littéral",
+      "explication": "Enum donne des noms symboliques, un dict littéral reste lisible et compact."
+    },
+    {
+      "question": "Quel idiome remplace un code du style if condition: x = a else: x = b ?",
+      "reponses": ["x = a if condition else b", "x = condition ? a : b", "x = choose(condition, a, b)", "x = (a,b)[not condition]"],
+      "bonne_reponse": "x = a if condition else b",
+      "explication": "C'est l'expression conditionnelle Python idiomatique."
+    },
+    {
+      "question": "Quel idiome permet de retourner tôt une valeur spéciale plutôt que d'imbriquer plusieurs if ?",
+      "reponses": ["Early return", "Late return", "Tail return", "Lazy return"],
+      "bonne_reponse": "Early return",
+      "explication": "Retourner tôt améliore souvent la lisibilité en réduisant la profondeur des blocs."
+    },
+    {
+      "question": "Quel idiome pour les API publiques recommande de préfixer les noms internes non exportés par un underscore ?",
+      "reponses": ["_nom_prive", "priv_nom", "internal_nom", "hidden.nom"],
+      "bonne_reponse": "_nom_prive",
+      "explication": "Par convention, _ indique qu'un symbole n'est pas destiné à l'usage externe."
+    }
+  ]
+}

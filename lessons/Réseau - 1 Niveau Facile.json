@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "question": "Que signifie l’acronyme IP dans le contexte réseau ?",
+      "reponses": ["Internet Protocol", "Internal Process", "Inter Packet", "Interface Path"],
+      "bonne_reponse": "Internet Protocol",
+      "explication": "IP signifie Internet Protocol, le protocole de base pour l’adressage et le routage des paquets sur un réseau."
+    },
+    {
+      "question": "Quelle est la longueur d’une adresse IPv4 ?",
+      "reponses": ["16 bits", "32 bits", "64 bits", "128 bits"],
+      "bonne_reponse": "32 bits",
+      "explication": "Une adresse IPv4 est codée sur 32 bits, souvent représentée en quatre octets décimaux séparés par des points."
+    },
+    {
+      "question": "Quel outil permet de tester la connectivité de base entre deux hôtes ?",
+      "reponses": ["ping", "traceroute", "ftp", "ssh"],
+      "bonne_reponse": "ping",
+      "explication": "La commande ping envoie des requêtes ICMP Echo pour vérifier si un hôte est joignable."
+    },
+    {
+      "question": "Quel protocole est utilisé pour traduire les noms de domaine en adresses IP ?",
+      "reponses": ["HTTP", "DNS", "DHCP", "SSH"],
+      "bonne_reponse": "DNS",
+      "explication": "DNS (Domain Name System) résout les noms de domaine en adresses IP."
+    },
+    {
+      "question": "Sur quel port TCP écoute typiquement le service HTTP non chiffré ?",
+      "reponses": ["21", "22", "80", "443"],
+      "bonne_reponse": "80",
+      "explication": "Le protocole HTTP utilise par convention le port TCP 80."
+    },
+    {
+      "question": "Sur quel port TCP écoute typiquement le service HTTPS ?",
+      "reponses": ["21", "22", "80", "443"],
+      "bonne_reponse": "443",
+      "explication": "HTTPS, la version chiffrée de HTTP, utilise le port TCP 443."
+    },
+    {
+      "question": "Quel protocole est principalement utilisé pour la configuration automatique d’adresse IP sur un réseau local ?",
+      "reponses": ["DNS", "DHCP", "NTP", "SMTP"],
+      "bonne_reponse": "DHCP",
+      "explication": "DHCP (Dynamic Host Configuration Protocol) attribue automatiquement des adresses IP et d’autres paramètres réseau."
+    },
+    {
+      "question": "Quelle commande permet d’afficher la configuration IP d’une interface sous Linux ?",
+      "reponses": ["ifconfig ou ip addr", "netstat -r", "route add", "nslookup"],
+      "bonne_reponse": "ifconfig ou ip addr",
+      "explication": "ifconfig (plus ancien) ou ip addr (plus moderne) affichent la configuration des interfaces réseau."
+    },
+    {
+      "question": "Quelle couche du modèle OSI correspond globalement aux câbles, prises et signaux électriques ?",
+      "reponses": ["Couche Physique", "Couche Réseau", "Couche Transport", "Couche Application"],
+      "bonne_reponse": "Couche Physique",
+      "explication": "La couche Physique (couche 1) concerne les supports matériels et la transmission brute de bits."
+    },
+    {
+      "question": "Quel équipement réseau fonctionne typiquement à la couche 2 du modèle OSI ?",
+      "reponses": ["Routeur", "Switch", "Hub", "Pare-feu uniquement"],
+      "bonne_reponse": "Switch",
+      "explication": "Un switch Ethernet opère principalement à la couche Liaison de données (couche 2)."
+    },
+    {
+      "question": "Quel équipement réseau fait le routage entre différents réseaux IP ?",
+      "reponses": ["Switch", "Routeur", "Pont (bridge)", "Répartiteur (hub)"],
+      "bonne_reponse": "Routeur",
+      "explication": "Un routeur connecte plusieurs réseaux IP et choisit les chemins pour les paquets."
+    },
+    {
+      "question": "Que signifie l’acronyme LAN ?",
+      "reponses": ["Local Area Network", "Large Access Network", "Limited Area Node", "Link Access Network"],
+      "bonne_reponse": "Local Area Network",
+      "explication": "LAN désigne un réseau local couvrant une zone géographique restreinte comme un bureau ou une maison."
+    },
+    {
+      "question": "Quel est le rôle principal d’une passerelle (gateway) par défaut sur un hôte ?",
+      "reponses": [
+        "Attribuer les adresses IP",
+        "Filtrer tout le trafic",
+        "Acheminer le trafic vers d’autres réseaux",
+        "Traduire les noms de domaine"
+      ],
+      "bonne_reponse": "Acheminer le trafic vers d’autres réseaux",
+      "explication": "La passerelle par défaut permet à un hôte d’atteindre des réseaux externes à son sous-réseau."
+    },
+    {
+      "question": "Quel protocole de transport est orienté connexion ?",
+      "reponses": ["UDP", "TCP", "ICMP", "ARP"],
+      "bonne_reponse": "TCP",
+      "explication": "TCP fournit une connexion fiable orientée flux entre deux hôtes."
+    },
+    {
+      "question": "Quel protocole est non orienté connexion et souvent utilisé pour la vidéo en temps réel ?",
+      "reponses": ["TCP", "UDP", "ICMP", "SSH"],
+      "bonne_reponse": "UDP",
+      "explication": "UDP est un protocole non orienté connexion, avec peu de surcoût, adapté aux flux temps réel."
+    },
+    {
+      "question": "Que permet de vérifier la commande traceroute (ou tracert) ?",
+      "reponses": [
+        "La vitesse du disque",
+        "Les sauts réseau traversés jusqu’à une destination",
+        "La charge CPU du routeur",
+        "La version du protocole IP utilisé"
+      ],
+      "bonne_reponse": "Les sauts réseau traversés jusqu’à une destination",
+      "explication": "traceroute affiche la liste des routeurs traversés pour atteindre une destination."
+    },
+    {
+      "question": "Quelle notation représente une adresse IPv4 valide ?",
+      "reponses": ["256.10.0.1", "192.168.1.10", "192.168.300.1", "192:168:1:10"],
+      "bonne_reponse": "192.168.1.10",
+      "explication": "Chaque octet d’une adresse IPv4 doit être compris entre 0 et 255."
+    },
+    {
+      "question": "Que signifie l’acronyme WAN ?",
+      "reponses": ["World Address Network", "Wide Area Network", "Wireless Access Node", "Web Area Network"],
+      "bonne_reponse": "Wide Area Network",
+      "explication": "WAN désigne un réseau étendu couvrant une grande zone géographique, comme Internet."
+    },
+    {
+      "question": "Quel protocole est utilisé pour la synchronisation d’horloge sur le réseau ?",
+      "reponses": ["NTP", "DNS", "FTP", "SNMP"],
+      "bonne_reponse": "NTP",
+      "explication": "NTP (Network Time Protocol) permet de synchroniser l’heure entre machines."
+    },
+    {
+      "question": "Quel protocole est typiquement utilisé pour administrer une machine à distance en ligne de commande de façon sécurisée ?",
+      "reponses": ["Telnet", "FTP", "SSH", "SMTP"],
+      "bonne_reponse": "SSH",
+      "explication": "SSH fournit une session distante chiffrée pour administrer des systèmes."
+    }
+  ]
+}

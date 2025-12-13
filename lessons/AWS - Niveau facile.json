@@ -1,0 +1,1016 @@
+{
+  "questions": [
+    {
+      "question": "Que signifie l'acronyme AWS ?",
+      "reponses": [
+        "Amazon Web Services",
+        "Advanced Web System",
+        "Application Web Suite",
+        "Amazon Wide Solutions"
+      ],
+      "bonne_reponse": "Amazon Web Services",
+      "explication": "AWS est la plateforme de services cloud d’Amazon appelée Amazon Web Services."
+    },
+    {
+      "question": "Quel type de service AWS est Amazon EC2 ?",
+      "reponses": [
+        "Service de machines virtuelles (compute)",
+        "Service de base de données",
+        "Service de stockage d’objets",
+        "Service de messagerie"
+      ],
+      "bonne_reponse": "Service de machines virtuelles (compute)",
+      "explication": "Amazon EC2 fournit des instances de calcul (machines virtuelles) dans le cloud."
+    },
+    {
+      "question": "Quel service AWS sert principalement à stocker des fichiers (objets) comme images ou backups ?",
+      "reponses": [
+        "Amazon S3",
+        "Amazon RDS",
+        "AWS Lambda",
+        "Amazon SNS"
+      ],
+      "bonne_reponse": "Amazon S3",
+      "explication": "Amazon Simple Storage Service (S3) stocke des objets dans des buckets."
+    },
+    {
+      "question": "Quel service AWS gère des bases de données relationnelles managées (MySQL, PostgreSQL, etc.) ?",
+      "reponses": [
+        "Amazon RDS",
+        "Amazon DynamoDB",
+        "Amazon S3",
+        "Amazon Redshift"
+      ],
+      "bonne_reponse": "Amazon RDS",
+      "explication": "Relational Database Service (RDS) fournit des bases de données relationnelles gérées."
+    },
+    {
+      "question": "Quel service NoSQL clé/valeur entièrement managé propose AWS ?",
+      "reponses": [
+        "Amazon DynamoDB",
+        "Amazon RDS",
+        "Amazon Aurora",
+        "Amazon Neptune"
+      ],
+      "bonne_reponse": "Amazon DynamoDB",
+      "explication": "DynamoDB est un service NoSQL clé/valeur et document à faible latence."
+    },
+    {
+      "question": "Quel service serverless permet d’exécuter du code sans gérer de serveurs ?",
+      "reponses": [
+        "AWS Lambda",
+        "Amazon EC2",
+        "Amazon ECS",
+        "AWS Batch"
+      ],
+      "bonne_reponse": "AWS Lambda",
+      "explication": "Lambda exécute du code en réponse à des événements, sans gérer l’infrastructure."
+    },
+    {
+      "question": "Quel service permet de définir des utilisateurs, groupes et permissions dans AWS ?",
+      "reponses": [
+        "AWS IAM",
+        "Amazon Cognito",
+        "AWS Organizations",
+        "AWS SSO"
+      ],
+      "bonne_reponse": "AWS IAM",
+      "explication": "Identity and Access Management (IAM) gère les identités et les politiques d’accès dans AWS."
+    },
+    {
+      "question": "Que signifie l’acronyme VPC dans AWS ?",
+      "reponses": [
+        "Virtual Private Cloud",
+        "Virtual Public Cluster",
+        "Verified Private Connection",
+        "Virtual Proxy Cloud"
+      ],
+      "bonne_reponse": "Virtual Private Cloud",
+      "explication": "Un VPC est un réseau virtuel isolé logiquement dans AWS."
+    },
+    {
+      "question": "Quel service distribue le trafic entrant sur plusieurs instances pour la haute disponibilité ?",
+      "reponses": [
+        "Elastic Load Balancing",
+        "Amazon CloudFront",
+        "AWS Direct Connect",
+        "AWS Backup"
+      ],
+      "bonne_reponse": "Elastic Load Balancing",
+      "explication": "ELB répartit le trafic sur plusieurs cibles (EC2, IP, Lambda) pour la résilience."
+    },
+    {
+      "question": "Quel service de DNS managé offre AWS ?",
+      "reponses": [
+        "Amazon Route 53",
+        "Amazon CloudFront",
+        "Amazon S3",
+        "AWS Shield"
+      ],
+      "bonne_reponse": "Amazon Route 53",
+      "explication": "Route 53 fournit DNS, enregistrement de domaines et routage de trafic."
+    },
+    {
+      "question": "Quel service AWS sert de CDN (Content Delivery Network) pour distribuer du contenu statique ?",
+      "reponses": [
+        "Amazon CloudFront",
+        "AWS Global Accelerator",
+        "Amazon S3",
+        "Amazon SNS"
+      ],
+      "bonne_reponse": "Amazon CloudFront",
+      "explication": "CloudFront met en cache et distribue du contenu via un réseau de points de présence."
+    },
+    {
+      "question": "Quel service AWS permet de surveiller métriques et logs (CPU, réseau, alarmes) ?",
+      "reponses": [
+        "Amazon CloudWatch",
+        "AWS CloudTrail",
+        "AWS Config",
+        "AWS X-Ray"
+      ],
+      "bonne_reponse": "Amazon CloudWatch",
+      "explication": "CloudWatch collecte métriques, logs et événements pour la supervision et les alarmes."
+    },
+    {
+      "question": "Quel service enregistre qui fait quoi dans le compte AWS (journal d’audit des API) ?",
+      "reponses": [
+        "AWS CloudTrail",
+        "Amazon CloudWatch",
+        "AWS Config",
+        "AWS Shield"
+      ],
+      "bonne_reponse": "AWS CloudTrail",
+      "explication": "CloudTrail journalise les appels d’API et actions dans le compte pour l’audit."
+    },
+    {
+      "question": "Quel service permet de définir l’infrastructure AWS comme du code (déploiement de stacks) ?",
+      "reponses": [
+        "AWS CloudFormation",
+        "AWS CodeDeploy",
+        "AWS CodePipeline",
+        "AWS OpsWorks"
+      ],
+      "bonne_reponse": "AWS CloudFormation",
+      "explication": "CloudFormation décrit l’infrastructure dans des templates YAML/JSON et la déploie comme stack."
+    },
+    {
+      "question": "Quel service managé permet d’exécuter des conteneurs Docker sans gérer directement les nœuds ?",
+      "reponses": [
+        "AWS Fargate",
+        "Amazon EC2",
+        "AWS Batch",
+        "AWS Lightsail"
+      ],
+      "bonne_reponse": "AWS Fargate",
+      "explication": "Fargate exécute des tâches ECS/EKS serverless, sans gérer de serveurs EC2."
+    },
+    {
+      "question": "Quel service gère des clusters de conteneurs Docker orchestrés par AWS ?",
+      "reponses": [
+        "Amazon ECS",
+        "Amazon S3",
+        "Amazon RDS",
+        "AWS Glue"
+      ],
+      "bonne_reponse": "Amazon ECS",
+      "explication": "Elastic Container Service (ECS) orchestre des conteneurs sur EC2 ou Fargate."
+    },
+    {
+      "question": "Quel service permet de lancer facilement une petite instance avec WordPress ou des stacks simplifiées ?",
+      "reponses": [
+        "Amazon Lightsail",
+        "AWS Lambda",
+        "AWS Batch",
+        "AWS Glue"
+      ],
+      "bonne_reponse": "Amazon Lightsail",
+      "explication": "Lightsail simplifie le déploiement de petites applications avec un bundle VM + réseau + stockage."
+    },
+    {
+      "question": "Que représente une \"Region\" AWS ?",
+      "reponses": [
+        "Un ensemble de data centers dans une zone géographique",
+        "Un seul data center",
+        "Une machine virtuelle",
+        "Un compte client"
+      ],
+      "bonne_reponse": "Un ensemble de data centers dans une zone géographique",
+      "explication": "Une région est une zone géographique contenant plusieurs zones de disponibilité (AZ)."
+    },
+    {
+      "question": "Que signifie AZ dans le vocabulaire AWS ?",
+      "reponses": [
+        "Availability Zone",
+        "Auto Zone",
+        "Amazon Zone",
+        "Access Zone"
+      ],
+      "bonne_reponse": "Availability Zone",
+      "explication": "Une Availability Zone est un ensemble de data centers isolés mais interconnectés à l’intérieur d’une région."
+    },
+    {
+      "question": "Pourquoi répartir ses ressources sur plusieurs AZ dans une région ?",
+      "reponses": [
+        "Pour améliorer la haute disponibilité",
+        "Pour réduire le coût du support",
+        "Pour éviter d’utiliser IAM",
+        "Pour accélérer les mises à jour de CloudFormation"
+      ],
+      "bonne_reponse": "Pour améliorer la haute disponibilité",
+      "explication": "Répandre les ressources sur plusieurs AZ protège contre la panne d’un site physique."
+    },
+    {
+      "question": "Sur quel modèle de tarification principal AWS facture-t-il la plupart des services ?",
+      "reponses": [
+        "Pay-as-you-go (à l’usage)",
+        "Abonnement mensuel obligatoire",
+        "Licence perpétuelle",
+        "Forfait unique à vie"
+      ],
+      "bonne_reponse": "Pay-as-you-go (à l’usage)",
+      "explication": "La plupart des services AWS sont facturés selon la consommation réelle (compute, stockage, requêtes)."
+    },
+    {
+      "question": "Quel outil web est l’interface graphique principale pour gérer AWS ?",
+      "reponses": [
+        "AWS Management Console",
+        "AWS CLI",
+        "AWS SDK",
+        "AWS Toolkit"
+      ],
+      "bonne_reponse": "AWS Management Console",
+      "explication": "La console de management est l’interface web graphique pour administrer les services AWS."
+    },
+    {
+      "question": "Quel outil en ligne de commande permet de piloter AWS depuis un terminal ?",
+      "reponses": [
+        "AWS CLI",
+        "AWS Shell",
+        "AWS Toolkit",
+        "AWS Agent"
+      ],
+      "bonne_reponse": "AWS CLI",
+      "explication": "L’AWS Command Line Interface permet de gérer AWS par commandes scriptables."
+    },
+    {
+      "question": "Quel type d’instance EC2 est généralement utilisé pour des usages généraux (équilibre CPU/mémoire) ?",
+      "reponses": [
+        "T ou M (par ex. t3, m5)",
+        "C (compute-optimized)",
+        "R (memory-optimized)",
+        "P (GPU)"
+      ],
+      "bonne_reponse": "T ou M (par ex. t3, m5)",
+      "explication": "Les familles T et M sont conçues pour les workloads généraux équilibrés."
+    },
+    {
+      "question": "Quel service AWS sert à stocker des snapshots d’instances EC2 et des volumes EBS pour la reprise après sinistre ?",
+      "reponses": [
+        "Amazon EBS Snapshots",
+        "Amazon S3 Glacier",
+        "AWS Backup",
+        "AWS Systems Manager"
+      ],
+      "bonne_reponse": "Amazon EBS Snapshots",
+      "explication": "Les snapshots EBS sont des copies ponctuelles des volumes, souvent stockées en interne sur S3."
+    },
+    {
+      "question": "Quel type de stockage AWS est le plus adapté pour des sauvegardes à long terme à faible coût et accès peu fréquent ?",
+      "reponses": [
+        "S3 Glacier",
+        "EBS General Purpose SSD",
+        "Instance Store",
+        "DynamoDB"
+      ],
+      "bonne_reponse": "S3 Glacier",
+      "explication": "S3 Glacier est conçu pour l’archivage long terme à bas coût, avec des temps de restauration plus longs."
+    },
+    {
+      "question": "Dans S3, comment s’appelle le conteneur logique qui regroupe les objets ?",
+      "reponses": [
+        "Bucket",
+        "Folder",
+        "Volume",
+        "Cluster"
+      ],
+      "bonne_reponse": "Bucket",
+      "explication": "Un bucket S3 est un namespace logique qui contient des objets."
+    },
+    {
+      "question": "Quel mécanisme simple peut être activé sur un bucket S3 pour conserver les anciennes versions d’objets ?",
+      "reponses": [
+        "Versioning",
+        "Replication",
+        "Lifecycle",
+        "Encryption"
+      ],
+      "bonne_reponse": "Versioning",
+      "explication": "Le versioning garde toutes les versions modifiées ou supprimées d’un objet."
+    },
+    {
+      "question": "Quel service AWS propose un load balancer applicatif HTTP/HTTPS (Layer 7) ?",
+      "reponses": [
+        "Application Load Balancer (ALB)",
+        "Network Load Balancer (NLB)",
+        "Classic Load Balancer",
+        "AWS Global Accelerator"
+      ],
+      "bonne_reponse": "Application Load Balancer (ALB)",
+      "explication": "L’ALB fonctionne au niveau application (Layer 7) et supporte le routage par chemin, host, etc."
+    },
+    {
+      "question": "Quel service AWS gère automatiquement la mise à l’échelle d’un groupe d’instances EC2 selon la charge ?",
+      "reponses": [
+        "Auto Scaling",
+        "CloudFormation",
+        "Elastic Beanstalk",
+        "Systems Manager"
+      ],
+      "bonne_reponse": "Auto Scaling",
+      "explication": "Auto Scaling ajuste dynamiquement le nombre d’instances dans un groupe selon des règles et métriques."
+    },
+    {
+      "question": "Quel service simplifie le déploiement d’applications web (Java, .NET, Python, etc.) sans gérer les serveurs individuellement ?",
+      "reponses": [
+        "AWS Elastic Beanstalk",
+        "AWS Lambda",
+        "Amazon S3",
+        "AWS Batch"
+      ],
+      "bonne_reponse": "AWS Elastic Beanstalk",
+      "explication": "Elastic Beanstalk gère le provisioning, le scaling et le monitoring pour vous à partir du code."
+    },
+    {
+      "question": "Quel service de messagerie pub/sub simple AWS propose-t-il ?",
+      "reponses": [
+        "Amazon SNS",
+        "Amazon SQS",
+        "Amazon MQ",
+        "EventBridge"
+      ],
+      "bonne_reponse": "Amazon SNS",
+      "explication": "Simple Notification Service (SNS) envoie des messages à de multiples abonnés (email, SMS, Lambda, SQS)."
+    },
+    {
+      "question": "Quel service AWS fournit des files de messages fiables et découple les composants applicatifs ?",
+      "reponses": [
+        "Amazon SQS",
+        "Amazon SNS",
+        "Amazon MQ",
+        "AWS Step Functions"
+      ],
+      "bonne_reponse": "Amazon SQS",
+      "explication": "Simple Queue Service (SQS) est un service de files de messages managé."
+    },
+    {
+      "question": "Quel service gère des workflows serverless sous forme de machines d’état pour orchestrer Lambda, SQS, etc. ?",
+      "reponses": [
+        "AWS Step Functions",
+        "AWS Batch",
+        "Amazon EMR",
+        "Amazon Kinesis"
+      ],
+      "bonne_reponse": "AWS Step Functions",
+      "explication": "Step Functions orchestre des fonctions et services sous forme de state machine JSON."
+    },
+    {
+      "question": "Quel service fournit un cluster Hadoop/Spark managé pour le Big Data ?",
+      "reponses": [
+        "Amazon EMR",
+        "Amazon Redshift",
+        "AWS Glue",
+        "Amazon Athena"
+      ],
+      "bonne_reponse": "Amazon EMR",
+      "explication": "Elastic MapReduce (EMR) exécute Hadoop, Spark et autres frameworks Big Data."
+    },
+    {
+      "question": "Quel service de data warehouse colonne AWS propose-t-il pour des requêtes analytiques SQL massives ?",
+      "reponses": [
+        "Amazon Redshift",
+        "Amazon RDS",
+        "Amazon DynamoDB",
+        "AWS Glue"
+      ],
+      "bonne_reponse": "Amazon Redshift",
+      "explication": "Redshift est un entrepôt de données MPP adapté aux requêtes analytiques lourdes."
+    },
+    {
+      "question": "Quel service permet d’exécuter des requêtes SQL interactives directement sur des données dans S3 sans ETL lourd ?",
+      "reponses": [
+        "Amazon Athena",
+        "Amazon Redshift",
+        "AWS Glue",
+        "Amazon EMR"
+      ],
+      "bonne_reponse": "Amazon Athena",
+      "explication": "Athena interroge des données dans S3 via SQL, facturé à la quantité scannée."
+    },
+    {
+      "question": "Quel service AWS est conçu pour gérer les clés de chiffrement et les opérations cryptographiques ?",
+      "reponses": [
+        "AWS KMS",
+        "AWS Shield",
+        "AWS WAF",
+        "AWS Secrets Manager"
+      ],
+      "bonne_reponse": "AWS KMS",
+      "explication": "Key Management Service (KMS) gère les clés et permet de chiffrer/déchiffrer des données."
+    },
+    {
+      "question": "Quel service permet de stocker de façon sécurisée des secrets applicatifs (mots de passe, API keys) et de les faire tourner automatiquement ?",
+      "reponses": [
+        "AWS Secrets Manager",
+        "AWS Systems Manager Parameter Store",
+        "AWS KMS",
+        "AWS Shield"
+      ],
+      "bonne_reponse": "AWS Secrets Manager",
+      "explication": "Secrets Manager stocke, chiffre et fait tourner des secrets, intégrable avec RDS, etc."
+    },
+    {
+      "question": "Quel service protège les applications web contre les attaques courantes comme les injections SQL ou XSS ?",
+      "reponses": [
+        "AWS WAF",
+        "AWS Shield",
+        "Security Hub",
+        "GuardDuty"
+      ],
+      "bonne_reponse": "AWS WAF",
+      "explication": "Le Web Application Firewall (WAF) filtre le trafic HTTP selon des règles."
+    },
+    {
+      "question": "Quel service protège principalement contre les attaques DDoS au niveau réseau ?",
+      "reponses": [
+        "AWS Shield",
+        "AWS WAF",
+        "AWS KMS",
+        "AWS SSO"
+      ],
+      "bonne_reponse": "AWS Shield",
+      "explication": "Shield Standard protège automatiquement contre de nombreuses attaques DDoS."
+    },
+    {
+      "question": "Quel service de sauvegarde centralisée multi-services propose AWS ?",
+      "reponses": [
+        "AWS Backup",
+        "AWS Storage Gateway",
+        "Amazon S3",
+        "AWS DMS"
+      ],
+      "bonne_reponse": "AWS Backup",
+      "explication": "AWS Backup centralise et automatise les sauvegardes de services comme EBS, RDS, DynamoDB."
+    },
+    {
+      "question": "Quel service facilite la migration de bases de données vers AWS (on-premise → RDS, etc.) ?",
+      "reponses": [
+        "AWS Database Migration Service (DMS)",
+        "AWS DataSync",
+        "AWS Snowball",
+        "AWS Glue"
+      ],
+      "bonne_reponse": "AWS Database Migration Service (DMS)",
+      "explication": "DMS migre des bases relationnelles ou NoSQL vers AWS avec un minimum de downtime."
+    },
+    {
+      "question": "Quel service de transfert massif de données physiques AWS propose-t-il via des appliances expédiées au client ?",
+      "reponses": [
+        "AWS Snowball",
+        "AWS DataSync",
+        "AWS Direct Connect",
+        "S3 Transfer Acceleration"
+      ],
+      "bonne_reponse": "AWS Snowball",
+      "explication": "Snowball est un appareil de stockage robuste permettant d’importer/exporter de gros volumes de données."
+    },
+    {
+      "question": "Quel service offre une connexion réseau dédiée entre le data center du client et AWS ?",
+      "reponses": [
+        "AWS Direct Connect",
+        "VPN Site-to-Site",
+        "Global Accelerator",
+        "Transit Gateway"
+      ],
+      "bonne_reponse": "AWS Direct Connect",
+      "explication": "Direct Connect fournit une liaison réseau privée à faible latence entre le site client et AWS."
+    },
+    {
+      "question": "Quel service de gestion de configuration suit les changements de ressources AWS et vérifie la conformité ?",
+      "reponses": [
+        "AWS Config",
+        "CloudTrail",
+        "CloudWatch",
+        "Systems Manager"
+      ],
+      "bonne_reponse": "AWS Config",
+      "explication": "Config enregistre l’historique de configuration des ressources et évalue la conformité à des règles."
+    },
+    {
+      "question": "Quel service centralise les recommandations de sécurité, de performance et de coût pour un compte AWS ?",
+      "reponses": [
+        "AWS Trusted Advisor",
+        "AWS Config",
+        "CloudWatch",
+        "Systems Manager"
+      ],
+      "bonne_reponse": "AWS Trusted Advisor",
+      "explication": "Trusted Advisor scanne l’environnement et propose des optimisations (coût, sécurité, performance)."
+    },
+    {
+      "question": "Quel service permet d’organiser plusieurs comptes AWS et d’appliquer des politiques globales ?",
+      "reponses": [
+        "AWS Organizations",
+        "AWS IAM",
+        "AWS SSO",
+        "Control Tower"
+      ],
+      "bonne_reponse": "AWS Organizations",
+      "explication": "Organizations gère des structures multi-comptes avec des politiques (SCP) et de la facturation consolidée."
+    },
+    {
+      "question": "Quel type d’utilisateur AWS doit-on privilégier pour les tâches quotidiennes plutôt que la root account ?",
+      "reponses": [
+        "Un utilisateur IAM avec permissions limitées",
+        "Le compte root toujours",
+        "Un utilisateur invité sans mot de passe",
+        "Un compte partagé entre toute l’équipe"
+      ],
+      "bonne_reponse": "Un utilisateur IAM avec permissions limitées",
+      "explication": "Par sécurité, on n’utilise le compte root que pour quelques tâches rares ; le quotidien passe par IAM."
+    },
+    {
+      "question": "Quel service gère les patchs, inventaires et commandes à distance sur les instances EC2 et serveurs on-premise ?",
+      "reponses": [
+        "AWS Systems Manager",
+        "AWS Config",
+        "CloudFormation",
+        "CodeDeploy"
+      ],
+      "bonne_reponse": "AWS Systems Manager",
+      "explication": "Systems Manager (SSM) centralise patching, inventaire et exécution de commandes via SSM Agent."
+    },
+    {
+      "question": "Quel service gère des pipelines CI/CD (build, test, déploiement) pour les applications sur AWS ?",
+      "reponses": [
+        "AWS CodePipeline",
+        "AWS CodeDeploy",
+        "AWS CodeBuild",
+        "AWS CodeCommit"
+      ],
+      "bonne_reponse": "AWS CodePipeline",
+      "explication": "CodePipeline orchestre les étapes CI/CD, en s’intégrant avec CodeBuild, CodeDeploy, etc."
+    },
+    {
+      "question": "Quel service de dépôt Git managé AWS fournit-il ?",
+      "reponses": [
+        "AWS CodeCommit",
+        "AWS CodePipeline",
+        "GitHub Enterprise sur EC2",
+        "AWS Artifact"
+      ],
+      "bonne_reponse": "AWS CodeCommit",
+      "explication": "CodeCommit est un service de repositories Git hébergés sur AWS."
+    },
+    {
+      "question": "Quel type de stockage EC2 est persistant et attaché au réseau (disques virtuels) ?",
+      "reponses": [
+        "Amazon EBS",
+        "Instance Store",
+        "S3",
+        "Glacier"
+      ],
+      "bonne_reponse": "Amazon EBS",
+      "explication": "Elastic Block Store fournit des volumes de bloc persistants attachés aux instances EC2."
+    },
+    {
+      "question": "Quel type de stockage est éphémère et perdu à l’arrêt de l’instance EC2 ?",
+      "reponses": [
+        "Instance Store",
+        "EBS",
+        "S3",
+        "Glacier"
+      ],
+      "bonne_reponse": "Instance Store",
+      "explication": "Les disques Instance Store sont directement sur l’hôte physique et ne survivent pas à l’arrêt/termination."
+    },
+    {
+      "question": "Dans un VPC, quel composant contrôle quelles IP/ports sont autorisés ENTRANT/SORTANT au niveau instance ?",
+      "reponses": [
+        "Security Group",
+        "Network ACL",
+        "Route Table",
+        "Internet Gateway"
+      ],
+      "bonne_reponse": "Security Group",
+      "explication": "Un Security Group est un pare-feu stateful associé aux interfaces réseau."
+    },
+    {
+      "question": "Dans un VPC, quel composant applique des règles réseau stateless au niveau du sous-réseau ?",
+      "reponses": [
+        "Network ACL",
+        "Security Group",
+        "Route Table",
+        "NAT Gateway"
+      ],
+      "bonne_reponse": "Network ACL",
+      "explication": "Les NACL sont des listes de contrôle d’accès stateless appliquées aux subnets."
+    },
+    {
+      "question": "Quel composant VPC permet à un subnet privé de sortir sur Internet sans être joignable depuis l’extérieur ?",
+      "reponses": [
+        "NAT Gateway",
+        "Internet Gateway",
+        "Transit Gateway",
+        "VPC Peering"
+      ],
+      "bonne_reponse": "NAT Gateway",
+      "explication": "Une NAT Gateway permet aux instances privées de faire des connexions sortantes tout en restant privées."
+    },
+    {
+      "question": "Quel service AWS est conçu pour l’ETL (Extract-Transform-Load) serverless sur des données de type Data Lake ?",
+      "reponses": [
+        "AWS Glue",
+        "Amazon EMR",
+        "Amazon Redshift",
+        "AWS Batch"
+      ],
+      "bonne_reponse": "AWS Glue",
+      "explication": "Glue découvre les schémas et orchestre les jobs ETL serverless."
+    },
+    {
+      "question": "Quel service de streaming temps réel gère des flux de données comme des logs ou clics ?",
+      "reponses": [
+        "Amazon Kinesis",
+        "Amazon SQS",
+        "Amazon SNS",
+        "AWS Batch"
+      ],
+      "bonne_reponse": "Amazon Kinesis",
+      "explication": "Kinesis gère l’ingestion et le traitement en continu de gros volumes de données de streaming."
+    },
+    {
+      "question": "Quel service d’IA permet d’ajouter facilement traduction, analyse de sentiment, vision, etc. sans entraîner un modèle soi-même ?",
+      "reponses": [
+        "Les services Amazon AI (Comprehend, Rekognition, Translate, etc.)",
+        "Amazon SageMaker uniquement",
+        "AWS Batch",
+        "AWS Glue"
+      ],
+      "bonne_reponse": "Les services Amazon AI (Comprehend, Rekognition, Translate, etc.)",
+      "explication": "AWS fournit des services IA prêts à l’emploi comme Rekognition (vision), Comprehend (NLP), Translate, Polly, etc."
+    },
+    {
+      "question": "Quel service permet d’entraîner, déployer et gérer des modèles de machine learning à grande échelle ?",
+      "reponses": [
+        "Amazon SageMaker",
+        "Amazon Aurora",
+        "AWS Glue",
+        "AWS Batch"
+      ],
+      "bonne_reponse": "Amazon SageMaker",
+      "explication": "SageMaker couvre tout le cycle de vie ML : préparation, entraînement, déploiement, monitoring."
+    },
+    {
+      "question": "Quel service base de données relationnelle compatible MySQL/PostgreSQL, optimisé pour le cloud, propose AWS ?",
+      "reponses": [
+        "Amazon Aurora",
+        "Amazon Redshift",
+        "DynamoDB",
+        "Neptune"
+      ],
+      "bonne_reponse": "Amazon Aurora",
+      "explication": "Aurora est une base compatible MySQL/PostgreSQL, performante et hautement disponible."
+    },
+    {
+      "question": "Quel service gère la découverte de services et la configuration pour des microservices dans AWS (nom de service → endpoints) ?",
+      "reponses": [
+        "AWS Cloud Map",
+        "Route 53 Resolver",
+        "AWS App Mesh",
+        "AWS Global Accelerator"
+      ],
+      "bonne_reponse": "AWS Cloud Map",
+      "explication": "Cloud Map enregistre noms et emplacements des ressources pour la découverte dynamique."
+    },
+    {
+      "question": "Quel service fournit un mesh réseau pour connecter, observer et sécuriser des microservices ?",
+      "reponses": [
+        "AWS App Mesh",
+        "Amazon VPC",
+        "Global Accelerator",
+        "Direct Connect"
+      ],
+      "bonne_reponse": "AWS App Mesh",
+      "explication": "App Mesh est un service mesh compatible Envoy pour microservices sur ECS/EKS/EC2."
+    },
+    {
+      "question": "Quel service simple AWS permet de planifier l’exécution régulière de tâches (ex: déclencher une Lambda chaque heure) ?",
+      "reponses": [
+        "Amazon EventBridge / CloudWatch Events",
+        "AWS Batch",
+        "AWS Step Functions",
+        "AWS CodeBuild"
+      ],
+      "bonne_reponse": "Amazon EventBridge / CloudWatch Events",
+      "explication": "On crée des règles cron/planifiées qui déclenchent des cibles comme Lambda ou SQS."
+    },
+    {
+      "question": "Quel service offre un shell de session managé pour se connecter à une instance EC2 sans ouvrir le port SSH ?",
+      "reponses": [
+        "AWS Systems Manager Session Manager",
+        "AWS CloudShell",
+        "AWS Direct Connect",
+        "AWS VPN"
+      ],
+      "bonne_reponse": "AWS Systems Manager Session Manager",
+      "explication": "Session Manager ouvre une session chiffrée via l’agent SSM, sans accès réseau entrant."
+    },
+    {
+      "question": "Quel service AWS affiche et agrége les recommandations de sécurité issues de plusieurs services (GuardDuty, Inspector, etc.) ?",
+      "reponses": [
+        "AWS Security Hub",
+        "AWS Shield",
+        "AWS WAF",
+        "AWS Artifact"
+      ],
+      "bonne_reponse": "AWS Security Hub",
+      "explication": "Security Hub centralise les findings de sécurité et la conformité."
+    },
+    {
+      "question": "Quel service surveille les menaces et comportements suspects (par ex. clés compromises, scans) à partir des logs AWS ?",
+      "reponses": [
+        "Amazon GuardDuty",
+        "AWS Shield",
+        "AWS WAF",
+        "Security Hub"
+      ],
+      "bonne_reponse": "Amazon GuardDuty",
+      "explication": "GuardDuty analyse CloudTrail, VPC Flow Logs, DNS logs pour détecter des comportements anormaux."
+    },
+    {
+      "question": "Quel service inspecte les instances et images pour trouver des vulnérabilités et problèmes de configuration ?",
+      "reponses": [
+        "Amazon Inspector",
+        "AWS Config",
+        "CloudTrail",
+        "Systems Manager"
+      ],
+      "bonne_reponse": "Amazon Inspector",
+      "explication": "Inspector évalue la sécurité des workloads, par exemple les vulnérabilités de packages."
+    },
+    {
+      "question": "Quel service facilite l’hébergement simple de sites statiques (HTML/JS/CSS) sur S3 avec CDN ?",
+      "reponses": [
+        "S3 + CloudFront",
+        "EC2 uniquement",
+        "RDS + Route 53",
+        "Elastic Beanstalk"
+      ],
+      "bonne_reponse": "S3 + CloudFront",
+      "explication": "On active l’hébergement statique sur S3 et on le distribue via CloudFront pour de meilleures performances."
+    },
+    {
+      "question": "Quel service AWS fournit des images machine préconfigurées avec un OS pour EC2 ?",
+      "reponses": [
+        "Amazon Machine Image (AMI)",
+        "AWS Marketplace",
+        "CloudFormation",
+        "AMI Store"
+      ],
+      "bonne_reponse": "Amazon Machine Image (AMI)",
+      "explication": "Une AMI définit le système d’exploitation et éventuellement le stack préinstallé d’une instance EC2."
+    },
+    {
+      "question": "Quel service AWS fournit un catalogue d’images et d’applications prêtes à l’emploi vendues par des tiers ?",
+      "reponses": [
+        "AWS Marketplace",
+        "AWS Store",
+        "S3 Marketplace",
+        "EC2 Shop"
+      ],
+      "bonne_reponse": "AWS Marketplace",
+      "explication": "Marketplace propose AMI, conteneurs, SaaS et autres produits tiers intégrés à la facturation AWS."
+    },
+    {
+      "question": "Quel programme permet de tester gratuitement certains services AWS dans des limites définies (heures EC2, Go S3, etc.) ?",
+      "reponses": [
+        "AWS Free Tier",
+        "AWS Trial",
+        "AWS Sandbox",
+        "AWS Demo Plan"
+      ],
+      "bonne_reponse": "AWS Free Tier",
+      "explication": "Le Free Tier offre une utilisation limitée gratuite pendant 12 mois ou en permanence pour certains services."
+    },
+    {
+      "question": "Quel principe de sécurité de base recommande de donner le minimum de permissions nécessaires à un utilisateur ou un rôle ?",
+      "reponses": [
+        "Principe du moindre privilège",
+        "Principe de confiance totale",
+        "Open by default",
+        "Full access"
+      ],
+      "bonne_reponse": "Principe du moindre privilège",
+      "explication": "Least privilege limite les dégâts possibles en cas d’erreur ou de compromission."
+    },
+    {
+      "question": "Quel service AWS permet une authentification fédérée adaptée aux identités d’entreprise (Azure AD, AD, etc.) ?",
+      "reponses": [
+        "AWS IAM Identity Center (ex AWS SSO)",
+        "AWS KMS",
+        "CloudTrail",
+        "Direct Connect"
+      ],
+      "bonne_reponse": "AWS IAM Identity Center (ex AWS SSO)",
+      "explication": "IAM Identity Center centralise l’accès aux comptes et applications AWS via une identité d’entreprise."
+    },
+    {
+      "question": "Quel service permet à un rôle IAM d’assumer temporairement des permissions dans un autre compte ?",
+      "reponses": [
+        "STS (Security Token Service)",
+        "Direct Connect",
+        "GuardDuty",
+        "CloudFront"
+      ],
+      "bonne_reponse": "STS (Security Token Service)",
+      "explication": "STS délivre des jetons temporaires utilisés pour assumer des rôles cross-account."
+    },
+    {
+      "question": "Quel service AWS aide à estimer le coût mensuel d’une architecture avant de la déployer ?",
+      "reponses": [
+        "AWS Pricing Calculator",
+        "AWS Cost Explorer",
+        "Trusted Advisor",
+        "Billing Dashboard"
+      ],
+      "bonne_reponse": "AWS Pricing Calculator",
+      "explication": "Le Pricing Calculator en ligne simule la facture selon les ressources prévues."
+    },
+    {
+      "question": "Quel service aide à analyser a posteriori les coûts réels et à filtrer par service, tag, etc. ?",
+      "reponses": [
+        "AWS Cost Explorer",
+        "Pricing Calculator",
+        "CloudWatch",
+        "CloudTrail"
+      ],
+      "bonne_reponse": "AWS Cost Explorer",
+      "explication": "Cost Explorer visualise la consommation et la facture par service, compte, tag ou période."
+    },
+    {
+      "question": "Quel mécanisme de tagging AWS aide à regrouper les coûts par projet, équipe ou environnement ?",
+      "reponses": [
+        "Les tags de ressources (clé/valeur)",
+        "Les Security Groups",
+        "Les NACL",
+        "Les roles IAM"
+      ],
+      "bonne_reponse": "Les tags de ressources (clé/valeur)",
+      "explication": "Les tags permettent d’identifier et de filtrer les ressources pour le coût, la gestion et la gouvernance."
+    },
+    {
+      "question": "Quel service AWS est recommandé pour le stockage partagé de fichiers (NFS) pour plusieurs instances Linux ?",
+      "reponses": [
+        "Amazon EFS",
+        "Amazon EBS",
+        "S3 Glacier",
+        "DynamoDB"
+      ],
+      "bonne_reponse": "Amazon EFS",
+      "explication": "Elastic File System est un stockage de fichiers distribué montable sur plusieurs instances Linux."
+    },
+    {
+      "question": "Quel service AWS fournit un système de fichiers partagé pour les environnements Windows sur AWS ?",
+      "reponses": [
+        "Amazon FSx for Windows File Server",
+        "Amazon EFS",
+        "S3",
+        "EBS Multi-Attach"
+      ],
+      "bonne_reponse": "Amazon FSx for Windows File Server",
+      "explication": "FSx pour Windows offre un système de fichiers compatible SMB et Active Directory."
+    },
+    {
+      "question": "Quel service simplifie la découverte et la centralisation des logs d’applications sur EC2, Lambda, etc. ?",
+      "reponses": [
+        "CloudWatch Logs",
+        "CloudTrail",
+        "Config",
+        "X-Ray"
+      ],
+      "bonne_reponse": "CloudWatch Logs",
+      "explication": "CloudWatch Logs collecte et stocke les logs provenant de multiples sources."
+    },
+    {
+      "question": "Quel service fournit du tracing distribué pour diagnostiquer la latence dans des applications microservices ?",
+      "reponses": [
+        "AWS X-Ray",
+        "CloudTrail",
+        "GuardDuty",
+        "Inspector"
+      ],
+      "bonne_reponse": "AWS X-Ray",
+      "explication": "X-Ray trace les requêtes à travers les services pour afficher les segments lents."
+    },
+    {
+      "question": "Quel service gère les accès sécurisés à des applications internes via un proxy managé sans VPN complexe ?",
+      "reponses": [
+        "AWS Verified Access",
+        "Direct Connect",
+        "CloudFront",
+        "WAF"
+      ],
+      "bonne_reponse": "AWS Verified Access",
+      "explication": "Verified Access fournit un accès sécurisé aux apps via des politiques d’identité et de sécurité."
+    },
+    {
+      "question": "Quel service AWS propose une base de données graphique managée pour les relations complexes (graphe social, etc.) ?",
+      "reponses": [
+        "Amazon Neptune",
+        "DynamoDB",
+        "RDS MySQL",
+        "Redshift"
+      ],
+      "bonne_reponse": "Amazon Neptune",
+      "explication": "Neptune est un service de base de données graph orienté sur les relations et les requêtes Gremlin/PGQL."
+    },
+    {
+      "question": "Quel service AWS est une base de données de séries temporelles optimisée pour les mesures (IoT, monitoring) ?",
+      "reponses": [
+        "Amazon Timestream",
+        "DynamoDB",
+        "Aurora",
+        "RDS Oracle"
+      ],
+      "bonne_reponse": "Amazon Timestream",
+      "explication": "Timestream gère efficacement des données temporelles avec des politiques de rétention."
+    },
+    {
+      "question": "Quel service AWS offre un moteur de recherche et d’analytique basé sur OpenSearch (ex Elasticsearch) ?",
+      "reponses": [
+        "Amazon OpenSearch Service",
+        "Amazon Athena",
+        "Redshift Spectrum",
+        "EMR Search"
+      ],
+      "bonne_reponse": "Amazon OpenSearch Service",
+      "explication": "OpenSearch Service (ex Elasticsearch Service) gère des clusters de recherche full-text et d’analytics."
+    },
+    {
+      "question": "Quel service AWS fournit un environnement de développement dans le navigateur connecté à AWS, pratique pour la formation ?",
+      "reponses": [
+        "AWS Cloud9",
+        "AWS CloudShell",
+        "CodeBuild",
+        "SageMaker Studio"
+      ],
+      "bonne_reponse": "AWS Cloud9",
+      "explication": "Cloud9 est un IDE cloud collaboratif avec terminal et intégration AWS."
+    },
+    {
+      "question": "Quel service propose un shell Linux managé directement dans la console AWS pour exécuter la CLI sans rien installer ?",
+      "reponses": [
+        "AWS CloudShell",
+        "Cloud9",
+        "Systems Manager",
+        "Lambda Shell"
+      ],
+      "bonne_reponse": "AWS CloudShell",
+      "explication": "CloudShell fournit un environnement shell prêt à l’emploi dans le navigateur avec AWS CLI configurée."
+    },
+    {
+      "question": "Quel service AWS est utilisé pour créer un data lake centralisé basé sur S3 et un catalogue de données ?",
+      "reponses": [
+        "AWS Lake Formation",
+        "AWS Glue uniquement",
+        "Redshift",
+        "EMR"
+      ],
+      "bonne_reponse": "AWS Lake Formation",
+      "explication": "Lake Formation aide à construire, sécuriser et gérer un data lake sur S3 avec un catalogue unifié."
+    },
+    {
+      "question": "Quel service permet d’héberger des API REST ou HTTP serverless, souvent devant Lambda ?",
+      "reponses": [
+        "Amazon API Gateway",
+        "CloudFront",
+        "Route 53",
+        "App Mesh"
+      ],
+      "bonne_reponse": "Amazon API Gateway",
+      "explication": "API Gateway fournit la gestion des endpoints, quotas, auth et monitoring pour des API."
+    },
+    {
+      "question": "Quel service plus récent permet de créer des API HTTP légères et moins chères que l’API REST historique ?",
+      "reponses": [
+        "API Gateway HTTP APIs",
+        "Lambda URLs",
+        "Route 53 APIs",
+        "CloudFront Functions"
+      ],
+      "bonne_reponse": "API Gateway HTTP APIs",
+      "explication": "Les HTTP APIs d’API Gateway sont optimisées pour des scénarios simples et moins coûteux."
+    }
+  ]
+}

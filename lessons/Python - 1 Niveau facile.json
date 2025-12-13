@@ -1,0 +1,598 @@
+{
+  "questions": [
+    {
+      "question": "Quel mot-clé permet de définir une fonction en Python ?",
+      "reponses": ["def", "func", "function", "lambda"],
+      "bonne_reponse": "def",
+      "explication": "On définit une fonction avec le mot-clé def nom(...):."
+    },
+    {
+      "question": "Quel symbole est utilisé pour les commentaires sur une seule ligne ?",
+      "reponses": ["#", "//", "/* */", "--"],
+      "bonne_reponse": "#",
+      "explication": "Les commentaires sur une ligne commencent par #."
+    },
+    {
+      "question": "Quelle fonction affiche du texte à l'écran ?",
+      "reponses": ["print()", "echo()", "show()", "display()"],
+      "bonne_reponse": "print()",
+      "explication": "print() envoie du texte sur la sortie standard."
+    },
+    {
+      "question": "Quel type représente un nombre entier en Python ?",
+      "reponses": ["int", "float", "str", "bool"],
+      "bonne_reponse": "int",
+      "explication": "Les entiers sont du type int."
+    },
+    {
+      "question": "Quel type représente un nombre à virgule ?",
+      "reponses": ["float", "int", "str", "bool"],
+      "bonne_reponse": "float",
+      "explication": "Les nombres à virgule sont de type float."
+    },
+    {
+      "question": "Quel type représente un texte (chaîne de caractères) ?",
+      "reponses": ["str", "string", "text", "char"],
+      "bonne_reponse": "str",
+      "explication": "Les chaînes sont de type str."
+    },
+    {
+      "question": "Quel opérateur sert à additionner deux nombres ?",
+      "reponses": ["+", "-", "*", "/"],
+      "bonne_reponse": "+",
+      "explication": "L'opérateur + sert à faire une addition."
+    },
+    {
+      "question": "Quel opérateur sert à multiplier deux nombres ?",
+      "reponses": ["*", "+", "-", "/"],
+      "bonne_reponse": "*",
+      "explication": "L'opérateur * sert à la multiplication."
+    },
+    {
+      "question": "Quel opérateur renvoie le reste d'une division entière ?",
+      "reponses": ["%", "//", "/", "**"],
+      "bonne_reponse": "%",
+      "explication": "L'opérateur % est le modulo."
+    },
+    {
+      "question": "Quel opérateur effectue une division entière (quotient) ?",
+      "reponses": ["//", "/", "%", "**"],
+      "bonne_reponse": "//",
+      "explication": "// renvoie la partie entière du résultat."
+    },
+    {
+      "question": "Quel opérateur sert à faire une puissance en Python ?",
+      "reponses": ["**", "^", "pow", "^^"],
+      "bonne_reponse": "**",
+      "explication": "a ** b représente a à la puissance b."
+    },
+    {
+      "question": "Comment écrit-on une liste vide ?",
+      "reponses": ["[]", "{}", "()", "list"],
+      "bonne_reponse": "[]",
+      "explication": "Une liste vide s'écrit avec des crochets vides []."
+    },
+    {
+      "question": "Quel type représente une valeur vraie ou fausse ?",
+      "reponses": ["bool", "int", "str", "float"],
+      "bonne_reponse": "bool",
+      "explication": "Les booléens sont True ou False, de type bool."
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour une condition simple ?",
+      "reponses": ["if", "for", "while", "when"],
+      "bonne_reponse": "if",
+      "explication": "Les tests conditionnels commencent par if."
+    },
+    {
+      "question": "Quel mot-clé complète un if pour le cas contraire ?",
+      "reponses": ["else", "otherwise", "default", "elif"],
+      "bonne_reponse": "else",
+      "explication": "else couvre le cas où la condition if est fausse."
+    },
+    {
+      "question": "Quel mot-clé permet de tester une autre condition après un if ?",
+      "reponses": ["elif", "else if", "elseif", "or"],
+      "bonne_reponse": "elif",
+      "explication": "elif signifie \"else if\" et enchaîne les conditions."
+    },
+    {
+      "question": "Quel mot-clé permet de faire une boucle sur une séquence ?",
+      "reponses": ["for", "while", "loop", "do"],
+      "bonne_reponse": "for",
+      "explication": "for parcourt les éléments d'une séquence."
+    },
+    {
+      "question": "Quel mot-clé permet de répéter tant qu'une condition est vraie ?",
+      "reponses": ["while", "for", "loop", "repeat"],
+      "bonne_reponse": "while",
+      "explication": "while exécute le bloc tant que la condition est vraie."
+    },
+    {
+      "question": "Quelle fonction renvoie la longueur d'une liste ou d'une chaîne ?",
+      "reponses": ["len()", "size()", "count()", "length()"],
+      "bonne_reponse": "len()",
+      "explication": "len(obj) renvoie le nombre d'éléments."
+    },
+    {
+      "question": "Comment écrit-on une chaîne de caractères en Python ?",
+      "reponses": ["Entre guillemets", "Entre crochets", "Entre accolades", "Entre parenthèses"],
+      "bonne_reponse": "Entre guillemets",
+      "explication": "On utilise des guillemets simples ou doubles : 'texte' ou \"texte\"."
+    },
+    {
+      "question": "Quel index a le premier élément d'une liste ?",
+      "reponses": ["0", "1", "-1", "2"],
+      "bonne_reponse": "0",
+      "explication": "Les index commencent à 0 en Python."
+    },
+    {
+      "question": "Quel index permet d'accéder au dernier élément d'une liste ?",
+      "reponses": ["-1", "0", "last", "len"],
+      "bonne_reponse": "-1",
+      "explication": "L'index -1 désigne le dernier élément."
+    },
+    {
+      "question": "Quelle fonction convertit une chaîne en entier si possible ?",
+      "reponses": ["int()", "str()", "float()", "bool()"],
+      "bonne_reponse": "int",
+      "explication": "int(\"10\") renvoie l'entier 10."
+    },
+    {
+      "question": "Quelle fonction convertit un entier en chaîne ?",
+      "reponses": ["str()", "int()", "repr()", "text()"],
+      "bonne_reponse": "str()",
+      "explication": "str(10) renvoie \"10\"."
+    },
+    {
+      "question": "Quel mot-clé permet de quitter une fonction en renvoyant une valeur ?",
+      "reponses": ["return", "break", "exit", "stop"],
+      "bonne_reponse": "return",
+      "explication": "return x renvoie x et sort de la fonction."
+    },
+    {
+      "question": "Quelle instruction permet de sortir d'une boucle immédiatement ?",
+      "reponses": ["break", "continue", "return", "exit"],
+      "bonne_reponse": "break",
+      "explication": "break arrête la boucle en cours."
+    },
+    {
+      "question": "Quelle instruction passe à l'itération suivante sans finir le bloc ?",
+      "reponses": ["continue", "break", "skip", "next"],
+      "bonne_reponse": "continue",
+      "explication": "continue saute à l'itération suivante."
+    },
+    {
+      "question": "Quelle méthode de liste ajoute un élément à la fin ?",
+      "reponses": ["append()", "add()", "push()", "insert()"],
+      "bonne_reponse": "append()",
+      "explication": "ma_liste.append(x) ajoute x à la fin."
+    },
+    {
+      "question": "Quelle méthode de liste insère un élément à une position donnée ?",
+      "reponses": ["insert()", "append()", "add()", "push()"],
+      "bonne_reponse": "insert()",
+      "explication": "insert(index, valeur) insère avant l'index."
+    },
+    {
+      "question": "Quelle méthode supprime et renvoie le dernier élément d'une liste ?",
+      "reponses": ["pop()", "remove()", "delete()", "drop()"],
+      "bonne_reponse": "pop()",
+      "explication": "pop() enlève l'élément et le renvoie."
+    },
+    {
+      "question": "Quelle méthode supprime la première occurrence d'une valeur dans une liste ?",
+      "reponses": ["remove()", "pop()", "delete()", "clear()"],
+      "bonne_reponse": "remove()",
+      "explication": "remove(valeur) enlève la première occurrence."
+    },
+    {
+      "question": "Quelle méthode vide complètement une liste ?",
+      "reponses": ["clear()", "empty()", "delete()", "reset()"],
+      "bonne_reponse": "clear()",
+      "explication": "clear() supprime tous les éléments."
+    },
+    {
+      "question": "Quel opérateur teste l'égalité entre deux valeurs ?",
+      "reponses": ["==", "=", "===", "eq"],
+      "bonne_reponse": "==",
+      "explication": "== compare les valeurs, = affecte."
+    },
+    {
+      "question": "Quel opérateur logique signifie \"et\" ?",
+      "reponses": ["and", "or", "not", "&"],
+      "bonne_reponse": "and",
+      "explication": "and combine deux conditions vraies."
+    },
+    {
+      "question": "Quel opérateur logique signifie \"ou\" ?",
+      "reponses": ["or", "and", "not", "|"],
+      "bonne_reponse": "or",
+      "explication": "or est vrai si au moins une condition est vraie."
+    },
+    {
+      "question": "Quel opérateur logique inverse une valeur booléenne ?",
+      "reponses": ["not", "!", "inverse", "flip"],
+      "bonne_reponse": "not",
+      "explication": "not True devient False et inversement."
+    },
+    {
+      "question": "Comment écrit-on un tuple contenant 1, 2 et 3 ?",
+      "reponses": ["(1, 2, 3)", "[1, 2, 3]", "{1, 2, 3}", "tuple[1,2,3]"],
+      "bonne_reponse": "(1, 2, 3)",
+      "explication": "Les tuples utilisent des parenthèses."
+    },
+    {
+      "question": "Quel type représente une collection non modifiable et ordonnée ?",
+      "reponses": ["tuple", "list", "set", "dict"],
+      "bonne_reponse": "tuple",
+      "explication": "Les tuples sont immuables et ordonnés."
+    },
+    {
+      "question": "Quel type représente un ensemble sans doublons ?",
+      "reponses": ["set", "list", "dict", "tuple"],
+      "bonne_reponse": "set",
+      "explication": "set() représente un ensemble de valeurs uniques."
+    },
+    {
+      "question": "Comment écrit-on un dictionnaire vide ?",
+      "reponses": ["{}", "[]", "dict()", "({})"],
+      "bonne_reponse": "{}",
+      "explication": "Les dictionnaires utilisent des accolades."
+    },
+    {
+      "question": "Dans un dictionnaire, que représente la partie avant les deux-points ?",
+      "reponses": ["La clé", "La valeur", "L'index", "Le type"],
+      "bonne_reponse": "La clé",
+      "explication": "Un dictionnaire est une table clé → valeur."
+    },
+    {
+      "question": "Quelle méthode de dict renvoie la liste des clés ?",
+      "reponses": ["keys()", "values()", "items()", "get()"],
+      "bonne_reponse": "keys()",
+      "explication": "d.keys() donne une vue sur les clés."
+    },
+    {
+      "question": "Quelle méthode de dict renvoie la valeur d'une clé avec une valeur par défaut ?",
+      "reponses": ["get()", "[]", "value()", "fetch()"],
+      "bonne_reponse": "get()",
+      "explication": "d.get(cle, defaut) évite une erreur si la clé n'existe pas."
+    },
+    {
+      "question": "Quelle fonction lit une entrée clavier sous forme de chaîne ?",
+      "reponses": ["input()", "read()", "scan()", "prompt()"],
+      "bonne_reponse": "input()",
+      "explication": "input() lit une ligne au clavier."
+    },
+    {
+      "question": "Quelle forme correcte pour une f-string simple ?",
+      "reponses": ["f\"Bonjour {nom}\"", "\"f Bonjour {nom}\"", "\"Bonjour %s\" % nom", "format\"Bonjour\""],
+      "bonne_reponse": "f\"Bonjour {nom}\"",
+      "explication": "Les f-strings commencent par f et utilisent { } pour insérer les variables."
+    },
+    {
+      "question": "Quel mot-clé introduit un bloc d'exception en Python ?",
+      "reponses": ["try", "catch", "handle", "error"],
+      "bonne_reponse": "try",
+      "explication": "try permet d'entourer du code susceptible de lever une erreur."
+    },
+    {
+      "question": "Quel mot-clé capture une exception après un try ?",
+      "reponses": ["except", "catch", "error", "handle"],
+      "bonne_reponse": "except",
+      "explication": "except Exception: capture ce type d'exception."
+    },
+    {
+      "question": "Quelle fonction renvoie le type d'un objet ?",
+      "reponses": ["type()", "class()", "kind()", "typeof()"],
+      "bonne_reponse": "type()",
+      "explication": "type(obj) renvoie son type."
+    },
+    {
+      "question": "Quel mot-clé sert à ne rien faire (instruction vide) ?",
+      "reponses": ["pass", "skip", "none", "void"],
+      "bonne_reponse": "pass",
+      "explication": "pass est une instruction qui ne fait rien."
+    },
+    {
+      "question": "Quel objet spéciale représente l'absence de valeur ?",
+      "reponses": ["None", "Null", "Void", "Empty"],
+      "bonne_reponse": "None",
+      "explication": "None est l'absence de valeur en Python."
+    },
+    {
+      "question": "Comment teste-t-on si une variable est None ?",
+      "reponses": ["x is None", "x == null", "x == 0", "x is False"],
+      "bonne_reponse": "x is None",
+      "explication": "On utilise l'opérateur is pour comparer à None."
+    },
+    {
+      "question": "Quelle structure permet de parcourir une liste avec ses index et valeurs facilement ?",
+      "reponses": ["enumerate()", "range()", "zip()", "map()"],
+      "bonne_reponse": "enumerate()",
+      "explication": "enumerate(liste) renvoie des couples (index, valeur)."
+    },
+    {
+      "question": "Quelle fonction crée une séquence d'entiers de 0 à n-1 ?",
+      "reponses": ["range()", "list()", "seq()", "loop()"],
+      "bonne_reponse": "range()",
+      "explication": "range(n) génère les nombres de 0 à n-1."
+    },
+    {
+      "question": "Comment importe-t-on le module math complet ?",
+      "reponses": ["import math", "from math", "include math", "use math"],
+      "bonne_reponse": "import math",
+      "explication": "import math rend disponible math.sin, math.cos, etc."
+    },
+    {
+      "question": "Quel mot-clé permet d'importer uniquement la fonction sqrt depuis math ?",
+      "reponses": ["from math import sqrt", "import sqrt from math", "use math.sqrt", "include math.sqrt"],
+      "bonne_reponse": "from math import sqrt",
+      "explication": "from module import objet importe directement l'objet."
+    },
+    {
+      "question": "Comment vérifier si un élément x est dans une liste l ?",
+      "reponses": ["x in l", "contains(l, x)", "l.has(x)", "x inside l"],
+      "bonne_reponse": "x in l",
+      "explication": "L'opérateur in teste l'appartenance."
+    },
+    {
+      "question": "Quelle méthode de chaîne met tout en minuscules ?",
+      "reponses": ["lower()", "upper()", "capitalize()", "title()"],
+      "bonne_reponse": "lower()",
+      "explication": "chaine.lower() renvoie la même chaîne en minuscules."
+    },
+    {
+      "question": "Quelle méthode de chaîne met tout en majuscules ?",
+      "reponses": ["upper()", "lower()", "capitalize()", "swapcase()"],
+      "bonne_reponse": "upper()",
+      "explication": "upper() renvoie une version en majuscules."
+    },
+    {
+      "question": "Quelle méthode de chaîne supprime les espaces au début et à la fin ?",
+      "reponses": ["strip()", "trim()", "cut()", "clean()"],
+      "bonne_reponse": "strip()",
+      "explication": "strip() enlève les espaces blanc autour de la chaîne."
+    },
+    {
+      "question": "Quelle méthode de chaîne découpe une chaîne en liste de sous-chaînes selon un séparateur ?",
+      "reponses": ["split()", "partition()", "slice()", "cut()"],
+      "bonne_reponse": "split()",
+      "explication": "split(sep) découpe la chaîne en fonction du séparateur."
+    },
+    {
+      "question": "Comment concaténer proprement des éléments d'une liste de chaînes avec une virgule ?",
+      "reponses": ["\",\".join(liste)", "liste.join(\",\")", "concat(liste, \",\")", "str(liste)"],
+      "bonne_reponse": "\",\".join(liste)",
+      "explication": "join() colle les éléments avec le séparateur donné."
+    },
+    {
+      "question": "Quelle méthode de liste permet de trier une liste sur place ?",
+      "reponses": ["sort()", "sorted()", "order()", "arrange()"],
+      "bonne_reponse": "sort()",
+      "explication": "liste.sort() trie la liste elle-même."
+    },
+    {
+      "question": "Quelle fonction renvoie une nouvelle liste triée sans modifier l'originale ?",
+      "reponses": ["sorted()", "sort()", "order()", "newsort()"],
+      "bonne_reponse": "sorted()",
+      "explication": "sorted(iterable) renvoie une nouvelle liste triée."
+    },
+    {
+      "question": "Quelle méthode de liste inverse l'ordre des éléments sur place ?",
+      "reponses": ["reverse()", "reversed()", "invert()", "flip()"],
+      "bonne_reponse": "reverse()",
+      "explication": "reverse() modifie la liste existante."
+    },
+    {
+      "question": "Quelle fonction renvoie un itérable sur une séquence parcourue à l'envers ?",
+      "reponses": ["reversed()", "reverse()", "invert()", "flip()"],
+      "bonne_reponse": "reversed()",
+      "explication": "reversed(obj) renvoie un itérateur inversé."
+    },
+    {
+      "question": "Quelle fonction applique une fonction à chaque élément d'une séquence et renvoie un itérateur ?",
+      "reponses": ["map()", "filter()", "apply()", "foreach()"],
+      "bonne_reponse": "map()",
+      "explication": "map(f, iterable) applique f à chaque élément."
+    },
+    {
+      "question": "Quelle fonction filtre une séquence selon une fonction qui renvoie True ou False ?",
+      "reponses": ["filter()", "map()", "where()", "select()"],
+      "bonne_reponse": "filter()",
+      "explication": "filter(pred, iterable) garde les éléments pour lesquels pred est vrai."
+    },
+    {
+      "question": "Quelle bibliothèque standard est dédiée au travail avec les dates et heures ?",
+      "reponses": ["datetime", "time", "calendar", "date"],
+      "bonne_reponse": "datetime",
+      "explication": "Le module datetime fournit des types pour dates, heures et durées."
+    },
+    {
+      "question": "Comment écrit-on une simple compréhension de liste pour doubler les nombres de 0 à 4 ?",
+      "reponses": ["[x*2 for x in range(5)]", "[2x in 0..4]", "double(range(5))", "for x in range(5): x*2"],
+      "bonne_reponse": "[x*2 for x in range(5)]",
+      "explication": "Les compréhensions de liste suivent la forme [expression for variable in iterable]."
+    },
+    {
+      "question": "Quelle instruction doit être indentée après un if en Python ?",
+      "reponses": ["Le bloc de code à exécuter", "Une accolade", "Un point-virgule", "Rien"],
+      "bonne_reponse": "Le bloc de code à exécuter",
+      "explication": "En Python, l'indentation délimite les blocs après if, for, while, etc."
+    },
+    {
+      "question": "Quel caractère termine une instruction Python simple ?",
+      "reponses": ["Le saut de ligne", ";", ":", "."],
+      "bonne_reponse": "Le saut de ligne",
+      "explication": "On n'a pas besoin de point-virgule, la fin de ligne suffit."
+    },
+    {
+      "question": "Quelle valeur booléenne représente la fausseté ?",
+      "reponses": ["False", "0", "None", "Off"],
+      "bonne_reponse": "False",
+      "explication": "Les booléens standards sont True et False."
+    },
+    {
+      "question": "Quelle valeur booléenne représente la vérité ?",
+      "reponses": ["True", "1", "Yes", "On"],
+      "bonne_reponse": "True",
+      "explication": "True est la valeur booléenne vraie."
+    },
+    {
+      "question": "Quelle fonction renvoie le minimum d'une liste de nombres ?",
+      "reponses": ["min()", "max()", "smallest()", "first()"],
+      "bonne_reponse": "min()",
+      "explication": "min(iterable) renvoie l'élément le plus petit."
+    },
+    {
+      "question": "Quelle fonction renvoie le maximum d'une liste de nombres ?",
+      "reponses": ["max()", "min()", "largest()", "last()"],
+      "bonne_reponse": "max()",
+      "explication": "max(iterable) renvoie l'élément le plus grand."
+    },
+    {
+      "question": "Quelle fonction renvoie la somme des éléments numériques d'un itérable ?",
+      "reponses": ["sum()", "total()", "add()", "plus()"],
+      "bonne_reponse": "sum()",
+      "explication": "sum(iterable) additionne les éléments."
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour définir une classe en Python ?",
+      "reponses": ["class", "struct", "object", "type"],
+      "bonne_reponse": "class",
+      "explication": "On crée une classe avec class Nom:."
+    },
+    {
+      "question": "Comment s'appelle la méthode spéciale appelée lors de la création d'un objet ?",
+      "reponses": ["__init__", "__new__", "__start__", "__create__"],
+      "bonne_reponse": "__init__",
+      "explication": "__init__ initialise l'instance après sa création."
+    },
+    {
+      "question": "Quel mot-clé fait référence à l'instance courante dans une méthode ?",
+      "reponses": ["self", "this", "me", "obj"],
+      "bonne_reponse": "self",
+      "explication": "Par convention, on appelle le premier paramètre self dans les méthodes."
+    },
+    {
+      "question": "Quel opérateur teste si deux variables pointent vers le même objet ?",
+      "reponses": ["is", "==", "equals", "same"],
+      "bonne_reponse": "is",
+      "explication": "is teste l'identité d'objet, alors que == teste l'égalité de valeur."
+    },
+    {
+      "question": "Quel symbole sépare les éléments dans une liste ou un tuple ?",
+      "reponses": [",", ";", ":", "|"],
+      "bonne_reponse": ",",
+      "explication": "Les éléments sont séparés par des virgules."
+    },
+    {
+      "question": "Quelle méthode de chaîne vérifie si tous les caractères sont des chiffres ?",
+      "reponses": ["isdigit()", "isnumeric()", "isalpha()", "isalnum()"],
+      "bonne_reponse": "isdigit()",
+      "explication": "isdigit() renvoie True si tous les caractères sont des chiffres."
+    },
+    {
+      "question": "Quel module standard permet de générer des nombres aléatoires simples ?",
+      "reponses": ["random", "math", "os", "itertools"],
+      "bonne_reponse": "random",
+      "explication": "Le module random fournit randint, choice, shuffle, etc."
+    },
+    {
+      "question": "Quelle fonction du module random choisit un élément au hasard dans une liste ?",
+      "reponses": ["random.choice()", "random.pick()", "random.select()", "random.sample_one()"],
+      "bonne_reponse": "random.choice()",
+      "explication": "choice(seq) renvoie un élément aléatoire de la séquence."
+    },
+    {
+      "question": "Quelle structure permet d'associer deux listes position par position dans une boucle ?",
+      "reponses": ["zip()", "enumerate()", "map()", "pair()"],
+      "bonne_reponse": "zip()",
+      "explication": "zip(l1, l2) crée des paires (l1[i], l2[i])."
+    },
+    {
+      "question": "Quelle fonction convertit un itérable zip en liste de tuples ?",
+      "reponses": ["list()", "tuple()", "dict()", "set()"],
+      "bonne_reponse": "list()",
+      "explication": "list(zip(...)) matérialise les paires en liste."
+    },
+    {
+      "question": "Quelle expression crée une liste de carrés de 0 à 9 ?",
+      "reponses": ["[i*i for i in range(10)]", "[i^2 for i in 10]", "i*i in range(10)", "range(10)^2"],
+      "bonne_reponse": "[i*i for i in range(10)]",
+      "explication": "C'est une compréhension de liste avec la puissance par multiplication."
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour lever manuellement une exception ?",
+      "reponses": ["raise", "throw", "error", "except"],
+      "bonne_reponse": "raise",
+      "explication": "raise Exception(\"message\") déclenche une erreur."
+    },
+    {
+      "question": "Quel bloc s'exécute toujours après try/except, qu'il y ait erreur ou non ?",
+      "reponses": ["finally", "else", "after", "end"],
+      "bonne_reponse": "finally",
+      "explication": "finally s'exécute systématiquement pour libérer des ressources."
+    },
+    {
+      "question": "Quelle fonction donne la représentation \"développeur\" (non forcément jolie) d'un objet ?",
+      "reponses": ["repr()", "str()", "format()", "show()"],
+      "bonne_reponse": "repr()",
+      "explication": "repr(obj) retourne une représentation non ambiguë, utile pour le débogage."
+    },
+    {
+      "question": "Quelle fonction convertit une valeur booléenne en entier (True/False) ?",
+      "reponses": ["int()", "bool()", "str()", "float()"],
+      "bonne_reponse": "int()",
+      "explication": "int(True) vaut 1 et int(False) vaut 0."
+    },
+    {
+      "question": "Quelle fonction génère une liste de nombres pairs de 0 à 8 facilement ?",
+      "reponses": ["list(range(0,10,2))", "range(0,10,2)", "range(0,9,2)", "pairs(0,10)"],
+      "bonne_reponse": "list(range(0,10,2))",
+      "explication": "range(début, fin, pas) avec pas = 2 donne les nombres pairs."
+    },
+    {
+      "question": "Comment vérifier rapidement le type d'une variable x dans la console ?",
+      "reponses": ["type(x)", "class(x)", "x.type", "typeof(x)"],
+      "bonne_reponse": "type(x)",
+      "explication": "type(x) renvoie le type ; utile en REPL."
+    },
+    {
+      "question": "Quel mot-clé permet d'importer un module sous un alias plus court ?",
+      "reponses": ["as", "alias", "using", "with"],
+      "bonne_reponse": "as",
+      "explication": "import numpy as np crée l'alias np."
+    },
+    {
+      "question": "Quelle expression renvoie True si une liste l est vide ?",
+      "reponses": ["len(l) == 0", "l == []", "not l", "Toutes ces réponses"],
+      "bonne_reponse": "Toutes ces réponses",
+      "explication": "Les trois tests fonctionnent ; not l est le plus idiomatique."
+    },
+    {
+      "question": "Quel objet spécifie une portion d'une liste avec la syntaxe l[debut:fin:pas] ?",
+      "reponses": ["un slice", "un range", "un tuple", "un set"],
+      "bonne_reponse": "un slice",
+      "explication": "La notation [a:b:c] décrit un slice (tranche)."
+    },
+    {
+      "question": "Quelle méthode de liste compte le nombre d'occurrences d'une valeur donnée ?",
+      "reponses": ["count()", "len()", "index()", "freq()"],
+      "bonne_reponse": "count()",
+      "explication": "liste.count(x) renvoie combien de fois x apparaît."
+    },
+    {
+      "question": "Quelle méthode de liste renvoie l'index de la première occurrence d'une valeur ?",
+      "reponses": ["index()", "find()", "loc()", "pos()"],
+      "bonne_reponse": "index()",
+      "explication": "liste.index(x) renvoie l'indice de la première occurrence ou lève une erreur."
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour documenter rapidement une fonction avec une chaîne en début de corps ?",
+      "reponses": ["docstring", "comment", "note", "help"],
+      "bonne_reponse": "docstring",
+      "explication": "Une docstring est une chaîne placée juste après def, accessible via help()."
+    }
+  ]
+}

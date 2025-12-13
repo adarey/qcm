@@ -1,0 +1,652 @@
+{
+  "questions": [
+    {
+      "question": "En quelle année commence officiellement la Révolution française avec la prise de la Bastille ?",
+      "reponses": ["1776", "1789", "1815", "1848"],
+      "bonne_reponse": "1789",
+      "explication": "La prise de la Bastille le 14 juillet 1789 est l’événement symbolique du début de la Révolution française."
+    },
+    {
+      "question": "Quel roi de France est exécuté pendant la Révolution française ?",
+      "reponses": ["Louis XIV", "Louis XV", "Louis XVI", "Charles X"],
+      "bonne_reponse": "Louis XVI",
+      "explication": "Louis XVI est guillotiné en 1793 après sa condamnation par la Convention nationale."
+    },
+    {
+      "question": "Quel conquérant macédonien a constitué un immense empire allant de la Grèce jusqu’aux confins de l’Inde ?",
+      "reponses": ["César", "Alexandre le Grand", "Hannibal", "Darius"],
+      "bonne_reponse": "Alexandre le Grand",
+      "explication": "Alexandre le Grand étend son empire au IVe siècle av. J.-C., marquant durablement le monde hellénistique."
+    },
+    {
+      "question": "Quel mur a symbolisé la division entre l’Europe de l’Est et l’Europe de l’Ouest pendant la Guerre froide ?",
+      "reponses": ["Le mur de l’Atlantique", "Le mur de Berlin", "Le mur de fer", "Le mur de Varsovie"],
+      "bonne_reponse": "Le mur de Berlin",
+      "explication": "Construit en 1961 et détruit en 1989, le mur de Berlin séparait Berlin-Est de Berlin-Ouest."
+    },
+    {
+      "question": "Quel navigateur est crédité de la “découverte” de l’Amérique pour les Européens en 1492 ?",
+      "reponses": ["Vasco de Gama", "Christophe Colomb", "Fernand de Magellan", "James Cook"],
+      "bonne_reponse": "Christophe Colomb",
+      "explication": "Christophe Colomb atteint le continent américain en 1492 lors d’un voyage sous pavillon espagnol."
+    },
+    {
+      "question": "Quel empire a pour capitale Rome à l’époque de son apogée ?",
+      "reponses": ["Empire grec", "Empire romain", "Empire carthaginois", "Empire ottoman"],
+      "bonne_reponse": "Empire romain",
+      "explication": "L’Empire romain domine une grande partie de l’Europe, de l’Afrique du Nord et du Moyen-Orient depuis Rome."
+    },
+    {
+      "question": "Qui est l’auteur de la phrase « Je pense, donc je suis » et une figure majeure de la philosophie moderne ?",
+      "reponses": ["Descartes", "Voltaire", "Rousseau", "Spinoza"],
+      "bonne_reponse": "Descartes",
+      "explication": "René Descartes, philosophe du XVIIe siècle, est considéré comme un des pères de la philosophie moderne."
+    },
+    {
+      "question": "Quel pays a été dirigé par Napoléon Bonaparte devenu empereur au début du XIXe siècle ?",
+      "reponses": ["Espagne", "Italie", "France", "Portugal"],
+      "bonne_reponse": "France",
+      "explication": "Napoléon Bonaparte devient empereur des Français en 1804 sous le titre de Napoléon Ier."
+    },
+    {
+      "question": "Quel traité met fin à la Première Guerre mondiale entre l’Allemagne et les Alliés occidentaux ?",
+      "reponses": ["Traité de Vienne", "Traité de Versailles", "Traité de Paris", "Traité de Yalta"],
+      "bonne_reponse": "Traité de Versailles",
+      "explication": "Le traité de Versailles est signé en 1919 et impose des conditions sévères à l’Allemagne."
+    },
+    {
+      "question": "Quelle ville japonaise est la première à avoir été frappée par une bombe atomique en 1945 ?",
+      "reponses": ["Tokyo", "Osaka", "Hiroshima", "Nagasaki"],
+      "bonne_reponse": "Hiroshima",
+      "explication": "Le 6 août 1945, une bombe atomique américaine est larguée sur Hiroshima, suivie de Nagasaki quelques jours plus tard."
+    },
+    {
+      "question": "Quel pays était dirigé par Adolf Hitler pendant la Seconde Guerre mondiale ?",
+      "reponses": ["Italie", "Allemagne", "Japon", "URSS"],
+      "bonne_reponse": "Allemagne",
+      "explication": "Hitler dirige l’Allemagne nazie de 1933 à 1945 et déclenche la Seconde Guerre mondiale."
+    },
+    {
+      "question": "Quel empire d’Amérique du Sud avait pour capitale Cuzco avant la conquête espagnole ?",
+      "reponses": ["Empire aztèque", "Empire maya", "Empire inca", "Empire olmèque"],
+      "bonne_reponse": "Empire inca",
+      "explication": "L’Empire inca s’étendait dans la région andine, avec Cuzco comme centre politique et religieux."
+    },
+    {
+      "question": "Quel événement déclencheur est associé au début de la Première Guerre mondiale en 1914 ?",
+      "reponses": [
+        "L’invasion de la Pologne",
+        "L’assassinat de l’archiduc François-Ferdinand",
+        "Le krach boursier de 1929",
+        "La chute du mur de Berlin"
+      ],
+      "bonne_reponse": "L’assassinat de l’archiduc François-Ferdinand",
+      "explication": "L’assassinat de l’héritier austro-hongrois à Sarajevo sert de déclencheur à un conflit déjà sous tension."
+    },
+    {
+      "question": "Quel empire célèbre pour ses légionnaires s’est progressivement effondré en Occident au Ve siècle ?",
+      "reponses": ["Empire romain d’Occident", "Empire byzantin", "Empire carolingien", "Empire mongol"],
+      "bonne_reponse": "Empire romain d’Occident",
+      "explication": "La chute de l’Empire romain d’Occident en 476 marque traditionnellement la fin de l’Antiquité en Europe."
+    },
+    {
+      "question": "Quel pays a connu la révolution dite des « bolcheviks » en 1917 ?",
+      "reponses": ["Allemagne", "Italie", "Russie", "Autriche"],
+      "bonne_reponse": "Russie",
+      "explication": "La Révolution d’Octobre 1917 en Russie conduit à la prise de pouvoir par les bolcheviks et à la création de l’URSS."
+    },
+    {
+      "question": "Quel célèbre leader indien a mené une lutte non violente pour l’indépendance de son pays ?",
+      "reponses": ["Nehru", "Gandhi", "Jinnah", "Tagore"],
+      "bonne_reponse": "Gandhi",
+      "explication": "Mohandas K. Gandhi prône la non-violence et la désobéissance civile contre la domination britannique en Inde."
+    },
+    {
+      "question": "Quel pays a été divisé en deux États, RFA et RDA, après la Seconde Guerre mondiale ?",
+      "reponses": ["France", "Italie", "Allemagne", "Autriche"],
+      "bonne_reponse": "Allemagne",
+      "explication": "L’Allemagne est scindée en République fédérale d’Allemagne (Ouest) et République démocratique allemande (Est) jusqu’à 1990."
+    },
+    {
+      "question": "Quel événement économique majeur commence en 1929 et affecte durablement les économies mondiales ?",
+      "reponses": ["La Grande Dépression", "Les Trente Glorieuses", "Le boom des années 1960", "Le miracle asiatique"],
+      "bonne_reponse": "La Grande Dépression",
+      "explication": "Le krach boursier de 1929 à New York déclenche une crise économique mondiale appelée Grande Dépression."
+    },
+    {
+      "question": "Dans quel pays a lieu la révolution culturelle lancée par Mao Zedong dans les années 1960 ?",
+      "reponses": ["URSS", "Chine", "Vietnam", "Corée du Nord"],
+      "bonne_reponse": "Chine",
+      "explication": "La Révolution culturelle chinoise vise à renforcer le pouvoir de Mao et à remodeler la société selon l’idéologie communiste."
+    },
+    {
+      "question": "Quel empire islamique a eu pour capitale Istanbul (anciennement Constantinople) pendant plusieurs siècles ?",
+      "reponses": ["Empire omeyyade", "Empire abbasside", "Empire ottoman", "Empire safavide"],
+      "bonne_reponse": "Empire ottoman",
+      "explication": "L’Empire ottoman, centré sur Istanbul, a dominé une grande partie du Moyen-Orient, des Balkans et de l’Afrique du Nord."
+    },
+    {
+      "question": "Quel roi français est surnommé le « Roi-Soleil » ?",
+      "reponses": ["Louis XIII", "Louis XIV", "Louis XV", "Louis XVI"],
+      "bonne_reponse": "Louis XIV",
+      "explication": "Louis XIV, qui règne plus de 70 ans, centralise le pouvoir et fait de Versailles le symbole de sa monarchie absolue."
+    },
+    {
+      "question": "Quel pays d’Afrique du Sud a connu le régime de l’apartheid jusqu’aux années 1990 ?",
+      "reponses": ["Nigeria", "Afrique du Sud", "Kenya", "Algérie"],
+      "bonne_reponse": "Afrique du Sud",
+      "explication": "L’apartheid est un système de ségrégation raciale institutionnalisée qui prend fin officiellement au début des années 1990."
+    },
+    {
+      "question": "Quel personnage historique a proclamé l’Empire allemand à Versailles en 1871 ?",
+      "reponses": ["Guillaume Ier", "Frédéric II", "Otton Ier", "Bismarck"],
+      "bonne_reponse": "Guillaume Ier",
+      "explication": "Guillaume Ier est proclamé empereur allemand dans la galerie des Glaces du château de Versailles après la guerre franco-prussienne."
+    },
+    {
+      "question": "Quel conflit oppose principalement les États-Unis et l’URSS de 1947 à 1991 ?",
+      "reponses": ["Guerre froide", "Guerre de Corée", "Guerre du Vietnam", "Première Guerre du Golfe"],
+      "bonne_reponse": "Guerre froide",
+      "explication": "La Guerre froide est un conflit idéologique, politique et stratégique sans affrontement direct majeur entre les deux superpuissances."
+    },
+    {
+      "question": "Quel pays européen a été dirigé par le général Franco de 1939 à 1975 ?",
+      "reponses": ["Italie", "Espagne", "Portugal", "Grèce"],
+      "bonne_reponse": "Espagne",
+      "explication": "Francisco Franco devient le chef de l’État espagnol à la suite de la guerre civile et dirige le pays jusqu’à sa mort."
+    },
+    {
+      "question": "Quel peuple d’Amérique centrale a construit de grandes pyramides et un système calendaire avancé ?",
+      "reponses": ["Aztèques", "Mayas", "Incas", "Olmèques"],
+      "bonne_reponse": "Mayas",
+      "explication": "La civilisation maya s’est illustrée par son architecture monumentale et ses connaissances en astronomie et en mathématiques."
+    },
+    {
+      "question": "Quel traité, signé en 1957, marque la création de la Communauté économique européenne (CEE) ?",
+      "reponses": ["Traité de Maastricht", "Traité de Rome", "Traité de Lisbonne", "Traité de Nice"],
+      "bonne_reponse": "Traité de Rome",
+      "explication": "Le traité de Rome est signé par six États européens et pose les bases de l’intégration économique européenne."
+    },
+    {
+      "question": "Quel empire, situé en Anatolie et au Moyen-Orient, s’effondre à la fin de la Première Guerre mondiale ?",
+      "reponses": ["Empire ottoman", "Empire byzantin", "Empire perse", "Empire moghol"],
+      "bonne_reponse": "Empire ottoman",
+      "explication": "L’Empire ottoman, affaibli, est démantelé après la Première Guerre mondiale, menant à la création de la Turquie moderne."
+    },
+    {
+      "question": "Quel pays est la patrie d’origine des Vikings qui ont mené de nombreux raids en Europe ?",
+      "reponses": ["France", "Espagne", "Pays nordiques", "Italie"],
+      "bonne_reponse": "Pays nordiques",
+      "explication": "Les Vikings viennent de royaumes situés dans l’actuelle Norvège, Suède et Danemark et sont actifs du VIIIe au XIe siècle."
+    },
+    {
+      "question": "Quel célèbre dirigeant mongol fonde un vaste empire au XIIIe siècle ?",
+      "reponses": ["Tamerlan", "Gengis Khan", "Kubilaï Khan", "Attila"],
+      "bonne_reponse": "Gengis Khan",
+      "explication": "Gengis Khan unifie les tribus mongoles et conquiert de gigantesques territoires en Asie."
+    },
+    {
+      "question": "Quelle grande crise sanitaire frappe l’Europe au XIVe siècle et décime une large part de la population ?",
+      "reponses": ["La grippe espagnole", "La peste noire", "Le choléra", "La variole"],
+      "bonne_reponse": "La peste noire",
+      "explication": "La peste noire se propage vers 1347–1352 et tue des millions de personnes en Europe."
+    },
+    {
+      "question": "Quel mouvement intellectuel et artistique des XVe–XVIe siècles met l’accent sur l’homme et les savoirs antiques ?",
+      "reponses": ["Baroque", "Renaissance", "Classicisme", "Romantisme"],
+      "bonne_reponse": "Renaissance",
+      "explication": "La Renaissance marque un renouveau culturel en Europe, s’inspirant de l’Antiquité et valorisant les sciences et les arts."
+    },
+    {
+      "question": "Quel pays d’Asie a été colonisé largement par la France sous le nom d’Indochine ?",
+      "reponses": ["Inde", "Chine", "Vietnam et voisins", "Japon"],
+      "bonne_reponse": "Vietnam et voisins",
+      "explication": "L’Indochine française regroupait notamment le Vietnam, le Laos et le Cambodge."
+    },
+    {
+      "question": "Quel président américain est assassiné à Dallas en 1963 ?",
+      "reponses": ["Franklin Roosevelt", "Harry Truman", "John F. Kennedy", "Lyndon Johnson"],
+      "bonne_reponse": "John F. Kennedy",
+      "explication": "John Fitzgerald Kennedy est assassiné lors d’une visite à Dallas le 22 novembre 1963."
+    },
+    {
+      "question": "Quel événement historique est associé à la date du 11 septembre 2001 ?",
+      "reponses": [
+        "La chute du mur de Berlin",
+        "Les attentats aux États-Unis",
+        "La fin de la guerre du Vietnam",
+        "La création de l’ONU"
+      ],
+      "bonne_reponse": "Les attentats aux États-Unis",
+      "explication": "Des attentats coordonnés frappent notamment New York et Washington, marquant profondément le début du XXIe siècle."
+    },
+    {
+      "question": "Quel ancien président sud-africain reçoit le prix Nobel de la paix pour son rôle dans la fin de l’apartheid ?",
+      "reponses": ["Mandela", "Mbeki", "De Klerk", "Botha"],
+      "bonne_reponse": "Mandela",
+      "explication": "Nelson Mandela partage le Nobel de la paix avec Frederik de Klerk pour la transition pacifique en Afrique du Sud."
+    },
+    {
+      "question": "Dans quel pays s’est déroulée la révolution dite des « Œillets » en 1974 ?",
+      "reponses": ["Espagne", "Grèce", "Portugal", "Pologne"],
+      "bonne_reponse": "Portugal",
+      "explication": "La Révolution des Œillets met fin à la dictature portugaise de Salazar et de ses successeurs."
+    },
+    {
+      "question": "Quel conflit oppose principalement le Nord et le Sud des États-Unis de 1861 à 1865 ?",
+      "reponses": ["Guerre d’indépendance", "Guerre de Sécession", "Guerre de 1812", "Guerre du Mexique"],
+      "bonne_reponse": "Guerre de Sécession",
+      "explication": "La guerre de Sécession oppose l’Union (Nord) aux États confédérés (Sud), notamment sur la question de l’esclavage."
+    },
+    {
+      "question": "Quel événement marque souvent la fin officielle de l’Ancien Régime en France ?",
+      "reponses": [
+        "Le sacre de Napoléon",
+        "La prise de la Bastille",
+        "La proclamation de la Ire République",
+        "La chute de Louis-Philippe"
+      ],
+      "bonne_reponse": "La proclamation de la Ire République",
+      "explication": "La Première République est proclamée en 1792, mettant fin à la monarchie en France."
+    },
+    {
+      "question": "Quel empire a construit la célèbre muraille de Chine pour se protéger des invasions ?",
+      "reponses": ["Empire mongol", "Empire romain", "Empires chinois successifs", "Empire perse"],
+      "bonne_reponse": "Empires chinois successifs",
+      "explication": "La Grande Muraille est édifiée et renforcée par plusieurs dynasties chinoises pour défendre le territoire."
+    },
+    {
+      "question": "Quel célèbre explorateur portugais a contourné le cap de Bonne-Espérance pour atteindre l’Inde ?",
+      "reponses": ["Magellan", "Vasco de Gama", "Diaz", "Cortes"],
+      "bonne_reponse": "Vasco de Gama",
+      "explication": "Vasco de Gama atteint l’Inde par la mer en 1498, ouvrant une nouvelle route maritime."
+    },
+    {
+      "question": "Quel empire précolombien d’Amérique du Nord a construit la capitale Tenochtitlan ?",
+      "reponses": ["Incas", "Mayas", "Aztèques", "Olmèques"],
+      "bonne_reponse": "Aztèques",
+      "explication": "Les Aztèques règnent sur la région centrale du Mexique avec Tenochtitlan comme capitale."
+    },
+    {
+      "question": "Quel traité, signé en 1648, met fin à la guerre de Trente Ans en Europe centrale ?",
+      "reponses": ["Traité de Westphalie", "Traité de Vienne", "Traité d’Utrecht", "Traité de Paris"],
+      "bonne_reponse": "Traité de Westphalie",
+      "explication": "Les traités de Westphalie redessinent la carte politique de l’Europe et renforcent le principe de souveraineté des États."
+    },
+    {
+      "question": "Quel mouvement artistique et politique exalte la nation, les sentiments et l’individu au XIXe siècle ?",
+      "reponses": ["Classicisme", "Romantisme", "Renaissance", "Baroque"],
+      "bonne_reponse": "Romantisme",
+      "explication": "Le romantisme est un courant qui valorise l’émotion, la nature, la nation et la liberté individuelle."
+    },
+    {
+      "question": "Quel pays est au centre de la crise des missiles de 1962, opposant directement les États-Unis et l’URSS ?",
+      "reponses": ["Cuba", "Mexique", "Brésil", "Argentine"],
+      "bonne_reponse": "Cuba",
+      "explication": "La crise des missiles de Cuba en 1962 est un moment de tension extrême durant la Guerre froide."
+    },
+    {
+      "question": "Quel empire a été gouverné par Charlemagne, couronné empereur d’Occident en l’an 800 ?",
+      "reponses": ["Empire carolingien", "Empire romain d’Orient", "Empire franc", "Empire byzantin"],
+      "bonne_reponse": "Empire carolingien",
+      "explication": "Charlemagne est couronné empereur par le pape, marquant la renaissance d’un empire en Occident."
+    },
+    {
+      "question": "Dans quel pays la révolution de 1789 a-t-elle provoqué la fin de la monarchie absolue ?",
+      "reponses": ["Espagne", "France", "Angleterre", "Portugal"],
+      "bonne_reponse": "France",
+      "explication": "La Révolution française transforme profondément le système politique et social du pays."
+    },
+    {
+      "question": "Quelle guerre oppose la France et le Royaume-Uni en Crimée au XIXe siècle, avec participation de l’Empire ottoman ?",
+      "reponses": ["Guerre de Crimée", "Guerre de Sept Ans", "Guerre de Succession d’Autriche", "Guerre de 1870"],
+      "bonne_reponse": "Guerre de Crimée",
+      "explication": "La guerre de Crimée se déroule de 1853 à 1856 autour de la mer Noire et implique plusieurs grandes puissances."
+    },
+    {
+      "question": "Quel terme désigne le système économique et social basé sur l’esclavage dans les colonies américaines ?",
+      "reponses": ["Féodalité", "Servage", "Esclavagisme de plantation", "Capitalisme industriel"],
+      "bonne_reponse": "Esclavagisme de plantation",
+      "explication": "Les grandes plantations coloniales reposent sur la main-d’œuvre d’esclaves africains déportés."
+    },
+    {
+      "question": "Quel pays d’Asie du Sud a été divisée en deux États, Inde et Pakistan, lors de l’indépendance en 1947 ?",
+      "reponses": ["Birmanie", "Ceylan", "Inde britannique", "Afghanistan"],
+      "bonne_reponse": "Inde britannique",
+      "explication": "La partition de l’Inde britannique donne naissance à l’Inde et au Pakistan, entraînant des déplacements massifs de population."
+    },
+    {
+      "question": "Quel événement met fin au régime tsariste en Russie en 1917 ?",
+      "reponses": ["Révolution de Février", "Révolution de 1905", "Révolution d’Octobre", "Révolution de 1929"],
+      "bonne_reponse": "Révolution de Février",
+      "explication": "La Révolution de Février entraîne l’abdication du tsar Nicolas II, la Révolution d’Octobre amenant les bolcheviks au pouvoir."
+    },
+    {
+      "question": "Quel pays est à l’origine de la construction du canal de Suez au XIXe siècle, avant sa prise de contrôle par les Britanniques ?",
+      "reponses": ["France", "Italie", "États-Unis", "Allemagne"],
+      "bonne_reponse": "France",
+      "explication": "Le canal de Suez est initialement un projet porté par Ferdinand de Lesseps et la France, avant d’être contrôlé par le Royaume-Uni."
+    },
+    {
+      "question": "Lors de quel siècle a lieu la Révolution industrielle en Grande-Bretagne, marquant un tournant économique majeur ?",
+      "reponses": ["XVIe siècle", "XVIIe siècle", "XVIIIe–XIXe siècles", "XXe siècle"],
+      "bonne_reponse": "XVIIIe–XIXe siècles",
+      "explication": "La Révolution industrielle commence en Grande-Bretagne à la fin du XVIIIe siècle et se poursuit au XIXe siècle."
+    },
+    {
+      "question": "Quel mouvement politique prône l’unité et l’indépendance des nations colonisées au XXe siècle ?",
+      "reponses": ["Nationalisme", "Colonialisme", "Absolutisme", "Fédéralisme"],
+      "bonne_reponse": "Nationalisme",
+      "explication": "Le nationalisme nourrit les mouvements d’indépendance, en particulier après les deux guerres mondiales."
+    },
+    {
+      "question": "Quel empire d’Asie du Sud avait pour capitale Delhi et a été fondé au XVIe siècle par Babur ?",
+      "reponses": ["Empire moghol", "Empire ottoman", "Empire safavide", "Empire marathe"],
+      "bonne_reponse": "Empire moghol",
+      "explication": "L’Empire moghol domine une grande partie du sous-continent indien jusqu’au XVIIIe siècle."
+    },
+    {
+      "question": "Quel traité signé en 1992 transforme la CEE en Union européenne ?",
+      "reponses": ["Traité de Rome", "Traité de Maastricht", "Traité de Lisbonne", "Traité de Nice"],
+      "bonne_reponse": "Traité de Maastricht",
+      "explication": "Le traité de Maastricht crée officiellement l’Union européenne et pose les bases de l’euro."
+    },
+    {
+      "question": "Quel empire a pour capitale Constantinople jusqu’à sa chute en 1453 ?",
+      "reponses": ["Empire romain d’Occident", "Empire byzantin", "Empire carolingien", "Empire gaulois"],
+      "bonne_reponse": "Empire byzantin",
+      "explication": "L’Empire byzantin, héritier de l’Empire romain d’Orient, tombe en 1453 avec la prise de Constantinople par les Ottomans."
+    },
+    {
+      "question": "Quel pays a lancé le premier satellite artificiel Spoutnik en 1957 ?",
+      "reponses": ["États-Unis", "URSS", "France", "Royaume-Uni"],
+      "bonne_reponse": "URSS",
+      "explication": "Le lancement de Spoutnik 1 par l’URSS marque le début de l’ère spatiale."
+    },
+    {
+      "question": "Quel événement historique correspond à la chute de l’Ancien Régime au Japon et à la modernisation rapide du pays ?",
+      "reponses": ["Ère Edo", "Restauration Meiji", "Ère Heisei", "Ère Taisho"],
+      "bonne_reponse": "Restauration Meiji",
+      "explication": "La Restauration Meiji à la fin du XIXe siècle modernise profondément le Japon et met fin au shogunat."
+    },
+    {
+      "question": "Quel conflit oppose les forces vietnamiennes communistes aux États-Unis et à leurs alliés entre les années 1960 et 1970 ?",
+      "reponses": ["Guerre de Corée", "Guerre du Vietnam", "Guerre d’Irak", "Guerre d’Afghanistan"],
+      "bonne_reponse": "Guerre du Vietnam",
+      "explication": "La guerre du Vietnam est un conflit majeur de la Guerre froide, se terminant par le retrait américain et la réunification du pays."
+    },
+    {
+      "question": "Quel texte fondateur est adopté aux États-Unis en 1787 comme base de l’organisation politique du pays ?",
+      "reponses": ["Déclaration de 1776", "Constitution américaine", "Bill of Rights", "Acte de confédération"],
+      "bonne_reponse": "Constitution américaine",
+      "explication": "La Constitution de 1787 établit la structure fédérale et les pouvoirs des institutions américaines."
+    },
+    {
+      "question": "Quelle confédération commerciale et politique de villes marchandes domine la mer du Nord et la Baltique au Moyen Âge ?",
+      "reponses": ["Ligue hanséatique", "Union de Kalmar", "Confédération helvétique", "Union ibérique"],
+      "bonne_reponse": "Ligue hanséatique",
+      "explication": "La Ligue hanséatique réunit des villes marchandes allemandes et du Nord de l’Europe pour faciliter le commerce."
+    },
+    {
+      "question": "Quel empire africain médiéval, avec des villes comme Tombouctou, est célèbre pour sa richesse liée à l’or ?",
+      "reponses": ["Empire du Mali", "Empire du Congo", "Empire zoulou", "Empire ashanti"],
+      "bonne_reponse": "Empire du Mali",
+      "explication": "L’Empire du Mali, notamment sous Mansa Musa, est réputé pour sa richesse et ses centres intellectuels."
+    },
+    {
+      "question": "Quel conflit de 1915–1916, sur le front des Dardanelles, voit l’échec d’un débarquement allié en Empire ottoman ?",
+      "reponses": ["Bataille de la Somme", "Campagne de Gallipoli", "Bataille de Verdun", "Bataille de Ypres"],
+      "bonne_reponse": "Campagne de Gallipoli",
+      "explication": "La campagne de Gallipoli est un échec pour les Alliés et un moment fondateur dans l’histoire de la Turquie moderne."
+    },
+    {
+      "question": "Quel pays est à l’origine de la « révolution islamique » de 1979 qui renverse la monarchie du Shah ?",
+      "reponses": ["Arabie saoudite", "Iran", "Irak", "Pakistan"],
+      "bonne_reponse": "Iran",
+      "explication": "La révolution iranienne de 1979 renverse le Shah et instaure une république islamique dirigée par le clergé chiite."
+    },
+    {
+      "question": "Quel dirigeant soviétique lance la perestroïka et la glasnost dans les années 1980 ?",
+      "reponses": ["Staline", "Khrouchtchev", "Brejnev", "Gorbatchev"],
+      "bonne_reponse": "Gorbatchev",
+      "explication": "Mikhaïl Gorbatchev met en place des réformes économiques et politiques qui contribuent à la fin de l’URSS."
+    },
+    {
+      "question": "Quel royaume d’Europe de l’Est fut longtemps dirigé par des tsars avant de devenir l’URSS ?",
+      "reponses": ["Pologne", "Russie", "Roumanie", "Hongrie"],
+      "bonne_reponse": "Russie",
+      "explication": "La Russie impériale est gouvernée par les tsars jusqu’en 1917, date de la révolution et de la fin du régime tsariste."
+    },
+    {
+      "question": "Quel pays africain était appelé autrefois « Abyssinie » ?",
+      "reponses": ["Éthiopie", "Erythrée", "Somalie", "Soudan"],
+      "bonne_reponse": "Éthiopie",
+      "explication": "L’Abyssinie est l’ancien nom de l’Éthiopie, l’un des rares pays africains à n’avoir pas été durablement colonisé."
+    },
+    {
+      "question": "Quelle guerre de 1950–1953 oppose le Nord et le Sud d’un pays asiatique, avec intervention de l’ONU et de la Chine ?",
+      "reponses": ["Guerre de Corée", "Guerre du Vietnam", "Guerre du Golfe", "Guerre d’Afghanistan"],
+      "bonne_reponse": "Guerre de Corée",
+      "explication": "La guerre de Corée oppose la Corée du Nord communiste à la Corée du Sud soutenue par l’ONU et les États-Unis."
+    },
+    {
+      "question": "Quel accord de 1993 entre Israéliens et Palestiniens est signé sur la pelouse de la Maison-Blanche ?",
+      "reponses": ["Accords de Camp David", "Accords d’Oslo", "Accords de Genève", "Accords de Madrid"],
+      "bonne_reponse": "Accords d’Oslo",
+      "explication": "Les accords d’Oslo prévoient une reconnaissance mutuelle et une autonomie palestinienne partielle."
+    },
+    {
+      "question": "Quel empire précolombien est associé à la cité de Machu Picchu ?",
+      "reponses": ["Mayas", "Aztèques", "Incas", "Toltèques"],
+      "bonne_reponse": "Incas",
+      "explication": "Machu Picchu est une ancienne cité inca située dans les Andes péruviennes."
+    },
+    {
+      "question": "Quel mouvement de protestation étudiant et social marque la France en mai 1968 ?",
+      "reponses": ["Front populaire", "Mai 68", "Printemps français", "Révolution de Juillet"],
+      "bonne_reponse": "Mai 68",
+      "explication": "Mai 68 est une période de grèves et de manifestations étudiantes et ouvrières qui ébranle la société française."
+    },
+    {
+      "question": "Quel événement de 1922 en Italie marque la prise de pouvoir de Mussolini ?",
+      "reponses": ["Marche sur Rome", "Traité de Rome", "Nuit des Longs Couteaux", "Marche de la Faim"],
+      "bonne_reponse": "Marche sur Rome",
+      "explication": "La marche sur Rome permet à Mussolini d’obtenir le pouvoir et d’installer un régime fasciste en Italie."
+    },
+    {
+      "question": "Quel traité met fin à la guerre d’Algérie et reconnaît l’indépendance de ce pays ?",
+      "reponses": ["Accords de Camp David", "Accords d’Évian", "Accords d’Alger", "Accords de Genève"],
+      "bonne_reponse": "Accords d’Évian",
+      "explication": "Signés en 1962, les accords d’Évian mettent fin au conflit entre la France et le FLN algérien."
+    },
+    {
+      "question": "Quel pays est connu pour la révolution dite « orange » au milieu des années 2000 ?",
+      "reponses": ["Géorgie", "Ukraine", "Serbie", "Roumanie"],
+      "bonne_reponse": "Ukraine",
+      "explication": "La révolution orange en Ukraine, en 2004–2005, conteste des résultats électoraux jugés frauduleux."
+    },
+    {
+      "question": "Quel dirigeant chinois lance la politique de réformes économiques et d’ouverture à partir de la fin des années 1970 ?",
+      "reponses": ["Mao Zedong", "Deng Xiaoping", "Jiang Zemin", "Hu Jintao"],
+      "bonne_reponse": "Deng Xiaoping",
+      "explication": "Deng Xiaoping met en place une économie socialiste de marché, ouvrant la Chine aux investissements étrangers."
+    },
+    {
+      "question": "Quel organisme international est créé en 1945 pour maintenir la paix et favoriser la coopération entre les États ?",
+      "reponses": ["Société des Nations", "Union européenne", "ONU", "OTAN"],
+      "bonne_reponse": "ONU",
+      "explication": "L’Organisation des Nations unies est fondée après la Seconde Guerre mondiale pour promouvoir la paix et la sécurité."
+    },
+    {
+      "question": "Quel roi anglais est célèbre pour avoir eu six épouses et rompu avec l’Église catholique de Rome ?",
+      "reponses": ["Henri V", "Henri VIII", "Édouard VII", "Charles Ier"],
+      "bonne_reponse": "Henri VIII",
+      "explication": "Henri VIII fonde l’Église anglicane après son conflit avec le pape sur la question de son divorce."
+    },
+    {
+      "question": "Quel événement aéronautique majeur a lieu en 1969 et marque la conquête de la Lune ?",
+      "reponses": [
+        "Première sortie EVA",
+        "Premier satellite",
+        "Premiers pas sur la Lune de la mission Apollo 11",
+        "Premier vol commercial"
+      ],
+      "bonne_reponse": "Premiers pas sur la Lune de la mission Apollo 11",
+      "explication": "En 1969, Neil Armstrong et Buzz Aldrin marchent sur la Lune lors de la mission Apollo 11."
+    },
+    {
+      "question": "Quel célèbre code juridique est promulgué sous Napoléon Bonaparte au début du XIXe siècle ?",
+      "reponses": ["Code civil", "Code Justinien", "Code canonique", "Code Hammurabi"],
+      "bonne_reponse": "Code civil",
+      "explication": "Le Code civil napoléonien codifie le droit privé et influence de nombreux systèmes juridiques."
+    },
+    {
+      "question": "Quel empire est associé à la Route de la soie et à une grande prospérité sous la dynastie Tang ?",
+      "reponses": ["Empire romain", "Empire chinois", "Empire maya", "Empire perse"],
+      "bonne_reponse": "Empire chinois",
+      "explication": "Sous la dynastie Tang, la Chine connaît une période de prospérité et de rayonnement culturel le long de la Route de la soie."
+    },
+    {
+      "question": "Quel événement de 1453 marque la fin du Moyen Âge pour de nombreux historiens européens ?",
+      "reponses": [
+        "Découverte de l’Amérique",
+        "Chute de Constantinople",
+        "Imprimerie de Gutenberg",
+        "Guerre de Cent Ans"
+      ],
+      "bonne_reponse": "Chute de Constantinople",
+      "explication": "La prise de Constantinople par les Ottomans en 1453 symbolise la fin d’une époque en Europe."
+    },
+    {
+      "question": "Quel conflit long et complexe oppose la France et l’Angleterre du XIVe au XVe siècle ?",
+      "reponses": ["Guerre de Trente Ans", "Guerre de Cent Ans", "Guerre des Deux-Roses", "Guerre de Succession"],
+      "bonne_reponse": "Guerre de Cent Ans",
+      "explication": "La guerre de Cent Ans oppose les royaumes de France et d’Angleterre de 1337 à 1453."
+    },
+    {
+      "question": "Quel événement politique majeur se produit en 1958 en France avec le retour de Charles de Gaulle ?",
+      "reponses": [
+        "Fin de la IVe République",
+        "Signature du traité de Rome",
+        "Entrée dans l’OTAN",
+        "Indépendance de l’Algérie"
+      ],
+      "bonne_reponse": "Fin de la IVe République",
+      "explication": "La crise de 1958 entraîne la fin de la IVe République et la création de la Ve République autour du général de Gaulle."
+    },
+    {
+      "question": "Quelle dynastie française commence avec l’élection d’Hugues Capet en 987 ?",
+      "reponses": ["Mérovingiens", "Carolingiens", "Capétiens", "Bourbons"],
+      "bonne_reponse": "Capétiens",
+      "explication": "La dynastie capétienne règne sur la France pendant plusieurs siècles, avec de nombreuses branches."
+    },
+    {
+      "question": "Quel pays d’Asie du Sud-Est fut colonisé par la France sous le nom de « Cochinchine » ?",
+      "reponses": ["Thaïlande", "Vietnam", "Cambodge", "Laos"],
+      "bonne_reponse": "Vietnam",
+      "explication": "La Cochinchine correspond au sud de l’actuel Vietnam, intégré à l’Indochine française."
+    },
+    {
+      "question": "Quel traité signe la fin de la guerre de Sept Ans et marque la perte de la quasi-totalité de l’empire colonial français en Amérique du Nord ?",
+      "reponses": ["Traité de Paris 1763", "Traité d’Utrecht", "Traité de Vienne", "Traité de Ryswick"],
+      "bonne_reponse": "Traité de Paris 1763",
+      "explication": "Le traité de Paris de 1763 met fin à la guerre de Sept Ans et consacre la domination britannique en Amérique du Nord."
+    },
+    {
+      "question": "Quel mouvement de contestation politique et sociale renverse le régime communiste en Pologne dans les années 1980 ?",
+      "reponses": ["Printemps de Prague", "Solidarnosc", "Révolution de Velours", "Révolution orange"],
+      "bonne_reponse": "Solidarnosc",
+      "explication": "Solidarnosc, syndicat libre polonais, joue un rôle clé dans la chute du régime communiste en Pologne."
+    },
+    {
+      "question": "Quel grand empire d’Afrique du Nord a pour capitale Carthage avant d’être détruit par Rome ?",
+      "reponses": ["Empire égyptien", "Empire numide", "Empire carthaginois", "Empire vandale"],
+      "bonne_reponse": "Empire carthaginois",
+      "explication": "Carthage affronte Rome dans les guerres puniques avant d’être détruite en 146 av. J.-C."
+    },
+    {
+      "question": "Quel pays européen est le premier à accorder le droit de vote aux femmes au début du XXe siècle (dans une perspective moderne) ?",
+      "reponses": ["France", "Royaume-Uni", "Nouvelle-Zélande", "Allemagne"],
+      "bonne_reponse": "Nouvelle-Zélande",
+      "explication": "La Nouvelle-Zélande accorde le droit de vote aux femmes en 1893, un des premiers cas au monde."
+    },
+    {
+      "question": "Quel conflit majeur éclate en 1991 après l’invasion du Koweït par l’Irak ?",
+      "reponses": ["Guerre d’Afghanistan", "Première Guerre du Golfe", "Guerre d’Irak 2003", "Guerre Iran-Irak"],
+      "bonne_reponse": "Première Guerre du Golfe",
+      "explication": "La coalition internationale menée par les États-Unis repousse les forces irakiennes hors du Koweït en 1991."
+    },
+    {
+      "question": "Quel pays africain fut dirigé par l’empereur Haïlé Sélassié jusqu’à son renversement en 1974 ?",
+      "reponses": ["Kenya", "Éthiopie", "Somalie", "Ouganda"],
+      "bonne_reponse": "Éthiopie",
+      "explication": "Haïlé Sélassié est l’empereur d’Éthiopie jusqu’à la révolution de 1974."
+    },
+    {
+      "question": "Quel événement historique célèbre a lieu le 14 octobre 1066 en Angleterre ?",
+      "reponses": ["Signature de la Magna Carta", "Bataille d’Hastings", "Création du Parlement", "Grande Peste"],
+      "bonne_reponse": "Bataille d’Hastings",
+      "explication": "À la bataille d’Hastings, Guillaume le Conquérant vainc Harold et devient roi d’Angleterre."
+    },
+    {
+      "question": "Quelle grande révolution commence en 1911 en Chine et renverse la dynastie Qing ?",
+      "reponses": ["Révolution culturelle", "Révolution de 1911", "Révolution des Boxers", "Révolution de 4 Mai"],
+      "bonne_reponse": "Révolution de 1911",
+      "explication": "La révolution de 1911 conduit à la chute de l’empire chinois et à la proclamation de la république."
+    },
+    {
+      "question": "Quel fleuve est au centre du développement de la civilisation égyptienne antique ?",
+      "reponses": ["Le Nil", "Le Tigre", "L’Euphrate", "Le Jourdain"],
+      "bonne_reponse": "Le Nil",
+      "explication": "Le Nil, avec ses crues régulières, permet l’agriculture et la prospérité de l’Égypte ancienne."
+    },
+    {
+      "question": "Quel événement de 1916 est l’une des batailles les plus longues et meurtrières de la Première Guerre mondiale sur le front occidental ?",
+      "reponses": ["Bataille de la Somme", "Bataille de Verdun", "Bataille de Gallipoli", "Bataille de Tannenberg"],
+      "bonne_reponse": "Bataille de Verdun",
+      "explication": "La bataille de Verdun dure plusieurs mois en 1916 et fait des centaines de milliers de victimes."
+    },
+    {
+      "question": "Quel pays sud-américain était une colonie de la couronne espagnole avant son indépendance menée par Simón Bolívar ?",
+      "reponses": ["Brésil", "Argentine", "Venezuela et autres", "Suriname"],
+      "bonne_reponse": "Venezuela et autres",
+      "explication": "Simón Bolívar contribue à l’indépendance de plusieurs pays d’Amérique du Sud, dont le Venezuela, la Colombie et l’Équateur."
+    },
+    {
+      "question": "Quel empire asiatique du XIVe–XVIe siècle, fondé par Tamerlan, rayonne de l’Asie centrale à l’Inde ?",
+      "reponses": ["Empire mongol", "Empire timouride", "Empire moghol", "Empire ottoman"],
+      "bonne_reponse": "Empire timouride",
+      "explication": "L’empire timouride est fondé par Tamerlan et précède partiellement l’essor de l’empire moghol en Inde."
+    },
+    {
+      "question": "Quel pays européen voit émerger la Réforme protestante avec Martin Luther au XVIe siècle ?",
+      "reponses": ["France", "Allemagne", "Italie", "Espagne"],
+      "bonne_reponse": "Allemagne",
+      "explication": "Martin Luther affiche ses thèses à Wittenberg, ce qui déclenche la Réforme en Europe centrale."
+    },
+    {
+      "question": "Quel grand empire continental d’Europe centrale est dirigé par les Habsbourg et disparaît après la Première Guerre mondiale ?",
+      "reponses": ["Empire russe", "Empire allemand", "Empire austro-hongrois", "Empire ottoman"],
+      "bonne_reponse": "Empire austro-hongrois",
+      "explication": "L’Empire austro-hongrois est démantelé à la fin de la Première Guerre mondiale."
+    },
+    {
+      "question": "Quel événement de 1956 en Hongrie voit une tentative de révolte contre la domination soviétique ?",
+      "reponses": ["Printemps de Prague", "Révolution hongroise", "Révolution de Velours", "Révolution orange"],
+      "bonne_reponse": "Révolution hongroise",
+      "explication": "La révolte hongroise de 1956 est réprimée par l’intervention militaire de l’URSS."
+    },
+    {
+      "question": "Quel président américain est l’initiateur du New Deal pour lutter contre la crise des années 1930 ?",
+      "reponses": ["Herbert Hoover", "Franklin D. Roosevelt", "Harry Truman", "Dwight Eisenhower"],
+      "bonne_reponse": "Franklin D. Roosevelt",
+      "explication": "Le New Deal de Roosevelt est un ensemble de réformes économiques et sociales mis en place à partir de 1933."
+    },
+    {
+      "question": "Quel pays est au cœur du conflit des Balkans et des bombardements de l’OTAN en 1999 ?",
+      "reponses": ["Grèce", "Bulgarie", "Yougoslavie/Serbie", "Albanie"],
+      "bonne_reponse": "Yougoslavie/Serbie",
+      "explication": "La guerre du Kosovo conduit à l’intervention de l’OTAN contre la République fédérale de Yougoslavie."
+    }
+  ]
+}

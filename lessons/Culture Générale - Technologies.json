@@ -1,0 +1,552 @@
+{
+  "questions": [
+    {
+      "question": "Que signifie l’acronyme « CPU » dans un ordinateur ?",
+      "reponses": ["Central Processing Unit", "Computer Power Unit", "Core Program Utility", "Central Program Unit"],
+      "bonne_reponse": "Central Processing Unit",
+      "explication": "Le CPU est le processeur central qui exécute les instructions machine et coordonne la plupart des opérations de calcul."
+    },
+    {
+      "question": "Quel système d’exploitation open source est largement utilisé sur les serveurs ?",
+      "reponses": ["Windows", "macOS", "Linux", "ChromeOS"],
+      "bonne_reponse": "Linux",
+      "explication": "Linux est un noyau open source utilisé par de nombreuses distributions serveur et embarquées."
+    },
+    {
+      "question": "Quel est le rôle principal d’un routeur domestique ?",
+      "reponses": [
+        "Augmenter la taille du disque dur",
+        "Relier le réseau local à Internet et router les paquets",
+        "Améliorer la qualité de l’écran",
+        "Contrôler la vitesse du processeur"
+      ],
+      "bonne_reponse": "Relier le réseau local à Internet et router les paquets",
+      "explication": "Le routeur fait l’interface entre le réseau local et le fournisseur d’accès, en routant le trafic IP."
+    },
+    {
+      "question": "Que signifie l’acronyme « URL » sur le Web ?",
+      "reponses": [
+        "Universal Resource Locator",
+        "Uniform Resource Locator",
+        "Unified Remote Link",
+        "User Reference Link"
+      ],
+      "bonne_reponse": "Uniform Resource Locator",
+      "explication": "Une URL identifie l’adresse d’une ressource sur Internet, en indiquant protocole, hôte et chemin."
+    },
+    {
+      "question": "Quel langage est principalement utilisé pour structurer le contenu des pages Web ?",
+      "reponses": ["CSS", "HTML", "Java", "SQL"],
+      "bonne_reponse": "HTML",
+      "explication": "HTML est un langage de balisage qui définit la structure d’une page Web."
+    },
+    {
+      "question": "Quel langage est principalement utilisé pour décrire la mise en forme des pages Web ?",
+      "reponses": ["HTML", "CSS", "Python", "PHP"],
+      "bonne_reponse": "CSS",
+      "explication": "CSS permet de contrôler l’apparence (couleurs, tailles, disposition) des éléments HTML."
+    },
+    {
+      "question": "Quel protocole sécurisé est utilisé pour consulter des sites Web chiffrés ?",
+      "reponses": ["HTTP", "FTP", "HTTPS", "SMTP"],
+      "bonne_reponse": "HTTPS",
+      "explication": "HTTPS est HTTP transporté dans une couche chiffrée TLS, assurant confidentialité et intégrité."
+    },
+    {
+      "question": "Que signifie l’acronyme « SSD » pour le stockage ?",
+      "reponses": ["Solid State Drive", "Serial Storage Device", "Secure Storage Disk", "Single State Disk"],
+      "bonne_reponse": "Solid State Drive",
+      "explication": "Un SSD est un support de stockage à mémoire flash, sans pièce mécanique mobile, plus rapide qu’un disque dur classique."
+    },
+    {
+      "question": "Quel type de mémoire conserve les données lorsqu’on éteint l’ordinateur ?",
+      "reponses": ["RAM", "ROM / stockage", "Cache", "Registre"],
+      "bonne_reponse": "ROM / stockage",
+      "explication": "Les mémoires non volatiles (ROM, SSD, HDD) gardent les données hors tension, contrairement à la RAM."
+    },
+    {
+      "question": "Que signifie l’acronyme « RAM » ?",
+      "reponses": ["Random Access Memory", "Read Always Memory", "Rapid Access Module", "Remote Access Memory"],
+      "bonne_reponse": "Random Access Memory",
+      "explication": "La RAM est la mémoire vive, utilisée pour stocker temporairement les données en cours de traitement."
+    },
+    {
+      "question": "Quel protocole est utilisé pour envoyer des e-mails depuis un client vers un serveur ?",
+      "reponses": ["HTTP", "IMAP", "POP3", "SMTP"],
+      "bonne_reponse": "SMTP",
+      "explication": "SMTP est le protocole standard pour l’envoi et le relais de courriels."
+    },
+    {
+      "question": "Quel protocole est souvent utilisé pour récupérer des e-mails sur un serveur tout en les laissant stockés côté serveur ?",
+      "reponses": ["SMTP", "IMAP", "FTP", "DNS"],
+      "bonne_reponse": "IMAP",
+      "explication": "IMAP permet de consulter les mails distants en les maintenant sur le serveur, pratique pour plusieurs appareils."
+    },
+    {
+      "question": "Quel protocole chiffré est utilisé pour se connecter à distance en ligne de commande à une machine ?",
+      "reponses": ["Telnet", "SSH", "HTTP", "RDP"],
+      "bonne_reponse": "SSH",
+      "explication": "SSH fournit une connexion distante sécurisée par chiffrement, remplaçant Telnet."
+    },
+    {
+      "question": "Quel est le principal avantage d’un réseau Wi-Fi par rapport à un réseau câblé ?",
+      "reponses": ["Débit plus élevé garanti", "Moins de latence", "Mobilité et absence de câbles", "Aucune interférence possible"],
+      "bonne_reponse": "Mobilité et absence de câbles",
+      "explication": "Le Wi-Fi permet de se connecter sans fil, ce qui facilite la mobilité des appareils."
+    },
+    {
+      "question": "Que signifie l’acronyme « IoT » ?",
+      "reponses": ["Internet of Tools", "Internet of Things", "Interface over TCP", "Input/Output Technology"],
+      "bonne_reponse": "Internet of Things",
+      "explication": "L’Internet des objets désigne les objets connectés capables de communiquer via un réseau."
+    },
+    {
+      "question": "Quel système de gestion de versions est très largement utilisé dans le développement logiciel ?",
+      "reponses": ["SVN", "Mercurial", "Git", "CVS"],
+      "bonne_reponse": "Git",
+      "explication": "Git est un système de gestion de versions distribué, devenu un standard de facto dans le développement collaboratif."
+    },
+    {
+      "question": "Quel service de type \"forge\" est très populaire pour héberger des dépôts Git publics et privés ?",
+      "reponses": ["Dropbox", "GitHub", "Slack", "Reddit"],
+      "bonne_reponse": "GitHub",
+      "explication": "GitHub propose l’hébergement de dépôts Git, la gestion d’issues et des fonctionnalités collaboratives."
+    },
+    {
+      "question": "Que signifie l’acronyme « DNS » ?",
+      "reponses": ["Domain Name System", "Digital Network Service", "Dynamic Node Server", "Domain Network Security"],
+      "bonne_reponse": "Domain Name System",
+      "explication": "Le DNS traduit les noms de domaine lisibles en adresses IP."
+    },
+    {
+      "question": "Quel est l’avantage principal d’un VPN pour un utilisateur distant ?",
+      "reponses": [
+        "Accélérer la connexion Internet",
+        "Fournir un tunnel chiffré vers un réseau distant",
+        "Remplacer l’antivirus",
+        "Bloquer tous les sites web"
+      ],
+      "bonne_reponse": "Fournir un tunnel chiffré vers un réseau distant",
+      "explication": "Un VPN crée un tunnel sécurisé entre l’utilisateur et un réseau, protégeant les données en transit."
+    },
+    {
+      "question": "Que signifie l’acronyme « GPU » utilisé dans le domaine graphique et IA ?",
+      "reponses": ["General Processing Unit", "Graphic Performance Utility", "Graphics Processing Unit", "Global Processing Unit"],
+      "bonne_reponse": "Graphics Processing Unit",
+      "explication": "Le GPU est un processeur spécialisé dans les calculs parallèles, notamment pour le rendu graphique et l’IA."
+    },
+    {
+      "question": "Quel type de logiciel malveillant chiffre les fichiers d’un utilisateur pour demander une rançon ?",
+      "reponses": ["Virus", "Cheval de Troie", "Ransomware", "Spyware"],
+      "bonne_reponse": "Ransomware",
+      "explication": "Le ransomware chiffre les données et réclame un paiement pour la clé de déchiffrement."
+    },
+    {
+      "question": "Que signifie l’acronyme « LAN » en réseau ?",
+      "reponses": ["Local Area Network", "Large Access Network", "Limited Application Node", "Link Aggregation Network"],
+      "bonne_reponse": "Local Area Network",
+      "explication": "Un LAN est un réseau local, généralement limité à un bâtiment ou un site."
+    },
+    {
+      "question": "Quel protocole permet d’obtenir automatiquement une adresse IP sur un réseau ?",
+      "reponses": ["DNS", "NTP", "DHCP", "SSH"],
+      "bonne_reponse": "DHCP",
+      "explication": "DHCP attribue dynamiquement des adresses IP et d’autres paramètres réseau aux clients."
+    },
+    {
+      "question": "Quel format de compression d’archives est très utilisé sous Linux ?",
+      "reponses": ["ZIP", "RAR", "TAR.GZ", "7Z"],
+      "bonne_reponse": "TAR.GZ",
+      "explication": "Sous Linux, on archive souvent avec tar puis on compresse avec gzip, ce qui donne des fichiers .tar.gz."
+    },
+    {
+      "question": "Quel protocole est utilisé pour transférer des fichiers de manière chiffrée sur SSH ?",
+      "reponses": ["FTP", "SFTP", "TFTP", "HTTP"],
+      "bonne_reponse": "SFTP",
+      "explication": "SFTP utilise le canal SSH pour un transfert de fichiers sécurisé."
+    },
+    {
+      "question": "Quel système de fichiers est traditionnellement utilisé par Windows pour les disques modernes ?",
+      "reponses": ["ext4", "NTFS", "HFS+", "XFS"],
+      "bonne_reponse": "NTFS",
+      "explication": "NTFS est le système de fichiers par défaut des versions récentes de Windows pour les volumes système."
+    },
+    {
+      "question": "Que signifie l’acronyme « SQL » ?",
+      "reponses": [
+        "Structured Query Language",
+        "Simple Query Logic",
+        "Standard Queue Language",
+        "System Quality Layer"
+      ],
+      "bonne_reponse": "Structured Query Language",
+      "explication": "SQL est le langage standard pour interroger et manipuler des bases de données relationnelles."
+    },
+    {
+      "question": "Quel type de base de données organise les données en tables et relations ?",
+      "reponses": ["Orientée documents", "Clé-valeur", "Relationnelle", "Graphes"],
+      "bonne_reponse": "Relationnelle",
+      "explication": "Les bases de données relationnelles stockent les données dans des tables reliées par des clés."
+    },
+    {
+      "question": "Quel logiciel libre est un serveur Web très répandu dans le monde ?",
+      "reponses": ["IIS", "Apache HTTP Server", "Nginx uniquement", "Tomcat uniquement"],
+      "bonne_reponse": "Apache HTTP Server",
+      "explication": "Apache est un des serveurs Web les plus utilisés, même si Nginx est également très répandu."
+    },
+    {
+      "question": "Quel service cloud permet de lancer rapidement des machines virtuelles chez Amazon ?",
+      "reponses": ["S3", "RDS", "EC2", "Lambda"],
+      "bonne_reponse": "EC2",
+      "explication": "Amazon EC2 fournit des instances de calcul (machines virtuelles) dans le cloud AWS."
+    },
+    {
+      "question": "Que signifie l’acronyme « API » en développement logiciel ?",
+      "reponses": [
+        "Application Programming Interface",
+        "Advanced Program Instruction",
+        "Automatic Process Integration",
+        "Application Proxy Interface"
+      ],
+      "bonne_reponse": "Application Programming Interface",
+      "explication": "Une API définit comment un logiciel peut interagir avec un autre via des fonctions ou des endpoints."
+    },
+    {
+      "question": "Quel langage est souvent utilisé pour le développement côté serveur Web, avec de nombreux frameworks (Django, Flask) ?",
+      "reponses": ["JavaScript", "Python", "C", "Swift"],
+      "bonne_reponse": "Python",
+      "explication": "Python est très utilisé côté serveur, notamment avec les frameworks Django, Flask ou FastAPI."
+    },
+    {
+      "question": "Quel langage s’exécute typiquement dans le navigateur pour rendre les pages Web interactives ?",
+      "reponses": ["Java", "JavaScript", "PHP", "Ruby"],
+      "bonne_reponse": "JavaScript",
+      "explication": "JavaScript est le langage standard côté client pour dynamiser les pages Web."
+    },
+    {
+      "question": "Que signifie l’acronyme « AI » en anglais dans le domaine de l’informatique ?",
+      "reponses": ["Automatic Integration", "Artificial Intelligence", "Advanced Internet", "Augmented Interface"],
+      "bonne_reponse": "Artificial Intelligence",
+      "explication": "L’intelligence artificielle regroupe les techniques permettant à des machines de réaliser des tâches « intelligentes »."
+    },
+    {
+      "question": "Quelle technologie de conteneurisation permet d’emballer une application et ses dépendances dans une image portable ?",
+      "reponses": ["KVM", "Docker", "VMware", "Hyper-V"],
+      "bonne_reponse": "Docker",
+      "explication": "Docker permet d’exécuter des conteneurs légers partageant le noyau de l’OS."
+    },
+    {
+      "question": "Que signifie l’acronyme « HTTP » ?",
+      "reponses": [
+        "HyperText Transfer Protocol",
+        "High Traffic Transport Protocol",
+        "Hybrid Transmission Type Protocol",
+        "Host Transfer Text Protocol"
+      ],
+      "bonne_reponse": "HyperText Transfer Protocol",
+      "explication": "HTTP est le protocole utilisé pour échanger des ressources sur le Web."
+    },
+    {
+      "question": "Quel terme désigne le fait de surcharger un site Web par un trop grand nombre de requêtes malveillantes ?",
+      "reponses": ["Phishing", "DDoS", "Brute force", "Spoofing"],
+      "bonne_reponse": "DDoS",
+      "explication": "Une attaque DDoS (Distributed Denial of Service) vise à rendre un service indisponible par saturation."
+    },
+    {
+      "question": "Quel périphérique est utilisé pour numériser un document papier en image ?",
+      "reponses": ["Imprimante", "Scanner", "Routeur", "Switch"],
+      "bonne_reponse": "Scanner",
+      "explication": "Un scanner convertit un document physique en fichier numérique."
+    },
+    {
+      "question": "Quel protocole permet de synchroniser l’heure des ordinateurs sur un réseau ?",
+      "reponses": ["NTP", "DNS", "HTTPS", "SNMP"],
+      "bonne_reponse": "NTP",
+      "explication": "Le Network Time Protocol sert à synchroniser les horloges des systèmes distants."
+    },
+    {
+      "question": "Quelle unité mesure la fréquence d’horloge d’un processeur ?",
+      "reponses": ["Byte", "Hertz", "Joule", "Volt"],
+      "bonne_reponse": "Hertz",
+      "explication": "La fréquence d’un CPU est exprimée en hertz (souvent en GHz pour les processeurs modernes)."
+    },
+    {
+      "question": "Que désigne le terme « open source » ?",
+      "reponses": [
+        "Logiciel gratuit uniquement",
+        "Code source accessible et modifiable",
+        "Logiciel en ligne uniquement",
+        "Logiciel sans licence"
+      ],
+      "bonne_reponse": "Code source accessible et modifiable",
+      "explication": "Un logiciel open source a un code source disponible, redistribuable et modifiable sous certaines licences."
+    },
+    {
+      "question": "Quel protocole est utilisé pour transférer des fichiers en clair, aujourd’hui considéré comme peu sécurisé ?",
+      "reponses": ["SFTP", "FTP", "HTTPS", "SCP"],
+      "bonne_reponse": "FTP",
+      "explication": "FTP transmet les données en texte clair, ce qui le rend vulnérable ; on lui préfère SFTP ou FTPS."
+    },
+    {
+      "question": "Quel outil de virtualisation permet d’exécuter plusieurs systèmes d’exploitation sur une même machine physique ?",
+      "reponses": ["Docker", "Hyperviseur", "Proxy", "Switch"],
+      "bonne_reponse": "Hyperviseur",
+      "explication": "Un hyperviseur (KVM, ESXi, Hyper-V) gère des machines virtuelles sur un hôte physique."
+    },
+    {
+      "question": "Quel type d’attaque consiste à tromper l’utilisateur via un faux site ou un e-mail pour voler des informations ?",
+      "reponses": ["Phishing", "DDoS", "Ransomware", "Sniffing"],
+      "bonne_reponse": "Phishing",
+      "explication": "Le phishing (hameçonnage) vise à pousser la victime à divulguer des données sensibles."
+    },
+    {
+      "question": "Quel format de fichier image est souvent utilisé pour des photos avec compression destructrice ?",
+      "reponses": ["PNG", "JPG / JPEG", "SVG", "BMP"],
+      "bonne_reponse": "JPG / JPEG",
+      "explication": "Le JPEG applique une compression avec perte adaptée aux photographies."
+    },
+    {
+      "question": "Quel système d’exploitation mobile est développé principalement par Google ?",
+      "reponses": ["iOS", "HarmonyOS", "Android", "Windows Phone"],
+      "bonne_reponse": "Android",
+      "explication": "Android est un OS mobile basé sur Linux, développé et maintenu par Google et la communauté."
+    },
+    {
+      "question": "Que signifie l’acronyme « URL » dans une barre d’adresse de navigateur ?",
+      "reponses": [
+        "Uniform Resource Locator",
+        "Universal Routing Link",
+        "User Request Location",
+        "Unified Resource List"
+      ],
+      "bonne_reponse": "Uniform Resource Locator",
+      "explication": "L’URL indique l’emplacement d’une ressource Web, incluant protocole, domaine et chemin."
+    },
+    {
+      "question": "Quel est l’objectif principal d’un pare-feu (firewall) ?",
+      "reponses": [
+        "Accélérer la connexion Internet",
+        "Filtrer le trafic réseau selon des règles",
+        "Sauvegarder les données",
+        "Gérer les comptes utilisateurs"
+      ],
+      "bonne_reponse": "Filtrer le trafic réseau selon des règles",
+      "explication": "Un pare-feu autorise ou bloque les paquets en fonction de règles de sécurité."
+    },
+    {
+      "question": "Que signifie l’acronyme « GUI » ?",
+      "reponses": [
+        "Global User Integration",
+        "Graphical User Interface",
+        "General Utility Interface",
+        "Grid User Infrastructure"
+      ],
+      "bonne_reponse": "Graphical User Interface",
+      "explication": "Une GUI est une interface graphique utilisateur avec fenêtres, boutons, icônes, etc."
+    },
+    {
+      "question": "Quel réseau social est initialement centré sur le partage de photos au format carré ?",
+      "reponses": ["Facebook", "Twitter", "Instagram", "LinkedIn"],
+      "bonne_reponse": "Instagram",
+      "explication": "Instagram est lancé comme application de partage de photos, avec un format carré au début."
+    },
+    {
+      "question": "Quel type d’adresse unique identifie une carte réseau dans un LAN Ethernet ?",
+      "reponses": ["Adresse IP", "Adresse MAC", "Nom de domaine", "SSID"],
+      "bonne_reponse": "Adresse MAC",
+      "explication": "L’adresse MAC est une adresse physique généralement unique, assignée à l’interface par le constructeur."
+    },
+    {
+      "question": "Quel est le rôle principal d’un serveur DNS ?",
+      "reponses": [
+        "Stocker des fichiers",
+        "Traduire les noms de domaine en adresses IP",
+        "Filtrer les spams",
+        "Héberger des sites Web"
+      ],
+      "bonne_reponse": "Traduire les noms de domaine en adresses IP",
+      "explication": "Le DNS résout les noms symboliques en adresses IP pour permettre les connexions."
+    },
+    {
+      "question": "Quel protocole de niveau application est le plus utilisé pour transférer des pages Web ?",
+      "reponses": ["FTP", "SMTP", "HTTP", "POP3"],
+      "bonne_reponse": "HTTP",
+      "explication": "HTTP est le protocole applicatif standard pour la consultation de pages Web."
+    },
+    {
+      "question": "Que signifie l’acronyme « BIOS » sur un PC ?",
+      "reponses": [
+        "Basic Input Output System",
+        "Binary Integrated Operating System",
+        "Basic Internet Operation Service",
+        "Boot Integrated OS"
+      ],
+      "bonne_reponse": "Basic Input Output System",
+      "explication": "Le BIOS est un firmware qui initialise le matériel et lance le système d’exploitation."
+    },
+    {
+      "question": "Quel format vidéo est très répandu pour la diffusion sur Internet grâce au codec H.264 ?",
+      "reponses": ["AVI", "MKV", "MP4", "MOV"],
+      "bonne_reponse": "MP4",
+      "explication": "Le conteneur MP4 associé à H.264 est un standard de facto pour la vidéo en ligne."
+    },
+    {
+      "question": "Quel outil permet d’automatiser le déploiement d’infrastructure en la décrivant sous forme de code (IaC) ?",
+      "reponses": ["Git", "Terraform", "Docker", "Jenkins"],
+      "bonne_reponse": "Terraform",
+      "explication": "Terraform permet de définir l’infrastructure sous forme de code déclaratif, versionnable."
+    },
+    {
+      "question": "Que signifie l’acronyme « QR » dans QR code ?",
+      "reponses": ["Quick Response", "Quality Reference", "Query Routing", "Queue Resource"],
+      "bonne_reponse": "Quick Response",
+      "explication": "Les QR codes sont conçus pour être lus rapidement par des scanners ou des smartphones."
+    },
+    {
+      "question": "Quel type de mémoire très rapide est intégré directement dans le processeur pour accélérer les accès ?",
+      "reponses": ["RAM", "ROM", "Cache", "SSD"],
+      "bonne_reponse": "Cache",
+      "explication": "La mémoire cache (L1, L2, L3) sert de tampon très rapide entre le CPU et la RAM."
+    },
+    {
+      "question": "Quel outil de visioconférence est devenu très populaire pour les réunions en ligne ?",
+      "reponses": ["Slack", "Zoom", "Git", "Postman"],
+      "bonne_reponse": "Zoom",
+      "explication": "Zoom est largement utilisé pour les réunions vidéo, webinaires et cours à distance."
+    },
+    {
+      "question": "Quel système de fichiers journalisé est souvent utilisé sous Linux pour les partitions modernes ?",
+      "reponses": ["FAT32", "NTFS", "ext4", "exFAT"],
+      "bonne_reponse": "ext4",
+      "explication": "ext4 est un système de fichiers Linux journalisé, courant sur les distributions récentes."
+    },
+    {
+      "question": "Quel acronyme désigne l’unité de stockage usuelle égale à environ un milliard d’octets ?",
+      "reponses": ["KB", "MB", "GB", "TB"],
+      "bonne_reponse": "GB",
+      "explication": "1 gigaoctet représente environ 10^9 octets (ou 2^30 octets selon le contexte)."
+    },
+    {
+      "question": "Quel protocole distant permet de contrôler graphiquement un bureau Windows ?",
+      "reponses": ["SSH", "RDP", "VNC", "Telnet"],
+      "bonne_reponse": "RDP",
+      "explication": "Remote Desktop Protocol permet d’accéder à un bureau Windows à distance avec interface graphique."
+    },
+    {
+      "question": "Que signifie l’acronyme « SaaS » dans le cloud ?",
+      "reponses": [
+        "Storage as a Service",
+        "System as a Service",
+        "Software as a Service",
+        "Security as a Service"
+      ],
+      "bonne_reponse": "Software as a Service",
+      "explication": "SaaS désigne un modèle où le logiciel est fourni en ligne, sans installation locale lourde."
+    },
+    {
+      "question": "Quel protocole est utilisé pour chiffrer les connexions Web en HTTPS ?",
+      "reponses": ["SSL/TLS", "IPsec", "SSH", "WPA2"],
+      "bonne_reponse": "SSL/TLS",
+      "explication": "HTTPS repose sur TLS (anciennement SSL) pour chiffrer les échanges entre client et serveur."
+    },
+    {
+      "question": "Quel logiciel est un exemple de navigateur Web ?",
+      "reponses": ["Outlook", "Chrome", "Photoshop", "VLC"],
+      "bonne_reponse": "Chrome",
+      "explication": "Google Chrome est un navigateur Web permettant d’afficher des pages Internet."
+    },
+    {
+      "question": "Que signifie l’acronyme « PDF » pour les documents ?",
+      "reponses": [
+        "Portable Document Format",
+        "Printable Data File",
+        "Public Document Form",
+        "Protected Data Format"
+      ],
+      "bonne_reponse": "Portable Document Format",
+      "explication": "Le format PDF est conçu pour conserver la mise en forme des documents indépendamment de la plateforme."
+    },
+    {
+      "question": "Quel composant fournit l’alimentation électrique aux différents éléments d’un ordinateur de bureau ?",
+      "reponses": ["Carte mère", "Bloc d’alimentation", "Carte graphique", "Disque dur"],
+      "bonne_reponse": "Bloc d’alimentation",
+      "explication": "L’alimentation convertit le courant secteur en tensions adaptées pour les composants."
+    },
+    {
+      "question": "Quel langage est principalement utilisé pour interroger une base de données relationnelle ?",
+      "reponses": ["Python", "SQL", "HTML", "CSS"],
+      "bonne_reponse": "SQL",
+      "explication": "SQL permet de sélectionner, insérer, mettre à jour et supprimer des données dans une base relationnelle."
+    },
+    {
+      "question": "Quel type de mémoire est le plus rapide mais aussi la plus petite en capacité dans un ordinateur ?",
+      "reponses": ["Disque dur", "RAM", "Cache processeur", "SSD"],
+      "bonne_reponse": "Cache processeur",
+      "explication": "La cache CPU est très rapide, mais limitée en capacité et proche du processeur."
+    },
+    {
+      "question": "Quel terme désigne un programme qui se reproduit en infectant d’autres fichiers ou systèmes ?",
+      "reponses": ["Cheval de Troie", "Virus", "Ransomware", "Rootkit"],
+      "bonne_reponse": "Virus",
+      "explication": "Un virus informatique se propage en modifiant d’autres programmes ou fichiers exécutables."
+    },
+    {
+      "question": "Quel format audio compressé avec perte est très répandu pour la musique numérique ?",
+      "reponses": ["WAV", "FLAC", "MP3", "AIFF"],
+      "bonne_reponse": "MP3",
+      "explication": "MP3 réduit la taille des fichiers audio en supprimant des informations jugées moins perceptibles."
+    },
+    {
+      "question": "Que signifie l’acronyme « GPU » dans les cartes graphiques ?",
+      "reponses": [
+        "Graphics Processing Unit",
+        "General Processing Unit",
+        "Global Performance Utility",
+        "Graphic Program Unit"
+      ],
+      "bonne_reponse": "Graphics Processing Unit",
+      "explication": "Le GPU gère les calculs graphiques et parallèles pour l’affichage et certains traitements IA."
+    },
+    {
+      "question": "Quel système de chiffrage est utilisé pour protéger l’accès à un réseau Wi-Fi moderne ?",
+      "reponses": ["WEP", "WPA2/WPA3", "SSL", "SSH"],
+      "bonne_reponse": "WPA2/WPA3",
+      "explication": "WPA2 puis WPA3 remplacent WEP, jugé insuffisamment sécurisé."
+    },
+    {
+      "question": "Quel logiciel permet de créer et d’éditer des feuilles de calcul ?",
+      "reponses": ["Word", "Excel", "PowerPoint", "Outlook"],
+      "bonne_reponse": "Excel",
+      "explication": "Microsoft Excel est un tableur utilisé pour les calculs, graphiques et tableaux."
+    },
+    {
+      "question": "Quel composant stocke de manière permanente le système d’exploitation et les données sur un PC ?",
+      "reponses": ["RAM", "SSD ou disque dur", "Cache", "GPU"],
+      "bonne_reponse": "SSD ou disque dur",
+      "explication": "Le stockage persistant (SSD ou HDD) conserve les données même hors tension."
+    },
+    {
+      "question": "Quel type d’application regroupe des outils comme traitement de texte, tableur et présentation ?",
+      "reponses": [
+        "Suite bureautique",
+        "Environnement de développement",
+        "Système d’exploitation",
+        "Antivirus"
+      ],
+      "bonne_reponse": "Suite bureautique",
+      "explication": "Une suite bureautique regroupe plusieurs logiciels de productivité de bureau."
+    },
+    {
+      "question": "Quel terme désigne le fait de copier les données importantes sur un support séparé pour prévenir leur perte ?",
+      "reponses": ["Compression", "Sauvegarde (backup)", "Chiffrement", "Fragmentation"],
+      "bonne_reponse": "Sauvegarde (backup)",
+      "explication": "La sauvegarde permet de restaurer les données en cas de panne, suppression ou corruption."
+    },
+    {
+      "question": "Quel protocole permet d’attribuer automatiquement une adresse IP à un appareil sur un réseau ?",
+      "reponses": ["DNS", "DHCP", "SMTP", "NTP"],
+      "bonne_reponse": "DHCP",
+      "explication": "DHCP simplifie la configuration réseau en distribuant des adresses IP dynamiquement."
+    }
+  ]
+}

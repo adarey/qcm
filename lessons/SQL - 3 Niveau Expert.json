@@ -1,0 +1,194 @@
+{
+  "questions": [
+    {
+      "question": "Quel est l’intérêt principal de la normalisation jusqu’à la troisième forme normale (3FN) ?",
+      "reponses": [
+        "Améliorer la lisibilité du schéma uniquement",
+        "Réduire les redondances et anomalies de mise à jour",
+        "Augmenter le nombre d’index disponibles",
+        "Permettre uniquement les jointures naturelles"
+      ],
+      "bonne_reponse": "Réduire les redondances et anomalies de mise à jour",
+      "explication": "La normalisation vise à minimiser les duplications de données et les anomalies d’insertion, de mise à jour et de suppression."
+    },
+    {
+      "question": "Quel problème peut survenir lorsqu’une requête utilise trop de colonnes non indexées dans la clause WHERE ?",
+      "reponses": [
+        "Les INSERT deviennent impossibles",
+        "Le plan d’exécution peut effectuer des scans complets de table",
+        "La requête devient invalide",
+        "Les jointures sont interdites"
+      ],
+      "bonne_reponse": "Le plan d’exécution peut effectuer des scans complets de table",
+      "explication": "Sans index appropriés, le SGBD peut devoir lire toute la table (full table scan) pour trouver les lignes correspondantes."
+    },
+    {
+      "question": "Dans un index B-Tree classique, quelle opération est généralement la plus rapide ?",
+      "reponses": [
+        "Recherche par clé",
+        "SCAN séquentiel complet",
+        "Insertion massive de données",
+        "Suppression en cascade"
+      ],
+      "bonne_reponse": "Recherche par clé",
+      "explication": "Les B-Tree sont optimisés pour les recherches par clé et les parcours ordonnés."
+    },
+    {
+      "question": "Quelle est la caractéristique principale d’un index couvrant (covering index) ?",
+      "reponses": [
+        "Il ne contient que la clé primaire",
+        "Il contient toutes les colonnes nécessaires à la requête",
+        "Il est toujours unique",
+        "Il est réservé aux colonnes TEXT"
+      ],
+      "bonne_reponse": "Il contient toutes les colonnes nécessaires à la requête",
+      "explication": "Un index couvrant permet de satisfaire une requête sans accéder à la table, car toutes les colonnes requises sont dans l’index."
+    },
+    {
+      "question": "Que signifie une clé primaire composite ?",
+      "reponses": [
+        "Une clé primaire partagée entre plusieurs bases",
+        "Une clé primaire composée de plusieurs colonnes",
+        "Une clé primaire qui change automatiquement",
+        "Une clé primaire qui n’est pas unique"
+      ],
+      "bonne_reponse": "Une clé primaire composée de plusieurs colonnes",
+      "explication": "Une clé primaire composite utilise plusieurs colonnes pour garantir l’unicité de chaque ligne."
+    },
+    {
+      "question": "Quel phénomène décrit une transaction qui lit des données modifiées mais non encore validées par une autre transaction ?",
+      "reponses": [
+        "Dirty read",
+        "Non-repeatable read",
+        "Phantom read",
+        "Lost update"
+      ],
+      "bonne_reponse": "Dirty read",
+      "explication": "Un dirty read survient lorsqu’une transaction lit des données non validées qui peuvent ensuite être annulées."
+    },
+    {
+      "question": "Quelle anomalie est évitée par le niveau d’isolation SERIALIZABLE ?",
+      "reponses": [
+        "Seules les dirty reads",
+        "Dirty reads et non-repeatable reads mais pas phantom reads",
+        "La plupart des anomalies sauf les deadlocks",
+        "Toutes les anomalies de concurrence logiques (comme si les transactions étaient sérialisées)"
+      ],
+      "bonne_reponse": "Toutes les anomalies de concurrence logiques (comme si les transactions étaient sérialisées)",
+      "explication": "SERIALIZABLE garantit un comportement équivalent à une exécution séquentielle des transactions."
+    },
+    {
+      "question": "Quelle commande permet de démarrer explicitement une transaction dans de nombreux SGBD ?",
+      "reponses": ["BEGIN TRANSACTION", "START SQL", "OPEN TX", "NEW TRANSACTION"],
+      "bonne_reponse": "BEGIN TRANSACTION",
+      "explication": "BEGIN TRANSACTION (ou BEGIN) indique le début d’une transaction explicite."
+    },
+    {
+      "question": "Quelle instruction confirme définitivement les modifications effectuées dans une transaction ?",
+      "reponses": ["CONFIRM", "SAVE", "COMMIT", "FLUSH"],
+      "bonne_reponse": "COMMIT",
+      "explication": "COMMIT valide la transaction et rend les modifications visibles pour les autres sessions."
+    },
+    {
+      "question": "Quelle instruction annule toutes les modifications effectuées depuis le début de la transaction courante ?",
+      "reponses": ["CANCEL", "ROLLBACK", "UNDO", "ABORT"],
+      "bonne_reponse": "ROLLBACK",
+      "explication": "ROLLBACK rétablit l’état de la base de données avant le début de la transaction."
+    },
+    {
+      "question": "Quel est l’intérêt principal d’utiliser une vue matérialisée plutôt qu’une vue simple ?",
+      "reponses": [
+        "Elle ne peut jamais être rafraîchie",
+        "Elle stocke physiquement les résultats pour accélérer certaines requêtes",
+        "Elle remplace la table originale",
+        "Elle supprime automatiquement les doublons"
+      ],
+      "bonne_reponse": "Elle stocke physiquement les résultats pour accélérer certaines requêtes",
+      "explication": "Une vue matérialisée conserve les résultats en dur, ce qui peut améliorer les performances de lecture."
+    },
+    {
+      "question": "Quel type d’index est généralement le plus adapté pour des recherches d’égalité et d’intervalle sur des valeurs triées ?",
+      "reponses": ["Index hash", "Index B-Tree", "Index bitmap seulement", "Index plein texte"],
+      "bonne_reponse": "Index B-Tree",
+      "explication": "Les B-Tree sont bien adaptés aux recherches d’égalité et de plage (range queries)."
+    },
+    {
+      "question": "Quel type d’index peut être particulièrement efficace sur des colonnes ayant peu de valeurs distinctes (haute cardinalité faible) dans certains SGBD décisionnels ?",
+      "reponses": ["Index B-Tree", "Index bitmap", "Index hash", "Index spatial"],
+      "bonne_reponse": "Index bitmap",
+      "explication": "Les index bitmap sont efficaces pour des colonnes à faible cardinalité, par exemple pour des filtres combinés dans des requêtes analytiques."
+    },
+    {
+      "question": "Pourquoi l’utilisation abusive de SELECT * est-elle déconseillée dans un contexte de performance ?",
+      "reponses": [
+        "Parce que SELECT * est réservé aux administrateurs",
+        "Parce qu’il empêche les jointures",
+        "Parce qu’il récupère plus de données que nécessaire et complique l’utilisation d’index couvrants",
+        "Parce qu’il bloque les transactions concurrentes"
+      ],
+      "bonne_reponse": "Parce qu’il récupère plus de données que nécessaire et complique l’utilisation d’index couvrants",
+      "explication": "Limiter les colonnes permet de réduire le volume de données et de tirer parti des index couvrants."
+    },
+    {
+      "question": "Quel est le but d’une clé étrangère (FOREIGN KEY) ?",
+      "reponses": [
+        "Garantir l’unicité dans une table",
+        "Permettre les jointures sans condition",
+        "Assurer l’intégrité référentielle entre deux tables",
+        "Indexer automatiquement toutes les colonnes"
+      ],
+      "bonne_reponse": "Assurer l’intégrité référentielle entre deux tables",
+      "explication": "Une clé étrangère impose que la valeur existe dans la table référencée, assurant la cohérence des liens."
+    },
+    {
+      "question": "Que signifie ON DELETE CASCADE sur une contrainte de clé étrangère ?",
+      "reponses": [
+        "Empêche toute suppression dans la table parente",
+        "Supprime la ligne parente uniquement",
+        "Supprime automatiquement les lignes enfants liées lorsque la ligne parente est supprimée",
+        "Ignore l’intégrité référentielle"
+      ],
+      "bonne_reponse": "Supprime automatiquement les lignes enfants liées lorsque la ligne parente est supprimée",
+      "explication": "CASCADE propage la suppression à toutes les lignes enfant qui référencent la ligne parente."
+    },
+    {
+      "question": "Quel problème classique peut apparaître avec des transactions mal synchronisées mettant à jour les mêmes lignes ?",
+      "reponses": [
+        "Deadlock",
+        "Phantom index",
+        "Index overflow",
+        "Full scan"
+      ],
+      "bonne_reponse": "Deadlock",
+      "explication": "Un deadlock survient lorsque deux transactions se bloquent mutuellement en attendant des verrous détenus par l’autre."
+    },
+    {
+      "question": "Quel outil/fonctionnalité fournit généralement des informations détaillées sur le plan d’exécution d’une requête ?",
+      "reponses": ["SHOW TABLES", "EXPLAIN / EXPLAIN ANALYZE", "DESCRIBE QUERY", "TRACE SELECT"],
+      "bonne_reponse": "EXPLAIN / EXPLAIN ANALYZE",
+      "explication": "EXPLAIN affiche le plan d’exécution prévu, EXPLAIN ANALYZE montre le plan réel avec des statistiques."
+    },
+    {
+      "question": "Pourquoi est-il important d’analyser les cardinalités et la distribution des données pour optimiser une requête ?",
+      "reponses": [
+        "Pour choisir le bon type de transaction",
+        "Pour réduire le nombre de colonnes",
+        "Pour permettre au moteur de choisir un plan d’exécution adapté",
+        "Pour pouvoir désactiver les index"
+      ],
+      "bonne_reponse": "Pour permettre au moteur de choisir un plan d’exécution adapté",
+      "explication": "Les statistiques de distribution sont utilisées par l’optimiseur de requêtes pour choisir le plan le plus efficace."
+    },
+    {
+      "question": "Dans un entrepôt de données, pourquoi utilise-t-on souvent des schémas en étoile plutôt que fortement normalisés ?",
+      "reponses": [
+        "Pour empêcher les jointures",
+        "Pour simplifier les requêtes analytiques et réduire le nombre de jointures",
+        "Pour interdire les index",
+        "Pour éviter l’usage de clés étrangères"
+      ],
+      "bonne_reponse": "Pour simplifier les requêtes analytiques et réduire le nombre de jointures",
+      "explication": "Les schémas en étoile dénormalisent partiellement pour simplifier et accélérer les requêtes analytiques."
+    }
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "questions": [
+    {
+      "question": "Quel est le type de la valeur 3 en Python ?",
+      "reponses": ["int", "float", "complex", "str"],
+      "bonne_reponse": "int",
+      "explication": "En Python, un entier littéral sans décimale est de type int."
+    },
+    {
+      "question": "Que va afficher ce code ?\n\nx = 3\nprint(type(x))",
+      "reponses": ["<class 'int'>", "<type 'int'>", "int", "3"],
+      "bonne_reponse": "<class 'int'>",
+      "explication": "type(x) renvoie l’objet type, dont la représentation est <class 'int'>."
+    },
+    {
+      "question": "Quelle instruction affiche du texte sur la sortie standard ?",
+      "reponses": ["echo('Hello')", "print('Hello')", "printf('Hello')", "out('Hello')"],
+      "bonne_reponse": "print('Hello')",
+      "explication": "print() est la fonction intégrée pour écrire du texte sur la sortie standard."
+    },
+    {
+      "question": "Quelle écriture définit un commentaire sur une seule ligne ?",
+      "reponses": [
+        "// commentaire",
+        "# commentaire",
+        "/* commentaire */",
+        "<!-- commentaire -->"
+      ],
+      "bonne_reponse": "# commentaire",
+      "explication": "Les commentaires de ligne commencent par le caractère #."
+    },
+    {
+      "question": "Que renvoie l’expression 7 // 2 ?",
+      "reponses": ["3.5", "3", "4", "1"],
+      "bonne_reponse": "3",
+      "explication": "// est la division entière (floor division). 7 // 2 donne 3."
+    },
+    {
+      "question": "Que renvoie l’expression 7 % 2 ?",
+      "reponses": ["3", "1", "0", "Erreur"],
+      "bonne_reponse": "1",
+      "explication": "% renvoie le reste de la division entière, ici 1."
+    },
+    {
+      "question": "Que renvoie 2 ** 3 ?",
+      "reponses": ["6", "8", "9", "5"],
+      "bonne_reponse": "8",
+      "explication": "** est l’opérateur d’exponentiation, 2**3 = 8."
+    },
+    {
+      "question": "Quelle syntaxe affecte la valeur 10 à la variable x ?",
+      "reponses": ["x == 10", "x = 10", "10 -> x", "set x 10"],
+      "bonne_reponse": "x = 10",
+      "explication": "= est l’opérateur d’affectation."
+    },
+    {
+      "question": "Que renvoie l’expression 3 == 3.0 ?",
+      "reponses": ["True", "False", "3", "3.0"],
+      "bonne_reponse": "True",
+      "explication": "int et float peuvent être égaux par valeur, ici 3 == 3.0 est True."
+    },
+    {
+      "question": "Que renvoie bool(0) ?",
+      "reponses": ["True", "False", "0", "Erreur"],
+      "bonne_reponse": "False",
+      "explication": "0 est falsy, donc bool(0) vaut False."
+    },
+    {
+      "question": "Que renvoie bool('Python') ?",
+      "reponses": ["True", "False", "Erreur", "None"],
+      "bonne_reponse": "True",
+      "explication": "Toute chaîne non vide est considérée comme True."
+    },
+    {
+      "question": "Quelle est la sortie ?\n\nx = 5\ny = 2\nprint(x / y)",
+      "reponses": ["2", "2.5", "2.0", "Erreur"],
+      "bonne_reponse": "2.5",
+      "explication": "/ effectue une division flottante et renvoie un float."
+    },
+    {
+      "question": "Que renvoie int('10') ?",
+      "reponses": ["'10'", "10", "10.0", "Erreur"],
+      "bonne_reponse": "10",
+      "explication": "int() convertit une chaîne de chiffres en entier."
+    },
+    {
+      "question": "Que renvoie str(3.14) ?",
+      "reponses": ["3.14", "'3.14'", "float", "Erreur"],
+      "bonne_reponse": "'3.14'",
+      "explication": "str() renvoie une représentation texte de l’objet."
+    },
+    {
+      "question": "Quelle fonction lit une chaîne saisie par l’utilisateur au clavier ?",
+      "reponses": ["read()", "input()", "scan()", "gets()"],
+      "bonne_reponse": "input()",
+      "explication": "input() lit une ligne sur l’entrée standard et renvoie une str."
+    },
+    {
+      "question": "Que va afficher ce code si l’utilisateur saisit 5 ?\n\nx = input()\nprint(type(x))",
+      "reponses": ["<class 'str'>", "<class 'int'>", "<class 'float'>", "<class 'bool'>"],
+      "bonne_reponse": "<class 'str'>",
+      "explication": "input() renvoie toujours une chaîne, même si l’utilisateur tape un nombre."
+    },
+    {
+      "question": "Comment convertir en int le résultat de input() ?",
+      "reponses": ["int input()", "int(input())", "to_int(input())", "cast int input()"],
+      "bonne_reponse": "int(input())",
+      "explication": "On applique le constructeur int() sur la chaîne renvoyée par input()."
+    },
+    {
+      "question": "Quelle est la sortie ?\n\nprint('Python', '3', sep='-')",
+      "reponses": ["Python 3", "Python-3", "Python3", "Python - 3"],
+      "bonne_reponse": "Python-3",
+      "explication": "sep remplace l’espace entre les arguments, ici par '-'."
+    },
+    {
+      "question": "Que va afficher ce code ?\n\nprint('A', end='')\nprint('B')",
+      "reponses": ["A B", "A\nB", "AB", "B"],
+      "bonne_reponse": "AB",
+      "explication": "end='' supprime le retour à la ligne après le premier print."
+    },
+    {
+      "question": "Quelle écriture de chaîne sur plusieurs lignes est correcte ?",
+      "reponses": [
+        "\"\"\"ligne1\nligne2\"\"\"",
+        "'''ligne1\nligne2'''",
+        "Les deux précédentes",
+        "Aucune"
+      ],
+      "bonne_reponse": "Les deux précédentes",
+      "explication": "Les chaînes triple quotes (\"\"\" ou ''') peuvent s’étendre sur plusieurs lignes."
+    },
+    {
+      "question": "Quelle condition teste correctement si x est strictement positif ?",
+      "reponses": [
+        "if x => 0:",
+        "if x > 0:",
+        "if (x) > (0);",
+        "if x positive:"
+      ],
+      "bonne_reponse": "if x > 0:",
+      "explication": "L’opérateur strictement supérieur est >."
+    },
+    {
+      "question": "Quelle structure contrôle un bloc exécuté seulement si la condition est fausse ?",
+      "reponses": [
+        "if / else",
+        "if / elif",
+        "while / else",
+        "pass"
+      ],
+      "bonne_reponse": "if / else",
+      "explication": "Le bloc else s’exécute si la condition if est False."
+    },
+    {
+      "question": "Quelle est la sortie ?\n\nx = 3\nif x == 3:\n    print('ok')\nelse:\n    print('ko')",
+      "reponses": ["ok", "ko", "3", "Erreur"],
+      "bonne_reponse": "ok",
+      "explication": "La condition est vraie, le bloc if s’exécute."
+    },
+    {
+      "question": "Quel mot-clé permet d’ajouter un deuxième test après un if ?",
+      "reponses": ["elseif", "elif", "else if", "elseif()"],
+      "bonne_reponse": "elif",
+      "explication": "La chaîne if / elif / else permet plusieurs branches."
+    },
+    {
+      "question": "Quelle est la sortie ?\n\nx = 0\nwhile x < 3:\n    x += 1\nprint(x)",
+      "reponses": ["0", "1", "2", "3"],
+      "bonne_reponse": "3",
+      "explication": "La boucle s’exécute tant que x < 3. À la fin x vaut 3."
+    },
+    {
+      "question": "Quelle instruction termine immédiatement la boucle en cours ?",
+      "reponses": ["stop", "end", "break", "continue"],
+      "bonne_reponse": "break",
+      "explication": "break sort de la boucle la plus proche."
+    },
+    {
+      "question": "Quelle instruction passe à l’itération suivante sans finir l’itération actuelle ?",
+      "reponses": ["break", "continue", "skip", "next"],
+      "bonne_reponse": "continue",
+      "explication": "continue saute le reste du bloc et retourne au test de boucle."
+    },
+    {
+      "question": "Quelle est la sortie ?\n\nfor i in range(2):\n    print(i)",
+      "reponses": ["0", "1", "0\n1", "1\n2"],
+      "bonne_reponse": "0\n1",
+      "explication": "range(2) produit 0 puis 1."
+    },
+    {
+      "question": "Que renvoie range(1, 5) converti en liste ?",
+      "reponses": ["[1, 2, 3, 4, 5]", "[0, 1, 2, 3, 4]", "[1, 2, 3, 4]", "[2, 3, 4, 5]"],
+      "bonne_reponse": "[1, 2, 3, 4]",
+      "explication": "La borne supérieure 5 est exclue."
+    },
+    {
+      "question": "Que renvoie la condition not False ?",
+      "reponses": ["True", "False", "None", "Erreur"],
+      "bonne_reponse": "True",
+      "explication": "not inverse la valeur booléenne."
+    },
+    {
+      "question": "Que renvoie True and False ?",
+      "reponses": ["True", "False", "None", "Erreur"],
+      "bonne_reponse": "False",
+      "explication": "L’opérateur and renvoie True seulement si les deux sont True."
+    },
+    {
+      "question": "Quel est le résultat de True or False ?",
+      "reponses": ["True", "False", "None", "Erreur"],
+      "bonne_reponse": "True",
+      "explication": "or renvoie True si au moins un opérande est True."
+    },
+    {
+      "question": "Quelle structure de données est mutable parmi les suivantes ?",
+      "reponses": ["tuple", "list", "str", "frozenset"],
+      "bonne_reponse": "list",
+      "explication": "Les listes sont modifiables (ajout, suppression, etc.)."
+    },
+    {
+      "question": "Quelle syntaxe crée une liste de trois éléments 1, 2, 3 ?",
+      "reponses": ["(1, 2, 3)", "[1, 2, 3]", "{1, 2, 3}", "<1, 2, 3>"],
+      "bonne_reponse": "[1, 2, 3]",
+      "explication": "[ ] définissent une liste littérale."
+    },
+    {
+      "question": "Que renvoie len([1, 2, 3]) ?",
+      "reponses": ["2", "3", "4", "Erreur"],
+      "bonne_reponse": "3",
+      "explication": "len() renvoie le nombre d’éléments dans la liste."
+    },
+    {
+      "question": "Que renvoie [1, 2, 3][0] ?",
+      "reponses": ["1", "2", "3", "Erreur"],
+      "bonne_reponse": "1",
+      "explication": "L’indexation commence à 0 en Python."
+    },
+    {
+      "question": "Que renvoie [10, 20, 30][-1] ?",
+      "reponses": ["10", "20", "30", "Erreur"],
+      "bonne_reponse": "30",
+      "explication": "-1 accède au dernier élément."
+    },
+    {
+      "question": "Quelle méthode ajoute un élément à la fin d’une liste ?",
+      "reponses": ["add()", "push()", "append()", "insertEnd()"],
+      "bonne_reponse": "append()",
+      "explication": "append(obj) ajoute l’élément à la fin de la liste."
+    },
+    {
+      "question": "Que renvoie 'Python'[1:4] ?",
+      "reponses": ["'Pyt'", "'yth'", "'ytho'", "'hon'"],
+      "bonne_reponse": "'yth'",
+      "explication": "Indices 1,2,3 -> 'y','t','h'."
+    },
+    {
+      "question": "Quel est le type de ('a', 'b', 'c') ?",
+      "reponses": ["list", "tuple", "set", "dict"],
+      "bonne_reponse": "tuple",
+      "explication": "Les parenthèses sans clés/valeurs définissent un tuple."
+    },
+    {
+      "question": "Que renvoie len({'a': 1, 'b': 2}) ?",
+      "reponses": ["1", "2", "3", "Erreur"],
+      "bonne_reponse": "2",
+      "explication": "Un dictionnaire contient ici 2 paires clé/valeur."
+    },
+    {
+      "question": "Comment accéder à la valeur associée à la clé 'nom' dans le dictionnaire d ?",
+      "reponses": ["d.nom", "d['nom']", "d(nom)", "d.getKey('nom')"],
+      "bonne_reponse": "d['nom']",
+      "explication": "L’accès à une valeur se fait par d[clé]."
+    },
+    {
+      "question": "Que renvoie 'py' in 'python' ?",
+      "reponses": ["True", "False", "Erreur", "None"],
+      "bonne_reponse": "True",
+      "explication": "L’opérateur in teste si une sous-chaîne est contenue dans une chaîne."
+    },
+    {
+      "question": "Quelle méthode renvoie une nouvelle chaîne en majuscules ?",
+      "reponses": ["upper()", "uppercase()", "toUpper()", "capitalize()"],
+      "bonne_reponse": "upper()",
+      "explication": "upper() renvoie une copie en majuscules."
+    },
+    {
+      "question": "Quelle méthode renvoie une nouvelle liste triée (sans modifier la liste d’origine) ?",
+      "reponses": ["list.sort()", "sorted(list)", "sort(list)", "list.sorted()"],
+      "bonne_reponse": "sorted(list)",
+      "explication": "sorted(iterable) renvoie une nouvelle liste triée."
+    },
+    {
+      "question": "Quel mot-clé définit une fonction en Python ?",
+      "reponses": ["function", "def", "func", "lambda"],
+      "bonne_reponse": "def",
+      "explication": "Les fonctions sont définies avec def nom(...):."
+    },
+    {
+      "question": "Que renvoie cette fonction ?\n\ndef f(x, y):\n    return x + y\n\nprint(f(2, 3))",
+      "reponses": ["2", "3", "5", "None"],
+      "bonne_reponse": "5",
+      "explication": "return renvoie la somme, ici 5."
+    },
+    {
+      "question": "Que renvoie une fonction sans instruction return explicite ?",
+      "reponses": ["0", "False", "None", "''"],
+      "bonne_reponse": "None",
+      "explication": "Par défaut, une fonction renvoie None si aucun return n’est indiqué."
+    },
+    {
+      "question": "Quel est le nom du premier paramètre d’instance par convention dans une méthode de classe ?",
+      "reponses": ["this", "self", "obj", "instance"],
+      "bonne_reponse": "self",
+      "explication": "self représente l’instance dans les méthodes d’instance."
+    },
+    {
+      "question": "Quelle est la portée d’une variable définie à l’intérieur d’une fonction (sans global) ?",
+      "reponses": ["Module entière", "Bloc if", "Fonction uniquement (locale)", "Projet entier"],
+      "bonne_reponse": "Fonction uniquement (locale)",
+      "explication": "Par défaut, les variables dans une fonction sont locales à cette fonction."
+    },
+    {
+      "question": "Quel mot-clé permet d’indiquer qu’on veut utiliser la variable globale x à l’intérieur d’une fonction ?",
+      "reponses": ["global x", "use x", "extern x", "public x"],
+      "bonne_reponse": "global x",
+      "explication": "global x indique à Python de ne pas créer de variable locale x."
+    },
+    {
+      "question": "Quel bloc minimal gère une exception en Python ?",
+      "reponses": [
+        "try / handle",
+        "try / catch",
+        "try / except",
+        "try / error"
+      ],
+      "bonne_reponse": "try / except",
+      "explication": "La gestion d’erreur se fait avec try: ... except: ...."
+    },
+    {
+      "question": "Quelle exception est levée en cas de division par zéro avec 1/0 ?",
+      "reponses": ["TypeError", "ZeroDivisionError", "ValueError", "IndexError"],
+      "bonne_reponse": "ZeroDivisionError",
+      "explication": "Une division par zéro déclenche ZeroDivisionError."
+    },
+    {
+      "question": "Que va afficher ce code ?\n\ntry:\n    x = int('abc')\nexcept ValueError:\n    print('Erreur')",
+      "reponses": ["abc", "Erreur", "ValueError", "None"],
+      "bonne_reponse": "Erreur",
+      "explication": "int('abc') provoque ValueError, interceptée par except ValueError."
+    },
+    {
+      "question": "Quel mot-clé permet de lever explicitement une exception ?",
+      "reponses": ["throw", "raise", "error", "exception"],
+      "bonne_reponse": "raise",
+      "explication": "raise ExceptionType('message') lève une exception."
+    },
+    {
+      "question": "Que fait ce code ?\n\ntry:\n    a = 1 / 1\nexcept ZeroDivisionError:\n    print('zerodiv')\nelse:\n    print('ok')",
+      "reponses": ["zerodiv", "ok", "Erreur", "Rien"],
+      "bonne_reponse": "ok",
+      "explication": "Aucune exception, le bloc else du try/except s’exécute."
+    },
+    {
+      "question": "Quel bloc est toujours exécuté, qu’il y ait une exception ou non ?",
+      "reponses": ["else", "finally", "except", "global"],
+      "bonne_reponse": "finally",
+      "explication": "Le bloc finally s’exécute systématiquement à la sortie du try/except."
+    },
+    {
+      "question": "Que renvoie len(list(range(0, 10, 2))) ?",
+      "reponses": ["4", "5", "10", "2"],
+      "bonne_reponse": "5",
+      "explication": "range(0,10,2) -> 0,2,4,6,8 donc 5 éléments."
+    },
+    {
+      "question": "Que renvoie [i for i in range(5) if i % 2 == 1] ?",
+      "reponses": ["[0, 2, 4]", "[1, 3]", "[1, 3, 5]", "[0, 1, 2, 3, 4]"],
+      "bonne_reponse": "[1, 3]",
+      "explication": "Filtre les valeurs impaires dans 0..4."
+    },
+    {
+      "question": "Que renvoie dict([('a', 1), ('b', 2)]) ?",
+      "reponses": [
+        "{'a': 1, 'b': 2}",
+        "{('a', 1), ('b', 2)}",
+        "['a', 'b']",
+        "(1, 2)"
+      ],
+      "bonne_reponse": "{'a': 1, 'b': 2}",
+      "explication": "dict() construit un dictionnaire à partir d’une liste de paires clé/valeur."
+    },
+    {
+      "question": "Quel est le résultat de l’expression 10 // 3 ?",
+      "reponses": ["3.33", "3", "4", "Erreur"],
+      "bonne_reponse": "3",
+      "explication": "// effectue une division entière, donc 10 // 3 vaut 3."
+    },
+    {
+      "question": "Que renvoie 10 / 4 en Python 3 ?",
+      "reponses": ["2", "2.0", "2.5", "3"],
+      "bonne_reponse": "2.5",
+      "explication": "/ effectue une division flottante, ici 2.5."
+    },
+    {
+      "question": "Que renvoie 10 % 4 ?",
+      "reponses": ["2", "3", "4", "Erreur"],
+      "bonne_reponse": "2",
+      "explication": "10 = 2×4 + 2, le reste est donc 2."
+    },
+    {
+      "question": "Que renvoie -5 // 2 ?",
+      "reponses": ["-2", "-3", "2", "Erreur"],
+      "bonne_reponse": "-3",
+      "explication": "La division entière est un floor, -5 // 2 s’arrondit vers le bas à -3."
+    },
+    {
+      "question": "Quelle est la priorité correcte des opérateurs suivants (du plus fort au plus faible) ?",
+      "reponses": [
+        "*, /, +, -",
+        "+, -, *, /",
+        "and, or, not",
+        "==, *, +"
+      ],
+      "bonne_reponse": "*, /, +, -",
+      "explication": "En arithmétique, * et / sont évalués avant + et -."
+    },
+    {
+      "question": "Que renvoie l’expression 2 + 3 * 4 ?",
+      "reponses": ["20", "14", "24", "Erreur"],
+      "bonne_reponse": "14",
+      "explication": "3*4 = 12, puis 2+12 = 14 (priorité de *)."
+    },
+    {
+      "question": "Que renvoie abs(-7) ?",
+      "reponses": ["-7", "7", "0", "Erreur"],
+      "bonne_reponse": "7",
+      "explication": "abs() renvoie la valeur absolue."
+    },
+    {
+      "question": "Que renvoie round(3.6) ?",
+      "reponses": ["3", "4", "3.6", "Erreur"],
+      "bonne_reponse": "4",
+      "explication": "round() arrondit à l’entier le plus proche."
+    },
+    {
+      "question": "Que renvoie type(3.0) ?",
+      "reponses": ["<class 'int'>", "<class 'float'>", "<class 'complex'>", "<class 'str'>"],
+      "bonne_reponse": "<class 'float'>",
+      "explication": "3.0 est un nombre flottant."
+    },
+    {
+      "question": "Quel littéral représente un nombre complexe ?",
+      "reponses": ["3+4j", "3i+4", "complex(3,4)", "Les deux réponses 1 et 3"],
+      "bonne_reponse": "Les deux réponses 1 et 3",
+      "explication": "3+4j est un littéral complexe, complex(3,4) crée aussi un complexe."
+    },
+    {
+      "question": "Que renvoie bool(1 and 0) ?",
+      "reponses": ["True", "False", "1", "0"],
+      "bonne_reponse": "False",
+      "explication": "1 and 0 renvoie 0, qui est falsy, donc bool(...) vaut False."
+    },
+    {
+      "question": "Que renvoie bool(1 or 0) ?",
+      "reponses": ["True", "False", "1", "0"],
+      "bonne_reponse": "True",
+      "explication": "1 or 0 renvoie 1, truthy, donc bool(...) vaut True."
+    },
+    {
+      "question": "Que renvoie not (1 == 1) ?",
+      "reponses": ["True", "False", "1", "Erreur"],
+      "bonne_reponse": "False",
+      "explication": "1==1 est True, not True est False."
+    },
+    {
+      "question": "Quel opérateur compare les identités d’objets (même emplacement mémoire) ?",
+      "reponses": ["==", "is", "!=", "in"],
+      "bonne_reponse": "is",
+      "explication": "is teste si deux références pointent vers le même objet."
+    },
+    {
+      "question": "Que renvoie 5 > 3 and 2 < 1 ?",
+      "reponses": ["True", "False", "Erreur", "None"],
+      "bonne_reponse": "False",
+      "explication": "5>3 est True, 2<1 est False, True and False -> False."
+    },
+    {
+      "question": "Que renvoie 5 > 3 or 2 < 1 ?",
+      "reponses": ["True", "False", "Erreur", "None"],
+      "bonne_reponse": "True",
+      "explication": "True or False -> True."
+    },
+    {
+      "question": "Que renvoie len('PCEP') ?",
+      "reponses": ["3", "4", "5", "Erreur"],
+      "bonne_reponse": "4",
+      "explication": "La chaîne contient 4 caractères."
+    },
+    {
+      "question": "Que renvoie 'PCEP'.lower() ?",
+      "reponses": ["'PCEP'", "'pcep'", "'Pcep'", "Erreur"],
+      "bonne_reponse": "'pcep'",
+      "explication": "lower() renvoie une copie en minuscules."
+    },
+    {
+      "question": "Que renvoie 'python'.capitalize() ?",
+      "reponses": ["'Python'", "'PYTHON'", "'python'", "Erreur"],
+      "bonne_reponse": "'Python'",
+      "explication": "capitalize() met la première lettre en majuscule, le reste en minuscule."
+    },
+    {
+      "question": "Que renvoie 'abc' * 3 ?",
+      "reponses": ["'abcabcabc'", "'abc3'", "Erreur", "['abc', 'abc', 'abc']"],
+      "bonne_reponse": "'abcabcabc'",
+      "explication": "La multiplication d’une chaîne répète celle-ci n fois."
+    },
+    {
+      "question": "Quelle est la sortie ?\n\ns = 'Python'\nprint(s[0], s[-1])",
+      "reponses": ["P n", "P h", "P P", "n P"],
+      "bonne_reponse": "P n",
+      "explication": "s[0] = 'P', s[-1] = 'n'."
+    },
+    {
+      "question": "Que renvoie 'abc' in 'zabcx' ?",
+      "reponses": ["True", "False", "Erreur", "None"],
+      "bonne_reponse": "True",
+      "explication": "La sous-chaîne 'abc' est présente dans 'zabcx'."
+    },
+    {
+      "question": "Que renvoie 'py' not in 'python' ?",
+      "reponses": ["True", "False", "Erreur", "None"],
+      "bonne_reponse": "False",
+      "explication": "'py' est bien présent, donc in est True et not in est False."
+    },
+    {
+      "question": "Que renvoie 'a,b,c'.split(',') ?",
+      "reponses": ["['a,b,c']", "['a', 'b', 'c']", "('a','b','c')", "Erreur"],
+      "bonne_reponse": "['a', 'b', 'c']",
+      "explication": "split(',') découpe la chaîne sur les virgules."
+    },
+    {
+      "question": "Quelle est la sortie ?\n\nx = 1\nif x:\n    print('True')\nelse:\n    print('False')",
+      "reponses": ["True", "False", "1", "Erreur"],
+      "bonne_reponse": "True",
+      "explication": "1 est truthy, donc la branche if s’exécute."
+    },
+    {
+      "question": "Que renvoie bool([]) ?",
+      "reponses": ["True", "False", "[]", "Erreur"],
+      "bonne_reponse": "False",
+      "explication": "Une liste vide est falsy."
+    },
+    {
+      "question": "Que renvoie bool([0]) ?",
+      "reponses": ["True", "False", "0", "[]"],
+      "bonne_reponse": "True",
+      "explication": "La liste n’est pas vide, donc truthy, même si son élément vaut 0."
+    },
+    {
+      "question": "Quelle est la sortie ?\n\nx = 0\nwhile x < 2:\n    print(x)\n    x += 1",
+      "reponses": ["0", "1", "0\n1", "1\n2"],
+      "bonne_reponse": "0\n1",
+      "explication": "x prend successivement 0 puis 1, la boucle s’arrête quand x vaut 2."
+    },
+    {
+      "question": "Que fait le bloc else d’une boucle while en Python ?",
+      "reponses": [
+        "Il s’exécute toujours",
+        "Il s’exécute si la boucle se termine sans break",
+        "Il s’exécute si la boucle se termine par break",
+        "Il n’existe pas"
+      ],
+      "bonne_reponse": "Il s’exécute si la boucle se termine sans break",
+      "explication": "La clause else d’un while est exécutée si le while termine « normalement »."
+    },
+    {
+      "question": "Quelle est la sortie ?\n\nfor i in range(3):\n    if i == 1:\n        continue\n    print(i)",
+      "reponses": ["0\n1\n2", "0\n2", "1\n2", "0\n1"],
+      "bonne_reponse": "0\n2",
+      "explication": "Quand i == 1, continue saute le print, donc on affiche 0 et 2."
+    },
+    {
+      "question": "Que renvoie list(range(5, 0, -2)) ?",
+      "reponses": ["[5, 3, 1]", "[5, 4, 3, 2, 1]", "[5, 3]", "[3, 1]"],
+      "bonne_reponse": "[5, 3, 1]",
+      "explication": "On démarre à 5, on décrémente de 2 jusqu’à être > 0."
+    },
+    {
+      "question": "Que renvoie len(range(0, 10, 3)) ?",
+      "reponses": ["3", "4", "5", "10"],
+      "bonne_reponse": "4",
+      "explication": "Les valeurs sont 0,3,6,9 : 4 éléments."
+    },
+    {
+      "question": "Que renvoie [i for i in range(4)] ?",
+      "reponses": ["[0, 1, 2, 3]", "[1, 2, 3, 4]", "[0, 1, 2, 3, 4]", "[]"],
+      "bonne_reponse": "[0, 1, 2, 3]",
+      "explication": "Compréhension de liste basique sur range(4)."
+    },
+    {
+      "question": "Que renvoie [i for i in range(5) if i % 2 == 0] ?",
+      "reponses": ["[0, 2, 4]", "[1, 3]", "[2, 4]", "[0, 1, 2, 3, 4]"],
+      "bonne_reponse": "[0, 2, 4]",
+      "explication": "On garde les éléments pairs dans 0..4."
+    },
+    {
+      "question": "Que renvoie [1, 2, 3] + [4, 5] ?",
+      "reponses": ["[1, 2, 3, 4, 5]", "[1, 2, 3]", "[4, 5]", "Erreur"],
+      "bonne_reponse": "[1, 2, 3, 4, 5]",
+      "explication": "L’opérateur + concatène les listes."
+    },
+    {
+      "question": "Que renvoie [1, 2] * 3 ?",
+      "reponses": ["[1, 2, 3]", "[1, 2, 1, 2, 1, 2]", "[3, 3, 3]", "Erreur"],
+      "bonne_reponse": "[1, 2, 1, 2, 1, 2]",
+      "explication": "La liste est répétée 3 fois."
+    },
+    {
+      "question": "Quelle méthode supprime et renvoie le dernier élément d’une liste ?",
+      "reponses": ["remove()", "pop()", "delete()", "drop()"],
+      "bonne_reponse": "pop()",
+      "explication": "pop() sans index supprime le dernier élément et le renvoie."
+    },
+    {
+      "question": "Que renvoie len((1, 2, 3)) ?",
+      "reponses": ["2", "3", "4", "Erreur"],
+      "bonne_reponse": "3",
+      "explication": "Le tuple contient 3 éléments."
+    },
+    {
+      "question": "Que renvoie {1, 2, 2, 3} ?",
+      "reponses": ["{1, 2, 2, 3}", "{1, 2, 3}", "[1, 2, 3]", "Erreur"],
+      "bonne_reponse": "{1, 2, 3}",
+      "explication": "Les ensembles ne contiennent pas de doublons."
+    },
+    {
+      "question": "Que renvoie 'a' in {'a', 'b', 'c'} ?",
+      "reponses": ["True", "False", "Erreur", "None"],
+      "bonne_reponse": "True",
+      "explication": "L’opérateur in teste l’appartenance à un set."
+    },
+    {
+      "question": "Que renvoie d = {'x': 1}; d['x'] ?",
+      "reponses": ["'x'", "1", "['x', 1]", "Erreur"],
+      "bonne_reponse": "1",
+      "explication": "Accès à la valeur associée à la clé 'x'."
+    },
+    {
+      "question": "Que renvoie d.get('y', 0) si d = {'x': 1} ?",
+      "reponses": ["None", "0", "1", "Erreur"],
+      "bonne_reponse": "0",
+      "explication": "La clé 'y' n’existe pas, get renvoie la valeur par défaut 0."
+    },
+    {
+      "question": "Quelle est la sortie ?\n\ndef f(a=1, b=2):\n    return a + b\n\nprint(f())",
+      "reponses": ["1", "2", "3", "Erreur"],
+      "bonne_reponse": "3",
+      "explication": "Sans argument, a=1 et b=2 par défaut."
+    },
+    {
+      "question": "Que renvoie ce code ?\n\ndef f(a, b=2):\n    return a * b\n\nprint(f(3))",
+      "reponses": ["2", "3", "6", "Erreur"],
+      "bonne_reponse": "6",
+      "explication": "a=3, b=2 par défaut, 3*2=6."
+    },
+    {
+      "question": "Quelle définition de fonction est correcte ?",
+      "reponses": [
+        "def f(a, b=2, c=3): pass",
+        "def f(a=1, b, c=2): pass",
+        "def f(a=1, b=2, c): pass",
+        "def f(a, b, c=3=4): pass"
+      ],
+      "bonne_reponse": "def f(a, b=2, c=3): pass",
+      "explication": "Les paramètres avec valeurs par défaut doivent être à la fin."
+    },
+    {
+      "question": "Que renvoie len(args) dans ce code ?\n\ndef f(*args):\n    return len(args)\n\nprint(f(1, 2, 3))",
+      "reponses": ["1", "2", "3", "Erreur"],
+      "bonne_reponse": "3",
+      "explication": "*args capture tous les arguments positionnels dans un tuple."
+    },
+    {
+      "question": "Que renvoie f(1, b=2) dans le code suivant ?\n\ndef f(a, b):\n    return a + b",
+      "reponses": ["3", "Erreur (b a déjà une valeur)", "1", "2"],
+      "bonne_reponse": "3",
+      "explication": "a=1 (positionnel), b=2 (nommé) -> 3."
+    },
+    {
+      "question": "Quelle exception est levée par int('xyz') ?",
+      "reponses": ["TypeError", "ValueError", "NameError", "IndexError"],
+      "bonne_reponse": "ValueError",
+      "explication": "La chaîne 'xyz' ne peut pas être convertie en int."
+    },
+    {
+      "question": "Que va afficher ce code ?\n\ntry:\n    print(1 / 0)\nexcept ZeroDivisionError:\n    print('Zero')\nfinally:\n    print('Fin')",
+      "reponses": ["Zero", "Fin", "Zero\nFin", "Fin\nZero"],
+      "bonne_reponse": "Zero\nFin",
+      "explication": "L’exception est interceptée, enfin le bloc finally s’exécute."
+    },
+    {
+      "question": "Que va afficher ce code ?\n\ntry:\n    x = 1 / 1\nexcept ZeroDivisionError:\n    print('Zero')\nfinally:\n    print('Fin')",
+      "reponses": ["Zero", "Fin", "Zero\nFin", "Rien"],
+      "bonne_reponse": "Fin",
+      "explication": "Aucune exception, seul finally est exécuté."
+    },
+    {
+      "question": "Quel est le rôle du mot-clé pass ?",
+      "reponses": [
+        "Terminer un programme",
+        "Créer une boucle",
+        "Ne rien faire (placeholder vide)",
+        "Lever une exception"
+      ],
+      "bonne_reponse": "Ne rien faire (placeholder vide)",
+      "explication": "pass permet un bloc vide là où une instruction est requise."
+    },
+    {
+      "question": "Que renvoie sum([1, 2, 3]) ?",
+      "reponses": ["1", "2", "3", "6"],
+      "bonne_reponse": "6",
+      "explication": "1+2+3 = 6."
+    },
+    {
+      "question": "Que renvoie min([3, 1, 4]) ?",
+      "reponses": ["1", "3", "4", "Erreur"],
+      "bonne_reponse": "1",
+      "explication": "min renvoie la plus petite valeur."
+    },
+    {
+      "question": "Que renvoie max('abcxyz') ?",
+      "reponses": ["'a'", "'z'", "'x'", "Erreur"],
+      "bonne_reponse": "'z'",
+      "explication": "Pour les chaînes, la comparaison se fait sur l’ordre des caractères."
+    },
+    {
+      "question": "Que renvoie any([0, '', False, 1]) ?",
+      "reponses": ["True", "False", "1", "0"],
+      "bonne_reponse": "True",
+      "explication": "any renvoie True si au moins un élément est truthy (ici 1)."
+    },
+    {
+      "question": "Que renvoie all([1, 'x', True]) ?",
+      "reponses": ["True", "False", "1", "Erreur"],
+      "bonne_reponse": "True",
+      "explication": "all renvoie True si tous les éléments sont truthy."
+    },
+    {
+      "question": "Que renvoie list(enumerate(['a', 'b'])) ?",
+      "reponses": ["[(1, 'a'), (2, 'b')]", "[(0, 'a'), (1, 'b')]", "['a', 'b']", "[0, 1]"],
+      "bonne_reponse": "[(0, 'a'), (1, 'b')]",
+      "explication": "enumerate commence par défaut à 0."
+    },
+    {
+      "question": "Que renvoie list(zip([1, 2], ['a', 'b'])) ?",
+      "reponses": ["[(1, 'a'), (2, 'b')]", "[[1, 'a'], [2, 'b']]", "[1, 2, 'a', 'b']", "Erreur"],
+      "bonne_reponse": "[(1, 'a'), (2, 'b')]",
+      "explication": "zip regroupe les éléments par position en tuples."
+    }
+  ]
+}

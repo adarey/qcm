@@ -1,0 +1,548 @@
+{
+  "questions": [
+    {
+      "question": "Quel est le plus grand organe du corps humain ?",
+      "reponses": ["Le foie", "La peau", "Le cerveau", "Le cœur"],
+      "bonne_reponse": "La peau",
+      "explication": "La peau recouvre tout le corps et constitue l’organe le plus étendu."
+    },
+    {
+      "question": "Quel organe pompe le sang dans tout le corps ?",
+      "reponses": ["Le cerveau", "Le cœur", "Les poumons", "Le foie"],
+      "bonne_reponse": "Le cœur",
+      "explication": "Le cœur est un muscle creux qui se contracte régulièrement pour faire circuler le sang."
+    },
+    {
+      "question": "Quel organe permet de respirer et d’absorber l’oxygène de l’air ?",
+      "reponses": ["Le foie", "Les reins", "Les poumons", "L’estomac"],
+      "bonne_reponse": "Les poumons",
+      "explication": "Les poumons réalisent les échanges gazeux entre l’air et le sang."
+    },
+    {
+      "question": "Combien de poumons possède un être humain en bonne santé ?",
+      "reponses": ["Un", "Deux", "Trois", "Quatre"],
+      "bonne_reponse": "Deux",
+      "explication": "L’être humain possède un poumon droit et un poumon gauche."
+    },
+    {
+      "question": "Quel organe contrôle la plupart des fonctions du corps humain ?",
+      "reponses": ["Le cerveau", "Le cœur", "L’estomac", "La rate"],
+      "bonne_reponse": "Le cerveau",
+      "explication": "Le cerveau commande le système nerveux et coordonne les fonctions vitales."
+    },
+    {
+      "question": "Combien de doigts a normalement une main humaine ?",
+      "reponses": ["Quatre", "Cinq", "Six", "Sept"],
+      "bonne_reponse": "Cinq",
+      "explication": "Chaque main possède habituellement quatre doigts et un pouce, soit cinq au total."
+    },
+    {
+      "question": "Quel sens est principalement associé aux yeux ?",
+      "reponses": ["L’ouïe", "Le goût", "La vue", "L’odorat"],
+      "bonne_reponse": "La vue",
+      "explication": "Les yeux sont les organes sensoriels de la vision."
+    },
+    {
+      "question": "Quel sens est principalement associé aux oreilles ?",
+      "reponses": ["Le toucher", "L’ouïe", "L’odorat", "Le goût"],
+      "bonne_reponse": "L’ouïe",
+      "explication": "Les oreilles permettent de percevoir les sons et participent à l’équilibre."
+    },
+    {
+      "question": "Quel sens est principalement associé au nez ?",
+      "reponses": ["Le goût", "L’odorat", "Le toucher", "La vue"],
+      "bonne_reponse": "L’odorat",
+      "explication": "Le nez contient des récepteurs qui détectent les odeurs."
+    },
+    {
+      "question": "Quel sens est principalement associé à la langue ?",
+      "reponses": ["La vue", "L’odorat", "Le goût", "L’ouïe"],
+      "bonne_reponse": "Le goût",
+      "explication": "La langue porte des papilles gustatives qui détectent les saveurs."
+    },
+    {
+      "question": "Quel liquide circule dans les veines et les artères ?",
+      "reponses": ["La lymphe", "Le sang", "La bile", "Le suc gastrique"],
+      "bonne_reponse": "Le sang",
+      "explication": "Le sang transporte l’oxygène, les nutriments et les déchets dans tout le corps."
+    },
+    {
+      "question": "Comment appelle-t-on les os qui protègent le cerveau ?",
+      "reponses": ["Le bassin", "Le crâne", "La cage thoracique", "Les vertèbres"],
+      "bonne_reponse": "Le crâne",
+      "explication": "Le crâne est l’ensemble des os qui entourent et protègent l’encéphale."
+    },
+    {
+      "question": "Quel organe sert principalement à digérer les aliments et à les transformer en nutriments ?",
+      "reponses": ["Les poumons", "L’estomac", "Le cœur", "Les reins"],
+      "bonne_reponse": "L’estomac",
+      "explication": "L’estomac mélange et commence la digestion chimique des aliments avant l’intestin."
+    },
+    {
+      "question": "Comment appelle-t-on le tube qui conduit la nourriture de la bouche à l’estomac ?",
+      "reponses": ["La trachée", "L’œsophage", "L’intestin grêle", "Le côlon"],
+      "bonne_reponse": "L’œsophage",
+      "explication": "L’œsophage est un conduit musculaire qui amène le bol alimentaire vers l’estomac."
+    },
+    {
+      "question": "Quel organe filtre le sang et produit l’urine ?",
+      "reponses": ["Les reins", "Le foie", "La rate", "Les poumons"],
+      "bonne_reponse": "Les reins",
+      "explication": "Les reins filtrent les déchets du sang et produisent l’urine."
+    },
+    {
+      "question": "Quel organe produit la bile, qui aide à la digestion des graisses ?",
+      "reponses": ["Le cœur", "Les poumons", "Le foie", "Le pancréas"],
+      "bonne_reponse": "Le foie",
+      "explication": "Le foie produit la bile, stockée ensuite dans la vésicule biliaire."
+    },
+    {
+      "question": "Comment s’appelle l’organe qui stocke la bile ?",
+      "reponses": ["La rate", "La vésicule biliaire", "Le pancréas", "Le côlon"],
+      "bonne_reponse": "La vésicule biliaire",
+      "explication": "La vésicule biliaire stocke la bile produite par le foie avant de la libérer dans l’intestin."
+    },
+    {
+      "question": "Quel organe permet de penser, de se souvenir et de contrôler les mouvements volontaires ?",
+      "reponses": ["Le cœur", "Le cerveau", "Le foie", "Les reins"],
+      "bonne_reponse": "Le cerveau",
+      "explication": "Le cerveau gère les fonctions intellectuelles, sensorielles et motrices volontaires."
+    },
+    {
+      "question": "Comment appelle-t-on le réseau de nerfs qui relie le cerveau au reste du corps ?",
+      "reponses": ["Le système digestif", "Le système nerveux", "Le système respiratoire", "Le système urinaire"],
+      "bonne_reponse": "Le système nerveux",
+      "explication": "Le système nerveux comprend le cerveau, la moelle épinière et les nerfs."
+    },
+    {
+      "question": "Quel est l’organe principal du système circulatoire ?",
+      "reponses": ["Le cœur", "Le cerveau", "Les poumons", "Le foie"],
+      "bonne_reponse": "Le cœur",
+      "explication": "Le cœur propulse le sang dans les vaisseaux, assurant la circulation."
+    },
+    {
+      "question": "Comment appelle-t-on les minuscules vaisseaux sanguins où ont lieu les échanges entre le sang et les tissus ?",
+      "reponses": ["Les artères", "Les veines", "Les capillaires", "Les troncs"],
+      "bonne_reponse": "Les capillaires",
+      "explication": "Les capillaires sont des vaisseaux très fins où se font les échanges d’oxygène, de nutriments et de déchets."
+    },
+    {
+      "question": "Quelle partie de l’œil règle la quantité de lumière qui entre, comme le diaphragme d’un appareil photo ?",
+      "reponses": ["La cornée", "La pupille", "La rétine", "Le nerf optique"],
+      "bonne_reponse": "La pupille",
+      "explication": "La pupille est l’ouverture centrale de l’iris, qui s’agrandit ou se rétrécit selon la lumière."
+    },
+    {
+      "question": "Comment s’appelle le pigment rouge du sang qui transporte l’oxygène ?",
+      "reponses": ["L’albumine", "L’hémoglobine", "La mélanine", "L’insuline"],
+      "bonne_reponse": "L’hémoglobine",
+      "explication": "L’hémoglobine, présente dans les globules rouges, fixe l’oxygène dans les poumons et le libère dans les tissus."
+    },
+    {
+      "question": "Quel nom donne-t-on aux cellules rouges du sang ?",
+      "reponses": ["Globules blancs", "Plaquettes", "Globules rouges", "Neurones"],
+      "bonne_reponse": "Globules rouges",
+      "explication": "Les globules rouges transportent l’oxygène et le dioxyde de carbone grâce à l’hémoglobine."
+    },
+    {
+      "question": "Quel nom donne-t-on aux cellules du sang qui défendent l’organisme contre les microbes ?",
+      "reponses": ["Globules rouges", "Plaquettes", "Globules blancs", "Chondrocytes"],
+      "bonne_reponse": "Globules blancs",
+      "explication": "Les globules blancs jouent un rôle clé dans le système immunitaire."
+    },
+    {
+      "question": "Comment s’appelle la substance liquide dans laquelle baignent les cellules du sang ?",
+      "reponses": ["Le sérum", "Le plasma", "La lymphe", "La bile"],
+      "bonne_reponse": "Le plasma",
+      "explication": "Le plasma est la partie liquide du sang, composée principalement d’eau et de protéines."
+    },
+    {
+      "question": "Quel est l’organe qui permet d’entendre les sons ?",
+      "reponses": ["L’œil", "L’oreille", "Le nez", "La langue"],
+      "bonne_reponse": "L’oreille",
+      "explication": "L’oreille capte les vibrations sonores et les transforme en signaux nerveux."
+    },
+    {
+      "question": "Quel est l’organe qui permet de voir les images du monde extérieur ?",
+      "reponses": ["La peau", "L’œil", "La langue", "L’oreille"],
+      "bonne_reponse": "L’œil",
+      "explication": "L’œil forme une image sur la rétine, qui est ensuite transmise au cerveau."
+    },
+    {
+      "question": "Quel est l’organe qui permet de sentir les odeurs ?",
+      "reponses": ["La langue", "La peau", "Le nez", "L’oreille"],
+      "bonne_reponse": "Le nez",
+      "explication": "Le nez contient des récepteurs olfactifs sensibles aux molécules odorantes."
+    },
+    {
+      "question": "Combien de yeux ont normalement les humains ?",
+      "reponses": ["Un", "Deux", "Trois", "Quatre"],
+      "bonne_reponse": "Deux",
+      "explication": "L’être humain possède deux yeux, ce qui permet la vision binoculaire et la perception de la profondeur."
+    },
+    {
+      "question": "Combien d’oreilles externes visibles possède un être humain ?",
+      "reponses": ["Une", "Deux", "Trois", "Quatre"],
+      "bonne_reponse": "Deux",
+      "explication": "Nous avons deux pavillons auriculaires, un de chaque côté de la tête."
+    },
+    {
+      "question": "Quel est l’organe qui permet de goûter les aliments ?",
+      "reponses": ["Le nez", "La langue", "L’oreille", "L’œil"],
+      "bonne_reponse": "La langue",
+      "explication": "Les papilles gustatives de la langue détectent les saveurs de base."
+    },
+    {
+      "question": "Quel est l’organe qui protège les poumons et le cœur à l’avant du thorax ?",
+      "reponses": ["Le crâne", "La cage thoracique", "Le bassin", "La colonne vertébrale"],
+      "bonne_reponse": "La cage thoracique",
+      "explication": "La cage thoracique, formée des côtes et du sternum, protège cœur et poumons."
+    },
+    {
+      "question": "Comment s’appelle l’ensemble des os du corps humain ?",
+      "reponses": ["La musculature", "Le squelette", "Le cartilage", "La moelle"],
+      "bonne_reponse": "Le squelette",
+      "explication": "Le squelette soutient le corps, protège les organes et permet les mouvements avec les muscles."
+    },
+    {
+      "question": "Dans quel organe se forme l’urine ?",
+      "reponses": ["Le foie", "Les reins", "La vessie", "L’estomac"],
+      "bonne_reponse": "Les reins",
+      "explication": "Les reins filtrent le sang et produisent l’urine, qui est ensuite stockée dans la vessie."
+    },
+    {
+      "question": "Où l’urine est-elle stockée avant d’être évacuée ?",
+      "reponses": ["Dans les reins", "Dans la vessie", "Dans le foie", "Dans la rate"],
+      "bonne_reponse": "Dans la vessie",
+      "explication": "La vessie est un réservoir musculaire qui stocke temporairement l’urine."
+    },
+    {
+      "question": "Quel organe est parfois appelé « la pompe » du corps humain ?",
+      "reponses": ["Le foie", "Le cœur", "Le cerveau", "Les poumons"],
+      "bonne_reponse": "Le cœur",
+      "explication": "Le cœur agit comme une pompe qui envoie le sang dans tout l’organisme."
+    },
+    {
+      "question": "Quel est l’organe principal du système digestif où a lieu l’absorption de la plupart des nutriments ?",
+      "reponses": ["Le gros intestin", "L’intestin grêle", "L’estomac", "L’œsophage"],
+      "bonne_reponse": "L’intestin grêle",
+      "explication": "L’intestin grêle est le siège principal de l’absorption des nutriments issus de la digestion."
+    },
+    {
+      "question": "Quel type de tissu relie les muscles aux os ?",
+      "reponses": ["Les ligaments", "Les nerfs", "Les tendons", "Le cartilage"],
+      "bonne_reponse": "Les tendons",
+      "explication": "Les tendons sont des structures fibreuses qui relient les muscles aux os."
+    },
+    {
+      "question": "Quel type de tissu relie les os entre eux au niveau des articulations ?",
+      "reponses": ["Les tendons", "Les ligaments", "Les muscles", "Les nerfs"],
+      "bonne_reponse": "Les ligaments",
+      "explication": "Les ligaments relient les os au niveau des articulations et contribuent à leur stabilité."
+    },
+    {
+      "question": "Quel est le rôle principal des muscles dans le corps ?",
+      "reponses": ["Digérer", "Filtrer le sang", "Permettre le mouvement", "Produire des hormones"],
+      "bonne_reponse": "Permettre le mouvement",
+      "explication": "Les muscles se contractent pour produire des mouvements du squelette ou des organes."
+    },
+    {
+      "question": "Comment appelle-t-on la structure osseuse qui protège la moelle épinière ?",
+      "reponses": ["La cage thoracique", "Le bassin", "La colonne vertébrale", "Le crâne"],
+      "bonne_reponse": "La colonne vertébrale",
+      "explication": "La colonne vertébrale est composée de vertèbres qui entourent la moelle épinière."
+    },
+    {
+      "question": "Quel est l’organe où les aliments sont mâchés et mélangés à la salive ?",
+      "reponses": ["L’estomac", "La bouche", "L’intestin grêle", "Le côlon"],
+      "bonne_reponse": "La bouche",
+      "explication": "La bouche permet la mastication et le début de la digestion grâce à la salive."
+    },
+    {
+      "question": "Comment s’appelle le liquide produit dans la bouche qui aide à digérer les aliments ?",
+      "reponses": ["La bile", "Le suc gastrique", "La salive", "Le mucus"],
+      "bonne_reponse": "La salive",
+      "explication": "La salive contient des enzymes qui commencent la digestion des glucides."
+    },
+    {
+      "question": "Quel est le sens principalement associé à la peau ?",
+      "reponses": ["La vue", "Le toucher", "Le goût", "L’odorat"],
+      "bonne_reponse": "Le toucher",
+      "explication": "La peau abrite des récepteurs qui permettent de percevoir pression, température et douleur."
+    },
+    {
+      "question": "Comment appelle-t-on l’os long du bras situé entre l’épaule et le coude ?",
+      "reponses": ["Radius", "Ulna (cubitus)", "Humérus", "Clavicule"],
+      "bonne_reponse": "Humérus",
+      "explication": "L’humérus est l’os unique du bras, entre l’épaule et le coude."
+    },
+    {
+      "question": "Quel organe est parfois surnommé « le chef d’orchestre » du système hormonal ?",
+      "reponses": ["Le pancréas", "L’hypophyse", "La thyroïde", "Les surrénales"],
+      "bonne_reponse": "L’hypophyse",
+      "explication": "L’hypophyse contrôle la sécrétion de nombreuses autres glandes endocrines."
+    },
+    {
+      "question": "Quel organe du cou sécrète des hormones qui régulent le métabolisme ?",
+      "reponses": ["La thyroïde", "La rate", "La vésicule biliaire", "Le thymus"],
+      "bonne_reponse": "La thyroïde",
+      "explication": "La glande thyroïde produit des hormones qui influencent la dépense énergétique du corps."
+    },
+    {
+      "question": "Que se passe-t-il dans les poumons quand nous inspirons ?",
+      "reponses": [
+        "Ils se vident d’air",
+        "Ils se remplissent d’air",
+        "Ils se remplissent de sang",
+        "Ils se contractent jusqu’à disparaître"
+      ],
+      "bonne_reponse": "Ils se remplissent d’air",
+      "explication": "À l’inspiration, l’air entre dans les poumons et les alvéoles se remplissent."
+    },
+    {
+      "question": "Quel organe permet de ressentir la douleur, la chaleur et le froid au contact ?",
+      "reponses": ["Les yeux", "La peau", "La langue", "Les oreilles"],
+      "bonne_reponse": "La peau",
+      "explication": "La peau contient de nombreux récepteurs sensibles aux stimuli mécaniques et thermiques."
+    },
+    {
+      "question": "Comment appelle-t-on les articulations qui permettent de plier les jambes au niveau du genou ?",
+      "reponses": ["Articulations fixes", "Articulations mobiles", "Articulations semi-mobiles", "Articulations fibreuses"],
+      "bonne_reponse": "Articulations mobiles",
+      "explication": "Les genoux sont des articulations synoviales mobiles permettant flexion et extension."
+    },
+    {
+      "question": "Comment s’appelle le liquide qui lubrifie les articulations ?",
+      "reponses": ["Le plasma", "La synovie", "La lymphe", "La bile"],
+      "bonne_reponse": "La synovie",
+      "explication": "Le liquide synovial, ou synovie, réduit les frottements entre les surfaces articulaires."
+    },
+    {
+      "question": "Quel organe intervient dans la digestion des sucres en produisant l’insuline ?",
+      "reponses": ["Le foie", "Le pancréas", "La rate", "Les reins"],
+      "bonne_reponse": "Le pancréas",
+      "explication": "Le pancréas produit l’insuline, hormone qui régule la glycémie."
+    },
+    {
+      "question": "Quelle partie du corps contient le fémur ?",
+      "reponses": ["Le bras", "La jambe (cuisse)", "Le cou", "La main"],
+      "bonne_reponse": "La jambe (cuisse)",
+      "explication": "Le fémur est l’os de la cuisse, le plus long et le plus volumineux os du corps humain."
+    },
+    {
+      "question": "Quel organe est essentiel pour la mémoire et la réflexion ?",
+      "reponses": ["Le cœur", "Le cerveau", "Les poumons", "Le foie"],
+      "bonne_reponse": "Le cerveau",
+      "explication": "Le cerveau est le siège principal de la mémoire, de la réflexion et du raisonnement."
+    },
+    {
+      "question": "Quel organe se situe derrière le sternum et joue un rôle dans l’immunité des enfants ?",
+      "reponses": ["La thyroïde", "Le thymus", "La rate", "Le pancréas"],
+      "bonne_reponse": "Le thymus",
+      "explication": "Le thymus est impliqué dans la maturation de certains globules blancs, surtout chez l’enfant."
+    },
+    {
+      "question": "Quel est le principal gaz que nous expirons après la respiration ?",
+      "reponses": ["Oxygène", "Azote", "Dioxyde de carbone", "Hélium"],
+      "bonne_reponse": "Dioxyde de carbone",
+      "explication": "Le dioxyde de carbone est produit par la respiration cellulaire et éliminé par les poumons."
+    },
+    {
+      "question": "Comment s’appelle l’action d’inspirer et d’expirer l’air ?",
+      "reponses": ["La circulation", "La digestion", "La respiration", "La filtration"],
+      "bonne_reponse": "La respiration",
+      "explication": "La respiration comprend l’inspiration et l’expiration, permettant les échanges gazeux."
+    },
+    {
+      "question": "Quel est le nom de la structure qui relie la bouche et le nez aux poumons pour l’air ?",
+      "reponses": ["Œsophage", "Trachée", "Intestin", "Vessie"],
+      "bonne_reponse": "Trachée",
+      "explication": "La trachée est le conduit aérien principal reliant le larynx aux bronches."
+    },
+    {
+      "question": "Quel type de muscle trouve-t-on au niveau du cœur ?",
+      "reponses": ["Muscle squelettique", "Muscle lisse", "Muscle cardiaque", "Muscle volontaire"],
+      "bonne_reponse": "Muscle cardiaque",
+      "explication": "Le muscle cardiaque est un muscle strié particulier, involontaire, propre au cœur."
+    },
+    {
+      "question": "Quel type de muscle permet de bouger les bras et les jambes volontairement ?",
+      "reponses": ["Muscle lisse", "Muscle cardiaque", "Muscle squelettique", "Muscle glandulaire"],
+      "bonne_reponse": "Muscle squelettique",
+      "explication": "Les muscles squelettiques sont attachés aux os et permettent les mouvements volontaires."
+    },
+    {
+      "question": "Quel organe maintient la température interne stable autour de 37 °C avec l’aide du cerveau ?",
+      "reponses": ["La peau", "Les reins", "Le pancréas", "La rate"],
+      "bonne_reponse": "La peau",
+      "explication": "La peau, via la transpiration et la circulation, aide à réguler la température corporelle."
+    },
+    {
+      "question": "Comment appelle-t-on la couche de graisse sous la peau qui aide à isoler le corps ?",
+      "reponses": ["Le derme", "L’hypoderme", "L’épiderme", "La myeline"],
+      "bonne_reponse": "L’hypoderme",
+      "explication": "L’hypoderme est la couche profonde de la peau, riche en tissu adipeux."
+    },
+    {
+      "question": "Quel organe du visage nous aide à prononcer les sons et à articuler les mots ?",
+      "reponses": ["Le nez", "La langue", "Les oreilles", "Les yeux"],
+      "bonne_reponse": "La langue",
+      "explication": "La langue participe à l’articulation des mots en modulant les sons."
+    },
+    {
+      "question": "Comment appelle-t-on le fait que le cœur bat plus vite lorsqu’on court ?",
+      "reponses": ["Une hypothermie", "Une accélération cardiaque", "Une anémie", "Une fracture"],
+      "bonne_reponse": "Une accélération cardiaque",
+      "explication": "L’effort physique augmente la demande en oxygène, ce qui accélère la fréquence cardiaque."
+    },
+    {
+      "question": "Quel est le nom de la substance dure qui recouvre la partie visible des dents ?",
+      "reponses": ["La dentine", "L’émail", "La pulpe", "Le cartilage"],
+      "bonne_reponse": "L’émail",
+      "explication": "L’émail est la substance la plus dure du corps humain, protégeant la dentine."
+    },
+    {
+      "question": "Quel organe produit les larmes pour protéger et lubrifier les yeux ?",
+      "reponses": ["Les glandes salivaires", "Les glandes lacrymales", "Les glandes sudoripares", "Les glandes sébacées"],
+      "bonne_reponse": "Les glandes lacrymales",
+      "explication": "Les glandes lacrymales sécrètent les larmes, qui humidifient et nettoient l’œil."
+    },
+    {
+      "question": "Quel est le nom du liquide salé qui sort de la peau quand nous avons chaud ?",
+      "reponses": ["La salive", "La sueur", "Le plasma", "La lymphe"],
+      "bonne_reponse": "La sueur",
+      "explication": "La sueur est produite par les glandes sudoripares pour aider à réguler la température."
+    },
+    {
+      "question": "Comment appelle-t-on la sensation d’avoir besoin de manger ?",
+      "reponses": ["La soif", "La faim", "La douleur", "La fatigue"],
+      "bonne_reponse": "La faim",
+      "explication": "La faim signale au cerveau que le corps a besoin d’énergie et de nutriments."
+    },
+    {
+      "question": "Comment appelle-t-on la sensation d’avoir besoin de boire ?",
+      "reponses": ["La faim", "La soif", "La douleur", "La fièvre"],
+      "bonne_reponse": "La soif",
+      "explication": "La soif indique un manque d’eau ou un excès de sels à corriger."
+    },
+    {
+      "question": "Quel organe est particulièrement sollicité quand on réfléchit intensément ?",
+      "reponses": ["Le cœur", "Le cerveau", "Les reins", "Le foie"],
+      "bonne_reponse": "Le cerveau",
+      "explication": "L’activité intellectuelle s’accompagne d’une consommation accrue de glucose et d’oxygène par le cerveau."
+    },
+    {
+      "question": "Comment s’appelle la partie blanche visible de l’œil autour de l’iris ?",
+      "reponses": ["La cornée", "La sclère", "La rétine", "La pupille"],
+      "bonne_reponse": "La sclère",
+      "explication": "La sclère est la couche externe blanche et résistante du globe oculaire."
+    },
+    {
+      "question": "Quel est l’organe central du système nerveux, avec la moelle épinière ?",
+      "reponses": ["Le cœur", "Le cerveau", "Le pancréas", "La thyroïde"],
+      "bonne_reponse": "Le cerveau",
+      "explication": "Le système nerveux central est constitué du cerveau et de la moelle épinière."
+    },
+    {
+      "question": "Comment s’appelle l’articulation qui relie la cuisse à la jambe ?",
+      "reponses": ["La hanche", "Le genou", "La cheville", "Le coude"],
+      "bonne_reponse": "Le genou",
+      "explication": "Le genou articule le fémur, le tibia et la rotule."
+    },
+    {
+      "question": "Comment s’appelle l’articulation qui relie la jambe au pied ?",
+      "reponses": ["Le genou", "La hanche", "La cheville", "Le poignet"],
+      "bonne_reponse": "La cheville",
+      "explication": "La cheville relie le tibia et le péroné (fibula) au talus du pied."
+    },
+    {
+      "question": "Quel est l’organe chargé de filtrer et de détruire certaines cellules sanguines vieilles, situé dans l’abdomen ?",
+      "reponses": ["Le foie", "La rate", "Le pancréas", "Le rein"],
+      "bonne_reponse": "La rate",
+      "explication": "La rate participe à la filtration du sang et à certaines fonctions immunitaires."
+    },
+    {
+      "question": "Comment s’appelle le mouvement régulier du cœur lorsque l’on prend le pouls ?",
+      "reponses": ["La tension", "Le souffle", "Le rythme cardiaque", "La saturation"],
+      "bonne_reponse": "Le rythme cardiaque",
+      "explication": "Le rythme cardiaque correspond au nombre de battements de cœur par minute."
+    },
+    {
+      "question": "Que se passe-t-il dans le corps quand on fait de l’exercice physique ?",
+      "reponses": [
+        "Le cœur bat plus lentement",
+        "La respiration s’accélère",
+        "On n’utilise plus d’oxygène",
+        "La température baisse immédiatement"
+      ],
+      "bonne_reponse": "La respiration s’accélère",
+      "explication": "L’effort augmente la demande en oxygène, ce qui accélère le cœur et la respiration."
+    },
+    {
+      "question": "Quel est le nom de l’os plat situé au centre de la poitrine et auquel s’attachent les côtes ?",
+      "reponses": ["La clavicule", "Le sternum", "La scapula", "Le sacrum"],
+      "bonne_reponse": "Le sternum",
+      "explication": "Le sternum est un os plat situé à l’avant du thorax, au centre de la cage thoracique."
+    },
+    {
+      "question": "Quel organe du corps humain permet de stocker l’énergie sous forme de graisse et de réguler la chaleur ?",
+      "reponses": ["Les muscles", "La peau et le tissu adipeux", "Les os", "La moelle"],
+      "bonne_reponse": "La peau et le tissu adipeux",
+      "explication": "Le tissu adipeux stocke les graisses et aide à l’isolation thermique."
+    },
+    {
+      "question": "Quel est l’organe principal responsable de la détoxification de nombreuses substances dans le sang ?",
+      "reponses": ["Le rein", "Le foie", "Le pancréas", "La rate"],
+      "bonne_reponse": "Le foie",
+      "explication": "Le foie métabolise et neutralise de nombreux toxiques et médicaments."
+    },
+    {
+      "question": "Quel organe du système respiratoire se trouve dans le cou et contient les cordes vocales ?",
+      "reponses": ["Le pharynx", "Le larynx", "La trachée", "L’œsophage"],
+      "bonne_reponse": "Le larynx",
+      "explication": "Le larynx abrite les cordes vocales et participe à la phonation."
+    },
+    {
+      "question": "Quel organe se gonfle et se dégonfle pour faire entrer et sortir l’air des poumons ?",
+      "reponses": ["Le foie", "Le diaphragme", "Le pancréas", "La rate"],
+      "bonne_reponse": "Le diaphragme",
+      "explication": "Le diaphragme est un muscle en forme de coupole qui joue un rôle clé dans la respiration."
+    },
+    {
+      "question": "Dans quel organe les nutriments sont-ils transportés vers toutes les cellules du corps ?",
+      "reponses": ["Les poumons", "Les reins", "Le sang via le système circulatoire", "Les muscles"],
+      "bonne_reponse": "Le sang via le système circulatoire",
+      "explication": "Le sang distribue nutriments et oxygène à toutes les cellules."
+    },
+    {
+      "question": "Quel est le nom de la substance colorée qui donne sa pigmentation à la peau et protège des UV ?",
+      "reponses": ["L’hémoglobine", "La kératine", "La mélanine", "La myosine"],
+      "bonne_reponse": "La mélanine",
+      "explication": "La mélanine absorbe une partie des rayons UV et contribue à la couleur de la peau."
+    },
+    {
+      "question": "Quel organe stocke temporairement les aliments après la bouche avant l’intestin ?",
+      "reponses": ["Le foie", "L’estomac", "Le pancréas", "Le côlon"],
+      "bonne_reponse": "L’estomac",
+      "explication": "L’estomac stocke et commence la digestion des aliments."
+    },
+    {
+      "question": "Quel organe est le centre de la pensée, de la mémoire et des émotions ?",
+      "reponses": ["Le cœur", "Le cerveau", "Les reins", "Les poumons"],
+      "bonne_reponse": "Le cerveau",
+      "explication": "Le cerveau traite les informations, gère la mémoire et participe aux émotions."
+    },
+    {
+      "question": "Comment s’appelle le mouvement de bascule du thorax lors de la respiration ?",
+      "reponses": ["La flexion", "L’inspiration / expiration", "La rotation", "La traction"],
+      "bonne_reponse": "L’inspiration / expiration",
+      "explication": "La respiration correspond au mouvement d’inspiration (entrée d’air) et d’expiration (sortie d’air)."
+    },
+    {
+      "question": "Quel organe liquide du système lymphatique transporte des cellules immunitaires dans le corps ?",
+      "reponses": ["Le plasma", "La lymphe", "La bile", "Le suc gastrique"],
+      "bonne_reponse": "La lymphe",
+      "explication": "La lymphe est un liquide clair circulant dans les vaisseaux lymphatiques, transportant des cellules immunitaires."
+    }
+  ]
+}

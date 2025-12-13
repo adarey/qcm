@@ -1,0 +1,550 @@
+{
+  "questions": [
+    {
+      "question": "Quel est le plus grand océan de la planète par sa superficie ?",
+      "reponses": ["Atlantique", "Indien", "Arctique", "Pacifique"],
+      "bonne_reponse": "Pacifique",
+      "explication": "L’océan Pacifique est l’océan le plus vaste, couvrant plus d’un tiers de la surface de la Terre."
+    },
+    {
+      "question": "Quel est le plus grand continent en superficie ?",
+      "reponses": ["Afrique", "Amérique", "Asie", "Europe"],
+      "bonne_reponse": "Asie",
+      "explication": "L’Asie est le plus grand continent, tant par sa superficie que par sa population."
+    },
+    {
+      "question": "Quelle est la capitale du Canada ?",
+      "reponses": ["Toronto", "Vancouver", "Ottawa", "Montréal"],
+      "bonne_reponse": "Ottawa",
+      "explication": "Ottawa, située en Ontario, est la capitale politique du Canada, même si Toronto est la plus grande ville."
+    },
+    {
+      "question": "Quel est le plus long fleuve du monde selon de nombreuses études récentes ?",
+      "reponses": ["Nil", "Amazone", "Yangtsé", "Mississippi"],
+      "bonne_reponse": "Amazone",
+      "explication": "La longueur exacte est débattue, mais des mesures modernes donnent souvent l’Amazone légèrement plus long que le Nil."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Tokyo ?",
+      "reponses": ["Chine", "Corée du Sud", "Japon", "Taïwan"],
+      "bonne_reponse": "Japon",
+      "explication": "Tokyo est la capitale du Japon et l’une des plus grandes agglomérations du monde."
+    },
+    {
+      "question": "Quel désert est considéré comme le plus grand désert chaud du monde ?",
+      "reponses": ["Gobi", "Sahara", "Kalahari", "Atacama"],
+      "bonne_reponse": "Sahara",
+      "explication": "Le Sahara s’étend sur une grande partie de l’Afrique du Nord et est le plus vaste désert chaud de la planète."
+    },
+    {
+      "question": "Quel est le point le plus bas à la surface de la Terre (en altitude) sur terre émergée ?",
+      "reponses": ["Mer Morte", "Lac Baïkal", "Fosse des Mariannes", "Lac Tanganyika"],
+      "bonne_reponse": "Mer Morte",
+      "explication": "Les rives de la mer Morte, entre Israël, Cisjordanie et Jordanie, se situent à plus de 400 mètres sous le niveau de la mer."
+    },
+    {
+      "question": "Quelle chaîne de montagnes sépare en grande partie la France de l’Espagne ?",
+      "reponses": ["Alpes", "Pyrénées", "Carpates", "Apennins"],
+      "bonne_reponse": "Pyrénées",
+      "explication": "Les Pyrénées forment une barrière naturelle entre la France et l’Espagne."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville du Caire ?",
+      "reponses": ["Maroc", "Tunisie", "Égypte", "Libye"],
+      "bonne_reponse": "Égypte",
+      "explication": "Le Caire est la capitale de l’Égypte, située sur les rives du Nil."
+    },
+    {
+      "question": "Quel pays compte la plus grande population au monde ?",
+      "reponses": ["Inde", "Chine", "États-Unis", "Indonésie"],
+      "bonne_reponse": "Inde",
+      "explication": "L’Inde a récemment dépassé la Chine en nombre d’habitants selon les estimations démographiques les plus récentes."
+    },
+    {
+      "question": "Quel océan borde la côte ouest de l’Europe ?",
+      "reponses": ["Pacifique", "Indien", "Atlantique", "Arctique"],
+      "bonne_reponse": "Atlantique",
+      "explication": "L’océan Atlantique baigne les côtes occidentales de l’Europe, du Portugal à la Norvège."
+    },
+    {
+      "question": "Quel pays d’Amérique du Sud a pour capitale Brasilia ?",
+      "reponses": ["Argentine", "Brésil", "Chili", "Colombie"],
+      "bonne_reponse": "Brésil",
+      "explication": "Brasilia est la capitale planifiée du Brésil, inaugurée dans les années 1960 à l’intérieur du pays."
+    },
+    {
+      "question": "Quel pays est une île et un continent à la fois ?",
+      "reponses": ["Islande", "Australie", "Madagascar", "Nouvelle-Zélande"],
+      "bonne_reponse": "Australie",
+      "explication": "L’Australie est un État, une île et un continent en même temps."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Marrakech ?",
+      "reponses": ["Maroc", "Algérie", "Tunisie", "Égypte"],
+      "bonne_reponse": "Maroc",
+      "explication": "Marrakech est une grande ville touristique du Maroc, au pied de l’Atlas."
+    },
+    {
+      "question": "Quel est le plus grand lac d’eau douce du monde par volume ?",
+      "reponses": ["Lac Supérieur", "Lac Victoria", "Lac Baïkal", "Lac Michigan"],
+      "bonne_reponse": "Lac Baïkal",
+      "explication": "Le lac Baïkal, en Sibérie, possède le plus grand volume d’eau douce liquide sur Terre."
+    },
+    {
+      "question": "Quel pays a pour capitale Canberra ?",
+      "reponses": ["Canada", "Australie", "Nouvelle-Zélande", "Afrique du Sud"],
+      "bonne_reponse": "Australie",
+      "explication": "Canberra est la capitale de l’Australie, choisie comme compromis entre Sydney et Melbourne."
+    },
+    {
+      "question": "Quel fleuve traverse Paris ?",
+      "reponses": ["La Seine", "La Loire", "Le Rhône", "La Garonne"],
+      "bonne_reponse": "La Seine",
+      "explication": "La Seine traverse Paris du sud-est vers le nord-ouest avant de se jeter dans la Manche."
+    },
+    {
+      "question": "Dans quel pays se trouve le mont Everest ?",
+      "reponses": ["Chine et Népal", "Inde uniquement", "Bhoutan uniquement", "Pakistan et Inde"],
+      "bonne_reponse": "Chine et Népal",
+      "explication": "Le sommet de l’Everest se situe à la frontière entre le Népal et la région autonome du Tibet (Chine)."
+    },
+    {
+      "question": "Quel est le plus petit pays du monde par sa superficie ?",
+      "reponses": ["Monaco", "Nauru", "Saint-Marin", "Vatican"],
+      "bonne_reponse": "Vatican",
+      "explication": "L’État de la Cité du Vatican est le plus petit pays du monde, enclavé à Rome."
+    },
+    {
+      "question": "Quelle ville est la capitale de l’Italie ?",
+      "reponses": ["Milan", "Turin", "Rome", "Naples"],
+      "bonne_reponse": "Rome",
+      "explication": "Rome est la capitale de l’Italie et abrite de nombreux vestiges de l’Empire romain."
+    },
+    {
+      "question": "Quel pays est entièrement enclavé au sein de l’Afrique du Sud ?",
+      "reponses": ["Lesotho", "Eswatini", "Botswana", "Namibie"],
+      "bonne_reponse": "Lesotho",
+      "explication": "Le Lesotho est un royaume de haute altitude entièrement entouré par le territoire sud-africain."
+    },
+    {
+      "question": "Quel est le plus grand pays du monde par la superficie terrestre ?",
+      "reponses": ["Canada", "Chine", "États-Unis", "Russie"],
+      "bonne_reponse": "Russie",
+      "explication": "La Russie s’étend de l’Europe de l’Est à l’Extrême-Orient et est le plus vaste pays du monde."
+    },
+    {
+      "question": "Quelle mer est presque entièrement entourée de terres et bordée par l’Europe, l’Asie et l’Afrique ?",
+      "reponses": ["Mer Noire", "Mer Rouge", "Mer Méditerranée", "Mer Caspienne"],
+      "bonne_reponse": "Mer Méditerranée",
+      "explication": "La Méditerranée est une mer intérieure connectée à l’Atlantique par le détroit de Gibraltar."
+    },
+    {
+      "question": "Quelle est la capitale de la Suisse ?",
+      "reponses": ["Zurich", "Genève", "Bâle", "Berne"],
+      "bonne_reponse": "Berne",
+      "explication": "Berne est la ville fédérale de la Suisse, où se trouvent les institutions politiques nationales."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de São Paulo ?",
+      "reponses": ["Argentine", "Brésil", "Mexique", "Portugal"],
+      "bonne_reponse": "Brésil",
+      "explication": "São Paulo est la plus grande ville du Brésil et l’un des principaux centres économiques d’Amérique du Sud."
+    },
+    {
+      "question": "Quel pays possède la plus grande forêt tropicale du monde, l’Amazonie, sur son territoire ?",
+      "reponses": ["Brésil", "Pérou", "Colombie", "Venezuela"],
+      "bonne_reponse": "Brésil",
+      "explication": "La majeure partie de la forêt amazonienne se trouve au Brésil, bien qu’elle s’étende sur plusieurs pays."
+    },
+    {
+      "question": "Quelle ville est la capitale de l’Espagne ?",
+      "reponses": ["Barcelone", "Madrid", "Valence", "Séville"],
+      "bonne_reponse": "Madrid",
+      "explication": "Madrid, située au centre de la péninsule Ibérique, est la capitale de l’Espagne."
+    },
+    {
+      "question": "Quelle est la monnaie utilisée dans la plupart des pays de la zone euro ?",
+      "reponses": ["Franc", "Livre", "Euro", "Couronne"],
+      "bonne_reponse": "Euro",
+      "explication": "L’euro est la monnaie commune de la zone euro, utilisée par de nombreux pays membres de l’Union européenne."
+    },
+    {
+      "question": "Quel pays est célèbre pour ses fjords, notamment autour de Bergen et Stavanger ?",
+      "reponses": ["Suède", "Norvège", "Finlande", "Islande"],
+      "bonne_reponse": "Norvège",
+      "explication": "La Norvège est connue pour ses fjords profonds et spectaculaires creusés par les glaciers."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Nairobi ?",
+      "reponses": ["Kenya", "Tanzanie", "Ouganda", "Éthiopie"],
+      "bonne_reponse": "Kenya",
+      "explication": "Nairobi est la capitale et la plus grande ville du Kenya."
+    },
+    {
+      "question": "Quel est le plus grand désert froid du monde, recouvert en grande partie de glace ?",
+      "reponses": ["Antarctique", "Groenland", "Arctique russe", "Patagonie"],
+      "bonne_reponse": "Antarctique",
+      "explication": "Le continent antarctique est un vaste désert polaire, très sec et extrêmement froid."
+    },
+    {
+      "question": "Quelle ville est située sur deux continents à la fois, l’Europe et l’Asie ?",
+      "reponses": ["Moscou", "Istanbul", "Athènes", "Le Caire"],
+      "bonne_reponse": "Istanbul",
+      "explication": "Istanbul est bâtie de part et d’autre du Bosphore, séparant l’Europe et l’Asie."
+    },
+    {
+      "question": "Quel détroit sépare l’Espagne du Maroc ?",
+      "reponses": ["Détroit de Béring", "Détroit de Gibraltar", "Détroit d’Ormuz", "Détroit de Malacca"],
+      "bonne_reponse": "Détroit de Gibraltar",
+      "explication": "Le détroit de Gibraltar relie la Méditerranée à l’Atlantique et sépare l’Europe de l’Afrique."
+    },
+    {
+      "question": "Quelle capitale se trouve au bord du fleuve Tamise ?",
+      "reponses": ["Paris", "Londres", "Dublin", "Edimbourg"],
+      "bonne_reponse": "Londres",
+      "explication": "La Tamise traverse Londres, capitale du Royaume-Uni."
+    },
+    {
+      "question": "Quel pays d’Asie du Sud est souvent appelé « sous-continent » en raison de sa taille ?",
+      "reponses": ["Pakistan", "Inde", "Bangladesh", "Sri Lanka"],
+      "bonne_reponse": "Inde",
+      "explication": "L’Inde est parfois qualifiée de sous-continent en raison de sa taille et de sa diversité."
+    },
+    {
+      "question": "Quelle mer est bordée par la Jordanie, Israël et la Cisjordanie, et est célèbre pour sa salinité extrême ?",
+      "reponses": ["Mer Rouge", "Mer Noire", "Mer Morte", "Mer Caspienne"],
+      "bonne_reponse": "Mer Morte",
+      "explication": "La mer Morte a une salinité très élevée, ce qui permet de flotter facilement à sa surface."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Saint-Pétersbourg ?",
+      "reponses": ["Finlande", "Russie", "Ukraine", "Biélorussie"],
+      "bonne_reponse": "Russie",
+      "explication": "Saint-Pétersbourg est une grande ville au nord-ouest de la Russie, fondée par Pierre le Grand."
+    },
+    {
+      "question": "Quel pays d’Europe centrale n’a pas d’accès à la mer : Autriche, Portugal, Croatie, Grèce ?",
+      "reponses": ["Autriche", "Portugal", "Croatie", "Grèce"],
+      "bonne_reponse": "Autriche",
+      "explication": "L’Autriche est un pays enclavé en Europe centrale, sans littoral."
+    },
+    {
+      "question": "Quelle est la capitale de l’Allemagne ?",
+      "reponses": ["Berlin", "Munich", "Hambourg", "Francfort"],
+      "bonne_reponse": "Berlin",
+      "explication": "Berlin est la capitale de l’Allemagne et l’un de ses plus grands centres culturels."
+    },
+    {
+      "question": "Quel grand fleuve traverse l’Égypte du sud au nord ?",
+      "reponses": ["Nil", "Tigre", "Euphrate", "Jourdain"],
+      "bonne_reponse": "Nil",
+      "explication": "Le Nil est le fleuve vital de l’Égypte, utilisé pour l’irrigation et la navigation depuis l’Antiquité."
+    },
+    {
+      "question": "Quel pays a pour capitale Buenos Aires ?",
+      "reponses": ["Chili", "Uruguay", "Argentine", "Paraguay"],
+      "bonne_reponse": "Argentine",
+      "explication": "Buenos Aires est la capitale et la plus grande ville de l’Argentine."
+    },
+    {
+      "question": "Quel pays est connu pour ses Alpes, ses montres et son chocolat ?",
+      "reponses": ["Autriche", "Suisse", "Italie", "France"],
+      "bonne_reponse": "Suisse",
+      "explication": "La Suisse est célèbre pour ses paysages alpins, son horlogerie et son chocolat."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville du Cap (Cape Town) ?",
+      "reponses": ["Namibie", "Mozambique", "Afrique du Sud", "Zimbabwe"],
+      "bonne_reponse": "Afrique du Sud",
+      "explication": "Le Cap est une grande ville située à l’extrémité sud-ouest de l’Afrique du Sud."
+    },
+    {
+      "question": "Quel océan borde les côtes de l’Inde, du Sri Lanka et de l’Australie occidentale ?",
+      "reponses": ["Pacifique", "Indien", "Atlantique", "Arctique"],
+      "bonne_reponse": "Indien",
+      "explication": "L’océan Indien s’étend entre l’Afrique, l’Asie, l’Australie et l’Antarctique."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Mexico ?",
+      "reponses": ["Espagne", "Mexique", "Colombie", "Guatemala"],
+      "bonne_reponse": "Mexique",
+      "explication": "Mexico est la capitale et la plus grande ville du Mexique."
+    },
+    {
+      "question": "Quel pays scandinave a Stockholm pour capitale ?",
+      "reponses": ["Norvège", "Suède", "Finlande", "Danemark"],
+      "bonne_reponse": "Suède",
+      "explication": "Stockholm est la capitale et la plus grande ville de la Suède."
+    },
+    {
+      "question": "Quel est le plus grand archipel du monde par le nombre d’îles habitées et inhabitées ?",
+      "reponses": ["Philippines", "Indonésie", "Japon", "Grèce"],
+      "bonne_reponse": "Indonésie",
+      "explication": "L’Indonésie est un vaste archipel composé de milliers d’îles, dont Java, Sumatra et Bornéo (partiellement)."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Casablanca ?",
+      "reponses": ["Maroc", "Algérie", "Tunisie", "Égypte"],
+      "bonne_reponse": "Maroc",
+      "explication": "Casablanca est une grande ville portuaire sur la côte atlantique du Maroc."
+    },
+    {
+      "question": "Quel pays a pour capitale Athènes ?",
+      "reponses": ["Italie", "Grèce", "Chypre", "Albanie"],
+      "bonne_reponse": "Grèce",
+      "explication": "Athènes est la capitale de la Grèce et un centre historique majeur de l’Antiquité."
+    },
+    {
+      "question": "Dans quel pays se trouve le massif du Kilimandjaro ?",
+      "reponses": ["Kenya", "Ouganda", "Tanzanie", "Rwanda"],
+      "bonne_reponse": "Tanzanie",
+      "explication": "Le Kilimandjaro, plus haut sommet d’Afrique, se situe en Tanzanie, près de la frontière kenyane."
+    },
+    {
+      "question": "Quel pays d’Asie du Sud-Est a Bangkok pour capitale ?",
+      "reponses": ["Malaisie", "Thaïlande", "Cambodge", "Laos"],
+      "bonne_reponse": "Thaïlande",
+      "explication": "Bangkok est la capitale et la plus grande ville de la Thaïlande."
+    },
+    {
+      "question": "Quelle ville est la capitale de la Russie ?",
+      "reponses": ["Saint-Pétersbourg", "Moscou", "Kazan", "Novossibirsk"],
+      "bonne_reponse": "Moscou",
+      "explication": "Moscou est la capitale politique et économique de la Russie."
+    },
+    {
+      "question": "Quel pays africain a pour capitale Abuja ?",
+      "reponses": ["Nigeria", "Ghana", "Cameroun", "Niger"],
+      "bonne_reponse": "Nigeria",
+      "explication": "Abuja est la capitale fédérale du Nigeria, choisie pour remplacer Lagos."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Vienne ?",
+      "reponses": ["Suisse", "Autriche", "Allemagne", "Hongrie"],
+      "bonne_reponse": "Autriche",
+      "explication": "Vienne est la capitale de l’Autriche, célèbre pour sa musique et son architecture."
+    },
+    {
+      "question": "Quel est le plus vaste pays d’Afrique par la superficie ?",
+      "reponses": ["Algérie", "Soudan", "Libye", "Afrique du Sud"],
+      "bonne_reponse": "Algérie",
+      "explication": "L’Algérie est aujourd’hui le pays le plus vaste d’Afrique en superficie."
+    },
+    {
+      "question": "Quelle ville est la capitale de la Chine ?",
+      "reponses": ["Shanghai", "Pékin (Beijing)", "Hong Kong", "Canton"],
+      "bonne_reponse": "Pékin (Beijing)",
+      "explication": "Pékin est la capitale politique de la Chine, tandis que Shanghai est la plus grande ville."
+    },
+    {
+      "question": "Quel pays d’Europe a pour capitale Varsovie ?",
+      "reponses": ["Pologne", "République tchèque", "Slovaquie", "Lituanie"],
+      "bonne_reponse": "Pologne",
+      "explication": "Varsovie est la capitale et la plus grande ville de la Pologne."
+    },
+    {
+      "question": "Dans quel pays se situe le célèbre site du Machu Picchu ?",
+      "reponses": ["Mexique", "Pérou", "Bolivie", "Guatemala"],
+      "bonne_reponse": "Pérou",
+      "explication": "Machu Picchu est une ancienne cité inca perchée dans les Andes péruviennes."
+    },
+    {
+      "question": "Quel pays de la péninsule arabique a Riyad pour capitale ?",
+      "reponses": ["Émirats arabes unis", "Qatar", "Arabie saoudite", "Koweït"],
+      "bonne_reponse": "Arabie saoudite",
+      "explication": "Riyad est la capitale politique et économique de l’Arabie saoudite."
+    },
+    {
+      "question": "Quelle ville est la capitale officielle de la Côte d’Ivoire ?",
+      "reponses": ["Abidjan", "Yamoussoukro", "Bouaké", "San Pedro"],
+      "bonne_reponse": "Yamoussoukro",
+      "explication": "Abidjan est la capitale économique, mais Yamoussoukro est la capitale politique officielle."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Lahore ?",
+      "reponses": ["Inde", "Pakistan", "Bangladesh", "Afghanistan"],
+      "bonne_reponse": "Pakistan",
+      "explication": "Lahore est une grande ville historique située dans l’est du Pakistan."
+    },
+    {
+      "question": "Quel pays nordique a Copenhague pour capitale ?",
+      "reponses": ["Suède", "Norvège", "Danemark", "Finlande"],
+      "bonne_reponse": "Danemark",
+      "explication": "Copenhague est la capitale du Royaume du Danemark, située sur l’île de Seeland."
+    },
+    {
+      "question": "Quel pays insulaire d’Asie a pour capitale Manille ?",
+      "reponses": ["Indonésie", "Philippines", "Malaisie", "Taïwan"],
+      "bonne_reponse": "Philippines",
+      "explication": "Manille est la capitale des Philippines, un vaste archipel d’Asie du Sud-Est."
+    },
+    {
+      "question": "Quel pays a pour capitale Téhéran ?",
+      "reponses": ["Irak", "Irak", "Iran", "Syrie"],
+      "bonne_reponse": "Iran",
+      "explication": "Téhéran est la capitale et la principale ville de l’Iran."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Johannesburg ?",
+      "reponses": ["Kenya", "Afrique du Sud", "Namibie", "Botswana"],
+      "bonne_reponse": "Afrique du Sud",
+      "explication": "Johannesburg est la plus grande ville d’Afrique du Sud et un important centre économique."
+    },
+    {
+      "question": "Quel est le plus haut sommet d’Afrique ?",
+      "reponses": ["Mont Kenya", "Kilimandjaro", "Rwenzori", "Mont Atlas"],
+      "bonne_reponse": "Kilimandjaro",
+      "explication": "Le Kilimandjaro, avec près de 5895 m, est le point culminant du continent africain."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Séoul ?",
+      "reponses": ["Japon", "Chine", "Corée du Sud", "Corée du Nord"],
+      "bonne_reponse": "Corée du Sud",
+      "explication": "Séoul est la capitale de la Corée du Sud et l’une des plus grandes métropoles d’Asie."
+    },
+    {
+      "question": "Quel pays d’Europe a Lisbonne pour capitale ?",
+      "reponses": ["Espagne", "Portugal", "Italie", "Grèce"],
+      "bonne_reponse": "Portugal",
+      "explication": "Lisbonne est la capitale du Portugal, située sur l’estuaire du Tage."
+    },
+    {
+      "question": "Quelle mer sépare l’Italie de la Croatie et de la Slovénie ?",
+      "reponses": ["Mer Noire", "Mer Égée", "Mer Adriatique", "Mer Baltique"],
+      "bonne_reponse": "Mer Adriatique",
+      "explication": "La mer Adriatique sépare la péninsule italienne des Balkans occidentaux."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Karachi ?",
+      "reponses": ["Inde", "Pakistan", "Bangladesh", "Sri Lanka"],
+      "bonne_reponse": "Pakistan",
+      "explication": "Karachi est une grande métropole portuaire située au sud du Pakistan, sur la mer d’Arabie."
+    },
+    {
+      "question": "Quel pays d’Afrique a pour capitale Addis-Abeba ?",
+      "reponses": ["Éthiopie", "Somalie", "Soudan", "Érythrée"],
+      "bonne_reponse": "Éthiopie",
+      "explication": "Addis-Abeba est la capitale de l’Éthiopie et siège de l’Union africaine."
+    },
+    {
+      "question": "Quel pays a pour capitale Hanoï ?",
+      "reponses": ["Cambodge", "Laos", "Vietnam", "Thaïlande"],
+      "bonne_reponse": "Vietnam",
+      "explication": "Hanoï est la capitale du Vietnam, dans le nord du pays, alors que Hô Chi Minh-Ville est la principale métropole économique."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Barcelone ?",
+      "reponses": ["France", "Italie", "Espagne", "Portugal"],
+      "bonne_reponse": "Espagne",
+      "explication": "Barcelone est la capitale de la Catalogne, une région du nord-est de l’Espagne."
+    },
+    {
+      "question": "Quelle ville est la capitale de la Turquie ?",
+      "reponses": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+      "bonne_reponse": "Ankara",
+      "explication": "Istanbul est la plus grande ville, mais Ankara est la capitale politique de la Turquie."
+    },
+    {
+      "question": "Quel pays européen a pour capitale Dublin ?",
+      "reponses": ["Irlande", "Islande", "Pays de Galles", "Écosse"],
+      "bonne_reponse": "Irlande",
+      "explication": "Dublin est la capitale de la République d’Irlande, située sur la côte est de l’île."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Montréal ?",
+      "reponses": ["États-Unis", "Canada", "France", "Belgique"],
+      "bonne_reponse": "Canada",
+      "explication": "Montréal est la principale ville de la province du Québec, au Canada."
+    },
+    {
+      "question": "Quel pays d’Asie a pour capitale Kaboul ?",
+      "reponses": ["Pakistan", "Iran", "Afghanistan", "Tadjikistan"],
+      "bonne_reponse": "Afghanistan",
+      "explication": "Kaboul est la capitale de l’Afghanistan, située dans une vallée entourée de montagnes."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Varsovie ?",
+      "reponses": ["Pologne", "Ukraine", "Lituanie", "Biélorussie"],
+      "bonne_reponse": "Pologne",
+      "explication": "Varsovie est la capitale de la Pologne, reconstruite après la Seconde Guerre mondiale."
+    },
+    {
+      "question": "Quel pays a pour capitale Jakarta ?",
+      "reponses": ["Malaisie", "Indonésie", "Philippines", "Singapour"],
+      "bonne_reponse": "Indonésie",
+      "explication": "Jakarta est la capitale de l’Indonésie, située sur l’île de Java."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Doha ?",
+      "reponses": ["Émirats arabes unis", "Qatar", "Bahreïn", "Koweït"],
+      "bonne_reponse": "Qatar",
+      "explication": "Doha est la capitale et la principale ville du Qatar, sur les rives du golfe Persique."
+    },
+    {
+      "question": "Quel pays européen a pour capitale Budapest ?",
+      "reponses": ["Roumanie", "Hongrie", "Slovaquie", "Autriche"],
+      "bonne_reponse": "Hongrie",
+      "explication": "Budapest, formée par la réunion de Buda et Pest, est la capitale de la Hongrie."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Lagos, grande métropole d’Afrique de l’Ouest ?",
+      "reponses": ["Ghana", "Nigeria", "Bénin", "Côte d’Ivoire"],
+      "bonne_reponse": "Nigeria",
+      "explication": "Lagos est la plus grande ville du Nigeria et un important centre économique de la région."
+    },
+    {
+      "question": "Quel pays a pour capitale Oslo ?",
+      "reponses": ["Suède", "Norvège", "Finlande", "Danemark"],
+      "bonne_reponse": "Norvège",
+      "explication": "Oslo est la capitale de la Norvège, située au fond d’un fjord."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Manille ?",
+      "reponses": ["Indonésie", "Philippines", "Malaisie", "Vietnam"],
+      "bonne_reponse": "Philippines",
+      "explication": "Manille se trouve sur l’île de Luçon et est la capitale des Philippines."
+    },
+    {
+      "question": "Quelle ville est la capitale de la Tunisie ?",
+      "reponses": ["Tunis", "Sfax", "Sousse", "Bizerte"],
+      "bonne_reponse": "Tunis",
+      "explication": "Tunis est la capitale et la plus grande ville de la Tunisie."
+    },
+    {
+      "question": "Quel pays d’Amérique centrale a pour capitale San José ?",
+      "reponses": ["Panama", "Costa Rica", "Nicaragua", "Honduras"],
+      "bonne_reponse": "Costa Rica",
+      "explication": "San José est la capitale du Costa Rica, situé en Amérique centrale."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Zurich ?",
+      "reponses": ["Autriche", "Suisse", "Allemagne", "Italie"],
+      "bonne_reponse": "Suisse",
+      "explication": "Zurich est la plus grande ville de Suisse, un centre financier important."
+    },
+    {
+      "question": "Quel pays d’Asie a pour capitale Islamabad ?",
+      "reponses": ["Inde", "Pakistan", "Bangladesh", "Afghanistan"],
+      "bonne_reponse": "Pakistan",
+      "explication": "Islamabad est la capitale du Pakistan, construite pour remplacer Karachi comme capitale politique."
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Athènes ?",
+      "reponses": ["Italie", "Grèce", "Chypre", "Albanie"],
+      "bonne_reponse": "Grèce",
+      "explication": "Athènes est la capitale de la Grèce et un important centre historique."
+    },
+    {
+      "question": "Quel pays d’Afrique a pour capitale Rabat ?",
+      "reponses": ["Maroc", "Algérie", "Tunisie", "Libye"],
+      "bonne_reponse": "Maroc",
+      "explication": "Rabat est la capitale politique du Maroc, située sur la côte atlantique."
+    },
+    {
+      "question": "Quel pays scandinave a Helsinki pour capitale ?",
+      "reponses": ["Suède", "Norvège", "Finlande", "Danemark"],
+      "bonne_reponse": "Finlande",
+      "explication": "Helsinki est la capitale et la plus grande ville de la Finlande."
+    }
+  ]
+}

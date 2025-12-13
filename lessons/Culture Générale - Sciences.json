@@ -1,0 +1,524 @@
+{
+  "questions": [
+    {
+      "question": "Quel est le symbole chimique de l’eau ?",
+      "reponses": ["O2", "H2O", "CO2", "HO2"],
+      "bonne_reponse": "H2O",
+      "explication": "La molécule d’eau est composée de deux atomes d’hydrogène et d’un atome d’oxygène."
+    },
+    {
+      "question": "Quel est l’astre autour duquel la Terre gravite ?",
+      "reponses": ["La Lune", "Mars", "Le Soleil", "Jupiter"],
+      "bonne_reponse": "Le Soleil",
+      "explication": "La Terre décrit une orbite elliptique autour du Soleil en environ 365 jours."
+    },
+    {
+      "question": "Quel gaz est indispensable à la respiration de la plupart des animaux et humains ?",
+      "reponses": ["Azote", "Oxygène", "Hydrogène", "Hélium"],
+      "bonne_reponse": "Oxygène",
+      "explication": "L’air contient environ 21 % d’oxygène, utilisé par les cellules pour la respiration."
+    },
+    {
+      "question": "Quel est l’organe principal qui pompe le sang dans le corps humain ?",
+      "reponses": ["Le foie", "Le cœur", "Le cerveau", "Les poumons"],
+      "bonne_reponse": "Le cœur",
+      "explication": "Le cœur est un muscle qui assure la circulation sanguine grâce à ses contractions."
+    },
+    {
+      "question": "Quel est l’état de la matière qui n’a ni forme propre ni volume propre ?",
+      "reponses": ["Solide", "Liquide", "Gaz", "Plasma"],
+      "bonne_reponse": "Gaz",
+      "explication": "Un gaz occupe tout le volume disponible et n’a pas de forme propre."
+    },
+    {
+      "question": "Quel scientifique est associé à la théorie de la relativité ?",
+      "reponses": ["Isaac Newton", "Albert Einstein", "Galilée", "Niels Bohr"],
+      "bonne_reponse": "Albert Einstein",
+      "explication": "Einstein est connu pour la relativité restreinte et générale, qui modifient la vision de l’espace et du temps."
+    },
+    {
+      "question": "Quel est l’organe responsable de la circulation de l’oxygène dans le sang ?",
+      "reponses": ["Reins", "Foie", "Poumons", "Estomac"],
+      "bonne_reponse": "Poumons",
+      "explication": "Les poumons permettent les échanges gazeux entre l’air inspiré et le sang."
+    },
+    {
+      "question": "Quel est le plus grand organe du corps humain ?",
+      "reponses": ["Le foie", "La peau", "Le cerveau", "Le cœur"],
+      "bonne_reponse": "La peau",
+      "explication": "La peau recouvre tout le corps et constitue l’organe le plus étendu."
+    },
+    {
+      "question": "Quel est le centre du système solaire en modèle héliocentrique ?",
+      "reponses": ["La Terre", "La Lune", "Le Soleil", "Jupiter"],
+      "bonne_reponse": "Le Soleil",
+      "explication": "En héliocentrisme, les planètes tournent autour du Soleil, qui est au centre du système."
+    },
+    {
+      "question": "Quel métal est liquide à température ambiante parmi ces propositions ?",
+      "reponses": ["Fer", "Mercure", "Aluminium", "Cuivre"],
+      "bonne_reponse": "Mercure",
+      "explication": "Le mercure est un métal liquide à température ambiante, utilisé notamment dans certains thermomètres anciens."
+    },
+    {
+      "question": "Quelle est l’unité de base de la masse dans le système international ?",
+      "reponses": ["Gramme", "Kilogramme", "Tonne", "Livre"],
+      "bonne_reponse": "Kilogramme",
+      "explication": "Le kilogramme est l’unité SI de masse, sur laquelle se définissent les multiples et sous-multiples."
+    },
+    {
+      "question": "Quel est l’élément chimique dont le symbole est Fe ?",
+      "reponses": ["Fluor", "Fer", "Francium", "Fermium"],
+      "bonne_reponse": "Fer",
+      "explication": "Fe vient du latin ferrum et désigne le fer, métal très courant dans l’industrie."
+    },
+    {
+      "question": "Quel est l’organe qui contrôle la plupart des fonctions du corps humain ?",
+      "reponses": ["Le cœur", "Le cerveau", "L’estomac", "La rate"],
+      "bonne_reponse": "Le cerveau",
+      "explication": "Le cerveau commande le système nerveux central et régule les fonctions vitales et cognitives."
+    },
+    {
+      "question": "Quel phénomène naturel correspond à la libération d’énergie le long d’une faille dans la croûte terrestre ?",
+      "reponses": ["Éruption volcanique", "Tsunami", "Séisme", "Ouragan"],
+      "bonne_reponse": "Séisme",
+      "explication": "Un séisme est un tremblement de terre causé par un déplacement brusque de plaques tectoniques."
+    },
+    {
+      "question": "Quel est l’organe principal de la digestion des nutriments (absorption) dans le corps humain ?",
+      "reponses": ["Estomac", "Foie", "Intestin grêle", "Gros intestin"],
+      "bonne_reponse": "Intestin grêle",
+      "explication": "L’intestin grêle assure l’essentiel de l’absorption des nutriments issus de la digestion."
+    },
+    {
+      "question": "Comment appelle-t-on le changement d’état de l’eau qui passe de l’état liquide à l’état gazeux ?",
+      "reponses": ["Condensation", "Solidification", "Ébullition / vaporisation", "Sublimation"],
+      "bonne_reponse": "Ébullition / vaporisation",
+      "explication": "Lorsque l’eau liquide se transforme en vapeur, on parle de vaporisation, dont l’ébullition est un cas particulier."
+    },
+    {
+      "question": "Quel est l’unité de mesure de la force dans le système international ?",
+      "reponses": ["Joule", "Watt", "Newton", "Pascal"],
+      "bonne_reponse": "Newton",
+      "explication": "Le newton (N) est l’unité SI de force, définie comme la force nécessaire pour donner une accélération de 1 m/s² à 1 kg."
+    },
+    {
+      "question": "Quelle planète du système solaire est surnommée la \"planète rouge\" ?",
+      "reponses": ["Vénus", "Mars", "Jupiter", "Mercure"],
+      "bonne_reponse": "Mars",
+      "explication": "Mars apparaît rougeâtre à cause de l’oxyde de fer présent à la surface."
+    },
+    {
+      "question": "Quel est le principal gaz composant l’atmosphère terrestre ?",
+      "reponses": ["Oxygène", "Azote", "Dioxyde de carbone", "Argon"],
+      "bonne_reponse": "Azote",
+      "explication": "L’atmosphère est composée à environ 78 % d’azote et 21 % d’oxygène."
+    },
+    {
+      "question": "Quel organe produit l’insuline dans le corps humain ?",
+      "reponses": ["Le foie", "Le pancréas", "La rate", "Les reins"],
+      "bonne_reponse": "Le pancréas",
+      "explication": "Le pancréas sécrète l’insuline, qui régule la glycémie."
+    },
+    {
+      "question": "Quel est le plus petit nombre de chromosomes que l’on trouve dans une cellule sexuelle humaine (haploïde) ?",
+      "reponses": ["23", "46", "22", "24"],
+      "bonne_reponse": "23",
+      "explication": "Les gamètes humains contiennent 23 chromosomes, la moitié du nombre des cellules somatiques."
+    },
+    {
+      "question": "Quel organe nettoie le sang des déchets comme l’urée et produit l’urine ?",
+      "reponses": ["Foie", "Reins", "Rate", "Poumons"],
+      "bonne_reponse": "Reins",
+      "explication": "Les reins filtrent le sang et produisent l’urine, excrétée par le système urinaire."
+    },
+    {
+      "question": "Quel appareil mesure la pression atmosphérique ?",
+      "reponses": ["Thermomètre", "Baromètre", "Hygromètre", "Altimètre"],
+      "bonne_reponse": "Baromètre",
+      "explication": "Le baromètre permet de mesurer la pression de l’air, utile en météorologie."
+    },
+    {
+      "question": "Quelle est l’unité de mesure de la fréquence ?",
+      "reponses": ["Hertz", "Watt", "Volt", "Ampère"],
+      "bonne_reponse": "Hertz",
+      "explication": "Le hertz (Hz) correspond à un cycle par seconde."
+    },
+    {
+      "question": "Quel phénomène produit un arc-en-ciel ?",
+      "reponses": ["Réflexion du son", "Diffraction du vent", "Réfraction et dispersion de la lumière", "Polarisation des ondes radio"],
+      "bonne_reponse": "Réfraction et dispersion de la lumière",
+      "explication": "Les gouttes d’eau dévient (réfraction) et décomposent (dispersion) la lumière blanche en couleurs."
+    },
+    {
+      "question": "Quel est le principal constituant chimique des os ?",
+      "reponses": ["Chlorure de sodium", "Carbone pur", "Phosphate de calcium", "Fer"],
+      "bonne_reponse": "Phosphate de calcium",
+      "explication": "Les os sont en grande partie constitués d’hydroxyapatite, un phosphate de calcium."
+    },
+    {
+      "question": "Quel est l’organe sensoriel responsable de la vision ?",
+      "reponses": ["L’oreille", "La peau", "La langue", "L’œil"],
+      "bonne_reponse": "L’œil",
+      "explication": "L’œil capte la lumière et envoie des informations au cerveau via le nerf optique."
+    },
+    {
+      "question": "Quel instrument utilise-t-on pour observer des objets très petits comme des cellules ?",
+      "reponses": ["Télescope", "Microscope", "Périscope", "Stéthoscope"],
+      "bonne_reponse": "Microscope",
+      "explication": "Le microscope permet d’agrandir l’image d’objets microscopiques."
+    },
+    {
+      "question": "Quel est le plus grand organe interne du corps humain par la masse ?",
+      "reponses": ["Foie", "Reins", "Poumons", "Cœur"],
+      "bonne_reponse": "Foie",
+      "explication": "Le foie est l’un des plus gros organes internes et joue un rôle central dans le métabolisme."
+    },
+    {
+      "question": "Quel est l’élément chimique dont le symbole est O ?",
+      "reponses": ["Or", "Osmium", "Oxygène", "Oganesson"],
+      "bonne_reponse": "Oxygène",
+      "explication": "O désigne l’oxygène, un gaz essentiel à la plupart des formes de vie."
+    },
+    {
+      "question": "Quel phénomène explique la chute des objets vers le sol ?",
+      "reponses": ["Électricité statique", "Gravitation", "Magnétisme", "Radioactivité"],
+      "bonne_reponse": "Gravitation",
+      "explication": "La gravitation est la force d’attraction qui attire les masses l’une vers l’autre, comme les objets vers la Terre."
+    },
+    {
+      "question": "Quel est le principal organe de la parole dans la gorge ?",
+      "reponses": ["Pharynx", "Larynx", "Œsophage", "Trachée"],
+      "bonne_reponse": "Larynx",
+      "explication": "Le larynx contient les cordes vocales, essentielles à la production de la voix."
+    },
+    {
+      "question": "Quel est l’organe qui stocke la bile produite par le foie ?",
+      "reponses": ["Pancréas", "Vésicule biliaire", "Rate", "Appendice"],
+      "bonne_reponse": "Vésicule biliaire",
+      "explication": "La vésicule biliaire stocke la bile, qui aide à la digestion des graisses."
+    },
+    {
+      "question": "Comment appelle-t-on la couche d’air qui entoure la Terre ?",
+      "reponses": ["Lithosphère", "Hydrosphère", "Atmosphère", "Biosphère"],
+      "bonne_reponse": "Atmosphère",
+      "explication": "L’atmosphère est l’enveloppe gazeuse qui entoure la Terre."
+    },
+    {
+      "question": "Quel est l’organe qui assure la production des globules sanguins dans le squelette ?",
+      "reponses": ["Moelle osseuse", "Cartilage", "Ligaments", "Périoste"],
+      "bonne_reponse": "Moelle osseuse",
+      "explication": "La moelle osseuse rouge produit notamment les globules rouges, globules blancs et plaquettes."
+    },
+    {
+      "question": "Quelle est la vitesse de la lumière dans le vide (environ) ?",
+      "reponses": ["3 000 km/s", "30 000 km/s", "300 000 km/s", "3 000 000 km/s"],
+      "bonne_reponse": "300 000 km/s",
+      "explication": "La lumière se propage dans le vide à environ 300 000 kilomètres par seconde."
+    },
+    {
+      "question": "Quel est l’organe de l’ouïe chez l’être humain ?",
+      "reponses": ["L’œil", "L’oreille", "La langue", "La peau"],
+      "bonne_reponse": "L’oreille",
+      "explication": "L’oreille perçoit les vibrations sonores et contribue aussi à l’équilibre."
+    },
+    {
+      "question": "Quel est le nom scientifique des réactions chimiques qui libèrent de l’énergie dans les cellules ?",
+      "reponses": ["Photosynthèse", "Respiration cellulaire", "Fermentation alcoolique", "Polymerisation"],
+      "bonne_reponse": "Respiration cellulaire",
+      "explication": "La respiration cellulaire dégrade des nutriments en présence d’oxygène pour produire de l’énergie."
+    },
+    {
+      "question": "Quel est le nom du satellite naturel de la Terre ?",
+      "reponses": ["Phobos", "Titan", "La Lune", "Europe"],
+      "bonne_reponse": "La Lune",
+      "explication": "La Lune est le seul satellite naturel permanent de la Terre."
+    },
+    {
+      "question": "Que signifie l’acronyme ADN ?",
+      "reponses": [
+        "Acide désoxyribonucléique",
+        "Acide dioxyribonucléaire",
+        "Acide nucléotidique",
+        "Acide ribonucléique"
+      ],
+      "bonne_reponse": "Acide désoxyribonucléique",
+      "explication": "L’ADN contient l’information génétique des êtres vivants."
+    },
+    {
+      "question": "Quel est le plus grand organe du système nerveux ?",
+      "reponses": ["Moelle épinière", "Cerveau", "Tronc cérébral", "Cervelet"],
+      "bonne_reponse": "Cerveau",
+      "explication": "Le cerveau est l’organe central du système nerveux, siège des fonctions cognitives."
+    },
+    {
+      "question": "Quel phénomène explique les saisons sur Terre ?",
+      "reponses": [
+        "Distance variable au Soleil",
+        "Inclinaison de l’axe de la Terre",
+        "Variation de la masse de la Terre",
+        "Vitesse de rotation de la Lune"
+      ],
+      "bonne_reponse": "Inclinaison de l’axe de la Terre",
+      "explication": "L’axe de la Terre est incliné d’environ 23,5°, ce qui modifie l’ensoleillement au cours de l’année."
+    },
+    {
+      "question": "Quel est l’état de la matière de la plupart des étoiles visibles dans le ciel ?",
+      "reponses": ["Solide", "Liquide", "Gaz / plasma", "Cristallin"],
+      "bonne_reponse": "Gaz / plasma",
+      "explication": "Les étoiles sont principalement constituées de plasma, un gaz ionisé extrêmement chaud."
+    },
+    {
+      "question": "Quel est le principal gaz à effet de serre émis par les activités humaines ?",
+      "reponses": ["Ozone", "Dioxyde de carbone (CO2)", "Azote", "Hélium"],
+      "bonne_reponse": "Dioxyde de carbone (CO2)",
+      "explication": "Le CO2 d’origine fossile est un gaz à effet de serre majeur lié aux combustibles fossiles."
+    },
+    {
+      "question": "Quel instrument sert à mesurer la température ?",
+      "reponses": ["Baromètre", "Thermomètre", "Hygromètre", "Voltmètre"],
+      "bonne_reponse": "Thermomètre",
+      "explication": "Le thermomètre indique la température d’un milieu, en degrés Celsius ou autres unités."
+    },
+    {
+      "question": "Quel organe est principalement atteint par la maladie d’Alzheimer ?",
+      "reponses": ["Le cœur", "Le foie", "Le cerveau", "Les reins"],
+      "bonne_reponse": "Le cerveau",
+      "explication": "La maladie d’Alzheimer est une pathologie neurodégénérative affectant le cerveau."
+    },
+    {
+      "question": "Quel est le nom de la force qui s’oppose au mouvement d’un objet en contact avec une surface ?",
+      "reponses": ["Gravité", "Frottement", "Tension", "Cisaillement"],
+      "bonne_reponse": "Frottement",
+      "explication": "La force de frottement s’oppose au mouvement relatif entre deux surfaces en contact."
+    },
+    {
+      "question": "Quel est l’organe qui produit la bile ?",
+      "reponses": ["Pancréas", "Foie", "Rate", "Estomac"],
+      "bonne_reponse": "Foie",
+      "explication": "Le foie produit la bile, qui est ensuite stockée dans la vésicule biliaire."
+    },
+    {
+      "question": "Quel type de rayonnement est utilisé dans les fours à micro-ondes ?",
+      "reponses": ["Rayons X", "Rayons gamma", "Ultraviolets", "Micro-ondes (ondes radio à haute fréquence)"],
+      "bonne_reponse": "Micro-ondes (ondes radio à haute fréquence)",
+      "explication": "Les fours à micro-ondes utilisent des ondes radio de fréquence spécifique pour agiter les molécules d’eau des aliments."
+    },
+    {
+      "question": "Quel est l’organe qui permet la perception des goûts ?",
+      "reponses": ["Langue", "Nez", "Oreille", "Peau"],
+      "bonne_reponse": "Langue",
+      "explication": "La langue porte des papilles gustatives qui détectent les saveurs, aidée par l’odorat."
+    },
+    {
+      "question": "Quel est l’élément essentiel au transport de l’oxygène dans le sang ?",
+      "reponses": ["Chlorophylle", "Hémoglobine", "Insuline", "Collagène"],
+      "bonne_reponse": "Hémoglobine",
+      "explication": "L’hémoglobine, contenue dans les globules rouges, fixe l’oxygène et le transporte dans le corps."
+    },
+    {
+      "question": "Quel est le principal organe du système circulatoire ?",
+      "reponses": ["Cœur", "Poumons", "Reins", "Foie"],
+      "bonne_reponse": "Cœur",
+      "explication": "Le cœur propulse le sang dans l’ensemble du système circulatoire."
+    },
+    {
+      "question": "Quel type d’énergie est stocké dans une pile électrique ?",
+      "reponses": ["Énergie thermique", "Énergie chimique", "Énergie mécanique", "Énergie lumineuse"],
+      "bonne_reponse": "Énergie chimique",
+      "explication": "Une pile convertit l’énergie chimique en énergie électrique lors de la décharge."
+    },
+    {
+      "question": "Quel est le nom de la couche d’ozone qui protège la Terre des UV ?",
+      "reponses": ["Troposphère", "Stratosphère", "Mésosphère", "Lithosphère"],
+      "bonne_reponse": "Stratosphère",
+      "explication": "La couche d’ozone se situe principalement dans la stratosphère et filtre les rayons UV."
+    },
+    {
+      "question": "Quel phénomène mesure-t-on avec l’échelle de Richter ou l’échelle de magnitude de moment ?",
+      "reponses": ["Intensité des volcans", "Vitesse des vents", "Magnitude des séismes", "Hauteur des vagues"],
+      "bonne_reponse": "Magnitude des séismes",
+      "explication": "L’échelle de Richter et les magnitudes modernes quantifient l’énergie libérée par un séisme."
+    },
+    {
+      "question": "Quel est le nom de la science qui étudie les êtres vivants ?",
+      "reponses": ["Physique", "Chimie", "Biologie", "Géologie"],
+      "bonne_reponse": "Biologie",
+      "explication": "La biologie se consacre à l’étude de la vie sous toutes ses formes."
+    },
+    {
+      "question": "Quel est l’élément chimique le plus léger de l’univers ?",
+      "reponses": ["Hélium", "Hydrogène", "Carbone", "Oxygène"],
+      "bonne_reponse": "Hydrogène",
+      "explication": "L’hydrogène est l’élément le plus léger et le plus abondant de l’univers observable."
+    },
+    {
+      "question": "Que mesure-t-on avec un pH-mètre ou une échelle de pH ?",
+      "reponses": ["La température", "La pression", "L’acidité ou la basicité", "La densité"],
+      "bonne_reponse": "L’acidité ou la basicité",
+      "explication": "Le pH indique le caractère acide ou basique d’une solution, autour de 7 pour la neutralité."
+    },
+    {
+      "question": "Quel est l’état de la matière typique d’une flamme de bougie ?",
+      "reponses": ["Solide", "Liquide", "Plasma / gaz ionisé", "Cristal"],
+      "bonne_reponse": "Plasma / gaz ionisé",
+      "explication": "Une flamme est un gaz chaud ionisé, approchant l’état de plasma."
+    },
+    {
+      "question": "Quel organe du système digestif stocke temporairement les aliments avant leur passage dans l’intestin grêle ?",
+      "reponses": ["Œsophage", "Estomac", "Foie", "Pancréas"],
+      "bonne_reponse": "Estomac",
+      "explication": "L’estomac mélange et digère partiellement les aliments avant leur transfert vers l’intestin grêle."
+    },
+    {
+      "question": "Quel est le nom de la force qui attire tout objet vers le centre de la Terre ?",
+      "reponses": ["Électromagnétisme", "Gravitation", "Force nucléaire faible", "Coriolis"],
+      "bonne_reponse": "Gravitation",
+      "explication": "La gravitation terrestre attire les objets vers le centre de la planète."
+    },
+    {
+      "question": "Quel est le principal gaz que les plantes absorbent pour réaliser la photosynthèse ?",
+      "reponses": ["Oxygène", "Dioxyde de carbone", "Azote", "Hélium"],
+      "bonne_reponse": "Dioxyde de carbone",
+      "explication": "Les plantes absorbent le CO2 pour fabriquer des sucres grâce à la photosynthèse."
+    },
+    {
+      "question": "Quel est l’organe de la respiration chez les poissons ?",
+      "reponses": ["Poumons", "Branchies", "Peau", "Nageoires"],
+      "bonne_reponse": "Branchies",
+      "explication": "Les branchies permettent aux poissons d’extraire l’oxygène dissous dans l’eau."
+    },
+    {
+      "question": "Quel est le nom donné à l’étude des étoiles et des galaxies ?",
+      "reponses": ["Météorologie", "Astronomie", "Astrologie", "Océanographie"],
+      "bonne_reponse": "Astronomie",
+      "explication": "L’astronomie étudie les astres et l’univers, contrairement à l’astrologie qui est une croyance."
+    },
+    {
+      "question": "Quel type de mélange est l’air que nous respirons ?",
+      "reponses": ["Corps pur", "Mélange homogène", "Mélange hétérogène", "Solution solide"],
+      "bonne_reponse": "Mélange homogène",
+      "explication": "L’air est un mélange homogène de plusieurs gaz, principalement azote et oxygène."
+    },
+    {
+      "question": "Quel est le nom du phénomène par lequel une substance passe de l’état solide à l’état gazeux sans passer par le liquide ?",
+      "reponses": ["Fusion", "Vaporisation", "Sublimation", "Condensation"],
+      "bonne_reponse": "Sublimation",
+      "explication": "La sublimation correspond au passage direct du solide au gaz, comme la glace carbonique."
+    },
+    {
+      "question": "Quel est le principal organe filtrant les toxines provenant de la digestion ?",
+      "reponses": ["Reins", "Foie", "Rate", "Pancréas"],
+      "bonne_reponse": "Foie",
+      "explication": "Le foie métabolise de nombreuses substances et joue un rôle clé dans la détoxification."
+    },
+    {
+      "question": "Quel est le nom de la science qui étudie les roches et la structure de la Terre ?",
+      "reponses": ["Biologie", "Géologie", "Physique", "Chimie"],
+      "bonne_reponse": "Géologie",
+      "explication": "La géologie s’intéresse à la composition, à la structure et à l’évolution de la Terre."
+    },
+    {
+      "question": "Quel phénomène explique que la lumière se courbe lorsqu’elle passe d’un milieu à un autre ?",
+      "reponses": ["Réflexion", "Réfraction", "Diffraction", "Interférence"],
+      "bonne_reponse": "Réfraction",
+      "explication": "La réfraction est le changement de direction d’une onde lorsqu’elle change de milieu."
+    },
+    {
+      "question": "Quel est le type de liaison chimique dans lequel deux atomes partagent une paire d’électrons ?",
+      "reponses": ["Liaison ionique", "Liaison covalente", "Liaison métallique", "Liaison hydrogène"],
+      "bonne_reponse": "Liaison covalente",
+      "explication": "Une liaison covalente implique le partage d’électrons entre atomes."
+    },
+    {
+      "question": "Quel est le liquide biologique qui transporte oxygène, nutriments et déchets dans le corps ?",
+      "reponses": ["Lymphe", "Salive", "Urine", "Sang"],
+      "bonne_reponse": "Sang",
+      "explication": "Le sang transporte les substances essentielles entre organes et tissus."
+    },
+    {
+      "question": "Quel est l’organe du goût et de la parole situé dans la bouche ?",
+      "reponses": ["Langue", "Palais", "Gencives", "Uvula"],
+      "bonne_reponse": "Langue",
+      "explication": "La langue participe à la mastication, à la déglutition, à la parole et au goût."
+    },
+    {
+      "question": "Que mesure-t-on avec un chronomètre ?",
+      "reponses": ["Distance", "Temps", "Masse", "Température"],
+      "bonne_reponse": "Temps",
+      "explication": "Un chronomètre sert à mesurer des intervalles de temps avec précision."
+    },
+    {
+      "question": "Quel est le nom de la particule élémentaire portant une charge électrique négative ?",
+      "reponses": ["Proton", "Neutron", "Électron", "Positron"],
+      "bonne_reponse": "Électron",
+      "explication": "L’électron est une particule légère chargée négativement, orbitant autour du noyau atomique."
+    },
+    {
+      "question": "Quelle est la principale source d’énergie de la Terre ?",
+      "reponses": ["La Lune", "Le Soleil", "La chaleur interne", "Les marées"],
+      "bonne_reponse": "Le Soleil",
+      "explication": "Le Soleil fournit la quasi-totalité de l’énergie reçue par la Terre sous forme de rayonnement."
+    },
+    {
+      "question": "Quel est le nom du processus par lequel les plantes transforment l’énergie lumineuse en énergie chimique ?",
+      "reponses": ["Respiration", "Photosynthèse", "Fermentation", "Oxydation"],
+      "bonne_reponse": "Photosynthèse",
+      "explication": "La photosynthèse utilise la lumière, l’eau et le CO2 pour produire des sucres et de l’oxygène."
+    },
+    {
+      "question": "Quel organe se situe dans la cage thoracique et permet l’oxygénation du sang ?",
+      "reponses": ["Estomac", "Poumons", "Foie", "Rate"],
+      "bonne_reponse": "Poumons",
+      "explication": "Les poumons sont les principaux organes de la respiration chez l’être humain."
+    },
+    {
+      "question": "Quel est l’effet principal d’une loupe sur l’image d’un objet ?",
+      "reponses": ["Rétrécir l’image", "Inverser l’image", "Agrandir l’image", "Modifier la couleur"],
+      "bonne_reponse": "Agrandir l’image",
+      "explication": "Une loupe est une lentille convergente qui agrandit l’image d’un objet proche."
+    },
+    {
+      "question": "Quel est le nom de la force qui attire deux aimants l’un vers l’autre ou les repousse ?",
+      "reponses": ["Gravitation", "Magnétisme", "Électrostatique", "Cohésion"],
+      "bonne_reponse": "Magnétisme",
+      "explication": "Le magnétisme est la force liée aux champs magnétiques et aux aimants."
+    },
+    {
+      "question": "Quel est le principal rôle des globules blancs dans le sang ?",
+      "reponses": ["Transporter l’oxygène", "Transporter les nutriments", "Assurer la défense immunitaire", "Aider à la coagulation"],
+      "bonne_reponse": "Assurer la défense immunitaire",
+      "explication": "Les globules blancs participent à la défense de l’organisme contre les infections."
+    },
+    {
+      "question": "Quel est le principal constituant chimique de l’air que nous expirons ?",
+      "reponses": ["Oxygène", "Azote", "Dioxyde de carbone", "Hydrogène"],
+      "bonne_reponse": "Azote",
+      "explication": "L’air expiré contient toujours majoritairement de l’azote, comme l’air inspiré."
+    },
+    {
+      "question": "Quel est le nom de la couche solide externe de la Terre ?",
+      "reponses": ["Noyau externe", "Noyau interne", "Manteau", "Croûte terrestre"],
+      "bonne_reponse": "Croûte terrestre",
+      "explication": "La croûte terrestre est la couche solide superficielle sur laquelle nous vivons."
+    },
+    {
+      "question": "Quelle unité mesure l’énergie dans le système international ?",
+      "reponses": ["Watt", "Newton", "Joule", "Pascal"],
+      "bonne_reponse": "Joule",
+      "explication": "Le joule est l’unité SI d’énergie, utilisée en mécanique, en électricité et en thermodynamique."
+    },
+    {
+      "question": "Quel organe produit le suc gastrique ?",
+      "reponses": ["Foie", "Pancréas", "Intestin grêle", "Estomac"],
+      "bonne_reponse": "Estomac",
+      "explication": "Le suc gastrique contient des acides et des enzymes qui amorcent la digestion des protéines."
+    },
+    {
+      "question": "Quel phénomène atmosphérique se forme autour d’un centre de basse pression, avec des vents forts et une rotation ?",
+      "reponses": ["Anticyclone", "Ouragan / cyclone", "Halo", "Arc-en-ciel"],
+      "bonne_reponse": "Ouragan / cyclone",
+      "explication": "Un cyclone tropical (ouragan, typhon) est une dépression intense accompagnée de vents violents et de pluies abondantes."
+    }
+  ]
+}

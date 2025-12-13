@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  qcm_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: qcm_app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./:/app
+    environment:
+      - PYTHONUNBUFFERED=1
