@@ -1,0 +1,36 @@
+# Byte-compiled / cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Config & secrets locaux
+.env
+*.env
+
+# Dossiers de données locales (leçons, etc.)
+data/lessons/
+data/**/*.json
+
+# Logs
+*.log
+
+# Fichiers temporaires / OS
+.DS_Store
+Thumbs.db
+
+# Cache Streamlit
+.streamlit/cache/
+.streamlit/config.toml
+
+# Docker
+*.pid

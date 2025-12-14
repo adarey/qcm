@@ -8,7 +8,8 @@ services:
     container_name: qcm_app
     ports:
       - "8501:8501"
+    # Volume pour les leçons SEULEMENT
     volumes:
-      - ./:/app
+      - ./data/lessons:/app/lessons
     environment:
       - PYTHONUNBUFFERED=1
